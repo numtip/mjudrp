@@ -77,6 +77,21 @@
 | `docs/distribution/07_GITHUB_PAGES_STRATEGY.md` | GitHub Pages CDN strategy |
 | `docs/distribution/08_PACKAGE_VALIDATION.md` | Package validation documentation |
 
+## SharePoint Blueprint Outputs
+
+| File | Purpose |
+|------|---------|
+| `docs/sharepoint/00_SHAREPOINT_ENTERPRISE_BLUEPRINT.md` | Target architecture, site proposal, operational model |
+| `docs/sharepoint/01_SITE_AND_LIBRARY_DESIGN.md` | 6 document libraries with full specifications |
+| `docs/sharepoint/02_METADATA_COLUMN_BLUEPRINT.md` | 22 columns mapped to document.schema.json |
+| `docs/sharepoint/03_SHAREPOINT_LIST_STRATEGY.md` | 3 recommended lists, 2 deferred |
+| `docs/sharepoint/04_VIEWS_AND_STAFF_WORKFLOW.md` | 13 views, 7-step upload-to-release workflow |
+| `docs/sharepoint/05_PERMISSION_MODEL.md` | 7 groups, least-privilege, library-level access |
+| `docs/sharepoint/06_AI_AGENT_OPERATING_MODEL.md` | Copilot, Cursor, External AI, Future Graph |
+| `docs/sharepoint/07_MICROSOFT_GRAPH_READINESS.md` | Prerequisites, permissions, secret management |
+| `docs/sharepoint/08_PROVISIONING_CHECKLIST.md` | 63-item manual setup checklist |
+| `docs/sharepoint/09_GAP_ANALYSIS.md` | Current vs target state with closure criteria |
+
 ## Architecture Outputs
 
 | File | Purpose |
@@ -132,4 +147,7 @@ Registry data changed → validate (AJV) → generate (static + MiniSearch) → 
 commit → push → CI (validate → generate → test → checksums → release notes → validate package → upload artifacts)
        ↓
 consumer fetches from release/latest/registry-package/ or pinned version
+
+Future:
+SharePoint (MJU Document Registry) → Manual metadata export → Registry JSON → Package release
 ```

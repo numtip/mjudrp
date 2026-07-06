@@ -1,8 +1,8 @@
 {
   "package_version": "1.0.0",
   "registry_version": "1.0",
-  "generated_at": "2026-07-06T15:46:29.299Z",
-  "total_artifacts": 13,
+  "generated_at": "2026-07-06T16:04:45.507Z",
+  "total_artifacts": 15,
   "artifacts": [
     {
       "filename": "document-registry.json",
@@ -65,9 +65,19 @@
       "sha256": "4d4bfeed715e4709ea4f544cc5ede7e607abf29ab86485e61081cf7a35b24037"
     },
     {
+      "filename": "release-notes.md",
+      "size": 2427,
+      "sha256": "3b89590e5e028f4acb9ca638090e0da41cb3d76799de671367e822db8b1ac7b9"
+    },
+    {
       "filename": "README.md",
       "size": 2302,
       "sha256": "6b8099543dd1ff45ee2a0e696f449ff7e2390fafb9056a2a3ed750fd1fa3a604"
+    },
+    {
+      "filename": "checksum.json",
+      "size": 2506,
+      "sha256": "1154c35b17ed1c6b30b1a1547278e2d5b1fdd1194eda6e3f47dbc88361a5e289"
     }
   ]
 }

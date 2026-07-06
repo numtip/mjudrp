@@ -1,35 +1,33 @@
 # Current Phase
 
-## Phase: Sprint 2C — Registry Distribution & Packaging
+## Phase: Sprint 3A — SharePoint Enterprise Blueprint & Discovery
 
-The current phase transforms the MJU-DRP Registry into a distributable Enterprise Package with standardized release structure, checksums, release notes, and package validation.
+The current phase designs the target SharePoint architecture for MJU-DRP. It is a discovery and blueprint-only sprint — no SharePoint resources are provisioned, no Graph access configured, and no credentials added.
 
 ## Phase Characteristics
 
 | Characteristic | Value |
 |----------------|-------|
-| Phase Type | Registry distribution and packaging |
+| Phase Type | SharePoint enterprise blueprint and discovery |
 | Duration | Single sprint |
-| Active Layers | Registry data, validation, search generation, testing, distribution, packaging |
-| Documents Created | scripts/generate-checksum.mjs, scripts/generate-release-notes.mjs, scripts/validate-package.mjs, scripts/release.mjs, 8 distribution docs, contracts/distribution-contract.md |
-| Disabled Layers | All provider/adapter/plugin code, Microsoft Graph, SharePoint API, auth, DB |
+| Active Layers | Registry data, validation, search generation, testing, distribution, SharePoint blueprint |
+| Documents Created | 10 SharePoint blueprint documents in docs/sharepoint/ |
+| Disabled Layers | All provider/adapter/plugin code, Microsoft Graph, SharePoint API, auth, DB, MCP configuration |
 | Package Version | 1.0.0 |
 | Registry Version | 1.0 (FROZEN) |
 
 ## Phase Deliverables
 
-- [x] Distribution structure: release/latest/, release/v1/, release/archive/
-- [x] Registry package with 15 artifacts in release/latest/registry-package/
-- [x] Checksum generation (scripts/generate-checksum.mjs) — SHA-256
-- [x] Release notes generation (scripts/generate-release-notes.mjs)
-- [x] Package validation (scripts/validate-package.mjs) — 55 checks PASS
-- [x] Release pipeline (scripts/release.mjs) — end-to-end automation
-- [x] Enhanced manifest.json with full versioning and compatibility
-- [x] Enhanced statistics.json with growth and distribution metrics
-- [x] 8 distribution documentation files
-- [x] Distribution contract (contracts/distribution-contract.md)
-- [x] Enhanced CI workflow with release pipeline
-- [x] Updated package.json with 4 new npm scripts
+- [x] SharePoint Enterprise Blueprint — target architecture, site proposal, operational model
+- [x] Site and Library Design — 6 document libraries with full specifications
+- [x] Metadata Column Blueprint — 22 columns mapped to document.schema.json
+- [x] SharePoint List Strategy — 3 recommended lists, 2 deferred
+- [x] Views and Staff Workflow — 13 views, 7-step upload-to-release workflow
+- [x] Permission Model — 7 groups, least-privilege, library-level access
+- [x] AI Agent Operating Model — Copilot, Cursor, External AI, Future Graph
+- [x] Microsoft Graph Readiness — prerequisites, permissions, secret management
+- [x] Provisioning Checklist — 63-item manual setup checklist
+- [x] Gap Analysis — current vs target state with closure criteria
 - [x] AJV validation PASS (0 errors, 0 warnings)
 - [x] Package validation 55/55 PASS
 - [x] All 211 tests PASS
@@ -40,10 +38,11 @@ The current phase transforms the MJU-DRP Registry into a distributable Enterpris
 |-----------|--------|
 | AJV + ajv-formats | ✅ INTEGRATED (unchanged) |
 | MiniSearch | ✅ INTEGRATED (unchanged) |
-| Distribution Layer | ✅ IMPLEMENTED |
+| Distribution Layer | ✅ IMPLEMENTED (unchanged) |
+| SharePoint Blueprint | ✅ COMPLETE (10 blueprint documents) |
 | Architecture Lock | ✅ UNCHANGED |
 | Registry Specification | ✅ UNCHANGED |
 
 ## Next Phase
 
-Sprint 2D: Consumer Integration & SharePoint Alignment — Configure MCP servers in Cursor, create consumer integration examples (static HTML + MiniSearch), set up GitHub Pages for registry package CDN distribution, implement SharePoint column templates, create site provisioning checklist.
+Sprint 3B: SharePoint Manual Provisioning Kit — Manually provision the MJU Document Registry SharePoint site following the checklist. Create libraries, columns, content types, views, lists, and permission groups. Upload test documents, export metadata, and validate against registry schemas. No Graph integration, no automation, no credentials.

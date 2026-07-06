@@ -4,17 +4,18 @@
 
 | Field | Value |
 |-------|-------|
-| Runtime Mode | Static file generation + Distribution Packaging |
+| Runtime Mode | Static file generation + Distribution Packaging + SharePoint Blueprint |
 | Provider Active | None (architecture documented) |
 | Adapter Active | GitHub Actions (CI only) |
 | Plugin Active | None (architecture documented) |
-| Data Source | Git-committed JSON files (74 documents, 12 projects) |
+| Data Source | Git-committed JSON files (74 documents, 12 projects) — SharePoint blueprint only |
 | Output Method | Node.js script generation (AJV validation + MiniSearch search + Distribution packaging) |
 | Hosting | GitHub repository (GitHub Pages documented, not deployed) |
 | ECD Status | Complete — tools certified for Sprint 2 |
 | ERC Status | Complete — 7 technologies verified through practical evaluation |
 | Architecture Lock | **LOCKED** — v1.0 |
 | Registry Spec | **FROZEN** — v1.0 |
+| SharePoint Status | **BLUEPRINT COMPLETE** — 10 documents, no resources provisioned |
 
 ## Execution Flow
 
@@ -36,6 +37,8 @@
 6. Test (npm test) — 211 assertions across 4 test suites ✅
        │
 7. Consume (consumer projects fetch from release/latest/registry-package/)
+       │
+   Future: SharePoint (MJU Document Registry) → Manual metadata export → Registry sync
 ```
 
 ## Active Components
@@ -57,6 +60,7 @@
 | Test suite | ✅ Active | 211 assertions across 4 test files |
 | Implementation docs | ✅ Active | 6 documents in docs/implementation/ |
 | Distribution docs | ✅ Active | 8 documents in docs/distribution/ |
+| SharePoint docs | ✅ Active | 10 blueprint documents in docs/sharepoint/ |
 | Distribution contract | ✅ Active | contracts/distribution-contract.md |
 | Provider layer | 📐 Architecture only | No implementation |
 | Adapter layer | 📐 Architecture only | No implementation |
@@ -73,10 +77,10 @@
 
 | Tool | ERC Status | Integration Point | Sprint |
 |------|-----------|------------------|--------|
-| GitHub MCP | CONDITIONAL | Cursor MCP config | Sprint 2D |
-| Filesystem MCP | CONDITIONAL | Cursor MCP config | Sprint 2D |
-| SharePoint Metadata | CERTIFIED | SharePoint column template | Sprint 2D |
-| Dublin Core Mapping | CERTIFIED | Consumer contract docs | Sprint 2D |
+| GitHub MCP | CONDITIONAL | Cursor MCP config | Sprint 2D deferred |
+| Filesystem MCP | CONDITIONAL | Cursor MCP config | Sprint 2D deferred |
+| SharePoint Metadata | CERTIFIED | SharePoint column template | Sprint 3B |
+| Dublin Core Mapping | CERTIFIED | Consumer contract docs | Sprint 3B |
 
 ## Runtime Constraints
 
@@ -89,3 +93,4 @@
 - Registry Specification is **FROZEN** at v1.0
 - AJV requires ajv-formats for format validation (dependencies installed via npm)
 - Package distribution: consumers must fetch from release/*/registry-package/ only
+- SharePoint: blueprint only — no provisioning, no Graph access, no credentials

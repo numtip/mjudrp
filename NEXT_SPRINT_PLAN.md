@@ -1,88 +1,109 @@
 # Next Sprint Plan
 
-## Sprint 2C: Registry Distribution & Packaging (Completed)
+## Sprint 3A: SharePoint Enterprise Blueprint & Discovery (Completed)
 
-### Preceded by: Sprint 2B Registry Population ✅ + Architecture Lock v1.0 ✅
+### Preceded by: Sprint 2C Registry Distribution ✅ + Architecture Lock v1.0 ✅
 
 Architecture is **LOCKED**. Registry Specification v1.0 is **FROZEN**. See `docs/architecture/` for all architecture documents and quality gates.
 
 ### Objectives (Completed)
-1. ✅ Created Enterprise Distribution Layer (release/latest/, release/v1/, release/archive/)
-2. ✅ Implemented Registry Packaging with 15-artifact self-contained package
-3. ✅ Created Release Management pipeline (scripts/release.mjs)
-4. ✅ Defined Registry CDN Structure in GitHub Pages strategy document
-5. ✅ Implemented Distribution Validation (scripts/validate-package.mjs — 55 checks)
-6. ✅ Enhanced Release Manifest with full versioning, counts, compatibility, build hash
-7. ✅ Implemented Checksum Generation (SHA-256) for all package artifacts
-8. ✅ Created Release Notes Generator with automatic statistics and change tracking
-9. ✅ Created 8 distribution documentation files in docs/distribution/
-10. ✅ Created Distribution API Contract (contracts/distribution-contract.md)
-11. ✅ Enhanced GitHub Actions workflow for release pipeline
-12. ✅ Enhanced statistics.json with registry growth, density, and distribution metrics
-13. ✅ All validation passes (AJV: 0 errors, 0 warnings; Package: 55/55; Tests: 211/211)
-14. ✅ Updated PROJECT_MEMORY, NEXT_SPRINT_PLAN, memory/*, runtime/*
+1. ✅ Designed target SharePoint Site architecture (MJU Document Registry)
+2. ✅ Defined 6 Document Libraries (DRP Documents, Evidence, Source Data, Templates, Archive, Working Area)
+3. ✅ Mapped 22 metadata columns from Registry Spec v1.0 to SharePoint columns
+4. ✅ Evaluated SharePoint Lists strategy (3 recommended, 2 deferred)
+5. ✅ Defined 13 views and 7-step staff workflow
+6. ✅ Designed permission model with 7 groups, least-privilege principles
+7. ✅ Defined AI Agent Operating Model for 4 agent types
+8. ✅ Assessed Microsoft Graph readiness with 7-phase implementation plan
+9. ✅ Created 63-item provisioning checklist for manual SharePoint setup
+10. ✅ Conducted gap analysis comparing current vs target state
+11. ✅ Created 10 SharePoint blueprint documents
+12. ✅ All validation passes (AJV: 0 errors, 0 warnings; Package: 55/55; Tests: 211/211)
+13. ✅ Updated PROJECT_MEMORY, NEXT_SPRINT_PLAN, memory/*, runtime/*
 
-### Package Summary
+### SharePoint Documents Created
 
-| File | Artifacts |
-|------|-----------|
-| release/latest/registry-package/ | 15 files (6 registry JSON + 2 search + 5 metadata + checksum + release notes + README) |
-| release/v1/registry-package/ | Frozen copy of v1.0.0 package |
-| Package Version | 1.0.0 |
-| Registry Version | 1.0 |
-| Checksum Algorithm | SHA-256 |
-| Validation Checks | 55 (all PASS) |
+| # | Document | Description |
+|---|----------|-------------|
+| 00 | Enterprise Blueprint | Target architecture, site proposal, operational model |
+| 01 | Site and Library Design | 6 document libraries with full specifications |
+| 02 | Metadata Column Blueprint | 22 columns mapped to document.schema.json |
+| 03 | SharePoint List Strategy | 3 recommended lists, 2 deferred |
+| 04 | Views and Staff Workflow | 13 views, 7-step upload-to-release workflow |
+| 05 | Permission Model | 7 groups, least-privilege, library-level access |
+| 06 | AI Agent Operating Model | Copilot, Cursor, External AI, Future Graph |
+| 07 | Microsoft Graph Readiness | Prerequisites, permissions, secret management |
+| 08 | Provisioning Checklist | 63-item manual setup checklist |
+| 09 | Gap Analysis | Current vs target state with closure criteria |
 
-## Sprint 2D: Consumer Integration & SharePoint Alignment
+## Sprint 3B: SharePoint Manual Provisioning Kit
 
 ### Objectives (P0)
-1. Configure GitHub MCP and Filesystem MCP in Cursor for AI agent access
-2. Create consumer integration examples (static HTML + MiniSearch)
-3. Set up GitHub Pages or static hosting for JSON output distribution
-4. Implement SharePoint column template matching registry schema
-5. Document folder hierarchy guidelines matching registry taxonomy
-6. Create site provisioning checklist
+1. Manually provision the MJU Document Registry SharePoint site following the checklist
+2. Create document libraries with correct settings
+3. Create site columns mapped to Registry Spec v1.0
+4. Create content types and attach to libraries
+5. Create views for staff workflow
+6. Create SharePoint Lists (Categories, Projects, Owners, Metadata QA Queue)
+7. Configure permission groups and library-level access
+8. Upload test documents from 5 core project areas
+9. Export sample metadata from SharePoint
+10. Validate exported metadata against registry schemas (AJV)
+11. Create SharePoint documentation artifacts (column templates, import guides)
 
 ### Tasks
 
-#### Tooling — MCP Configuration
-- [ ] Configure GitHub MCP (`npx @github/github-mcp-server`) in Cursor with PAT
-- [ ] Configure Filesystem MCP (`npx @modelcontextprotocol/server-filesystem`) in Cursor
+#### Manual Site Setup
+- [ ] Create MJU Document Registry Communication Site
+- [ ] Create 6 document libraries with versioning and content approval
+- [ ] Create 22 site columns under MJU Document Registry Columns group
+- [ ] Create 4 content types (DRP Document, DRP Evidence, DRP Template, DRP Archive)
+- [ ] Add content types to respective libraries
+- [ ] Create 13 views in DRP Documents library
 
-#### Consumer Integration
-- [ ] Create example HTML page that fetches and displays registry data
-- [ ] Create example HTML page with MiniSearch client-side search
-- [ ] Document integration pattern in consumer project READMEs
-- [ ] Activate GitHub Pages for registry package CDN distribution
+#### SharePoint Lists
+- [ ] Create DRP Categories list and populate from registry
+- [ ] Create DRP Projects list and populate from registry
+- [ ] Create DRP Owners list and populate from registry
+- [ ] Create Metadata QA Queue list
 
-#### Microsoft 365 / SharePoint Alignment
-- [ ] Implement SharePoint column template matching registry schema
-- [ ] Document folder hierarchy guidelines matching registry taxonomy
-- [ ] Create site provisioning checklist
+#### Permissions
+- [ ] Create 7 permission groups
+- [ ] Configure library-level permissions
+- [ ] Break inheritance on restricted libraries
+
+#### Test Content
+- [ ] Upload 5 test documents from Green Office 2026
+- [ ] Upload 3 test evidence documents
+- [ ] Fill all required metadata fields
+- [ ] Verify views and permissions
+
+#### Validation
+- [ ] Export metadata as CSV from SharePoint
+- [ ] Validate against registry schemas (AJV)
+- [ ] Fix any validation errors
+- [ ] Create PR to add test documents to registry JSON
 
 #### Documentation
-- [ ] Update README.md with current status
-- [ ] Review all documentation for consistency with architecture lock
-- [ ] Create quick-start guide for new consumer projects
+- [ ] Create SharePoint column export template
+- [ ] Create metadata import guide for staff
+- [ ] Document manual provisioning process
 
 ### Allowed Actions
-- Configure MCP servers in Cursor
-- Create consumer integration examples
-- Configure static hosting (GitHub Pages)
-- Update memory files (quality gates)
+- Create manual documentation
+- Create SharePoint column templates
+- Document provisioning process
 
 ### Forbidden Actions
-- Do not implement Microsoft Graph integration
-- Do not implement SharePoint synchronization
-- Do not create authentication or RBAC
-- Do not build an admin panel
-- Do not modify Microsoft 365 via automation
-- Do not add AI chatbot or OCR
-- Do not add a database
-- Do not modify schemas, architecture, contracts, or consumer projects
+- Do NOT implement Microsoft Graph integration
+- Do NOT configure MCP for SharePoint
+- Do NOT write automation scripts for SharePoint
+- Do NOT create authentication or RBAC
+- Do NOT modify schemas, architecture, contracts, or consumer projects
+- Do NOT add credentials to the repository
 
 ### Quality Gates
-Before closing Sprint 2D:
+Before closing Sprint 3B:
 1. `node scripts/validate-registry.mjs` — PASS
 2. `node scripts/validate-package.mjs` — PASS
 3. `npm test` — All assertions PASS
@@ -95,7 +116,7 @@ Before closing Sprint 2D:
 10. Registry Spec unchanged
 
 ### Risks
-- MCP servers need Cursor IDE version that supports MCP
-- Consumer projects may need updates to integrate registry outputs
-- GitHub Pages needs repository settings configuration
-- SharePoint access may need IT approval
+- SharePoint site provisioning may require IT permissions not yet available
+- Metadata column creation must match schema exactly — manual errors possible
+- Permission groups must be created with correct access levels
+- No Graph integration yet — metadata export is manual (CSV)

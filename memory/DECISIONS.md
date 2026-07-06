@@ -110,7 +110,7 @@
 | Decision | Lock architecture v1.0 with 8 locked rules, 9 quality gates, and a formal change policy. |
 | Consequences | Any architecture change requires an ADR, project owner approval, and a new lock version. |
 
-## ADR-011: Schema Corrections for AJV Compatibility (ADR-012 in some files)
+## ADR-011: Schema Corrections for AJV Compatibility
 
 | Field | Value |
 |-------|-------|
@@ -131,3 +131,14 @@
 | Context | Registry outputs need to be packaged as self-contained, versioned, validated distribution artifacts for consumer projects. Consumers must never depend on internal registry files. |
 | Decision | Implement Distribution Layer with release/ directory structure (latest/, v1/, archive/), SHA-256 checksums, auto-generated release notes, package validation (55 checks), and a distribution contract. Package format v1.0 is frozen. |
 | Consequences | Consumer projects fetch from release/*/registry-package/ only. Package integrity is verifiable via checksums. Distribution is versioned and immutable. Distribution contract defines backward compatibility policy. |
+
+## ADR-013: SharePoint Enterprise Blueprint v1.0
+
+| Field | Value |
+|-------|-------|
+| Decision ID | ADR-013 |
+| Date | 2026-07-06 |
+| Status | Accepted |
+| Context | MJU-DRP needs a target SharePoint architecture for document operations. Existing experimental SharePoint sites are not suitable as a production baseline. |
+| Decision | Design a new SharePoint site (MJU Document Registry) with 6 document libraries, 22 metadata columns mapped to Registry Spec v1.0, 13 views, 7 permission groups, and AI Agent Operating Model. SharePoint is an operational document workspace only — GitHub remains the source of truth. Graph integration is deferred until Entra ID app registration and admin consent are obtained. |
+| Consequences | SharePoint provisioning is manual (Sprint 3B). No automated writes to SharePoint in MVP. Graph read-only sync is deferred (Sprint 3C+). Existing experimental sites should not be reused as production. |

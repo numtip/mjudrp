@@ -1,58 +1,52 @@
 # Next Task
 
-## Sprint: Sprint 2C — Registry Distribution & Packaging (Completed)
+## Sprint: Sprint 3A — SharePoint Enterprise Blueprint & Discovery (Completed)
 
 ### Objectives
-- [x] Create Enterprise Distribution Layer (release/latest/, release/v1/, release/archive/)
-- [x] Implement Registry Packaging (15-artifact self-contained package)
-- [x] Create Release Management pipeline (scripts/release.mjs)
-- [x] Define Registry CDN Structure (GitHub Pages strategy document)
-- [x] Implement Distribution Validation (scripts/validate-package.mjs — 55 checks)
-- [x] Enhance Release Manifest with full versioning and compatibility
-- [x] Implement Checksum Generation (SHA-256) for all package artifacts
-- [x] Create Release Notes Generator with automatic statistics and changes
-- [x] Create 8 distribution documentation files in docs/distribution/
-- [x] Create Distribution API Contract (contracts/distribution-contract.md)
-- [x] Enhance GitHub Actions workflow for release pipeline
-- [x] Enhance statistics.json with registry growth and distribution metrics
+- [x] Design target SharePoint Site architecture (MJU Document Registry)
+- [x] Define 6 Document Libraries with full specifications
+- [x] Map 22 metadata columns from Registry Spec v1.0 to SharePoint
+- [x] Evaluate SharePoint Lists strategy (3 recommended, 2 deferred)
+- [x] Define 13 views and 7-step staff workflow
+- [x] Design permission model with 7 groups, least-privilege
+- [x] Define AI Agent Operating Model for 4 agent types
+- [x] Assess Microsoft Graph readiness with 7-phase implementation plan
+- [x] Create 63-item provisioning checklist for manual SharePoint setup
+- [x] Conduct gap analysis comparing current vs target state
+- [x] Create 10 SharePoint blueprint documents
 - [x] Run AJV validation (PASS: 0 errors, 0 warnings)
 - [x] Run package validation (55/55 PASS)
 - [x] Run all tests (211/211 PASS)
 - [x] Update memory and runtime files
 
-### Package Summary
-- Package Version: 1.0.0
-- Package Location: release/latest/registry-package/
-- Artifacts: 15 files
-- Checksum: SHA-256
-- Validation: 55/55 PASS
+### SharePoint Documents Created
+10 documents in docs/sharepoint/ covering enterprise blueprint, library design, metadata columns, list strategy, views, permissions, AI operating model, Graph readiness, provisioning checklist, and gap analysis.
 
-## Next Sprint: Sprint 2D — Consumer Integration & SharePoint Alignment
+## Next Sprint: Sprint 3B — SharePoint Manual Provisioning Kit
 
 ### Objectives
-- [ ] Configure GitHub MCP and Filesystem MCP in Cursor
-- [ ] Create consumer integration examples (static HTML + MiniSearch)
-- [ ] Set up GitHub Pages for registry package CDN distribution
-- [ ] Implement SharePoint column template matching registry schema
-- [ ] Document folder hierarchy guidelines matching registry taxonomy
-- [ ] Create site provisioning checklist
-- [ ] Update documentation for consumer projects
+- [ ] Manually provision MJU Document Registry SharePoint site
+- [ ] Create 6 document libraries with correct settings
+- [ ] Create 22 site columns mapped to Registry Spec v1.0
+- [ ] Create 4 content types (DRP Document, DRP Evidence, DRP Template, DRP Archive)
+- [ ] Create 13 views for staff workflow
+- [ ] Create 4 SharePoint Lists (Categories, Projects, Owners, Metadata QA Queue)
+- [ ] Configure 7 permission groups with library-level access
+- [ ] Upload test documents from 5 core project areas
+- [ ] Export sample metadata and validate against registry schemas
 
 ### Allowed Actions
-- Configure MCP servers in Cursor
-- Create consumer integration examples
-- Configure static hosting (GitHub Pages)
-- Update memory files
+- Create manual documentation
+- Create SharePoint column templates
+- Document provisioning process
 
 ### Forbidden Actions
-- Do not implement Microsoft Graph integration
-- Do not implement SharePoint synchronization
-- Do not create authentication or RBAC
-- Do not build an admin panel
-- Do not modify Microsoft 365 via automation
-- Do not add AI chatbot or OCR
-- Do not add a database
-- Do not modify schemas, architecture, contracts, or consumer projects
+- Do NOT implement Microsoft Graph integration
+- Do NOT configure MCP for SharePoint
+- Do NOT write automation scripts for SharePoint
+- Do NOT create authentication or RBAC
+- Do NOT modify schemas, architecture, contracts, or consumer projects
+- Do NOT add credentials to the repository
 
 ### Quality Gates
 Before closing any future sprint:
