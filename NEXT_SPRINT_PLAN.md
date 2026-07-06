@@ -34,7 +34,7 @@
 - [ ] Create convenience script for full pipeline: validate → generate → update-memory
 
 #### Documentation
-- [ ] Review all 13 docs/ files for completeness
+- [ ] Review all 17 docs/ files for completeness
 - [ ] Add diagrams to architecture docs
 - [ ] Create quick-start guide for new consumer projects
 
@@ -47,6 +47,8 @@
 
 ### Forbidden Actions
 - Do not add a database
+- Do not implement Microsoft Graph integration
+- Do not implement SharePoint synchronization
 - Do not create authentication or RBAC
 - Do not build an admin panel
 - Do not modify Microsoft 365 via automation

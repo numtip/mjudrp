@@ -12,6 +12,94 @@ AI agents (Cursor, ChatGPT, Claude) operate with limited context windows. Long c
 4. **Keep reports concise** — include only: status, changed files, validation, risks, and next action.
 5. **Avoid duplicate documentation** — write once, reference everywhere else.
 6. **Every sprint must update memory files** — minimal but sufficient for next agent.
+7. **Optimize over time** — each sprint should be more token-efficient than the last.
+
+## Context Pack Lifecycle
+
+```
+Create → Store (memory/docs) → Reference (by path) → Refresh (when content changes) → Archive (when superseded)
+```
+
+- **Create**: When first documenting a large concept
+- **Store**: Keep in `docs/` for permanent reference
+- **Reference**: Use file path and line numbers instead of quoting
+- **Refresh**: Update when content changes significantly
+- **Archive**: Move to archive when superseded
+
+## Runtime Summaries
+
+Include in each handoff:
+
+```
+Runtime:
+  Mode: static generation
+  Provider: none (architecture only)
+  Adapter: GitHub Actions (CI only)
+  Outputs: dist/search-index.json, dist/document-registry.json
+  Constraints: 7 active, all documented
+```
+
+## Memory Summaries
+
+Include in each handoff:
+
+```
+Memory:
+  Files: 9 (state, task, handoff, log, decisions, locks, baseline, capabilities, constraints)
+  ADRs: 6 (all accepted)
+  Locks: 8 (unchanged)
+```
+
+## Architecture Summaries
+
+Include in each handoff:
+
+```
+Architecture:
+  Foundation: ✅ Complete
+  Registry: ✅ Complete (7 docs, 4 projects, 3 owners, 5 cats, 6 evidence)
+  Provider: 📐 Architecture only (4 providers specified)
+  Adapter: 📐 Architecture only (4 adapters specified)
+  Plugin: 📐 Architecture only (5 plugins specified)
+  Contract: 📐 Architecture only (4 contracts specified)
+  Runtime: 📐 Architecture only (6 state files)
+  Knowledge: 📐 Blueprint only
+```
+
+## ADR Summaries
+
+Include when ADRs change:
+
+```
+ADRs: 6 accepted
+  ADR-001: GitHub source of truth
+  ADR-002: Registry core, not CMS
+  ADR-003: Static-first, no DB
+  ADR-004: M365 as storage
+  ADR-005: Consumers consume outputs
+  ADR-006: No auth during MVP
+```
+
+## Max Report Size Guidelines
+
+| Section | Max Lines | Max Tokens |
+|---------|-----------|------------|
+| Report header | 3 | ~30 |
+| Files changed list | 10 | ~200 |
+| Validation result | 5 | ~80 |
+| Risks | 10 | ~150 |
+| Next action | 3 | ~50 |
+| **Total** | **~31** | **~510** |
+
+## Handoff Optimization Strategy
+
+1. **Memory files first** — Always include a summary of read memory files (not full contents)
+2. **Diff over full file** — List what changed, not what everything contains
+3. **Counts over contents** — "7 documents, 4 projects" not the full JSON
+4. **Status codes** — ✅=complete, 📐=architecture only, ❌=not started
+5. **Status icons over text** — Use icons for quick scanning
+6. **Table format** — Use tables for structured data
+7. **One level deep** — Summary at top, details only if requested
 
 ## Required Updates Per Sprint
 
@@ -38,6 +126,12 @@ Every new AI agent must read these files first (in order):
 6. `memory/LAST_HANDOFF.md` — Previous agent summary
 7. `memory/DECISIONS.md` — Architecture decisions
 8. `memory/ARCHITECTURE_LOCK.md` — Locked rules
+9. `memory/PROJECT_BASELINE.md` — Project baseline
+10. `memory/PROJECT_CAPABILITIES.md` — Current capabilities
+11. `memory/PROJECT_CONSTRAINTS.md` — Current constraints
+12. `runtime/CURRENT_RUNTIME.md` — Runtime state
+13. `runtime/CURRENT_CONSTRAINTS.md` — Runtime constraints
+14. `runtime/CURRENT_PHASE.md` — Current phase details
 
 ## Report Format
 
@@ -56,6 +150,16 @@ Next action: [immediate next step]
 | Activity | Token Budget |
 |----------|-------------|
 | Reading memory files | ~500 tokens |
+| Reading runtime files | ~300 tokens |
 | Session report | ~300 tokens |
 | File diff (per file) | ~100-500 tokens |
 | Full file paste | Only when requested |
+| Architecture summary | ~200 tokens |
+| Context pack | ~100-300 tokens |
+
+## Progressive Optimization
+
+The token-savior workflow improves over time:
+
+- v1.1: Basic principles, required updates, onboarding order
+- v1.2: Added context pack lifecycle, runtime summaries, memory summaries, architecture summaries, ADR summaries, max report sizes, handoff optimization strategies, progressive optimization tracking
