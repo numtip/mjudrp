@@ -107,3 +107,19 @@
 | Decision | Certify MiniSearch for client-side search (MVP onward) and Pagefind for production static search (post-consumer integration). |
 | Reason | Both are static-first compatible. MiniSearch is 6KB gzipped with good Thai support. Pagefind indexes after build with excellent Thai support. Lunr rejected due to poor Thai search. |
 | Impact | Search index generation script will be extended to produce MiniSearch-compatible index. Pagefind will be added as post-build step in CI. |
+
+## ADR-010: Enterprise Resource Certification Results
+
+| Field | Value |
+|-------|-------|
+| Decision ID | ADR-010 |
+| Date | 2026-07-06 |
+| Status | Accepted |
+| Context | ECD v1.3 recommended 7 technologies for certification. ERC v1.4 needed to verify each through practical evaluation and assign final status. |
+| Decision | Assign final certification statuses based on practical verification: |
+| | **CERTIFIED:** MiniSearch (5000 docs in 67ms, zero deps), SharePoint Metadata Strategy (architecture verified), Dublin Core Mapping (22/26 fields mapped) |
+| | **CONDITIONAL:** AJV + ajv-formats (requires ajv-formats for format validation, schema needs optional URL fix), Filesystem MCP (needs Cursor config), GitHub MCP (needs Cursor config + PAT) |
+| | **FUTURE:** Pagefind (needs HTML output from consumer projects), Microsoft Graph API (needs Entra ID), SharePoint Term Store (needs >20 categories) |
+| | **REJECTED:** SharePoint Embedded, Lunr, custom auth, OCR, chatbot, workflow engine, admin panel, database (MVP), Browser MCP, Search MCP |
+| Reason | Certification must be based on practical verification with real project data, not documentation review alone. Practical testing revealed: AJV's format dependency (ajv-formats), schema design issue (empty string URI fields), MiniSearch's linear scaling (250 bytes/doc), and Pagefind's HTML dependency. |
+| Impact | Sprint 2 will integrate AJV + MiniSearch. MCP servers will be configured in Cursor. Schema updated for optional URL fields. Knowledge base created for reuse across projects. |

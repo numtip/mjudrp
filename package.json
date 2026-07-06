@@ -1,0 +1,31 @@
+{
+  "name": "mjudrp",
+  "version": "1.0.0",
+  "description": "**A shared document infrastructure layer for Maejo University projects.**",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numtip/mjudrp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/numtip/mjudrp/issues"
+  },
+  "homepage": "https://github.com/numtip/mjudrp#readme",
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "minisearch": "^7.2.0"
+  }
+}

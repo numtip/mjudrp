@@ -17,14 +17,28 @@
 | CI/CD validation | ✅ MVP | GitHub Actions workflow |
 | Cursor IDE rules | ✅ MVP | .cursor/rules/mjudrp.mdc |
 
+## ERC Certification Results (v1.4)
+
+Enterprise Resource Certification (ERC) v1.4 verified 7 technologies through practical evaluation. See `docs/certification/` for full reports.
+
+| Technology | ERC Status | Verification |
+|------------|-----------|--------------|
+| AJV + ajv-formats | CONDITIONAL | Schema compiled; 7/7 docs valid; 5ms; requires ajv-formats |
+| MiniSearch | CERTIFIED | 7 → 50 → 500 → 5000 docs tested; 67ms; Thai/fuzzy/English |
+| Filesystem MCP | CONDITIONAL | File ops verified; requires Cursor config |
+| GitHub MCP | CONDITIONAL | Git ops verified; requires Cursor config |
+| Pagefind | FUTURE | Deferred to Sprint 3+ (needs HTML output) |
+| SharePoint Metadata | CERTIFIED | Architecture verified for columns, lists, versioning |
+| Dublin Core Mapping | CERTIFIED | 22/26 fields mapped; no schema changes |
+
 ## ECD Capability Matrix v1
 
 See `docs/discovery/08_CAPABILITY_MATRIX_V1.md` for full capability assessment across 30+ capabilities including M365, MCP, search, validation, AI, and consumer integration patterns.
 
 Key certification results:
-- **Certified**: GitHub MCP, Filesystem MCP, MiniSearch, Pagefind, AJV
-- **Reuse confirmed**: SharePoint, OneDrive, Excel Online, ChatGPT, Claude, Gemini
-- **Deferred**: Microsoft Graph API, SharePoint Term Store, Syntex, OpenRouter
+- **Certified**: MiniSearch, SharePoint Metadata, Dublin Core Mapping
+- **Conditional**: AJV + ajv-formats, Filesystem MCP, GitHub MCP
+- **Future**: Pagefind, Microsoft Graph API, SharePoint Term Store, Syntex, OpenRouter
 - **Rejected**: SharePoint Embedded, Lunr, custom auth, OCR, chatbot
 
 ## Planned Capabilities

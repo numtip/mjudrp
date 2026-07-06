@@ -1,42 +1,44 @@
 # Current Phase
 
-## Phase: Enterprise Capability Discovery (v1.3)
+## Phase: Enterprise Resource Certification (v1.4)
 
-The current phase researches and documents existing tools, services, and standards before Sprint 2 implementation. No integration code is being built.
+The current phase verifies 7 technologies through practical evaluation. This is the final gate before Sprint 2 implementation.
 
 ## Phase Characteristics
 
 | Characteristic | Value |
 |----------------|-------|
-| Phase Type | Capability discovery |
+| Phase Type | Technology certification |
 | Duration | Single sprint |
-| Active Layers | Discovery docs, Memory, Docs |
-| Research Areas | 7 (M365, MCP, Search, Validation, Metadata, AI, Consumer Patterns) |
+| Active Layers | Certification docs, Knowledge base, Memory, Docs |
+| Technologies Tested | 7 (AJV, MiniSearch, Filesystem MCP, GitHub MCP, Pagefind, SharePoint Metadata, Dublin Core) |
 | Disabled Layers | All implementation code |
 
 ## Phase Deliverables
 
-- [x] Microsoft 365 capability discovery (14 capabilities)
-- [x] MCP ecosystem evaluation (9 servers)
-- [x] Search tool comparison (7 tools)
-- [x] Validation tool comparison (5 tools)
-- [x] Metadata standards evaluation (5 standards)
-- [x] AI-assisted metadata assessment (7 tools)
-- [x] Consumer integration patterns (5 frameworks)
-- [x] Capability matrix v1 (30+ capabilities)
-- [x] Decision matrix v1 (15 decisions)
-- [x] Resource certification plan (10 test plans)
+- [x] AJV + ajv-formats certification (7/7 docs valid; 5ms; CONDITIONAL)
+- [x] MiniSearch verification (7 → 50 → 500 → 5000 docs; 67ms; CERTIFIED)
+- [x] Filesystem MCP capability verification (CONDITIONAL)
+- [x] GitHub MCP capability verification (CONDITIONAL)
+- [x] Pagefind architecture evaluation (FUTURE — Sprint 3+)
+- [x] SharePoint metadata strategy verification (CERTIFIED)
+- [x] Dublin Core mapping verification (CERTIFIED)
+- [x] Enterprise priority matrix
+- [x] Dependency map
+- [x] Knowledge base (8 files)
 
 ## Phase Certifications
 
-| Tool | Status | Integration Sprint |
-|------|--------|-------------------|
-| AJV | ✅ Certify | Sprint 2 |
-| MiniSearch | ✅ Certify | Sprint 2 |
-| Pagefind | ✅ Certify | Sprint 3 |
-| GitHub MCP | ✅ Certify | Sprint 2 |
-| Filesystem MCP | ✅ Certify | Sprint 2 |
+| Tool | ERC Status | Notes |
+|------|-----------|-------|
+| AJV + ajv-formats | CONDITIONAL | Requires ajv-formats; schema adjusted |
+| MiniSearch | CERTIFIED | 5000 docs in 67ms; zero dependencies |
+| GitHub MCP | CONDITIONAL | Needs Cursor config + PAT |
+| Filesystem MCP | CONDITIONAL | Needs Cursor config |
+| Pagefind | FUTURE | Sprint 3+ when consumer sites exist |
+| SharePoint Metadata | CERTIFIED | Architecture verified |
+| Dublin Core Mapping | CERTIFIED | 22/26 fields mapped |
 
 ## Next Phase
 
-Sprint 2: Registry Population & Integration — Integrate AJV, MiniSearch, configure MCPs, populate real metadata, establish SharePoint taxonomy, create consumer integration examples.
+Sprint 2: Registry Population & Integration — Integrate AJV + ajv-formats into validate-registry.mjs, integrate MiniSearch into generate-search-index.mjs, configure MCPs in Cursor, populate real metadata, establish SharePoint taxonomy, create consumer integration examples.

@@ -125,7 +125,7 @@ Projects must not duplicate or independently maintain document metadata. All met
 
 ## Current Status
 
-**Enterprise Capability Discovery v1.3** — Research complete across 7 discovery areas. 30+ capabilities evaluated, 15 build/buy/reuse decisions documented, 5 tools certified for Sprint 2 integration. See `docs/discovery/` for full findings.
+**Enterprise Resource Certification v1.4** — Technologies verified through practical evaluation. 7 technologies certified/conditional/future. See `docs/certification/` for full findings and `knowledge/` for reusable enterprise knowledge.
 
 ---
 

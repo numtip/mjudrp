@@ -2,30 +2,37 @@
 
 ## Sprint 2: Registry Population & Integration
 
-### Preceded by: Enterprise Capability Discovery v1.3 ✅
+### Preceded by: Enterprise Capability Discovery v1.3 ✅ + Enterprise Resource Certification v1.4 ✅
 
-ECD certified these tools for Sprint 2 integration:
-- **AJV** — Schema validation (add to validation script)
-- **MiniSearch** — Client-side search (add to search index generator)
-- **GitHub MCP** — Agent repository operations (configure in Cursor)
-- **Filesystem MCP** — Agent file operations (configure in Cursor)
-- **Dublin Core** — Metadata baseline (documentation already updated)
+ERC v1.4 verified these tools through practical evaluation:
+
+| Technology | ERC Status | Finding |
+|------------|-----------|---------|
+| **AJV + ajv-formats** | CONDITIONAL | Schema compiled; 7/7 docs valid; 5ms; requires ajv-formats |
+| **MiniSearch** | CERTIFIED | 5000 docs in 67ms; 1.19MB index; zero dependencies |
+| **GitHub MCP** | CONDITIONAL | Verified git ops; requires Cursor config + PAT |
+| **Filesystem MCP** | CONDITIONAL | Verified file ops; requires Cursor config |
+| **Dublin Core** | CERTIFIED | 22/26 fields mapped; no schema changes needed |
+
+See `docs/certification/` for full certification reports.
 
 ### Objectives
-1. Integrate AJV into validation script for schema-driven validation
+1. Integrate AJV + ajv-formats into validation script for schema-driven validation
 2. Integrate MiniSearch into search index generation
-3. Populate registry with real (or more realistic) document metadata
-4. Establish Microsoft 365 / SharePoint folder structure aligned with registry taxonomy
-5. Create initial consumer project integration examples
-6. Add relationship entries between documents
-7. Set up GitHub Pages or static hosting for JSON outputs
+3. Configure GitHub MCP and Filesystem MCP in Cursor
+4. Populate registry with real (or more realistic) document metadata
+5. Establish Microsoft 365 / SharePoint folder structure aligned with registry taxonomy
+6. Create initial consumer project integration examples
+7. Add relationship entries between documents
+8. Set up GitHub Pages or static hosting for JSON outputs
 
 ### Tasks
 
-#### Tooling — ECD Certified Tools
-- [ ] Install AJV (`npm install ajv`) and integrate into `validate-registry.mjs`
+#### Tooling — ERC Certified
+- [ ] Install AJV + ajv-formats (`npm install ajv ajv-formats`) and integrate into `validate-registry.mjs`
 - [ ] Install MiniSearch (`npm install minisearch`) and integrate into `generate-search-index.mjs`
-- [ ] Configure GitHub MCP and Filesystem MCP in Cursor
+- [ ] Configure GitHub MCP (`npx @github/github-mcp-server`) in Cursor with PAT
+- [ ] Configure Filesystem MCP (`npx @modelcontextprotocol/server-filesystem`) in Cursor
 
 #### Registry Population
 - [ ] Add more sample documents for Research Portal project

@@ -100,14 +100,18 @@
       "description": "Shareable link to the document in Microsoft 365"
     },
     "preview_url": {
-      "type": "string",
-      "format": "uri",
-      "description": "Optional link to a preview/thumbnail service"
+      "anyOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "string", "maxLength": 0 }
+      ],
+      "description": "Optional link to a preview/thumbnail service (empty string allowed)"
     },
     "thumbnail_url": {
-      "type": "string",
-      "format": "uri",
-      "description": "Optional thumbnail image URL"
+      "anyOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "string", "maxLength": 0 }
+      ],
+      "description": "Optional thumbnail image URL (empty string allowed)"
     },
     "project_refs": {
       "type": "array",

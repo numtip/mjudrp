@@ -12,6 +12,7 @@
 | Output Method | Node.js script generation |
 | Hosting | GitHub repository |
 | ECD Status | Complete — tools certified for Sprint 2 |
+| ERC Status | Complete — 7 technologies verified through practical evaluation |
 
 ## Execution Flow
 
@@ -42,12 +43,14 @@
 
 ## Certified (Pending Integration)
 
-| Tool | Integration Point | Sprint |
-|------|------------------|--------|
-| AJV | `validate-registry.mjs` | Sprint 2 |
-| MiniSearch | `generate-search-index.mjs` | Sprint 2 |
-| GitHub MCP | Cursor MCP config | Sprint 2 |
-| Filesystem MCP | Cursor MCP config | Sprint 2 |
+| Tool | ERC Status | Integration Point | Sprint |
+|------|-----------|------------------|--------|
+| AJV + ajv-formats | CONDITIONAL | `validate-registry.mjs` | Sprint 2 |
+| MiniSearch | CERTIFIED | `generate-search-index.mjs` | Sprint 2 |
+| GitHub MCP | CONDITIONAL | Cursor MCP config | Sprint 2 |
+| Filesystem MCP | CONDITIONAL | Cursor MCP config | Sprint 2 |
+| SharePoint Metadata | CERTIFIED | SharePoint column template | Sprint 2 |
+| Dublin Core Mapping | CERTIFIED | Consumer contract docs | Sprint 2 |
 
 ## Runtime Constraints
 

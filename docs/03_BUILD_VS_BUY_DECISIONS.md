@@ -22,6 +22,18 @@ MJU-DRP follows the **use-before-build** principle: use existing platforms befor
 | AI chatbot | **Decline** — Not building | Out of scope for registry platform. |
 | OCR service | **Decline** — Not building | Out of scope for registry platform. |
 
+## ERC Verified Decisions (v1.4)
+
+Enterprise Resource Certification v1.4 verified the ECD decisions through practical evaluation.
+
+| Requirement | ECD Decision | ERC Status | ERC Finding |
+|-------------|-------------|------------|-------------|
+| Schema validation | **Buy** — AJV | CONDITIONAL | Works with ajv-formats; schema needs optional URL fix |
+| Client search | **Buy** — MiniSearch | CERTIFIED | 5000 docs in 67ms; zero dependencies |
+| Production search | **Buy** — Pagefind | FUTURE | Deferred to Sprint 3+; needs HTML output first |
+| Azure AI / OCR | **Decline** | REJECTED | Confirmed out of scope |
+| Duplicate detection | **Build** + **Buy** (Claude) | CERTIFIED | Existing script + AI review |
+
 ## ECD Decision Refresh
 
 ECD v1.3 updated 15 capability decisions. See `docs/discovery/09_DECISION_MATRIX_V1.md` for full matrix.
