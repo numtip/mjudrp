@@ -37,64 +37,57 @@ function writeFile(p, content) {
 
 const { hash, branch } = getGitInfo();
 
-// ── Update CURRENT_STATE.md ──
+// ── Read existing state to preserve manual edits ──
+function readMemoryField(filePath, fieldName) {
+  const content = readFile(filePath);
+  if (!content) return null;
+  const match = content.match(new RegExp(`\\|\\s*${fieldName}\\s*\\|\\s*(.+)\\s*\\|`));
+  return match ? match[1].trim() : null;
+}
+
+// ── Update CURRENT_STATE.md — updates timestamps and git info ──
 function updateCurrentState() {
   const path = resolve(ROOT, "memory/CURRENT_STATE.md");
-  const content = `# MJU-DRP Current State
-
-**Last Updated:** ${NOW}
-
-| Field | Value |
-|-------|-------|
-| Project | MJU Document Registry Platform (MJU-DRP) |
-| Phase | Foundation Sprint v1.1 |
-| Branch | ${branch} |
-| Latest Commit | ${hash} |
-| Architecture Status | Initialized — MVP structure in place |
-| Validation Status | Pending first run |
-| Push Status | Pending |
-
-## Completed Files
-
-| Area | Files |
-|------|-------|
-| Schemas | document.schema.json, category.schema.json, project.schema.json, owner.schema.json, evidence.schema.json, relationship.schema.json |
-| Registry | documents.sample.json, categories.sample.json, projects.sample.json, owners.sample.json, evidence-map.sample.json |
-| Scripts | validate-registry.mjs, generate-search-index.mjs, update-memory.mjs |
-| Memory | CURRENT_STATE.md, NEXT_TASK.md, LAST_HANDOFF.md, SESSION_LOG.md, DECISIONS.md, ARCHITECTURE_LOCK.md |
-| Docs | 13 documentation files covering architecture, integration, governance, roadmap, and token-savior workflow |
-| CI/CD | GitHub Actions validate workflow |
-| Rules | Cursor rules (.cursor/rules/mjudrp.mdc) |
-
-## Open Risks
-
-1. Remote GitHub repository (numtip/mjudrp) not yet verified — push pending.
-2. No actual Microsoft 365 / SharePoint connectivity yet — integration strategy documented only.
-3. Registry is sample data only — real document metadata needs to be populated.
-4. Consumer projects not yet integrated — integration model documented but not tested.
-5. No automated deployment pipeline beyond GitHub Actions validation.
-`;
+  let content = readFile(path);
+  if (!content) {
+    content = `# MJU-DRP Current State\n\n**Last Updated:** ${NOW}\n`;
+  }
+  // Update timestamp
+  content = content.replace(
+    /\*\*Last Updated:\*\* .*/,
+    `**Last Updated:** ${NOW}`
+  );
+  // Update branch
+  content = content.replace(
+    /(\|\s*Branch\s*\|)\s*.*(\|)/,
+    `$1 ${branch} $2`
+  );
+  // Update commit hash
+  content = content.replace(
+    /(\|\s*Latest Commit\s*\|)\s*.*(\|)/,
+    `$1 ${hash} $2`
+  );
   writeFile(path, content);
   console.log("  Updated memory/CURRENT_STATE.md");
 }
 
-// ── Update LAST_HANDOFF.md ──
+// ── Update LAST_HANDOFF.md — updates timestamps and git info ──
 function updateLastHandoff() {
   const path = resolve(ROOT, "memory/LAST_HANDOFF.md");
-  const content = `# Last Handoff
-
-| Field | Value |
-|-------|-------|
-| Date | ${NOW} |
-| Sprint | Foundation Sprint v1.1 |
-| Summary | Initialized MJU-DRP project structure, schemas, sample registry data, validation/search/memory scripts, documentation, CI/CD, and memory system. |
-| Files Changed | All files (initial commit) |
-| Commands Run | \`git init\`, created directories and files, \`node scripts/validate-registry.mjs\`, \`node scripts/generate-search-index.mjs\`, \`node scripts/update-memory.mjs\` |
-| Validation Result | Pending |
-| Commit Hash | ${hash} |
-| Push Status | Pending |
-| Next Action | Push to GitHub remote, verify CI passes, begin Sprint 2 |
-`;
+  let content = readFile(path);
+  if (!content) {
+    content = `# Last Handoff\n\n| Field | Value |\n|-------|-------|\n| Date | ${NOW} |\n| Commit Hash | ${hash} |\n`;
+  }
+  // Update date
+  content = content.replace(
+    /(\|\s*Date\s*\|)\s*.*(\|)/,
+    `$1 ${NOW} $2`
+  );
+  // Update commit hash
+  content = content.replace(
+    /(\|\s*Commit Hash\s*\|)\s*.*(\|)/,
+    `$1 ${hash} $2`
+  );
   writeFile(path, content);
   console.log("  Updated memory/LAST_HANDOFF.md");
 }
@@ -108,10 +101,10 @@ function appendSessionLog() {
 | Field | Value |
 |-------|-------|
 | Date | ${NOW} |
-| Goal | Initialize MJU-DRP Foundation Sprint v1.1 — create project structure, schemas, registry data, scripts, docs, memory system, CI/CD |
-| Completed Work | Created schemas (6), registry samples (5 files, 7 docs, 3 cats, 3 projects, 3 owners, 6 evidence maps), scripts (3), docs (13), memory files (6), CI workflow, cursor rules |
-| Decisions | Follow use-before-build, metadata-first, static-first principles. No database/auth/RBAC/admin panel during MVP. GitHub is source of truth. |
-| Validation Result | Pending first run |
+| Goal | Memory update — automated timestamp and git commit refresh |
+| Completed Work | Updated CURRENT_STATE.md (timestamp, branch, commit), LAST_HANDOFF.md (timestamp, commit), appended to SESSION_LOG.md |
+| Decisions | None — automated memory update only |
+| Validation Result | See CURRENT_STATE.md |
 
 `;
 
