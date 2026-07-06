@@ -1,33 +1,40 @@
 # Next Task
 
-## Sprint: Sprint 3C — SharePoint Deployment Kit (Completed)
+## Sprint: Sprint 3D — SharePoint Pilot Deployment (Completed)
 
 ### Objectives
-- [x] Create 68 deployment assets
-- [x] Create PowerShell, Site Script, Site Design templates
-- [x] Create verification, rollback, discovery, health check kits
-- [x] Create 10 deployment documentation files
-- [x] Enhance GitHub Actions
+- [x] Create Pilot Deployment Runbook
+- [x] Create pilot config files (6 files)
+- [x] Create safe deployment wrapper (dry-run by default)
+- [x] Create verification wrapper with MD + JSON reports
+- [x] Create metadata export workflow
+- [x] Create import pilot metadata script
+- [x] Create pilot validation script (7 checks)
+- [x] Create Graph readiness report
+- [x] Create pilot health check
+- [x] Update package.json with pilot scripts
 - [x] All quality gates pass
 
-## Next Sprint: Sprint 3D — SharePoint Graph Adapter & Consumer Integration (Future)
+## Next Sprint: Sprint 3E — Microsoft Graph Read-only Adapter
 
 ### Objectives
-- [ ] Configure Entra ID app registration
+- [ ] Configure Entra ID app registration for Microsoft Graph
 - [ ] Build read-only Graph adapter script
 - [ ] Validate metadata round-trip
-- [ ] CI integration
+- [ ] CI integration for automated metadata sync
 - [ ] Consumer project onboarding
 
 ### Prerequisites
-- SharePoint site provisioned (templates ready)
+- Pilot SharePoint site provisioned and verified
 - Entra ID app registration approved
 - Admin consent for Sites.Selected
+- Site ID, Drive IDs, List IDs confirmed
 
 ### Quality Gates
 1. `node scripts/validate-registry.mjs` — PASS
 2. `node scripts/validate-provisioning.mjs` — PASS
 3. `node scripts/validate-deployment.mjs` — PASS
 4. `node scripts/validate-package.mjs` — PASS
-5. `npm test` — All assertions PASS
-6. Architecture unchanged
+5. `node scripts/validate-pilot.mjs` — PASS (after pilot data exists)
+6. `npm test` — All assertions PASS
+7. Architecture unchanged

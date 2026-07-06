@@ -1,14 +1,14 @@
 # Architecture Decisions
 
-## ADR-001 through ADR-014 (unchanged)
+## ADR-001 through ADR-015 (unchanged)
 
-## ADR-015: SharePoint Deployment Kit v1.0
+## ADR-016: SharePoint Pilot Deployment v1.0
 
 | Field | Value |
 |-------|-------|
-| Decision ID | ADR-015 |
+| Decision ID | ADR-016 |
 | Date | 2026-07-06 |
 | Status | Accepted |
-| Context | The AI Provisioning Kit (Sprint 3B) provided the WHAT (template definitions). The Deployment Kit (Sprint 3C) provides the HOW (execution scripts). A clear separation between template definitions and deployment execution is needed for enterprise operations. |
-| Decision | Create a comprehensive Deployment Kit with 68 assets: 10 PowerShell template scripts, 8 Site Scripts, 5 Site Designs, 7 CSV templates, 7 JSON templates, verification (7), rollback (4), discovery (7), and health check (3) assets. All scripts use placeholders (no tenant-specific values). All operations are template-first with the principle "AI generates, Administrator deploys." |
-| Consequences | SharePoint deployment is fully documented and templated with PowerShell scripts, Site Scripts, and Site Designs. Administrator can deploy manually or via automation. Rollback and recovery procedures are documented. Health check rules define acceptable thresholds. No SharePoint resources provisioned — deployment assets are reusable templates. |
+| Context | The Deployment Kit (Sprint 3C) provided 68 reusable deployment assets. A controlled pilot deployment is needed before any Graph integration. The pilot must verify that templates produce a working SharePoint site aligned with Registry Spec v1.0. |
+| Decision | Create a comprehensive Pilot Deployment workflow with 14 artifacts: runbook, config files, safe deployment wrapper (dry-run by default, requires -Execute flag), verification wrapper (MD + JSON reports), metadata export workflow, import script (CSV/JSON to registry format), validation script (7 checks: required metadata, category mapping, project refs, owner refs, evidence refs, SharePoint URLs, duplicate IDs), Graph readiness report, and pilot health check. All scripts are safe, parameterized, and reviewed before execution. |
+| Consequences | Pilot deployment is fully documented and prepared. Administrator can execute the pilot safely with dry-run protection. Validation checks ensure metadata quality. Graph integration readiness is documented. No SharePoint resources provisioned — pilot deployment is prepared but not executed. |

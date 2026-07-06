@@ -2,7 +2,7 @@
   "registry_version": "1.0",
   "schema_version": "1.0",
   "package_version": "1.0.0",
-  "build_timestamp": "2026-07-06T16:25:46.401Z",
+  "build_timestamp": "2026-07-06T16:34:50.887Z",
   "generator_version": "2.0",
   "document_count": 74,
   "category_count": 22,
@@ -15,7 +15,7 @@
   },
   "consumer_compatibility": "v1.0",
   "minimum_registry_version": "1.0",
-  "build_hash": "4e27b9f7a01e",
+  "build_hash": "34133eafe09c",
   "outputs": [
     "document-registry.json",
     "category-registry.json",

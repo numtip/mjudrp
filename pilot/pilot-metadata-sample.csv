@@ -1,0 +1,6 @@
+DRP Document ID,Title,Category,Subcategory,Fiscal Year,Year,Version,Status,Owner,Department,Language,Keywords,Tags,Visibility,Project Refs,Evidence Refs,Related Documents
+PILOT-001,MJU-DRP Pilot Strategic Plan,strategic-plan,initiative,2569,2026,1.0,draft,owner-sustainability,Office of Sustainability,th,"pilot,strategic-plan,2569","pilot,strategic",internal,green-office-2026,EVD-PILOT-001,PILOT-002
+PILOT-002,MJU-DRP Pilot Assessment Report,report,assessment,2569,2026,1.0,draft,owner-research,Research Administration,en,"pilot,assessment,rae","pilot,assessment",internal,rae-landing,EVD-PILOT-002,PILOT-001
+PILOT-003,MJU-DRP Pilot Learning Guidelines,guideline,academic,2569,2026,1.0,draft,owner-learning-center,Learning Center,th,"pilot,guidelines,learning","pilot,guidelines",internal,learning-center,EVD-PILOT-003,PILOT-004
+PILOT-004,MJU-DRP Pilot Research Policy,policy,data,2569,2026,1.0,draft,owner-research,Research Administration,th,"pilot,research,data,policy","pilot,policy,research",internal,research-portal,EVD-PILOT-004,PILOT-005
+PILOT-005,MJU-DRP Pilot Green Office Report,report,environmental,2569,2026,1.0,draft,owner-sustainability,Office of Sustainability,en,"pilot,green-office,sustainability","pilot,green-office",public,green-office-2026,EVD-PILOT-005,PILOT-001

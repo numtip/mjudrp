@@ -1,0 +1,179 @@
+{
+  "PilotConfig": {
+    "pilot_version": "1.0.0",
+    "dry_run": true,
+    "log_dir": "deployment/reports/"
+  },
+
+  "Tenant": {
+    "hostname": "__TENANT_HOSTNAME__",
+    "tenant_id": "__TENANT_ID__",
+    "admin_site_url": "https://__TENANT_HOSTNAME__-admin.sharepoint.com"
+  },
+
+  "Site": {
+    "name": "MJU Document Registry",
+    "description": "Central document registry for MJU-DRP consumer projects — Pilot Deployment",
+    "url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+    "owner_email": "__SITE_OWNER_EMAIL__",
+    "template": "CommunicationSite",
+    "timezone_id": 7,
+    "locale_id": 1054,
+    "default_language": "th",
+    "alternate_language": "en"
+  },
+
+  "Libraries": [
+    {
+      "internal_name": "DRP_x0020_Documents",
+      "display_name": "DRP Documents",
+      "description": "Primary document storage for all registered consumer project documents",
+      "enable_versioning": true,
+      "enable_minor_versions": false,
+      "enable_content_approval": true
+    },
+    {
+      "internal_name": "DRP_x0020_Evidence",
+      "display_name": "DRP Evidence",
+      "description": "Evidence documents mapped to quality assurance criteria",
+      "enable_versioning": true,
+      "enable_minor_versions": false,
+      "enable_content_approval": true
+    },
+    {
+      "internal_name": "DRP_x0020_Templates",
+      "display_name": "DRP Templates",
+      "description": "Standardized templates for metadata import, reports",
+      "enable_versioning": true,
+      "enable_minor_versions": false,
+      "enable_content_approval": false
+    },
+    {
+      "internal_name": "DRP_x0020_Archive",
+      "display_name": "DRP Archive",
+      "description": "Long-term preservation of superseded documents",
+      "enable_versioning": false,
+      "enable_minor_versions": false,
+      "enable_content_approval": false
+    },
+    {
+      "internal_name": "DRP_x0020_Working_x0020_Area",
+      "display_name": "DRP Working Area",
+      "description": "In-progress documents and collaborative drafts",
+      "enable_versioning": true,
+      "enable_minor_versions": true,
+      "enable_content_approval": false
+    },
+    {
+      "internal_name": "DRP_x0020_Source_x0020_Data",
+      "display_name": "DRP Source Data",
+      "description": "Raw data exports, CSV/Excel metadata templates",
+      "enable_versioning": false,
+      "enable_minor_versions": false,
+      "enable_content_approval": false
+    }
+  ],
+
+  "Columns": {
+    "count": 22,
+    "group_name": "MJU Document Registry Columns",
+    "required_columns": [
+      "DRP Document ID",
+      "Title",
+      "Category",
+      "Owner",
+      "Project Refs"
+    ]
+  },
+
+  "Lists": [
+    {
+      "display_name": "DRP Categories",
+      "description": "Controlled vocabulary for document categories"
+    },
+    {
+      "display_name": "DRP Projects",
+      "description": "Registered consumer projects"
+    },
+    {
+      "display_name": "DRP Owners",
+      "description": "Document owners and stewards"
+    },
+    {
+      "display_name": "Metadata QA Queue",
+      "description": "Documents pending metadata quality review"
+    },
+    {
+      "display_name": "Registry Review Queue",
+      "description": "Documents pending registry publication review"
+    }
+  ],
+
+  "PermissionGroups": [
+    {
+      "name": "DRP Owners",
+      "permission_level": "Full Control",
+      "members": ["__SITE_OWNER_EMAIL__"]
+    },
+    {
+      "name": "DRP Editors",
+      "permission_level": "Contribute",
+      "members": []
+    },
+    {
+      "name": "DRP Reviewers",
+      "permission_level": "Contribute",
+      "members": []
+    },
+    {
+      "name": "DRP Readers",
+      "permission_level": "Read",
+      "members": []
+    },
+    {
+      "name": "DRP External Readers",
+      "permission_level": "Read",
+      "members": []
+    },
+    {
+      "name": "DRP API Access",
+      "permission_level": "Read",
+      "members": []
+    },
+    {
+      "name": "DRP Compliance",
+      "permission_level": "Read",
+      "members": []
+    }
+  ],
+
+  "MetadataSample": {
+    "file": "pilot/pilot-metadata-sample.csv",
+    "document_count": 5,
+    "category": "pilot"
+  },
+
+  "Verification": {
+    "scripts_base": "deployment/verification/",
+    "expected_libraries": 6,
+    "expected_columns": 22,
+    "expected_lists": 5,
+    "expected_views": 13,
+    "expected_groups": 7
+  },
+
+  "Export": {
+    "output_directory": "pilot/exports/",
+    "csv_filename": "pilot-metadata-export.csv",
+    "json_filename": "pilot-metadata-export.json",
+    "include_timestamps": true
+  },
+
+  "Safety": {
+    "dry_run_default": true,
+    "require_execute_flag": true,
+    "no_delete": true,
+    "no_overwrite_existing_site": true,
+    "max_upload_documents": 10
+  }
+}

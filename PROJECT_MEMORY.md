@@ -6,13 +6,13 @@
 |------|-------|
 | Project | MJU Document Registry Platform |
 | Repository | https://github.com/numtip/mjudrp |
-| Current Phase | Sprint 3C — SharePoint Deployment Kit |
+| Current Phase | Sprint 3D — SharePoint Pilot Deployment |
 | Architecture Status | **LOCKED** — 8 locked rules, 9 quality gates, change policy established |
 | Branch | main |
 | Schema Version | v1.0 (FROZEN) |
 | Document Count | 74 (populated) |
 | Consumer Projects (registered) | 12 |
-| Documentation Files | 98 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation + 8 distribution + 10 sharepoint + 11 provisioning + 10 deployment) |
+| Documentation Files | 101 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation + 8 distribution + 10 sharepoint + 11 provisioning + 10 deployment + 3 pilot) |
 | Knowledge Base Files | 8 |
 | Memory Files | 9 |
 | Provisioning Templates | 58 files in provisioning/ |
@@ -90,8 +90,28 @@
 2. Consumer projects not yet consuming — onboarding guide available.
 3. MCP servers not yet configured in Cursor.
 4. GitHub Pages not yet deployed.
-5. SharePoint site not yet provisioned — templates ready, manual setup planned.
+5. SharePoint pilot site not yet created — pilot deployment workflow ready.
 6. Graph integration not yet certified.
+7. Pilot deployment requires SharePoint Admin with PnP.PowerShell to execute.
+
+## Pilot Deployment Kit (Sprint 3D)
+
+| Component | Status | Location |
+|-----------|--------|----------|
+| Pilot Runbook | ✅ Complete | docs/pilot/00_PILOT_DEPLOYMENT_RUNBOOK.md |
+| Pilot Config | ✅ Complete | pilot/pilot-config.example.json |
+| Pilot Site Config | ✅ Complete | pilot/pilot-site-config.example.json |
+| Metadata Sample | ✅ Complete | pilot/pilot-metadata-sample.csv |
+| Document Sample List | ✅ Complete | pilot/pilot-document-sample-list.md |
+| Pilot Checklist | ✅ Complete | pilot/pilot-checklist.md |
+| Readiness Report | ✅ Complete | pilot/pilot-readiness-report.md |
+| Deployment Wrapper | ✅ Complete | deployment/powershell/run-pilot-deployment.ps1 |
+| Verification Wrapper | ✅ Complete | deployment/powershell/run-pilot-verification.ps1 |
+| Export Workflow | ✅ Complete | deployment/powershell/export-pilot-metadata.ps1 |
+| Import Script | ✅ Complete | scripts/import-pilot-metadata.mjs |
+| Validation Script | ✅ Complete | scripts/validate-pilot.mjs |
+| Graph Readiness Report | ✅ Complete | docs/pilot/01_GRAPH_READINESS_AFTER_PILOT.md |
+| Pilot Health Check | ✅ Complete | docs/pilot/02_PILOT_HEALTH_CHECK.md |
 
 ## Architecture Layers
 
@@ -103,6 +123,7 @@
 | SharePoint Blueprint | ✅ Complete (10 docs) |
 | Provisioning Kit | ✅ Complete (58 templates + 11 docs) |
 | Deployment Kit | ✅ Complete (68 assets + 10 docs) |
+| Pilot Deployment Kit | ✅ Complete (14 artifacts + 3 pilot docs) |
 | ECD | ✅ Complete |
 | ERC | ✅ Complete |
 | Architecture Lock | ✅ LOCKED |

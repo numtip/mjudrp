@@ -1,0 +1,80 @@
+{
+  "pilot_name": "MJU-DRP Pilot Deployment",
+  "pilot_version": "1.0.0",
+  "created_at": "2026-07-06",
+  "description": "Configuration for the MJU-DRP SharePoint pilot deployment",
+
+  "tenant": {
+    "hostname": "__TENANT_HOSTNAME__",
+    "admin_url": "https://__TENANT_HOSTNAME__-admin.sharepoint.com",
+    "tenant_id": "__TENANT_ID__"
+  },
+
+  "site": {
+    "name": "MJU Document Registry",
+    "description": "Central document registry for MJU-DRP consumer projects — Pilot Deployment",
+    "url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+    "owner": "__SITE_OWNER_EMAIL__",
+    "template": "CommunicationSite",
+    "timezone": 7,
+    "locale": 1054,
+    "language": "th"
+  },
+
+  "libraries": [
+    { "name": "DRP Documents", "enable_versioning": true, "enable_approval": true },
+    { "name": "DRP Evidence", "enable_versioning": true, "enable_approval": true },
+    { "name": "DRP Templates", "enable_versioning": true, "enable_approval": false },
+    { "name": "DRP Archive", "enable_versioning": false, "enable_approval": false },
+    { "name": "DRP Working Area", "enable_versioning": true, "enable_approval": false },
+    { "name": "DRP Source Data", "enable_versioning": false, "enable_approval": false }
+  ],
+
+  "columns": 22,
+  "lists": 5,
+  "views": 13,
+  "permission_groups": 7,
+
+  "pilot_documents": [
+    {
+      "id": "PILOT-001",
+      "title": "MJU-DRP Pilot Document 1",
+      "file": "pilot-doc-001.pdf"
+    },
+    {
+      "id": "PILOT-002",
+      "title": "MJU-DRP Pilot Document 2",
+      "file": "pilot-doc-002.pdf"
+    },
+    {
+      "id": "PILOT-003",
+      "title": "MJU-DRP Pilot Evidence 1",
+      "file": "pilot-evidence-001.pdf"
+    }
+  ],
+
+  "metadata_sample": "pilot/pilot-metadata-sample.csv",
+  "document_sample_list": "pilot/pilot-document-sample-list.md",
+
+  "verification": {
+    "scripts_path": "deployment/verification/",
+    "verify_site": true,
+    "verify_libraries": true,
+    "verify_columns": true,
+    "verify_lists": true,
+    "verify_views": true,
+    "verify_permissions": true
+  },
+
+  "export": {
+    "output_dir": "pilot/exports/",
+    "formats": ["csv", "json"]
+  },
+
+  "safety": {
+    "dry_run_default": true,
+    "require_execute_flag": true,
+    "log_dir": "deployment/reports/",
+    "no_delete": true
+  }
+}

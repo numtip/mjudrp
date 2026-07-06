@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-07-06T15:46:20.669Z",
+  "timestamp": "2026-07-06T16:34:50.889Z",
   "document_count": 74,
   "category_count": 22,
   "project_count": 12,
   "owner_count": 12,
   "evidence_count": 124,
   "timings_ms": {
-    "document_registry": 1,
+    "document_registry": 2,
     "category_registry": 0,
     "project_registry": 1,
     "owner_registry": 0,
-    "evidence_registry": 0,
-    "relationship_registry": 1,
-    "search_index": 0,
-    "minisearch_index": 7,
+    "evidence_registry": 1,
+    "relationship_registry": 0,
+    "search_index": 1,
+    "minisearch_index": 13,
     "manifest": 2
   },
-  "total_generation_ms": 12
+  "total_generation_ms": 20
 }

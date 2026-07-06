@@ -1,56 +1,48 @@
 # Next Sprint Plan
 
-## Sprint 3C: SharePoint Deployment Kit (Completed)
+## Sprint 3D: SharePoint Pilot Deployment (Completed)
 
-### Preceded by: Sprint 3B AI Provisioning Kit ✅ + Architecture Lock v1.0 ✅
+### Preceded by: Sprint 3C SharePoint Deployment Kit ✅
 
 Architecture is **LOCKED**. Registry Specification v1.0 is **FROZEN**.
 
 ### Objectives (Completed)
-1. ✅ Created 68 deployment assets including PowerShell, Site Scripts, Site Designs
-2. ✅ Created 10 PowerShell template scripts with placeholders (no tenant-specific values)
-3. ✅ Created 8 Site Script JSON templates for SharePoint automation
-4. ✅ Created 5 Site Design templates (enterprise + 4 project-specific)
-5. ✅ Created 7 CSV templates for metadata import/export
-6. ✅ Created 7 JSON configuration templates
-7. ✅ Created verification kit (6 PowerShell scripts + checklist)
-8. ✅ Created rollback kit (guide, remove, archive, restore checklist)
-9. ✅ Created discovery kit (6 scripts + environment report template)
-10. ✅ Created health check kit (script, rules, report template)
-11. ✅ Created 10 deployment documentation files
-12. ✅ Enhanced GitHub Actions with provisioning + deployment validation
-13. ✅ All quality gates pass (Registry: PASS, Provisioning: 112/112, Deployment: PASS, Tests: 211/211)
+1. ✅ Created Pilot Deployment Runbook (`docs/pilot/00_PILOT_DEPLOYMENT_RUNBOOK.md`)
+2. ✅ Created pilot config files (`pilot/` — 6 files)
+3. ✅ Created safe deployment wrapper (`deployment/powershell/run-pilot-deployment.ps1`) — dry-run by default, requires -Execute for real ops
+4. ✅ Created pilot verification wrapper (`deployment/powershell/run-pilot-verification.ps1`)
+5. ✅ Created metadata export workflow (`deployment/powershell/export-pilot-metadata.ps1`)
+6. ✅ Created import pilot metadata script (`scripts/import-pilot-metadata.mjs`)
+7. ✅ Created pilot validation script (`scripts/validate-pilot.mjs`)
+8. ✅ Created Graph readiness report (`docs/pilot/01_GRAPH_READINESS_AFTER_PILOT.md`)
+9. ✅ Created pilot health check (`docs/pilot/02_PILOT_HEALTH_CHECK.md`)
+10. ✅ Updated package.json with `pilot:import` and `pilot:validate` scripts
+11. ✅ Updated all memory and state files
 
-### Kit Summary
+### Pilot Kit Summary
 
 | Category | Files |
 |----------|-------|
-| PowerShell Scripts | 10 |
-| Site Scripts | 8 |
-| Site Designs | 5 |
-| CSV Templates | 7 |
-| JSON Templates | 7 |
-| Verification Kit | 7 |
-| Rollback Kit | 4 |
-| Discovery Kit | 7 |
-| Health Check Kit | 3 |
-| Deployment Docs | 10 |
-| **Total** | **68** |
+| Pilot Docs | 3 (runbook, graph readiness, health check) |
+| Pilot Config | 6 (configs, samples, checklist, readiness) |
+| PowerShell Wrappers | 3 (deployment, verification, export) |
+| Node.js Scripts | 2 (import, validate) |
+| **Total** | **14 artifacts** |
 
-## Sprint 3D: SharePoint Graph Adapter & Consumer Integration (Future)
+## Sprint 3E: Microsoft Graph Read-only Adapter (Next)
 
 ### Objectives
 1. Configure Entra ID app registration for Microsoft Graph
 2. Build read-only Graph adapter script (SharePoint → Graph → Registry)
 3. Validate metadata round-trip
 4. CI integration for automated metadata sync
-5. Consumer project onboarding (publish package to CDN)
+5. Consumer project onboarding
 
 ### Prerequisites
-- SharePoint site must be provisioned (templates ready in deployment/ and provisioning/)
+- Pilot SharePoint site must be provisioned and verified
 - Entra ID app registration approved by MJU IT
 - Admin consent for Sites.Selected
-- Consumer team ready to integrate
+- Site ID, Drive IDs, List IDs, Column internal names confirmed
 
 ### Allowed Actions
 - Build Graph read-only adapter

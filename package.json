@@ -17,7 +17,9 @@
     "validate-package": "node scripts/validate-package.mjs",
     "validate-provisioning": "node scripts/validate-provisioning.mjs",
     "validate-deployment": "node scripts/validate-deployment.mjs",
-    "release": "node scripts/release.mjs"
+    "release": "node scripts/release.mjs",
+    "pilot:import": "node scripts/import-pilot-metadata.mjs",
+    "pilot:validate": "node scripts/validate-pilot.mjs"
   },
   "repository": {
     "type": "git",
