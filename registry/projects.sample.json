@@ -6,13 +6,19 @@
     "name_th": "สำนักงานสีเขียว 2026",
     "description": "Maejo University initiative to achieve Green Office certification and promote campus sustainability practices.",
     "status": "active",
-    "category_filters": ["strategic-plan", "guideline", "report"],
+    "category_filters": [
+      "strategic-plan",
+      "guideline",
+      "report",
+      "training",
+      "communication"
+    ],
     "repository_url": "https://github.com/numtip/green-office-2026",
     "website_url": "",
     "contact": "Sustainability Office",
     "department": "Office of Sustainability",
     "created_at": "2025-01-15T08:00:00Z",
-    "updated_at": "2026-06-01T10:00:00Z"
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "rae-landing",
@@ -21,13 +27,19 @@
     "name_th": "RAE Landing",
     "description": "Public-facing landing page for the Research Assessment Exercise (RAE), providing access to assessment guides, templates, and evidence submission resources.",
     "status": "active",
-    "category_filters": ["guideline", "template", "report"],
+    "category_filters": [
+      "guideline",
+      "template",
+      "report",
+      "assessment",
+      "research-output"
+    ],
     "repository_url": "https://github.com/numtip/rae-landing",
     "website_url": "https://rae.mju.ac.th",
     "contact": "Research Administration",
     "department": "Research Administration",
     "created_at": "2025-02-01T08:00:00Z",
-    "updated_at": "2026-06-10T14:00:00Z"
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "learning-center",
@@ -36,13 +48,19 @@
     "name_th": "ศูนย์การเรียนรู้ มจ.",
     "description": "MJU Learning Center providing courses, workshops, and training resources for students and faculty.",
     "status": "active",
-    "category_filters": ["catalog", "report"],
+    "category_filters": [
+      "catalog",
+      "report",
+      "training",
+      "academic-record",
+      "presentation"
+    ],
     "repository_url": "https://github.com/numtip/learning-center",
     "website_url": "https://learning.mju.ac.th",
     "contact": "Learning Center Administration",
     "department": "Learning Center",
     "created_at": "2025-05-01T08:00:00Z",
-    "updated_at": "2026-06-05T09:00:00Z"
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "research-portal",
@@ -50,13 +68,189 @@
     "name_en": "MJU Research Portal",
     "name_th": "พอร์ทัลงานวิจัย มจ.",
     "description": "Central research information portal for Maejo University, providing access to research outputs, publications, and RAE-related resources.",
-    "status": "planned",
-    "category_filters": ["report", "guideline", "template"],
-    "repository_url": "",
+    "status": "active",
+    "category_filters": [
+      "research-output",
+      "report",
+      "guideline",
+      "template",
+      "data"
+    ],
+    "repository_url": "https://github.com/numtip/research-portal",
     "website_url": "",
     "contact": "Research Administration",
     "department": "Research Administration",
     "created_at": "2026-01-01T08:00:00Z",
-    "updated_at": "2026-06-01T10:00:00Z"
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "enterprise-shared-docs",
+    "name": "Enterprise Shared Documents",
+    "name_en": "Enterprise Shared Documents",
+    "name_th": "เอกสารร่วมองค์กร",
+    "description": "University-wide shared document repository for policies, procedures, forms, and cross-departmental resources.",
+    "status": "active",
+    "category_filters": [
+      "policy",
+      "guideline",
+      "template",
+      "memo",
+      "compliance",
+      "legal",
+      "archive"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "Central Administration",
+    "department": "President Office",
+    "created_at": "2024-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "mju-digital-transformation",
+    "name": "MJU Digital Transformation",
+    "name_en": "MJU Digital Transformation",
+    "name_th": "การเปลี่ยนผ่านดิจิทัล มจ.",
+    "description": "University-wide digital transformation initiative modernizing administrative and academic systems.",
+    "status": "active",
+    "category_filters": [
+      "technical",
+      "strategic-plan",
+      "report",
+      "training",
+      "communication"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "IT Division",
+    "department": "IT Division",
+    "created_at": "2025-03-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "smart-campus-initiative",
+    "name": "Smart Campus Initiative",
+    "name_en": "Smart Campus Initiative",
+    "name_th": "โครงการ Smart Campus",
+    "description": "Smart campus project implementing IoT, smart infrastructure, and digital services across MJU campuses.",
+    "status": "active",
+    "category_filters": [
+      "technical",
+      "strategic-plan",
+      "budget",
+      "report",
+      "data"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "IT Division",
+    "department": "IT Division",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "academic-quality-assurance",
+    "name": "Academic Quality Assurance",
+    "name_en": "Academic Quality Assurance",
+    "name_th": "ประกันคุณภาพการศึกษา",
+    "description": "Internal and external quality assurance program for academic programs and administrative units.",
+    "status": "active",
+    "category_filters": [
+      "assessment",
+      "report",
+      "compliance",
+      "policy",
+      "training"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "Quality Assurance Office",
+    "department": "Quality Assurance",
+    "created_at": "2024-08-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "international-collaboration",
+    "name": "International Collaboration",
+    "name_en": "International Collaboration",
+    "name_th": "ความร่วมมือระหว่างประเทศ",
+    "description": "International partnerships, exchange programs, and collaborative research agreements.",
+    "status": "active",
+    "category_filters": [
+      "contract",
+      "report",
+      "communication",
+      "academic-record",
+      "meeting"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "International Affairs Office",
+    "department": "International Affairs",
+    "created_at": "2025-04-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "student-development-program",
+    "name": "Student Development Program",
+    "name_en": "Student Development Program",
+    "name_th": "โครงการพัฒนานักศึกษา",
+    "description": "Student skill development, leadership training, and extracurricular activity programs.",
+    "status": "active",
+    "category_filters": [
+      "training",
+      "catalog",
+      "report",
+      "communication",
+      "presentation"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "Student Development Division",
+    "department": "Student Development",
+    "created_at": "2025-09-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "community-engagement",
+    "name": "Community Engagement",
+    "name_en": "Community Engagement",
+    "name_th": "การมีส่วนร่วมชุมชน",
+    "description": "University community service, outreach programs, and knowledge transfer to local communities.",
+    "status": "active",
+    "category_filters": [
+      "report",
+      "communication",
+      "training",
+      "research-output",
+      "meeting"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "Community Engagement Center",
+    "department": "Community Engagement",
+    "created_at": "2024-10-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "it-infrastructure-modernization",
+    "name": "IT Infrastructure Modernization",
+    "name_en": "IT Infrastructure Modernization",
+    "name_th": "ปรับปรุงโครงสร้างพื้นฐานด้านไอที",
+    "description": "Network, server, and systems infrastructure upgrade program for improved digital services.",
+    "status": "planned",
+    "category_filters": [
+      "technical",
+      "budget",
+      "contract",
+      "report",
+      "strategic-plan"
+    ],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "IT Division",
+    "department": "IT Division",
+    "created_at": "2026-05-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   }
 ]

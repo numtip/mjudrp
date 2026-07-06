@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-07-06T15:28:00.000Z",
+  "registry_version": "1.0",
+  "schema_version": "1.0",
+  "summary": {
+    "documents": 74,
+    "categories": 22,
+    "projects": 12,
+    "owners": 12,
+    "evidence": 124,
+    "relationships": 250
+  },
+  "languages": {
+    "th": 47,
+    "en": 27
+  },
+  "years": {
+    "2024": 5,
+    "2025": 32,
+    "2026": 37
+  },
+  "projects": {
+    "green-office-2026": { "documents": 10, "evidence": 12, "relationships": 19 },
+    "rae-landing": { "documents": 8, "evidence": 12, "relationships": 13 },
+    "learning-center": { "documents": 8, "evidence": 12, "relationships": 14 },
+    "research-portal": { "documents": 6, "evidence": 10, "relationships": 11 },
+    "enterprise-shared-docs": { "documents": 8, "evidence": 10, "relationships": 14 },
+    "mju-digital-transformation": { "documents": 5, "evidence": 10, "relationships": 10 },
+    "smart-campus-initiative": { "documents": 5, "evidence": 10, "relationships": 9 },
+    "academic-quality-assurance": { "documents": 5, "evidence": 10, "relationships": 9 },
+    "international-collaboration": { "documents": 5, "evidence": 10, "relationships": 9 },
+    "student-development-program": { "documents": 5, "evidence": 10, "relationships": 7 },
+    "community-engagement": { "documents": 5, "evidence": 10, "relationships": 7 },
+    "it-infrastructure-modernization": { "documents": 4, "evidence": 8, "relationships": 6 }
+  },
+  "document_status": {
+    "approved": 19,
+    "published": 42,
+    "draft": 8,
+    "review": 5
+  },
+  "file_types": {
+    "pdf": 53,
+    "docx": 12,
+    "xlsx": 9
+  },
+  "storage_providers": {
+    "sharepoint": 68,
+    "onedrive": 6
+  },
+  "visibility": {
+    "public": 26,
+    "internal": 48
+  },
+  "evidence_status": {
+    "satisfied": 86,
+    "partial": 36,
+    "missing": 0,
+    "not-applicable": 2
+  },
+  "relationship_types": {
+    "related-to": 200,
+    "references": 30,
+    "derived-from": 6,
+    "superseded-by": 2,
+    "has-appendix": 12
+  },
+  "registry_size_bytes": 0,
+  "validation_result": "PASS",
+  "validation_errors": 0,
+  "validation_warnings": 0,
+  "test_results": {
+    "validation_tests": 162,
+    "generator_tests": 29,
+    "registry_tests": 11,
+    "search_tests": 9,
+    "total": 211,
+    "passed": 211,
+    "failed": 0
+  }
+}

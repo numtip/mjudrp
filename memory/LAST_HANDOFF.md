@@ -2,12 +2,12 @@
 
 | Field | Value |
 |-------|-------|
-| Date | 2026-07-06T15:24:27.336Z |
-| Sprint | Sprint 2A — Core Registry Implementation |
-| Summary | Implemented P0 Core Registry engine. AJV + ajv-formats integrated into validate-registry.mjs (all 6 schemas compile, all entries validate, cross-references checked). MiniSearch integrated into generate-search-index.mjs (both search-index.json + minisearch-index.json produced). 11 output files generated in dist/ (document, category, project, owner, evidence, relationship, search, minisearch, validation-report, manifest, performance-report). Registry fixtures created: small (10 docs), medium (100 docs), large (1000 docs). 4 test files created with 77 total assertions. CI pipeline updated with full install/validate/generate/test/upload flow. 6 implementation docs created in docs/implementation/. ADR-012 added for schema corrections (null parent, empty URI fields). Schema defects fixed in category.schema.json and project.schema.json per ADR-012. All quality gates pass. |
-| Files Changed | 2 scripts upgraded, 2 schemas corrected, 4 test files created, 11 dist outputs generated, CI updated, 6 implementation docs, 3 fixture directories, ADR added, all memory/runtime files updated |
-| Commands Run | `node scripts/validate-registry.mjs` (PASS), `node scripts/generate-search-index.mjs`, `npm test` (77/77 PASS) |
+| Date | 2026-07-06T15:28:00.000Z |
+| Sprint | Sprint 2B — Registry Population |
+| Summary | Populated enterprise registry with real-world metadata: 74 documents, 22 categories, 12 projects, 12 owners, 124 evidence maps, 250 relationships. Created 5 project areas (Green Office 2026, RAE Landing, Learning Center, Research Portal, Enterprise Shared Documents) plus 7 supporting projects. All cross-references valid (AJV: 0 errors, 0 warnings). Generated all 12 dist outputs including statistics.json. 211/211 tests pass. Created population script for reproducible generation. |
+| Files Changed | registry/*.sample.json (6 files rewritten), scripts/populate-registry.mjs (new), dist/statistics.json (new), dist/*.json (11 regenerated), memory/* (6 updated), runtime/* (3 updated), PROJECT_MEMORY.md (updated), NEXT_SPRINT_PLAN.md (updated) |
+| Commands Run | `node scripts/populate-registry.mjs` (74 docs, 124 ev, 250 rel), `node scripts/validate-registry.mjs` (PASS), `node scripts/generate-search-index.mjs`, `npm test` (211/211 PASS) |
 | Validation Result | PASS (0 errors, 0 warnings) |
-| Commit Hash | dc45db0 |
-| Push Status | (pending this sprint) |
-| Next Action | Sprint 2B: Registry Population & Consumer Integration — Configure MCPs in Cursor, populate real metadata, populate relationship registry, establish SharePoint taxonomy, create consumer examples, set up GitHub Pages |
+| Commit Hash | (pending this session) |
+| Push Status | Pending this sprint |
+| Next Action | Sprint 2C: Consumer Integration & SharePoint Alignment — Configure MCPs in Cursor, create consumer integration examples (static HTML + MiniSearch), set up GitHub Pages, implement SharePoint column templates, create site provisioning checklist |

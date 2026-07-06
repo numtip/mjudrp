@@ -1,8 +1,8 @@
 [
   {
-    "id": "ev-go-strategy",
-    "name": "Green Office Strategic Plan Evidence",
-    "description": "Evidence demonstrating the Green Office 2026 strategic planning and approval process.",
+    "id": "EVD-GROF-001",
+    "name": "GO Strategic Plan Evidence",
+    "description": "Evidence demonstrating Green Office 2026 strategic planning and approval process.",
     "project_ref": "green-office-2026",
     "document_refs": [
       "GO2026-001"
@@ -10,77 +10,1767 @@
     "criteria": "GO-CRITERIA-01: Approved strategic plan must be in place",
     "status": "satisfied",
     "notes": "Strategic plan approved March 2026.",
-    "created_at": "2026-01-10T08:00:00Z",
-    "updated_at": "2026-03-15T10:30:00Z"
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
-    "id": "ev-go-progress",
-    "name": "Green Office Quarterly Progress Evidence",
+    "id": "EVD-GROF-002",
+    "name": "GO Quarterly Progress Evidence",
     "description": "Quarterly progress reports demonstrating ongoing Green Office activities and KPI tracking.",
     "project_ref": "green-office-2026",
     "document_refs": [
-      "GO2026-003"
+      "GO2026-003",
+      "GO2026-008"
     ],
-    "criteria": "GO-CRITERIA-02: Regular progress reporting is required",
+    "criteria": "GO-CRITERIA-02: Regular progress reporting required",
     "status": "partial",
-    "notes": "Q1 2026 submitted. Q2 2026 pending.",
-    "created_at": "2026-04-05T14:00:00Z",
-    "updated_at": "2026-04-05T14:00:00Z"
+    "notes": "Q1 2026 submitted. Q2 draft pending review.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
-    "id": "ev-rae-guidance",
+    "id": "EVD-GROF-003",
+    "name": "GO Waste Management Evidence",
+    "description": "Evidence of waste management guidelines implementation and campus adoption.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-002"
+    ],
+    "criteria": "GO-CRITERIA-03: Waste management procedures must be documented",
+    "status": "satisfied",
+    "notes": "Guidelines published and distributed to all departments.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-004",
+    "name": "GO Energy Conservation Evidence",
+    "description": "Evidence of energy conservation measures deployment and reduction tracking.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-004"
+    ],
+    "criteria": "GO-CRITERIA-04: Energy conservation plan must be active",
+    "status": "satisfied",
+    "notes": "Action plan implemented in 3 buildings. 15% reduction achieved.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-005",
+    "name": "GO Water Management Evidence",
+    "description": "Evidence of water conservation and rainwater harvesting implementation.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-005"
+    ],
+    "criteria": "GO-CRITERIA-05: Water management plan required",
+    "status": "satisfied",
+    "notes": "Rainwater harvesting installed in 2 locations.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-006",
+    "name": "GO Sustainability Training Evidence",
+    "description": "Evidence of sustainability training completion and participation rates.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-007"
+    ],
+    "criteria": "GO-CRITERIA-06: Staff must complete sustainability training",
+    "status": "partial",
+    "notes": "240 staff trained. Target: 500 by year end.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-007",
+    "name": "GO Carbon Footprint Evidence",
+    "description": "Evidence of annual carbon footprint measurement and reduction planning.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-009"
+    ],
+    "criteria": "GO-CRITERIA-07: Annual carbon footprint assessment required",
+    "status": "satisfied",
+    "notes": "Baseline established. 10% reduction target set for 2027.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-008",
+    "name": "GO Green Procurement Evidence",
+    "description": "Evidence of sustainable procurement policy adoption and implementation.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-006"
+    ],
+    "criteria": "GO-CRITERIA-08: Green procurement guidelines must be adopted",
+    "status": "satisfied",
+    "notes": "Guidelines adopted by Procurement Office in Q1 2026.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-009",
+    "name": "GO Communication Evidence",
+    "description": "Evidence of sustainability communication and awareness campaigns.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-010"
+    ],
+    "criteria": "GO-CRITERIA-09: Sustainability communication program must be active",
+    "status": "satisfied",
+    "notes": "Newsletter published quarterly. Website updated monthly.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-010",
+    "name": "GO KPI Tracking Evidence",
+    "description": "KPI tracking data for Green Office certification criteria and benchmarks.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-003",
+      "GO2026-008"
+    ],
+    "criteria": "GO-CRITERIA-10: KPI tracking must be maintained",
+    "status": "partial",
+    "notes": "Q1 KPIs tracked. Q2 data collection in progress.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-011",
+    "name": "GO Cross-Initiative Evidence",
+    "description": "Evidence of collaboration with Smart Campus and Digital Transformation initiatives.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-004",
+      "GO2026-009"
+    ],
+    "criteria": "GO-CRITERIA-11: Cross-initiative collaboration required",
+    "status": "satisfied",
+    "notes": "Joint energy monitoring with Smart Campus project.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-GROF-012",
+    "name": "GO Audit Compliance Evidence",
+    "description": "Internal audit compliance for Green Office certification requirements.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-001",
+      "GO2026-005"
+    ],
+    "criteria": "GO-CRITERIA-12: Annual compliance audit required",
+    "status": "satisfied",
+    "notes": "Internal audit completed. All criteria met.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-001",
     "name": "RAE Assessment Guidance Evidence",
-    "description": "Evidence that RAE assessment preparation guidance is available to faculty.",
+    "description": "Evidence that RAE assessment preparation guidance is available to all faculty.",
     "project_ref": "rae-landing",
     "document_refs": [
       "RAE-001"
     ],
     "criteria": "RAE-CRITERIA-01: Faculty must have access to assessment preparation materials",
     "status": "satisfied",
-    "notes": "Guide published and available on RAE landing page.",
-    "created_at": "2025-03-01T08:00:00Z",
-    "updated_at": "2026-02-20T11:00:00Z"
+    "notes": "Guide v2.1 published and available on RAE landing page.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
-    "id": "ev-rae-submission",
-    "name": "RAE Evidence Submission Template Evidence",
-    "description": "Evidence that standardized submission templates are available for RAE evidence collection.",
+    "id": "EVD-RALA-002",
+    "name": "RAE Submission Template Evidence",
+    "description": "Evidence that standardized submission templates are available for evidence collection.",
     "project_ref": "rae-landing",
     "document_refs": [
       "RAE-002"
     ],
     "criteria": "RAE-CRITERIA-02: Standardized evidence submission process must exist",
     "status": "satisfied",
-    "notes": "Template v1.3 available for download.",
-    "created_at": "2025-04-15T10:00:00Z",
-    "updated_at": "2026-01-25T15:30:00Z"
+    "notes": "Template v1.3 available for download. Used by 15 departments.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
-    "id": "ev-lc-catalog",
-    "name": "Learning Center Course Catalog Evidence",
-    "description": "Evidence that the Learning Center offers a published catalog of courses and workshops.",
+    "id": "EVD-RALA-003",
+    "name": "RAE Annual Report Evidence",
+    "description": "Annual RAE activity report demonstrating assessment progress and outcomes.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-003"
+    ],
+    "criteria": "RAE-CRITERIA-03: Annual RAE activity report must be published",
+    "status": "satisfied",
+    "notes": "2025 annual report published. Available to all stakeholders.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-004",
+    "name": "RAE Classification Evidence",
+    "description": "Evidence of research output classification standards and guidelines.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-004"
+    ],
+    "criteria": "RAE-CRITERIA-04: Research classification standards must be documented",
+    "status": "satisfied",
+    "notes": "Classification guide v1.0 published and distributed.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-005",
+    "name": "RAE Faculty Profile Evidence",
+    "description": "Evidence of faculty research profile collection and maintenance.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-005"
+    ],
+    "criteria": "RAE-CRITERIA-05: Faculty research profiles must be collected",
+    "status": "partial",
+    "notes": "Template available. 60% of faculty profiles submitted.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-006",
+    "name": "RAE Criteria Evidence",
+    "description": "Published RAE assessment criteria and scoring standards documentation.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-006"
+    ],
+    "criteria": "RAE-CRITERIA-06: Assessment criteria must be published",
+    "status": "satisfied",
+    "notes": "Criteria v3.0 published and communicated to all programs.",
+    "created_at": "2024-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-007",
+    "name": "RAE Review Process Evidence",
+    "description": "Evidence of standardized review checklist for evidence evaluation.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-007"
+    ],
+    "criteria": "RAE-CRITERIA-07: Review process must have standardized checklist",
+    "status": "satisfied",
+    "notes": "Checklist v1.1 in use by review committee.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-008",
+    "name": "RAE Stakeholder Evidence",
+    "description": "Evidence of stakeholder meeting documentation and engagement.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-008"
+    ],
+    "criteria": "RAE-CRITERIA-08: Stakeholder meetings must be documented",
+    "status": "satisfied",
+    "notes": "Committee meetings held quarterly. Minutes published.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-009",
+    "name": "RAE Cross-Reference Evidence",
+    "description": "Cross-project references between RAE, Research Portal, and QA.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-001",
+      "RAE-003",
+      "RAE-006"
+    ],
+    "criteria": "RAE-CRITERIA-09: Cross-project alignment required",
+    "status": "satisfied",
+    "notes": "Integrated with Research Portal and QA systems.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-010",
+    "name": "RAE Publication Tracking Evidence",
+    "description": "Evidence of research publication tracking and compilation.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RP-003",
+      "RP-006"
+    ],
+    "criteria": "RAE-CRITERIA-10: Publication tracking must be maintained",
+    "status": "satisfied",
+    "notes": "Publications compiled annually for RAE review.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-011",
+    "name": "RAE Methodology Evidence",
+    "description": "Evidence of research methodology guidelines availability.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RP-002"
+    ],
+    "criteria": "RAE-CRITERIA-11: Methodology guidance must be available",
+    "status": "satisfied",
+    "notes": "Guidelines published and accessible via portal.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-RALA-012",
+    "name": "RAE Ethics Evidence",
+    "description": "Evidence of research ethics approval process documentation.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RP-004"
+    ],
+    "criteria": "RAE-CRITERIA-12: Ethics approval process must be documented",
+    "status": "satisfied",
+    "notes": "Ethics form v2.0 in use by all research units.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-001",
+    "name": "LC Course Catalog Evidence",
+    "description": "Evidence of published and accessible course catalog.",
     "project_ref": "learning-center",
     "document_refs": [
       "LC-001"
     ],
     "criteria": "LC-CRITERIA-01: Course catalog must be published and accessible",
     "status": "satisfied",
-    "notes": "2026 catalog published May 2026.",
-    "created_at": "2026-05-01T08:00:00Z",
-    "updated_at": "2026-05-15T09:00:00Z"
+    "notes": "2026 catalog published May 2026. Online version available.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
-    "id": "ev-lc-performance",
-    "name": "Learning Center Annual Performance Evidence",
+    "id": "EVD-LECE-002",
+    "name": "LC Annual Performance Evidence",
     "description": "Annual performance data demonstrating Learning Center activities and outcomes.",
     "project_ref": "learning-center",
     "document_refs": [
       "LC-002"
     ],
-    "criteria": "LC-CRITERIA-02: Annual performance reporting is required",
+    "criteria": "LC-CRITERIA-02: Annual performance report required",
     "status": "satisfied",
     "notes": "2025 annual report published January 2026.",
-    "created_at": "2026-01-20T10:00:00Z",
-    "updated_at": "2026-01-20T10:00:00Z"
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-003",
+    "name": "LC Digital Literacy Evidence",
+    "description": "Evidence of digital literacy workshop delivery and impact.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-003"
+    ],
+    "criteria": "LC-CRITERIA-03: Digital literacy program must be active",
+    "status": "satisfied",
+    "notes": "Workshops conducted for 300+ participants across 5 sessions.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-004",
+    "name": "LC Academic Writing Evidence",
+    "description": "Evidence of academic writing skills training program.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-004"
+    ],
+    "criteria": "LC-CRITERIA-04: Academic writing support must be available",
+    "status": "satisfied",
+    "notes": "Handbook v2.0 published. Workshops held monthly.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-005",
+    "name": "LC Quarterly Activity Evidence",
+    "description": "Quarterly activity reporting and performance tracking.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-005"
+    ],
+    "criteria": "LC-CRITERIA-05: Quarterly activity reports required",
+    "status": "satisfied",
+    "notes": "Q1 2026 report submitted and reviewed.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-006",
+    "name": "LC Platform Evidence",
+    "description": "Evidence of online learning platform documentation and user support.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-006"
+    ],
+    "criteria": "LC-CRITERIA-06: Online platform user guide must be available",
+    "status": "satisfied",
+    "notes": "User guide published. Help desk operational.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-007",
+    "name": "LC Enrollment Evidence",
+    "description": "Course enrollment records and registration data.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-007"
+    ],
+    "criteria": "LC-CRITERIA-07: Enrollment records must be maintained",
+    "status": "satisfied",
+    "notes": "Registration template in use. 1,200 enrollments in 2026.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-008",
+    "name": "LC Strategic Plan Evidence",
+    "description": "Evidence of strategic planning for Learning Center development.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-008"
+    ],
+    "criteria": "LC-CRITERIA-08: Strategic plan must be in place",
+    "status": "satisfied",
+    "notes": "3-year strategic plan approved by university council.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-009",
+    "name": "LC Satisfaction Evidence",
+    "description": "Participant satisfaction survey results and analysis.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-003",
+      "LC-005"
+    ],
+    "criteria": "LC-CRITERIA-09: Participant satisfaction must be measured",
+    "status": "satisfied",
+    "notes": "Satisfaction rate: 4.2/5.0 across all programs.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-010",
+    "name": "LC Staff Training Evidence",
+    "description": "Staff professional development and training records.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-007"
+    ],
+    "criteria": "LC-CRITERIA-10: Staff training records must be maintained",
+    "status": "partial",
+    "notes": "Training records being digitized. 80% complete.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-011",
+    "name": "LC Budget Evidence",
+    "description": "Budget utilization and financial compliance records.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-005"
+    ],
+    "criteria": "LC-CRITERIA-11: Budget compliance must be documented",
+    "status": "satisfied",
+    "notes": "Within allocated budget. 85% utilization rate.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-LECE-012",
+    "name": "LC Accessibility Evidence",
+    "description": "Evidence of accessible and inclusive learning resources.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-001",
+      "LC-006"
+    ],
+    "criteria": "LC-CRITERIA-12: Learning resources must be accessible",
+    "status": "satisfied",
+    "notes": "Platform supports WCAG 2.1. Materials in multiple formats.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-001",
+    "name": "RP Database Evidence",
+    "description": "Portal database schema and architecture documentation.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-001"
+    ],
+    "criteria": "RP-CRITERIA-01: Database schema must be documented",
+    "status": "satisfied",
+    "notes": "Schema v1.0 documented and version-controlled.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-002",
+    "name": "RP Methodology Evidence",
+    "description": "Research methodology guidelines and best practices.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-002"
+    ],
+    "criteria": "RP-CRITERIA-02: Methodology guidance must be available",
+    "status": "satisfied",
+    "notes": "Guidelines v1.1 published on portal.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-003",
+    "name": "RP Publications Evidence",
+    "description": "Annual compilation of MJU-affiliated research publications.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-003"
+    ],
+    "criteria": "RP-CRITERIA-03: Publication compilation required annually",
+    "status": "satisfied",
+    "notes": "2025 compilation published with 120+ entries.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-004",
+    "name": "RP Ethics Evidence",
+    "description": "Research ethics approval process and documentation.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-004"
+    ],
+    "criteria": "RP-CRITERIA-04: Ethics approval process must be documented",
+    "status": "satisfied",
+    "notes": "Ethics form v2.0 in use. IRB active.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-005",
+    "name": "RP MOU Evidence",
+    "description": "MOU template for research collaboration agreements.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-005"
+    ],
+    "criteria": "RP-CRITERIA-05: Collaboration MOU template must exist",
+    "status": "satisfied",
+    "notes": "MOU template v1.0 available for all partnerships.",
+    "created_at": "2024-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-006",
+    "name": "RP Impact Evidence",
+    "description": "Research impact measurement and assessment data.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-006"
+    ],
+    "criteria": "RP-CRITERIA-06: Research impact must be assessed annually",
+    "status": "partial",
+    "notes": "Impact report in draft. Citation analysis pending.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-007",
+    "name": "RP RAE Integration Evidence",
+    "description": "Integration between Research Portal and RAE systems.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-001",
+      "RP-003",
+      "RAE-001"
+    ],
+    "criteria": "RP-CRITERIA-07: RAE integration must be maintained",
+    "status": "satisfied",
+    "notes": "Bidirectional data flow established between systems.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-008",
+    "name": "RP Metrics Evidence",
+    "description": "Publication and citation metrics tracking.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-003",
+      "RP-006"
+    ],
+    "criteria": "RP-CRITERIA-08: Publication metrics must be tracked",
+    "status": "partial",
+    "notes": "Publication count tracked. Citation data integration in progress.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-009",
+    "name": "RP Adoption Evidence",
+    "description": "Portal usage statistics and user adoption metrics.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-001"
+    ],
+    "criteria": "RP-CRITERIA-09: Portal usage must be monitored",
+    "status": "partial",
+    "notes": "Basic analytics implemented. 500 active users monthly.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-REPO-010",
+    "name": "RP Data Quality Evidence",
+    "description": "Data quality assurance procedures and validation results.",
+    "project_ref": "research-portal",
+    "document_refs": [
+      "RP-001"
+    ],
+    "criteria": "RP-CRITERIA-10: Data quality must be maintained",
+    "status": "satisfied",
+    "notes": "Monthly data quality reports generated. Accuracy: 98%.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-001",
+    "name": "ESD Policy Evidence",
+    "description": "Comprehensive policy manual availability and currency.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-001"
+    ],
+    "criteria": "ESD-CRITERIA-01: Policy manual must be current and accessible",
+    "status": "satisfied",
+    "notes": "Manual v4.0 current and distributed to all departments.",
+    "created_at": "2024-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-002",
+    "name": "ESD Procurement Evidence",
+    "description": "Procurement guidelines and purchasing procedure documentation.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-002"
+    ],
+    "criteria": "ESD-CRITERIA-02: Procurement procedures must be documented",
+    "status": "satisfied",
+    "notes": "Guidelines v2.0 published and in use.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-003",
+    "name": "ESD HR Policy Evidence",
+    "description": "HR policy documentation including leave and attendance.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-003"
+    ],
+    "criteria": "ESD-CRITERIA-03: HR policies must be documented",
+    "status": "satisfied",
+    "notes": "Leave policy v1.1 published. 100% staff acknowledged.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-004",
+    "name": "ESD Budget Evidence",
+    "description": "Annual budget allocation and financial planning documents.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-004"
+    ],
+    "criteria": "ESD-CRITERIA-04: Budget allocation must be documented",
+    "status": "satisfied",
+    "notes": "FY2569 budget published and approved by council.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-005",
+    "name": "ESD Privacy Evidence",
+    "description": "Data privacy policy and PDPA compliance documentation.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-005"
+    ],
+    "criteria": "ESD-CRITERIA-05: Data privacy policy must be in place",
+    "status": "satisfied",
+    "notes": "PDPA-compliant policy v1.0 published.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-006",
+    "name": "ESD Org Chart Evidence",
+    "description": "Current organizational structure documentation.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-006"
+    ],
+    "criteria": "ESD-CRITERIA-06: Organization chart must be current",
+    "status": "satisfied",
+    "notes": "2026 org chart published and distributed.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-007",
+    "name": "ESD Audit Evidence",
+    "description": "Internal audit results and compliance verification.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-007"
+    ],
+    "criteria": "ESD-CRITERIA-07: Internal audit must be conducted annually",
+    "status": "satisfied",
+    "notes": "FY2568 audit completed. 3 recommendations implemented.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-008",
+    "name": "ESD Emergency Evidence",
+    "description": "Emergency response and business continuity planning.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-008"
+    ],
+    "criteria": "ESD-CRITERIA-08: Emergency response plan must be current",
+    "status": "satisfied",
+    "notes": "Plan v2.0 approved. Drill conducted in Q1 2026.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-009",
+    "name": "ESD Retention Evidence",
+    "description": "Document retention policy and schedule compliance.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-001",
+      "ESD-005"
+    ],
+    "criteria": "ESD-CRITERIA-09: Document retention must comply with regulations",
+    "status": "satisfied",
+    "notes": "Retention schedule followed. Annual review conducted.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ENSH-010",
+    "name": "ESD Cross-Dept Evidence",
+    "description": "Cross-departmental document sharing and access metrics.",
+    "project_ref": "enterprise-shared-docs",
+    "document_refs": [
+      "ESD-001",
+      "ESD-002",
+      "ESD-006"
+    ],
+    "criteria": "ESD-CRITERIA-10: Cross-department access must be maintained",
+    "status": "satisfied",
+    "notes": "All departments have access. 500+ shared documents.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-001",
+    "name": "DT Roadmap Evidence",
+    "description": "Digital transformation roadmap and strategic plan.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-001"
+    ],
+    "criteria": "DT-CRITERIA-01: DT roadmap must be approved",
+    "status": "satisfied",
+    "notes": "Roadmap v1.0 approved by steering committee.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-002",
+    "name": "DT Cloud Evidence",
+    "description": "Cloud migration strategy and implementation plan.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-002"
+    ],
+    "criteria": "DT-CRITERIA-02: Cloud migration strategy must be documented",
+    "status": "satisfied",
+    "notes": "Strategy v1.0 approved. Phase 1 migration in progress.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-003",
+    "name": "DT Training Evidence",
+    "description": "Staff digital skills training program delivery records.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-003"
+    ],
+    "criteria": "DT-CRITERIA-03: Staff digital training must be delivered",
+    "status": "partial",
+    "notes": "Training program launched. 150 staff enrolled in 3 modules.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-004",
+    "name": "DT Governance Evidence",
+    "description": "IT governance framework and decision rights documentation.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-004"
+    ],
+    "criteria": "DT-CRITERIA-04: IT governance framework must be in place",
+    "status": "satisfied",
+    "notes": "Framework v1.0 approved by university council.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-005",
+    "name": "DT Progress Evidence",
+    "description": "Digital transformation progress reporting and milestone tracking.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-005"
+    ],
+    "criteria": "DT-CRITERIA-05: Progress must be reported quarterly",
+    "status": "satisfied",
+    "notes": "Q1 report published. All milestones on schedule.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-006",
+    "name": "DT Integration Evidence",
+    "description": "System integration progress and cross-platform compatibility.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-001",
+      "DT-002"
+    ],
+    "criteria": "DT-CRITERIA-06: System integration milestones must be tracked",
+    "status": "partial",
+    "notes": "Phase 1 integration of 3 systems complete. Phase 2 planned.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-007",
+    "name": "DT Budget Evidence",
+    "description": "Digital transformation budget utilization and forecasts.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-004"
+    ],
+    "criteria": "DT-CRITERIA-07: DT budget must be tracked",
+    "status": "satisfied",
+    "notes": "Budget utilization at 45%. On track for year-end targets.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-008",
+    "name": "DT Stakeholder Evidence",
+    "description": "Stakeholder communication and engagement records.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-005"
+    ],
+    "criteria": "DT-CRITERIA-08: Stakeholder updates must be provided",
+    "status": "satisfied",
+    "notes": "Monthly status reports sent to all stakeholders.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-009",
+    "name": "DT Security Evidence",
+    "description": "Security compliance and risk assessment for digital initiatives.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-002",
+      "DT-004"
+    ],
+    "criteria": "DT-CRITERIA-09: Security must be integrated into DT initiatives",
+    "status": "satisfied",
+    "notes": "Security review conducted. Risk mitigation plan active.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-MJDI-010",
+    "name": "DT Cross-Project Evidence",
+    "description": "Collaboration with Smart Campus and IT Infrastructure projects.",
+    "project_ref": "mju-digital-transformation",
+    "document_refs": [
+      "DT-001",
+      "DT-005",
+      "SC-001"
+    ],
+    "criteria": "DT-CRITERIA-10: Cross-project collaboration required",
+    "status": "satisfied",
+    "notes": "Joint steering committee established. Monthly sync meetings.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-001",
+    "name": "SC IoT Evidence",
+    "description": "IoT infrastructure deployment plan and architecture.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-001"
+    ],
+    "criteria": "SC-CRITERIA-01: IoT infrastructure plan must be approved",
+    "status": "satisfied",
+    "notes": "Plan v1.0 approved. Sensors deployed in 5 buildings.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-002",
+    "name": "SC Security Evidence",
+    "description": "Integrated security system design and implementation status.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-002"
+    ],
+    "criteria": "SC-CRITERIA-02: Security system proposal must be approved",
+    "status": "satisfied",
+    "notes": "Proposal v1.2 approved. Phase 1 implementation in progress.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-003",
+    "name": "SC Classroom Evidence",
+    "description": "Smart classroom technology standards and specifications.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-003"
+    ],
+    "criteria": "SC-CRITERIA-03: Smart classroom standards must be published",
+    "status": "satisfied",
+    "notes": "Standards v1.0 published. 30 classrooms upgraded.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-004",
+    "name": "SC Budget Evidence",
+    "description": "Smart campus budget allocation and resource plan.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-004"
+    ],
+    "criteria": "SC-CRITERIA-04: Budget plan must be approved",
+    "status": "satisfied",
+    "notes": "Budget approved. Phased spending plan in place.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-005",
+    "name": "SC Energy Evidence",
+    "description": "Real-time energy monitoring data and analysis from IoT sensors.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-005"
+    ],
+    "criteria": "SC-CRITERIA-05: Energy monitoring must be operational",
+    "status": "satisfied",
+    "notes": "Smart meters deployed. Dashboard operational.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-006",
+    "name": "SC Pilot Evidence",
+    "description": "Pilot project results and evaluation data.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-001",
+      "SC-003"
+    ],
+    "criteria": "SC-CRITERIA-06: Pilot projects must be evaluated",
+    "status": "partial",
+    "notes": "2 pilots completed. 3 in progress. Evaluation framework active.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-007",
+    "name": "SC Vendor Evidence",
+    "description": "Vendor selection and procurement documentation.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-004"
+    ],
+    "criteria": "SC-CRITERIA-07: Vendor selection must be documented",
+    "status": "partial",
+    "notes": "RFP issued. 5 vendor responses received. Evaluation ongoing.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-008",
+    "name": "SC Sustainability Evidence",
+    "description": "Smart campus sustainability impact measurement.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-005",
+      "GO2026-004"
+    ],
+    "criteria": "SC-CRITERIA-08: Sustainability impact must be measured",
+    "status": "partial",
+    "notes": "Energy savings baseline: 12% reduction in pilot buildings.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-009",
+    "name": "SC Adoption Evidence",
+    "description": "User adoption metrics for smart campus technologies.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-003"
+    ],
+    "criteria": "SC-CRITERIA-09: User adoption must be tracked",
+    "status": "partial",
+    "notes": "Faculty adoption: 65%. Student adoption: 40%.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-SMCA-010",
+    "name": "SC Integration Evidence",
+    "description": "System integration architecture and cross-platform compatibility.",
+    "project_ref": "smart-campus-initiative",
+    "document_refs": [
+      "SC-001",
+      "SC-002"
+    ],
+    "criteria": "SC-CRITERIA-10: System integration must be documented",
+    "status": "satisfied",
+    "notes": "Integration architecture defined. API gateway operational.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-001",
+    "name": "AQ IQA Manual Evidence",
+    "description": "Internal quality assurance manual and procedures.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-001"
+    ],
+    "criteria": "AQ-CRITERIA-01: IQA manual must be current and accessible",
+    "status": "satisfied",
+    "notes": "Manual v3.0 published. Distributed to all programs.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-002",
+    "name": "AQ Self-Assessment Evidence",
+    "description": "Annual program self-assessment completion records.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-002"
+    ],
+    "criteria": "AQ-CRITERIA-02: Annual self-assessment required",
+    "status": "satisfied",
+    "notes": "All 45 programs completed 2025 self-assessment.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-003",
+    "name": "AQ External Audit Evidence",
+    "description": "External audit preparation and readiness documentation.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-003"
+    ],
+    "criteria": "AQ-CRITERIA-03: External audit preparation must be documented",
+    "status": "satisfied",
+    "notes": "Checklist completed. Mock audit conducted.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-004",
+    "name": "AQ Graduate Evidence",
+    "description": "Graduate employment outcomes and program effectiveness data.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-004"
+    ],
+    "criteria": "AQ-CRITERIA-04: Graduate outcomes must be assessed annually",
+    "status": "satisfied",
+    "notes": "Employment rate: 82%. Graduate satisfaction: 4.1/5.0.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-005",
+    "name": "AQ Training Evidence",
+    "description": "QA training delivery and participation records.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-005"
+    ],
+    "criteria": "AQ-CRITERIA-05: QA training must be delivered annually",
+    "status": "satisfied",
+    "notes": "50 committee members and coordinators trained in 2025.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-006",
+    "name": "AQ Program Review Evidence",
+    "description": "Program review cycle documentation and scheduling.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-001",
+      "AQ-002"
+    ],
+    "criteria": "AQ-CRITERIA-06: Program review cycle must be maintained",
+    "status": "satisfied",
+    "notes": "5-year review cycle active. 9 programs reviewed in 2025.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-007",
+    "name": "AQ Improvement Evidence",
+    "description": "Continuous improvement action plans and tracking.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-002"
+    ],
+    "criteria": "AQ-CRITERIA-07: Improvement plans must be documented",
+    "status": "partial",
+    "notes": "Action plans in progress for 3 programs. Monitoring active.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-008",
+    "name": "AQ RAE Alignment Evidence",
+    "description": "Alignment between QA standards and RAE assessment criteria.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-001",
+      "RAE-006"
+    ],
+    "criteria": "AQ-CRITERIA-08: RAE alignment must be maintained",
+    "status": "satisfied",
+    "notes": "IQA standards mapped to RAE criteria. Cross-reference maintained.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-009",
+    "name": "AQ Feedback Evidence",
+    "description": "Stakeholder feedback collection and analysis.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-004",
+      "AQ-002"
+    ],
+    "criteria": "AQ-CRITERIA-09: Stakeholder feedback must be collected",
+    "status": "satisfied",
+    "notes": "Annual survey conducted. Response rate: 72%.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ACQU-010",
+    "name": "AQ Benchmarking Evidence",
+    "description": "External benchmarking and national QA network participation.",
+    "project_ref": "academic-quality-assurance",
+    "document_refs": [
+      "AQ-003"
+    ],
+    "criteria": "AQ-CRITERIA-10: External benchmarking must be conducted",
+    "status": "partial",
+    "notes": "Active participation in national QA network. Benchmarking report pending.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-001",
+    "name": "IC MOU Evidence",
+    "description": "Master MOU framework for international partnerships.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-001"
+    ],
+    "criteria": "IC-CRITERIA-01: MOU framework must be established",
+    "status": "satisfied",
+    "notes": "Framework v1.0 approved. 12 active international MOUs.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-002",
+    "name": "IC Exchange Evidence",
+    "description": "Student and faculty exchange program activity data.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-002"
+    ],
+    "criteria": "IC-CRITERIA-02: Exchange program report required annually",
+    "status": "satisfied",
+    "notes": "2025 report published. 45 exchange participants.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-003",
+    "name": "IC Research Evidence",
+    "description": "Collaborative research guidelines and partnership records.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-003"
+    ],
+    "criteria": "IC-CRITERIA-03: Collaborative research guidelines must be published",
+    "status": "satisfied",
+    "notes": "Guidelines v1.0 published. 8 joint research projects active.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-004",
+    "name": "IC Conference Evidence",
+    "description": "International conference participation policy and records.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-004"
+    ],
+    "criteria": "IC-CRITERIA-04: Conference policy must be documented",
+    "status": "satisfied",
+    "notes": "Policy v1.0 approved. 15 conferences attended in 2025.",
+    "created_at": "2024-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-005",
+    "name": "IC Student Evidence",
+    "description": "International student orientation and support services.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-005"
+    ],
+    "criteria": "IC-CRITERIA-05: International student support must be documented",
+    "status": "satisfied",
+    "notes": "Orientation guide published. Support services operational.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-006",
+    "name": "IC Partnership Evidence",
+    "description": "Active international partnership inventory and status.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-001",
+      "IC-003"
+    ],
+    "criteria": "IC-CRITERIA-06: Partnership agreements must be maintained",
+    "status": "satisfied",
+    "notes": "12 active MOUs with universities in 8 countries.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-007",
+    "name": "IC Funding Evidence",
+    "description": "International collaboration funding sources and grants.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-002"
+    ],
+    "criteria": "IC-CRITERIA-07: Funding sources must be documented",
+    "status": "partial",
+    "notes": "3 grant applications submitted. 1 awarded.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-008",
+    "name": "IC Events Evidence",
+    "description": "International event participation and hosting records.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-004"
+    ],
+    "criteria": "IC-CRITERIA-08: International event participation must be recorded",
+    "status": "satisfied",
+    "notes": "15 conferences attended. 2 international events hosted.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-009",
+    "name": "IC Satisfaction Evidence",
+    "description": "International student and partner satisfaction data.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-005"
+    ],
+    "criteria": "IC-CRITERIA-09: Stakeholder satisfaction must be measured",
+    "status": "partial",
+    "notes": "Survey in development. Pilot planned for Q3 2026.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-INCO-010",
+    "name": "IC Cross-Project Evidence",
+    "description": "Cross-project collaboration with Research Portal.",
+    "project_ref": "international-collaboration",
+    "document_refs": [
+      "IC-001",
+      "IC-003",
+      "RP-005"
+    ],
+    "criteria": "IC-CRITERIA-10: Cross-project collaboration required",
+    "status": "satisfied",
+    "notes": "Joint research MOUs aligned with Research Portal framework.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-001",
+    "name": "SD Leadership Evidence",
+    "description": "Student leadership development program delivery and impact.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-001"
+    ],
+    "criteria": "SD-CRITERIA-01: Leadership program must be delivered annually",
+    "status": "satisfied",
+    "notes": "Program launched. 120 students enrolled in leadership track.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-002",
+    "name": "SD Career Evidence",
+    "description": "Career preparation workshop materials and attendance.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-002"
+    ],
+    "criteria": "SD-CRITERIA-02: Career preparation must be available",
+    "status": "satisfied",
+    "notes": "Workshops conducted for 400+ students. 85% positive feedback.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-003",
+    "name": "SD Activities Evidence",
+    "description": "Student activities catalog and participation data.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-003"
+    ],
+    "criteria": "SD-CRITERIA-03: Activities catalog must be published",
+    "status": "satisfied",
+    "notes": "2026 catalog published. 45 active student clubs.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-004",
+    "name": "SD Volunteer Evidence",
+    "description": "Student volunteer program participation and impact.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-004"
+    ],
+    "criteria": "SD-CRITERIA-04: Volunteer program must be active",
+    "status": "satisfied",
+    "notes": "800 volunteer hours logged across 12 community projects.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-005",
+    "name": "SD Satisfaction Evidence",
+    "description": "Student satisfaction survey results and analysis.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-005"
+    ],
+    "criteria": "SD-CRITERIA-05: Student satisfaction must be measured annually",
+    "status": "satisfied",
+    "notes": "Survey completed. Overall satisfaction: 3.8/5.0.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-006",
+    "name": "SD Skills Evidence",
+    "description": "Student skill development assessment and tracking.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-001",
+      "SD-002"
+    ],
+    "criteria": "SD-CRITERIA-06: Skill development must be tracked",
+    "status": "partial",
+    "notes": "Pre/post assessment implemented for leadership program.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-007",
+    "name": "SD Engagement Evidence",
+    "description": "Student participation and engagement metrics.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-003"
+    ],
+    "criteria": "SD-CRITERIA-07: Student engagement must be measured",
+    "status": "satisfied",
+    "notes": "60% student participation rate in at least one activity.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-008",
+    "name": "SD Financial Evidence",
+    "description": "Student financial support and scholarship data.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-005"
+    ],
+    "criteria": "SD-CRITERIA-08: Financial support data must be maintained",
+    "status": "partial",
+    "notes": "Scholarship database containing 500+ records.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-009",
+    "name": "SD Alumni Evidence",
+    "description": "Alumni engagement and tracking records.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-004"
+    ],
+    "criteria": "SD-CRITERIA-09: Alumni engagement must be maintained",
+    "status": "partial",
+    "notes": "Alumni database: 2,000 records. Engagement events held.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-STDE-010",
+    "name": "SD Cross-Project Evidence",
+    "description": "Collaboration with Learning Center and QA.",
+    "project_ref": "student-development-program",
+    "document_refs": [
+      "SD-002",
+      "SD-005",
+      "AQ-004"
+    ],
+    "criteria": "SD-CRITERIA-10: Cross-project collaboration required",
+    "status": "satisfied",
+    "notes": "Joint career programs with Learning Center. QA data shared.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-001",
+    "name": "CE Outreach Evidence",
+    "description": "Community outreach program framework and implementation.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-001"
+    ],
+    "criteria": "CE-CRITERIA-01: Outreach framework must be established",
+    "status": "satisfied",
+    "notes": "Framework v1.0 approved. Programs active in 10 communities.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-002",
+    "name": "CE Knowledge Evidence",
+    "description": "Knowledge transfer to community activities and outcomes.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-002"
+    ],
+    "criteria": "CE-CRITERIA-02: Knowledge transfer must be reported annually",
+    "status": "satisfied",
+    "notes": "2025 report published. 15 training sessions delivered.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-003",
+    "name": "CE Needs Evidence",
+    "description": "Community needs assessment results and analysis.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-003"
+    ],
+    "criteria": "CE-CRITERIA-03: Community needs must be assessed",
+    "status": "satisfied",
+    "notes": "Assessment completed. Findings inform program planning.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-004",
+    "name": "CE Communication Evidence",
+    "description": "Community newsletter and communication materials.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-004"
+    ],
+    "criteria": "CE-CRITERIA-04: Community communication must be maintained",
+    "status": "satisfied",
+    "notes": "Newsletter published quarterly. Distribution: 500+ readers.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-005",
+    "name": "CE USR Evidence",
+    "description": "University social responsibility report and impact assessment.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-005"
+    ],
+    "criteria": "CE-CRITERIA-05: USR report must be published annually",
+    "status": "satisfied",
+    "notes": "2025 report published. SDG alignment documented.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-006",
+    "name": "CE Partnership Evidence",
+    "description": "Community partnership agreements and collaboration records.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-001",
+      "CE-003"
+    ],
+    "criteria": "CE-CRITERIA-06: Community partnerships must be documented",
+    "status": "satisfied",
+    "notes": "8 active partnership MOUs with local communities.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-007",
+    "name": "CE Impact Evidence",
+    "description": "Community impact measurement and evaluation data.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-002",
+      "CE-005"
+    ],
+    "criteria": "CE-CRITERIA-07: Community impact must be measured",
+    "status": "partial",
+    "notes": "Impact metrics framework in development. Baseline data collected.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-008",
+    "name": "CE Volunteer Evidence",
+    "description": "University volunteer participation in community programs.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-004",
+      "SD-004"
+    ],
+    "criteria": "CE-CRITERIA-08: Volunteer participation must be tracked",
+    "status": "satisfied",
+    "notes": "200+ volunteers from university community engaged.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-009",
+    "name": "CE Budget Evidence",
+    "description": "Community engagement budget utilization and reporting.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-005"
+    ],
+    "criteria": "CE-CRITERIA-09: Budget utilization must be documented",
+    "status": "satisfied",
+    "notes": "Budget fully utilized. Impact-to-cost ratio tracked.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-COEN-010",
+    "name": "CE Sustainability Evidence",
+    "description": "Sustainability integration in community programs.",
+    "project_ref": "community-engagement",
+    "document_refs": [
+      "CE-001",
+      "GO2026-009"
+    ],
+    "criteria": "CE-CRITERIA-10: Sustainability must be integrated",
+    "status": "satisfied",
+    "notes": "SDG alignment mapped. Environmental impact tracked.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-001",
+    "name": "IT Network Evidence",
+    "description": "Network infrastructure upgrade plan and specifications.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-001"
+    ],
+    "criteria": "IT-CRITERIA-01: Network upgrade plan must be documented",
+    "status": "partial",
+    "notes": "Plan in draft review. Expected approval Q3 2026.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-002",
+    "name": "IT Datacenter Evidence",
+    "description": "Data center consolidation strategy and implementation plan.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-002"
+    ],
+    "criteria": "IT-CRITERIA-02: Data center strategy must be documented",
+    "status": "partial",
+    "notes": "Strategy in development. Assessment phase in progress.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-003",
+    "name": "IT Budget Evidence",
+    "description": "IT procurement budget and resource allocation plan.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-003"
+    ],
+    "criteria": "IT-CRITERIA-03: IT budget must be approved",
+    "status": "partial",
+    "notes": "Budget proposal submitted. Review pending.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-004",
+    "name": "IT Continuity Evidence",
+    "description": "IT service continuity and disaster recovery planning.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-004"
+    ],
+    "criteria": "IT-CRITERIA-04: Continuity plan must be current",
+    "status": "satisfied",
+    "notes": "Plan v1.0 approved. Annual drill conducted in Q1.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-005",
+    "name": "IT Vendor Evidence",
+    "description": "IT vendor selection and procurement records.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-003"
+    ],
+    "criteria": "IT-CRITERIA-05: Vendor selection must be documented",
+    "status": "partial",
+    "notes": "Vendor evaluation in progress. RFP responses being reviewed.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-006",
+    "name": "IT Security Evidence",
+    "description": "IT security compliance baseline and risk assessment.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-004",
+      "ESD-005"
+    ],
+    "criteria": "IT-CRITERIA-06: Security compliance must be maintained",
+    "status": "satisfied",
+    "notes": "Security baseline established. Monthly scans conducted.",
+    "created_at": "2025-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-007",
+    "name": "IT Cross-Project Evidence",
+    "description": "Cross-project collaboration with DT and Smart Campus.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-001",
+      "IT-002",
+      "DT-002"
+    ],
+    "criteria": "IT-CRITERIA-07: Cross-project collaboration required",
+    "status": "satisfied",
+    "notes": "Joint architecture review with DT and Smart Campus teams.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "EVD-ITIN-008",
+    "name": "IT Resource Evidence",
+    "description": "IT staffing and resource allocation documentation.",
+    "project_ref": "it-infrastructure-modernization",
+    "document_refs": [
+      "IT-001"
+    ],
+    "criteria": "IT-CRITERIA-08: Resource allocation must be documented",
+    "status": "partial",
+    "notes": "Resource plan in development. Staff augmentation in progress.",
+    "created_at": "2026-06-01T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   }
 ]

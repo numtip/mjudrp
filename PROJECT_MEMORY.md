@@ -6,19 +6,19 @@
 |------|-------|
 | Project | MJU Document Registry Platform |
 | Repository | https://github.com/numtip/mjudrp |
-| Current Phase | Sprint 2A — Core Registry Implementation |
+| Current Phase | Sprint 2B — Registry Population |
 | Architecture Status | **LOCKED** — 8 locked rules, 9 quality gates, change policy established |
 | Branch | main |
 | Schema Version | v1.0 (FROZEN) |
-| Document Count (sample) | 7 |
-| Consumer Projects (registered) | 4 |
+| Document Count | 74 (populated) |
+| Consumer Projects (registered) | 12 |
 | Documentation Files | 47 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation) |
 | Knowledge Base Files | 8 |
 | Memory Files | 9 |
 | Architecture Documents | 10 |
 | Implementation Documents | 6 |
-| Tests | 77 assertions (4 test files) |
-| Build Outputs | 11 JSON files in dist/ |
+| Tests | 211 assertions (4 test files) |
+| Build Outputs | 12 JSON files in dist/ (including statistics.json) |
 
 ## Key Architecture Decisions
 
@@ -41,20 +41,29 @@
 | MiniSearch | Search | ✅ CERTIFIED | 5000 docs in 67ms; zero dependencies |
 | SharePoint Metadata | Microsoft 365 | ✅ CERTIFIED | Architecture verified |
 | Dublin Core Mapping | Metadata | ✅ CERTIFIED | 22/26 fields mapped |
-| AJV + ajv-formats | Validation | ⚠️ CONDITIONAL | Requires ajv-formats |
+| AJV + ajv-formats | Validation | ✅ CERTIFIED | Integrated in Sprint 2A |
 | Filesystem MCP | MCP | ⚠️ CONDITIONAL | Needs Cursor config |
 | GitHub MCP | MCP | ⚠️ CONDITIONAL | Needs Cursor config + PAT |
 | Pagefind | Search | 📐 FUTURE | Deferred to Sprint 3+ |
 | Microsoft Graph API | M365 | 📐 FUTURE | Requires Entra ID app registration |
 | SharePoint Term Store | M365 | 📐 FUTURE | Defer until >20 categories |
 
+## Registry Statistics (Sprint 2B)
+
+| Entity | Count | Target | Status |
+|--------|-------|--------|--------|
+| Documents | 74 | 50+ | ✅ |
+| Categories | 22 | 20+ | ✅ |
+| Projects | 12 | 10+ | ✅ |
+| Owners | 12 | 10+ | ✅ |
+| Evidence | 124 | 100+ | ✅ |
+| Relationships | 250 | 200+ | ✅ |
+
 ## Active Risks
 
 1. No Microsoft 365 API integration — URLs stored as-is, not verified.
-2. Sample data only — real metadata population needed (P0 for Sprint 2).
-3. Consumer projects not yet consuming — onboarding guide now available.
-4. AJV requires ajv-formats dependency for format validation (CONDITIONAL certification).
-5. MCP servers (GitHub, Filesystem) not yet configured in Cursor (CONDITIONAL certification).
+2. Consumer projects not yet consuming — onboarding guide available.
+3. MCP servers (GitHub, Filesystem) not yet configured in Cursor (CONDITIONAL certification).
 
 ## Architecture Layers
 

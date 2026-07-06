@@ -11,8 +11,18 @@
     "status": "approved",
     "owner": "owner-sustainability",
     "department": "Office of Sustainability",
-    "keywords": ["green office", "sustainability", "strategic plan", "MJU", "environment"],
-    "tags": ["green-office", "strategic", "approved"],
+    "keywords": [
+      "green office",
+      "sustainability",
+      "strategic plan",
+      "MJU",
+      "environment"
+    ],
+    "tags": [
+      "green-office",
+      "strategic",
+      "approved"
+    ],
     "language": "th",
     "file_type": "pdf",
     "file_size": 2450000,
@@ -21,12 +31,19 @@
     "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Plans/GO2026_Initiative_Plan_v1.2.pdf",
     "preview_url": "",
     "thumbnail_url": "",
-    "project_refs": ["green-office-2026"],
-    "evidence_refs": ["ev-go-strategy"],
-    "related_documents": ["GO2026-002", "GO2026-003"],
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-001"
+    ],
+    "related_documents": [
+      "GO2026-002",
+      "GO2026-003"
+    ],
     "visibility": "internal",
-    "created_at": "2025-06-01T08:00:00Z",
-    "updated_at": "2026-03-15T10:30:00Z"
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "GO2026-002",
@@ -40,8 +57,18 @@
     "status": "published",
     "owner": "owner-sustainability",
     "department": "Office of Sustainability",
-    "keywords": ["waste management", "recycling", "guidelines", "MJU", "segregation"],
-    "tags": ["waste", "guideline", "published"],
+    "keywords": [
+      "waste management",
+      "recycling",
+      "guidelines",
+      "MJU",
+      "segregation"
+    ],
+    "tags": [
+      "waste",
+      "guideline",
+      "published"
+    ],
     "language": "th",
     "file_type": "docx",
     "file_size": 1800000,
@@ -50,12 +77,18 @@
     "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Guidelines/Waste_Management_Guidelines_2026.docx",
     "preview_url": "",
     "thumbnail_url": "",
-    "project_refs": ["green-office-2026"],
-    "evidence_refs": [],
-    "related_documents": ["GO2026-001"],
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-003"
+    ],
+    "related_documents": [
+      "GO2026-001"
+    ],
     "visibility": "internal",
-    "created_at": "2026-01-10T09:00:00Z",
-    "updated_at": "2026-01-10T09:00:00Z"
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "GO2026-003",
@@ -69,8 +102,19 @@
     "status": "published",
     "owner": "owner-sustainability",
     "department": "Office of Sustainability",
-    "keywords": ["quarterly report", "green office", "progress", "KPI", "Q1"],
-    "tags": ["report", "quarterly", "published", "kpi"],
+    "keywords": [
+      "quarterly report",
+      "green office",
+      "progress",
+      "KPI",
+      "Q1"
+    ],
+    "tags": [
+      "report",
+      "quarterly",
+      "published",
+      "kpi"
+    ],
     "language": "th",
     "file_type": "pdf",
     "file_size": 3200000,
@@ -79,17 +123,347 @@
     "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Reports/Q1_2026_Green_Office_Report.pdf",
     "preview_url": "",
     "thumbnail_url": "",
-    "project_refs": ["green-office-2026", "rae-landing"],
-    "evidence_refs": ["ev-go-progress"],
-    "related_documents": ["GO2026-001"],
+    "project_refs": [
+      "green-office-2026",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-002"
+    ],
+    "related_documents": [
+      "GO2026-001",
+      "GO2026-008"
+    ],
     "visibility": "public",
-    "created_at": "2026-04-05T14:00:00Z",
-    "updated_at": "2026-04-05T14:00:00Z"
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "GO2026-004",
+    "title": "Energy Conservation Action Plan",
+    "description": "Action plan for reducing energy consumption across MJU campus buildings and facilities.",
+    "category": "strategic-plan",
+    "subcategory": "energy",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Office of Sustainability",
+    "keywords": [
+      "energy",
+      "conservation",
+      "action plan",
+      "electricity",
+      "sustainability"
+    ],
+    "tags": [
+      "energy",
+      "action-plan",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1900000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/GreenOffice/Shared Documents/Plans/Energy_Conservation_Action_Plan_v1.1.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Plans/Energy_Conservation_Action_Plan_v1.1.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "green-office-2026",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-004"
+    ],
+    "related_documents": [
+      "GO2026-001",
+      "SC-005"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "GO2026-005",
+    "title": "Water Resource Management Plan",
+    "description": "Comprehensive plan for water conservation, rainwater harvesting, and wastewater treatment at MJU.",
+    "category": "strategic-plan",
+    "subcategory": "water",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Office of Sustainability",
+    "keywords": [
+      "water",
+      "conservation",
+      "rainwater",
+      "wastewater",
+      "sustainability"
+    ],
+    "tags": [
+      "water",
+      "plan",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/GreenOffice/Shared Documents/Plans/Water_Management_Plan_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Plans/Water_Management_Plan_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-005"
+    ],
+    "related_documents": [
+      "GO2026-001",
+      "GO2026-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "GO2026-006",
+    "title": "Green Procurement Guidelines",
+    "description": "Sustainable procurement criteria and vendor selection guidelines for environmentally responsible purchasing.",
+    "category": "guideline",
+    "subcategory": "procurement",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-sustainability",
+    "department": "Office of Sustainability",
+    "keywords": [
+      "green procurement",
+      "sustainable",
+      "purchasing",
+      "vendor",
+      "environment"
+    ],
+    "tags": [
+      "procurement",
+      "guideline",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 1250000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/GreenOffice/Shared Documents/Guidelines/Green_Procurement_Guidelines_v1.0.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Guidelines/Green_Procurement_Guidelines_v1.0.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "green-office-2026",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-008"
+    ],
+    "related_documents": [
+      "GO2026-001",
+      "ESD-005"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "GO2026-007",
+    "title": "Sustainability Awareness Training Module",
+    "description": "Training materials for staff and student sustainability awareness and green office practices.",
+    "category": "training",
+    "subcategory": "sustainability",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-sustainability",
+    "department": "Office of Sustainability",
+    "keywords": [
+      "sustainability",
+      "training",
+      "awareness",
+      "green office",
+      "staff"
+    ],
+    "tags": [
+      "training",
+      "sustainability",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/GreenOffice/Shared Documents/Training/Sustainability_Awareness_Module_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Training/Sustainability_Awareness_Module_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "green-office-2026",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-006"
+    ],
+    "related_documents": [
+      "GO2026-001",
+      "LC-006"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "GO2026-008",
+    "title": "Green Office Q2 Progress Report 2026",
+    "description": "Second quarter progress update with sustainability metrics and departmental achievements.",
+    "category": "report",
+    "subcategory": "quarterly",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-sustainability",
+    "department": "Office of Sustainability",
+    "keywords": [
+      "quarterly report",
+      "Q2",
+      "green office",
+      "metrics",
+      "sustainability"
+    ],
+    "tags": [
+      "report",
+      "quarterly",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/GreenOffice/Shared Documents/Reports/Q2_2026_Green_Office_Report.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Reports/Q2_2026_Green_Office_Report.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": [],
+    "related_documents": [
+      "GO2026-003",
+      "GO2026-001"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "GO2026-009",
+    "title": "Carbon Footprint Assessment Report 2025",
+    "description": "University-wide carbon footprint assessment with baseline measurements and reduction targets.",
+    "category": "report",
+    "subcategory": "assessment",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-sustainability",
+    "department": "Office of Sustainability",
+    "keywords": [
+      "carbon footprint",
+      "emissions",
+      "assessment",
+      "sustainability",
+      "environment"
+    ],
+    "tags": [
+      "carbon",
+      "assessment",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/GreenOffice/Shared Documents/Reports/Carbon_Footprint_Assessment_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Reports/Carbon_Footprint_Assessment_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "green-office-2026",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-007"
+    ],
+    "related_documents": [
+      "GO2026-001",
+      "GO2026-003"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "GO2026-010",
+    "title": "Green Office Newsletter Vol.1 2026",
+    "description": "Quarterly newsletter highlighting sustainability achievements, green tips, and upcoming events.",
+    "category": "communication",
+    "subcategory": "newsletter",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-sustainability",
+    "department": "Office of Sustainability",
+    "keywords": [
+      "newsletter",
+      "green office",
+      "sustainability",
+      "communication",
+      "events"
+    ],
+    "tags": [
+      "communication",
+      "newsletter",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 850000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/GreenOffice/Shared Documents/Communications/GO_Newsletter_Vol1_2026.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/GreenOffice/Shared%20Documents/Communications/GO_Newsletter_Vol1_2026.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "green-office-2026",
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-009"
+    ],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "RAE-001",
     "title": "RAE Assessment Preparation Guide",
-    "description": "Comprehensive guide for faculty preparing documentation for the Research Assessment Exercise (RAE).",
+    "description": "Comprehensive guide for faculty preparing documentation for the Research Assessment Exercise.",
     "category": "guideline",
     "subcategory": "assessment",
     "year": 2025,
@@ -98,8 +472,19 @@
     "status": "approved",
     "owner": "owner-research",
     "department": "Research Administration",
-    "keywords": ["RAE", "assessment", "research", "preparation", "faculty guide"],
-    "tags": ["rae", "guideline", "assessment", "research"],
+    "keywords": [
+      "RAE",
+      "assessment",
+      "research",
+      "preparation",
+      "faculty guide"
+    ],
+    "tags": [
+      "rae",
+      "guideline",
+      "assessment",
+      "research"
+    ],
     "language": "th",
     "file_type": "pdf",
     "file_size": 4100000,
@@ -108,12 +493,20 @@
     "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/RAE/RAE_Assessment_Guide_v2.1.pdf",
     "preview_url": "",
     "thumbnail_url": "",
-    "project_refs": ["rae-landing", "research-portal"],
-    "evidence_refs": ["ev-rae-guidance"],
-    "related_documents": ["RAE-002"],
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-001"
+    ],
+    "related_documents": [
+      "RAE-002",
+      "RAE-003"
+    ],
     "visibility": "public",
-    "created_at": "2025-03-01T08:00:00Z",
-    "updated_at": "2026-02-20T11:00:00Z"
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "RAE-002",
@@ -127,8 +520,19 @@
     "status": "published",
     "owner": "owner-research",
     "department": "Research Administration",
-    "keywords": ["RAE", "template", "evidence", "submission", "form"],
-    "tags": ["rae", "template", "evidence", "submission"],
+    "keywords": [
+      "RAE",
+      "template",
+      "evidence",
+      "submission",
+      "form"
+    ],
+    "tags": [
+      "rae",
+      "template",
+      "evidence",
+      "submission"
+    ],
     "language": "en",
     "file_type": "xlsx",
     "file_size": 980000,
@@ -137,12 +541,305 @@
     "share_url": "https://mju365-my.sharepoint.com/personal/research_mju365_onmicrosoft_com/Documents/RAE/Templates/RAE_Evidence_Template_v1.3.xlsx",
     "preview_url": "",
     "thumbnail_url": "",
-    "project_refs": ["rae-landing", "research-portal"],
-    "evidence_refs": ["ev-rae-submission"],
-    "related_documents": ["RAE-001"],
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-002"
+    ],
+    "related_documents": [
+      "RAE-001",
+      "RAE-007"
+    ],
     "visibility": "public",
-    "created_at": "2025-04-15T10:00:00Z",
-    "updated_at": "2026-01-25T15:30:00Z"
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RAE-003",
+    "title": "RAE Annual Report 2025",
+    "description": "Annual summary of RAE activities, completed assessments, and faculty participation statistics.",
+    "category": "report",
+    "subcategory": "annual",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "RAE",
+      "annual report",
+      "assessment",
+      "statistics",
+      "faculty"
+    ],
+    "tags": [
+      "rae",
+      "report",
+      "annual",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/RAE/Reports/RAE_Annual_Report_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/RAE/Reports/RAE_Annual_Report_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing",
+      "research-portal",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-003"
+    ],
+    "related_documents": [
+      "RAE-001",
+      "AQ-002"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RAE-004",
+    "title": "Research Output Classification Guide",
+    "description": "Guidelines for classifying research outputs according to RAE criteria and international standards.",
+    "category": "guideline",
+    "subcategory": "classification",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "RAE",
+      "classification",
+      "research output",
+      "criteria",
+      "guidelines"
+    ],
+    "tags": [
+      "rae",
+      "classification",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 1500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/RAE/Research_Classification_Guide_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/RAE/Research_Classification_Guide_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-004"
+    ],
+    "related_documents": [
+      "RAE-001"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RAE-005",
+    "title": "Faculty Research Profile Template",
+    "description": "Standardized template for faculty to compile their research profiles and publication records.",
+    "category": "template",
+    "subcategory": "profile",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "RAE",
+      "template",
+      "faculty",
+      "research profile",
+      "publications"
+    ],
+    "tags": [
+      "rae",
+      "template",
+      "faculty"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 720000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/RAE/Templates/Faculty_Research_Profile_Template_v1.0.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/RAE/Templates/Faculty_Research_Profile_Template_v1.0.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-005"
+    ],
+    "related_documents": [
+      "RAE-002",
+      "RP-003"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RAE-006",
+    "title": "RAE Criteria and Standards Document v3.0",
+    "description": "Official RAE assessment criteria, scoring rubrics, and quality standards for research evaluation.",
+    "category": "assessment",
+    "subcategory": "criteria",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "3.0",
+    "status": "approved",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "RAE",
+      "criteria",
+      "standards",
+      "assessment",
+      "scoring"
+    ],
+    "tags": [
+      "rae",
+      "criteria",
+      "standards",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2900000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/RAE/RAE_Criteria_v3.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/RAE/RAE_Criteria_v3.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-006"
+    ],
+    "related_documents": [
+      "RAE-001",
+      "RAE-004",
+      "AQ-001"
+    ],
+    "visibility": "public",
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RAE-007",
+    "title": "RAE Evidence Review Checklist",
+    "description": "Standardized checklist for reviewers to evaluate completeness and quality of evidence submissions.",
+    "category": "assessment",
+    "subcategory": "checklist",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "RAE",
+      "review",
+      "checklist",
+      "evidence",
+      "quality"
+    ],
+    "tags": [
+      "rae",
+      "review",
+      "checklist",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 560000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/RAE/RAE_Review_Checklist_v1.1.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/RAE/RAE_Review_Checklist_v1.1.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-007"
+    ],
+    "related_documents": [
+      "RAE-002",
+      "RAE-006"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RAE-008",
+    "title": "RAE Steering Committee Meeting Minutes Feb 2026",
+    "description": "Minutes from the RAE steering committee meeting covering timeline, milestones, and resource planning.",
+    "category": "meeting",
+    "subcategory": "committee",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "RAE",
+      "meeting",
+      "minutes",
+      "committee",
+      "stakeholder"
+    ],
+    "tags": [
+      "rae",
+      "meeting",
+      "minutes",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/RAE/Meetings/RAE_Committee_Minutes_Feb2026.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/RAE/Meetings/RAE_Committee_Minutes_Feb2026.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-008"
+    ],
+    "related_documents": [
+      "RAE-001",
+      "RAE-003"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "LC-001",
@@ -156,8 +853,19 @@
     "status": "published",
     "owner": "owner-learning",
     "department": "Learning Center",
-    "keywords": ["learning center", "course catalog", "workshops", "training", "MJU"],
-    "tags": ["learning", "catalog", "courses", "2026"],
+    "keywords": [
+      "learning center",
+      "course catalog",
+      "workshops",
+      "training",
+      "MJU"
+    ],
+    "tags": [
+      "learning",
+      "catalog",
+      "courses",
+      "2026"
+    ],
     "language": "th",
     "file_type": "pdf",
     "file_size": 5600000,
@@ -166,17 +874,24 @@
     "share_url": "https://mju365.sharepoint.com/sites/LearningCenter/Shared%20Documents/Catalog/Course_Catalog_2026.pdf",
     "preview_url": "",
     "thumbnail_url": "",
-    "project_refs": ["learning-center"],
-    "evidence_refs": ["ev-lc-catalog"],
-    "related_documents": ["LC-002"],
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-001"
+    ],
+    "related_documents": [
+      "LC-002",
+      "LC-003"
+    ],
     "visibility": "public",
-    "created_at": "2026-05-01T08:00:00Z",
-    "updated_at": "2026-05-15T09:00:00Z"
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   },
   {
     "id": "LC-002",
     "title": "Learning Center Annual Report 2025",
-    "description": "Annual performance report for the MJU Learning Center covering activities, enrollment, and outcomes for 2025.",
+    "description": "Annual performance report for the MJU Learning Center covering activities, enrollment, and outcomes.",
     "category": "report",
     "subcategory": "annual",
     "year": 2025,
@@ -185,8 +900,19 @@
     "status": "published",
     "owner": "owner-learning",
     "department": "Learning Center",
-    "keywords": ["annual report", "learning center", "performance", "enrollment", "2025"],
-    "tags": ["report", "annual", "learning", "performance"],
+    "keywords": [
+      "annual report",
+      "learning center",
+      "performance",
+      "enrollment",
+      "2025"
+    ],
+    "tags": [
+      "report",
+      "annual",
+      "learning",
+      "performance"
+    ],
     "language": "th",
     "file_type": "pdf",
     "file_size": 4200000,
@@ -195,11 +921,2571 @@
     "share_url": "https://mju365-my.sharepoint.com/personal/learning_mju365_onmicrosoft_com/Documents/Reports/Annual_Report_2025.pdf",
     "preview_url": "",
     "thumbnail_url": "",
-    "project_refs": ["learning-center"],
-    "evidence_refs": ["ev-lc-performance"],
-    "related_documents": [],
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-002"
+    ],
+    "related_documents": [
+      "LC-001",
+      "LC-006"
+    ],
     "visibility": "public",
-    "created_at": "2026-01-20T10:00:00Z",
-    "updated_at": "2026-01-20T10:00:00Z"
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "LC-003",
+    "title": "Digital Literacy Workshop Series",
+    "description": "Workshop materials and curriculum for the Digital Literacy program offered to students and staff.",
+    "category": "training",
+    "subcategory": "digital",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "digital literacy",
+      "workshop",
+      "training",
+      "curriculum",
+      "skills"
+    ],
+    "tags": [
+      "training",
+      "digital",
+      "workshop",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 5100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/LearningCenter/Shared Documents/Training/Digital_Literacy_Workshop_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/LearningCenter/Shared%20Documents/Training/Digital_Literacy_Workshop_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "learning-center",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-003"
+    ],
+    "related_documents": [
+      "LC-001",
+      "SD-002"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "LC-004",
+    "title": "Academic Writing Skills Handbook",
+    "description": "Comprehensive handbook for academic writing skills including research papers, theses, and reports.",
+    "category": "training",
+    "subcategory": "writing",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "2.0",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "academic writing",
+      "handbook",
+      "skills",
+      "research",
+      "thesis"
+    ],
+    "tags": [
+      "training",
+      "writing",
+      "handbook",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 4300000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/LearningCenter/Shared Documents/Training/Academic_Writing_Handbook_v2.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/LearningCenter/Shared%20Documents/Training/Academic_Writing_Handbook_v2.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "learning-center",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-004"
+    ],
+    "related_documents": [
+      "LC-001",
+      "RP-002"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "LC-005",
+    "title": "Learning Center Q1 Activity Report 2026",
+    "description": "Quarterly activity report with participation statistics, satisfaction scores, and program highlights.",
+    "category": "report",
+    "subcategory": "quarterly",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "quarterly report",
+      "activity",
+      "participation",
+      "satisfaction",
+      "learning"
+    ],
+    "tags": [
+      "report",
+      "quarterly",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1600000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/LearningCenter/Shared Documents/Reports/LC_Q1_2026_Report.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/LearningCenter/Shared%20Documents/Reports/LC_Q1_2026_Report.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-005"
+    ],
+    "related_documents": [
+      "LC-002",
+      "LC-001"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "LC-006",
+    "title": "Online Learning Platform User Guide",
+    "description": "User guide for the MJU Learning Center's online learning platform and Moodle integration.",
+    "category": "guideline",
+    "subcategory": "online",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "online learning",
+      "Moodle",
+      "user guide",
+      "platform",
+      "e-learning"
+    ],
+    "tags": [
+      "guideline",
+      "online",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2200000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/LearningCenter/Shared Documents/Guidelines/Online_Learning_Platform_Guide_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/LearningCenter/Shared%20Documents/Guidelines/Online_Learning_Platform_Guide_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "learning-center",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-006"
+    ],
+    "related_documents": [
+      "LC-001",
+      "DT-003"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "LC-007",
+    "title": "Learning Center Course Registration Template",
+    "description": "Standard registration form and enrollment template for Learning Center courses and workshops.",
+    "category": "template",
+    "subcategory": "registration",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "registration",
+      "template",
+      "enrollment",
+      "course",
+      "form"
+    ],
+    "tags": [
+      "template",
+      "registration",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 450000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/LearningCenter/Shared Documents/Templates/Course_Registration_Template_v1.2.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/LearningCenter/Shared%20Documents/Templates/Course_Registration_Template_v1.2.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [],
+    "related_documents": [
+      "LC-001"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "LC-008",
+    "title": "Learning Center Strategic Plan 2026-2028",
+    "description": "Three-year strategic plan for Learning Center expansion, program development, and digital transformation.",
+    "category": "strategic-plan",
+    "subcategory": "institutional",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "strategic plan",
+      "learning center",
+      "expansion",
+      "three-year",
+      "development"
+    ],
+    "tags": [
+      "strategic",
+      "plan",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2700000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/LearningCenter/Shared Documents/Plans/LC_Strategic_Plan_2026-2028.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/LearningCenter/Shared%20Documents/Plans/LC_Strategic_Plan_2026-2028.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-008"
+    ],
+    "related_documents": [
+      "LC-001",
+      "LC-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RP-001",
+    "title": "MJU Research Publication Database Schema",
+    "description": "Database schema documentation for the MJU Research Portal publication tracking and management system.",
+    "category": "technical",
+    "subcategory": "database",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "research portal",
+      "database",
+      "schema",
+      "publication",
+      "technical"
+    ],
+    "tags": [
+      "research",
+      "technical",
+      "database",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 1980000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/Portal/Publication_DB_Schema_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/Portal/Publication_DB_Schema_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "research-portal",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-001"
+    ],
+    "related_documents": [
+      "RP-002",
+      "RP-003"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RP-002",
+    "title": "Research Methodology Guidelines",
+    "description": "Guidelines for research methodology selection, study design, and data collection methods.",
+    "category": "guideline",
+    "subcategory": "methodology",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "approved",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "research methodology",
+      "guidelines",
+      "study design",
+      "data collection",
+      "methods"
+    ],
+    "tags": [
+      "research",
+      "guideline",
+      "methodology",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3600000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/Research/Methodology_Guidelines_v1.1.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/Research/Methodology_Guidelines_v1.1.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "research-portal",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-002"
+    ],
+    "related_documents": [
+      "RP-001",
+      "LC-004"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RP-003",
+    "title": "MJU Research Publications 2025 Compilation",
+    "description": "Compiled volume of all MJU-affiliated research publications from the 2025 calendar year.",
+    "category": "research-output",
+    "subcategory": "compilation",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "research publications",
+      "compilation",
+      "MJU",
+      "2025",
+      "academic"
+    ],
+    "tags": [
+      "research",
+      "publication",
+      "compilation",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 7800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/Publications/MJU_Research_Publications_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/Publications/MJU_Research_Publications_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "research-portal",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-003"
+    ],
+    "related_documents": [
+      "RP-001",
+      "RAE-003"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RP-004",
+    "title": "Research Ethics Approval Form",
+    "description": "Standard form for research ethics approval and institutional review board submissions.",
+    "category": "template",
+    "subcategory": "ethics",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "2.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "research ethics",
+      "approval",
+      "form",
+      "IRB",
+      "template"
+    ],
+    "tags": [
+      "research",
+      "template",
+      "ethics",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 680000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/Templates/Research_Ethics_Form_v2.0.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/Templates/Research_Ethics_Form_v2.0.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-004"
+    ],
+    "related_documents": [
+      "RP-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RP-005",
+    "title": "Research Collaboration MOU Template",
+    "description": "Standard memorandum of understanding template for research collaborations and academic partnerships.",
+    "category": "contract",
+    "subcategory": "mou",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "MOU",
+      "template",
+      "collaboration",
+      "research",
+      "partnership"
+    ],
+    "tags": [
+      "contract",
+      "mou",
+      "template",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 520000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/Contracts/MOU_Template_v1.0.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/Contracts/MOU_Template_v1.0.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "research-portal",
+      "international-collaboration"
+    ],
+    "evidence_refs": [],
+    "related_documents": [
+      "RP-001",
+      "IC-003"
+    ],
+    "visibility": "internal",
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "RP-006",
+    "title": "Research Impact Assessment Report 2025",
+    "description": "Analysis of research impact metrics, citation counts, and knowledge transfer activities for 2025.",
+    "category": "report",
+    "subcategory": "impact",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Administration",
+    "keywords": [
+      "research impact",
+      "assessment",
+      "metrics",
+      "citations",
+      "knowledge transfer"
+    ],
+    "tags": [
+      "research",
+      "report",
+      "impact",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/ResearchOffice/Shared Documents/Reports/Research_Impact_Report_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/ResearchOffice/Shared%20Documents/Reports/Research_Impact_Report_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "research-portal",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-006"
+    ],
+    "related_documents": [
+      "RP-003",
+      "AQ-004"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-001",
+    "title": "University Administrative Policy Manual",
+    "description": "Comprehensive policy manual covering all university administrative procedures and regulations.",
+    "category": "policy",
+    "subcategory": "administration",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "4.0",
+    "status": "approved",
+    "owner": "owner-admin",
+    "department": "Central Administration",
+    "keywords": [
+      "policy",
+      "manual",
+      "administration",
+      "university",
+      "regulations"
+    ],
+    "tags": [
+      "policy",
+      "manual",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 8500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Policies/Admin_Policy_Manual_v4.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Policies/Admin_Policy_Manual_v4.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-001"
+    ],
+    "related_documents": [
+      "ESD-002",
+      "ESD-003"
+    ],
+    "visibility": "public",
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-002",
+    "title": "Procurement and Purchasing Guidelines",
+    "description": "Standard operating procedures for university procurement, vendor selection, and purchasing processes.",
+    "category": "guideline",
+    "subcategory": "procurement",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "2.0",
+    "status": "approved",
+    "owner": "owner-finance",
+    "department": "Finance Division",
+    "keywords": [
+      "procurement",
+      "purchasing",
+      "guidelines",
+      "vendor",
+      "finance"
+    ],
+    "tags": [
+      "guideline",
+      "procurement",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3400000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Guidelines/Procurement_Guidelines_v2.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Guidelines/Procurement_Guidelines_v2.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs",
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-002"
+    ],
+    "related_documents": [
+      "ESD-001",
+      "ESD-004"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-003",
+    "title": "Staff Leave and Attendance Policy",
+    "description": "University policy on staff leave types, attendance tracking, and time-off procedures.",
+    "category": "policy",
+    "subcategory": "hr",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "approved",
+    "owner": "owner-admin",
+    "department": "Central Administration",
+    "keywords": [
+      "leave",
+      "attendance",
+      "policy",
+      "staff",
+      "HR"
+    ],
+    "tags": [
+      "policy",
+      "hr",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Policies/Staff_Leave_Policy_v1.1.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Policies/Staff_Leave_Policy_v1.1.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-003"
+    ],
+    "related_documents": [
+      "ESD-001"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-004",
+    "title": "Annual Budget Allocation FY2569",
+    "description": "Detailed budget allocation document for the Thai fiscal year 2569 across all university units.",
+    "category": "budget",
+    "subcategory": "annual",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-finance",
+    "department": "Finance Division",
+    "keywords": [
+      "budget",
+      "allocation",
+      "fiscal year",
+      "2569",
+      "finance"
+    ],
+    "tags": [
+      "budget",
+      "annual",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2900000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Budget/Budget_Allocation_FY2569.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Budget/Budget_Allocation_FY2569.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-004"
+    ],
+    "related_documents": [
+      "ESD-002",
+      "ESD-001"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-005",
+    "title": "Data Privacy and Protection Policy",
+    "description": "University policy on data privacy, personal data protection, and compliance with Thailand PDPA.",
+    "category": "policy",
+    "subcategory": "data",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-legal",
+    "department": "Legal Affairs",
+    "keywords": [
+      "data privacy",
+      "PDPA",
+      "policy",
+      "compliance",
+      "protection"
+    ],
+    "tags": [
+      "policy",
+      "privacy",
+      "approved",
+      "compliance"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Policies/Data_Privacy_Policy_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Policies/Data_Privacy_Policy_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-005"
+    ],
+    "related_documents": [
+      "ESD-001",
+      "DT-002",
+      "DT-005"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-006",
+    "title": "University Organization Chart and Structure",
+    "description": "Official university organizational chart showing all faculties, departments, and administrative units.",
+    "category": "archive",
+    "subcategory": "org",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-admin",
+    "department": "Central Administration",
+    "keywords": [
+      "organization",
+      "chart",
+      "structure",
+      "university",
+      "departments"
+    ],
+    "tags": [
+      "archive",
+      "org-chart",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1200000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Admin/Org_Chart_2026.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Admin/Org_Chart_2026.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [],
+    "related_documents": [
+      "ESD-001"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-007",
+    "title": "Internal Audit Report FY2568",
+    "description": "Annual internal audit findings, compliance assessment, and recommendations for fiscal year 2568.",
+    "category": "compliance",
+    "subcategory": "audit",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-qa",
+    "department": "Quality Assurance",
+    "keywords": [
+      "audit",
+      "internal",
+      "compliance",
+      "FY2568",
+      "findings"
+    ],
+    "tags": [
+      "compliance",
+      "audit",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Audit/Internal_Audit_FY2568.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Audit/Internal_Audit_FY2568.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-007"
+    ],
+    "related_documents": [
+      "ESD-001",
+      "AQ-003"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "ESD-008",
+    "title": "University Emergency Response Plan",
+    "description": "Emergency preparedness and response plan covering natural disasters, fires, and security incidents.",
+    "category": "policy",
+    "subcategory": "safety",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "2.0",
+    "status": "approved",
+    "owner": "owner-admin",
+    "department": "Central Administration",
+    "keywords": [
+      "emergency",
+      "response",
+      "safety",
+      "disaster",
+      "security"
+    ],
+    "tags": [
+      "policy",
+      "safety",
+      "emergency",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Admin/Shared Documents/Policies/Emergency_Response_Plan_v2.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Admin/Shared%20Documents/Policies/Emergency_Response_Plan_v2.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "enterprise-shared-docs",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-008"
+    ],
+    "related_documents": [
+      "ESD-001",
+      "SC-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "DT-001",
+    "title": "MJU Digital Transformation Roadmap 2026-2028",
+    "description": "Strategic roadmap for digital transformation across all university operations, services, and systems.",
+    "category": "strategic-plan",
+    "subcategory": "digital",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "digital transformation",
+      "roadmap",
+      "strategy",
+      "MJU",
+      "modernization"
+    ],
+    "tags": [
+      "digital",
+      "strategy",
+      "roadmap",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 4200000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/DT/DT_Roadmap_2026-2028.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/DT/DT_Roadmap_2026-2028.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-001"
+    ],
+    "related_documents": [
+      "DT-002",
+      "DT-003"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "DT-002",
+    "title": "Cloud Migration Strategy",
+    "description": "Strategy and implementation plan for migrating university on-premises services to cloud infrastructure.",
+    "category": "technical",
+    "subcategory": "cloud",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "cloud",
+      "migration",
+      "strategy",
+      "infrastructure",
+      "azure"
+    ],
+    "tags": [
+      "technical",
+      "cloud",
+      "strategy",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3600000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/DT/Cloud_Migration_Strategy_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/DT/Cloud_Migration_Strategy_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "mju-digital-transformation",
+      "it-infrastructure-modernization"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-002"
+    ],
+    "related_documents": [
+      "DT-001",
+      "IT-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "DT-003",
+    "title": "Digital Services Staff Training Program",
+    "description": "Training program for university staff on new digital tools, platforms, and transformed workflows.",
+    "category": "training",
+    "subcategory": "digital",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "digital services",
+      "training",
+      "staff",
+      "tools",
+      "workflows"
+    ],
+    "tags": [
+      "training",
+      "digital",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/DT/Digital_Services_Training_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/DT/Digital_Services_Training_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "mju-digital-transformation",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-003"
+    ],
+    "related_documents": [
+      "DT-001",
+      "LC-006"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "DT-004",
+    "title": "IT Governance Framework",
+    "description": "Framework for IT governance, decision rights, accountability structure, and technology oversight.",
+    "category": "policy",
+    "subcategory": "it",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "IT governance",
+      "framework",
+      "policy",
+      "decision rights",
+      "accountability"
+    ],
+    "tags": [
+      "policy",
+      "governance",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 1950000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/Policies/IT_Governance_Framework_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/Policies/IT_Governance_Framework_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "mju-digital-transformation",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-004"
+    ],
+    "related_documents": [
+      "DT-001",
+      "ESD-001"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "DT-005",
+    "title": "Digital Transformation Progress Report Q1 2026",
+    "description": "Quarterly progress update on digital transformation initiatives, milestones, and key metrics.",
+    "category": "report",
+    "subcategory": "progress",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "digital transformation",
+      "progress",
+      "Q1",
+      "milestones",
+      "report"
+    ],
+    "tags": [
+      "report",
+      "progress",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2300000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/DT/DT_Progress_Q1_2026.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/DT/DT_Progress_Q1_2026.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "mju-digital-transformation",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-005"
+    ],
+    "related_documents": [
+      "DT-001",
+      "SC-001"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SC-001",
+    "title": "Smart Campus IoT Infrastructure Plan",
+    "description": "Technical plan for IoT sensor deployment, network architecture, and campus data collection infrastructure.",
+    "category": "technical",
+    "subcategory": "iot",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "smart campus",
+      "IoT",
+      "infrastructure",
+      "sensors",
+      "network"
+    ],
+    "tags": [
+      "technical",
+      "iot",
+      "plan",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 5100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/SmartCampus/IoT_Infrastructure_Plan_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/SmartCampus/IoT_Infrastructure_Plan_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "smart-campus-initiative",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-001"
+    ],
+    "related_documents": [
+      "SC-002",
+      "DT-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SC-002",
+    "title": "Smart Campus Security System Proposal",
+    "description": "Comprehensive proposal for integrated security systems including CCTV, access control, and emergency notification.",
+    "category": "technical",
+    "subcategory": "security",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "approved",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "smart campus",
+      "security",
+      "CCTV",
+      "access control",
+      "emergency"
+    ],
+    "tags": [
+      "technical",
+      "security",
+      "proposal",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/SmartCampus/Security_System_Proposal_v1.2.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/SmartCampus/Security_System_Proposal_v1.2.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "smart-campus-initiative",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-002"
+    ],
+    "related_documents": [
+      "SC-001",
+      "ESD-008"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SC-003",
+    "title": "Smart Classroom Technology Standards",
+    "description": "Technical standards and specifications for smart classroom equipment, AV systems, and hybrid teaching.",
+    "category": "technical",
+    "subcategory": "classroom",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "smart classroom",
+      "AV",
+      "technology",
+      "standards",
+      "equipment"
+    ],
+    "tags": [
+      "technical",
+      "classroom",
+      "standards",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3200000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/SmartCampus/Smart_Classroom_Standards_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/SmartCampus/Smart_Classroom_Standards_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "smart-campus-initiative",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-003"
+    ],
+    "related_documents": [
+      "SC-001",
+      "LC-001"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SC-004",
+    "title": "Smart Campus Budget and Resource Plan",
+    "description": "Budget allocation and resource planning document for smart campus infrastructure projects.",
+    "category": "budget",
+    "subcategory": "infrastructure",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "budget",
+      "smart campus",
+      "infrastructure",
+      "resources",
+      "allocation"
+    ],
+    "tags": [
+      "budget",
+      "smart-campus",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 1100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/SmartCampus/Budget_Plan_v1.0.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/SmartCampus/Budget_Plan_v1.0.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-004"
+    ],
+    "related_documents": [
+      "SC-001",
+      "ESD-004"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SC-005",
+    "title": "Smart Campus Energy Monitoring Report",
+    "description": "Energy consumption data analysis from smart meters and IoT sensors deployed across campus buildings.",
+    "category": "data",
+    "subcategory": "energy",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "energy",
+      "monitoring",
+      "smart meters",
+      "IoT",
+      "data"
+    ],
+    "tags": [
+      "data",
+      "energy",
+      "monitoring",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 5200000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/SmartCampus/Energy_Monitoring_Report_2026.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/SmartCampus/Energy_Monitoring_Report_2026.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "smart-campus-initiative",
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-005"
+    ],
+    "related_documents": [
+      "SC-001",
+      "GO2026-004",
+      "GO2026-009"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "AQ-001",
+    "title": "Internal Quality Assurance Manual",
+    "description": "Comprehensive manual for internal quality assurance processes, self-assessment, and program evaluation.",
+    "category": "assessment",
+    "subcategory": "qa",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "3.0",
+    "status": "approved",
+    "owner": "owner-qa",
+    "department": "Quality Assurance",
+    "keywords": [
+      "quality assurance",
+      "manual",
+      "self-assessment",
+      "evaluation",
+      "internal"
+    ],
+    "tags": [
+      "qa",
+      "manual",
+      "assessment",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 6200000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/QA/Shared Documents/Manuals/IQA_Manual_v3.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/QA/Shared%20Documents/Manuals/IQA_Manual_v3.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-001"
+    ],
+    "related_documents": [
+      "AQ-002",
+      "AQ-003",
+      "ESD-001"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "AQ-002",
+    "title": "Program Self-Assessment Report 2025",
+    "description": "Annual self-assessment reports for all academic programs with improvement action plans.",
+    "category": "report",
+    "subcategory": "self-assessment",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-qa",
+    "department": "Quality Assurance",
+    "keywords": [
+      "self-assessment",
+      "program",
+      "academic",
+      "quality",
+      "2025"
+    ],
+    "tags": [
+      "qa",
+      "self-assessment",
+      "report",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 7500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/QA/Shared Documents/Reports/Self_Assessment_Report_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/QA/Shared%20Documents/Reports/Self_Assessment_Report_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "academic-quality-assurance",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-002"
+    ],
+    "related_documents": [
+      "AQ-001",
+      "RAE-003",
+      "RAE-006"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "AQ-003",
+    "title": "External Audit Preparation Checklist",
+    "description": "Checklist and preparation guide for the upcoming external quality assurance audit.",
+    "category": "assessment",
+    "subcategory": "audit",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-qa",
+    "department": "Quality Assurance",
+    "keywords": [
+      "external audit",
+      "checklist",
+      "preparation",
+      "quality",
+      "compliance"
+    ],
+    "tags": [
+      "qa",
+      "audit",
+      "checklist",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 890000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/QA/Shared Documents/Audit/External_Audit_Checklist_v1.0.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/QA/Shared%20Documents/Audit/External_Audit_Checklist_v1.0.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-003"
+    ],
+    "related_documents": [
+      "AQ-001",
+      "AQ-002",
+      "ESD-007"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "AQ-004",
+    "title": "Graduate Outcome Assessment Report 2025",
+    "description": "Assessment of graduate employment outcomes, satisfaction levels, and program effectiveness.",
+    "category": "report",
+    "subcategory": "graduate",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-qa",
+    "department": "Quality Assurance",
+    "keywords": [
+      "graduate",
+      "outcome",
+      "assessment",
+      "employment",
+      "satisfaction"
+    ],
+    "tags": [
+      "qa",
+      "graduate",
+      "assessment",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/QA/Shared Documents/Reports/Graduate_Outcomes_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/QA/Shared%20Documents/Reports/Graduate_Outcomes_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "academic-quality-assurance",
+      "research-portal",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-004"
+    ],
+    "related_documents": [
+      "AQ-001",
+      "RP-006",
+      "SD-005"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "AQ-005",
+    "title": "Quality Assurance Training Materials v2.0",
+    "description": "Training materials for QA committee members and program coordinators on assessment procedures.",
+    "category": "training",
+    "subcategory": "qa",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "2.0",
+    "status": "published",
+    "owner": "owner-qa",
+    "department": "Quality Assurance",
+    "keywords": [
+      "QA training",
+      "assessment",
+      "committee",
+      "coordinators",
+      "procedures"
+    ],
+    "tags": [
+      "qa",
+      "training",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 5400000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/QA/Shared Documents/Training/QA_Training_Materials_v2.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/QA/Shared%20Documents/Training/QA_Training_Materials_v2.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "academic-quality-assurance",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-005"
+    ],
+    "related_documents": [
+      "AQ-001",
+      "LC-003"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IC-001",
+    "title": "International Partnership Agreement MOU",
+    "description": "Master MOU template and agreement framework for international university partnerships and exchanges.",
+    "category": "contract",
+    "subcategory": "mou",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-international",
+    "department": "International Affairs",
+    "keywords": [
+      "MOU",
+      "international",
+      "partnership",
+      "agreement",
+      "template"
+    ],
+    "tags": [
+      "contract",
+      "international",
+      "mou",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/International/Shared Documents/Agreements/Partnership_MOU_Framework_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/International/Shared%20Documents/Agreements/Partnership_MOU_Framework_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "international-collaboration",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-001"
+    ],
+    "related_documents": [
+      "IC-002",
+      "IC-003",
+      "RP-005"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IC-002",
+    "title": "International Exchange Program Report 2025",
+    "description": "Annual report on student and faculty exchange activities, partnerships, and outcomes.",
+    "category": "report",
+    "subcategory": "exchange",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-international",
+    "department": "International Affairs",
+    "keywords": [
+      "exchange",
+      "international",
+      "student",
+      "faculty",
+      "report"
+    ],
+    "tags": [
+      "international",
+      "report",
+      "exchange",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3600000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/International/Shared Documents/Reports/Exchange_Program_Report_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/International/Shared%20Documents/Reports/Exchange_Program_Report_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "international-collaboration",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-002"
+    ],
+    "related_documents": [
+      "IC-001",
+      "SD-004"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IC-003",
+    "title": "Collaborative Research Agreement Guidelines",
+    "description": "Guidelines for establishing and managing collaborative research projects with international partners.",
+    "category": "guideline",
+    "subcategory": "collaboration",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-international",
+    "department": "International Affairs",
+    "keywords": [
+      "collaborative research",
+      "international",
+      "guidelines",
+      "partnership",
+      "agreement"
+    ],
+    "tags": [
+      "international",
+      "guideline",
+      "research",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 1800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/International/Shared Documents/Guidelines/Collaborative_Research_Guidelines_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/International/Shared%20Documents/Guidelines/Collaborative_Research_Guidelines_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "international-collaboration",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-003"
+    ],
+    "related_documents": [
+      "IC-001",
+      "RP-002"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IC-004",
+    "title": "International Conference Participation Policy",
+    "description": "Policy governing faculty and staff participation in international conferences and professional events.",
+    "category": "policy",
+    "subcategory": "international",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-international",
+    "department": "International Affairs",
+    "keywords": [
+      "conference",
+      "international",
+      "policy",
+      "faculty",
+      "participation"
+    ],
+    "tags": [
+      "policy",
+      "international",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 1400000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/International/Shared Documents/Policies/Conference_Participation_Policy_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/International/Shared%20Documents/Policies/Conference_Participation_Policy_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "international-collaboration"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-004"
+    ],
+    "related_documents": [
+      "IC-001",
+      "ESD-001"
+    ],
+    "visibility": "internal",
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IC-005",
+    "title": "International Student Orientation Guide",
+    "description": "Comprehensive guide for incoming international students covering visa, accommodation, and campus life.",
+    "category": "guideline",
+    "subcategory": "orientation",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-international",
+    "department": "International Affairs",
+    "keywords": [
+      "international student",
+      "orientation",
+      "guide",
+      "visa",
+      "campus"
+    ],
+    "tags": [
+      "international",
+      "guide",
+      "orientation",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 4700000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/International/Shared Documents/Guides/International_Student_Guide_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/International/Shared%20Documents/Guides/International_Student_Guide_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "international-collaboration",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-005"
+    ],
+    "related_documents": [
+      "IC-001",
+      "LC-001"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SD-001",
+    "title": "Student Leadership Development Program",
+    "description": "Comprehensive curriculum and materials for the student leadership development workshop series.",
+    "category": "training",
+    "subcategory": "leadership",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-student",
+    "department": "Student Development",
+    "keywords": [
+      "leadership",
+      "student",
+      "development",
+      "workshop",
+      "curriculum"
+    ],
+    "tags": [
+      "student",
+      "leadership",
+      "training",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/StudentDev/Shared Documents/Training/Leadership_Program_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/StudentDev/Shared%20Documents/Training/Leadership_Program_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-001"
+    ],
+    "related_documents": [
+      "SD-002",
+      "SD-003"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SD-002",
+    "title": "Career Preparation Workshop Materials",
+    "description": "Workshop materials for resume writing, interview skills, career planning, and job search strategies.",
+    "category": "training",
+    "subcategory": "career",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-student",
+    "department": "Student Development",
+    "keywords": [
+      "career",
+      "preparation",
+      "workshop",
+      "resume",
+      "interview"
+    ],
+    "tags": [
+      "student",
+      "career",
+      "training",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3600000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/StudentDev/Shared Documents/Training/Career_Preparation_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/StudentDev/Shared%20Documents/Training/Career_Preparation_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "student-development-program",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-002"
+    ],
+    "related_documents": [
+      "SD-001",
+      "LC-003"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SD-003",
+    "title": "Student Activities and Clubs Catalog 2026",
+    "description": "Comprehensive catalog of student clubs, organizations, and extracurricular activities for 2026.",
+    "category": "catalog",
+    "subcategory": "activities",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-student",
+    "department": "Student Development",
+    "keywords": [
+      "student activities",
+      "clubs",
+      "organizations",
+      "extracurricular",
+      "catalog"
+    ],
+    "tags": [
+      "student",
+      "catalog",
+      "activities",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/StudentDev/Shared Documents/Catalog/Student_Activities_Catalog_2026.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/StudentDev/Shared%20Documents/Catalog/Student_Activities_Catalog_2026.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-003"
+    ],
+    "related_documents": [
+      "SD-001",
+      "SD-004"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SD-004",
+    "title": "Student Volunteer Program Report 2025",
+    "description": "Report on student volunteer activities, community service hours, and program impact assessment.",
+    "category": "report",
+    "subcategory": "volunteer",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-student",
+    "department": "Student Development",
+    "keywords": [
+      "volunteer",
+      "student",
+      "community service",
+      "report",
+      "impact"
+    ],
+    "tags": [
+      "student",
+      "volunteer",
+      "report",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2700000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/StudentDev/Shared Documents/Reports/Volunteer_Program_Report_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/StudentDev/Shared%20Documents/Reports/Volunteer_Program_Report_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "student-development-program",
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-004"
+    ],
+    "related_documents": [
+      "SD-003",
+      "CE-004"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "SD-005",
+    "title": "Student Satisfaction Survey Results 2025",
+    "description": "Analysis of student satisfaction survey data covering university services, facilities, and learning experience.",
+    "category": "data",
+    "subcategory": "survey",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-student",
+    "department": "Student Development",
+    "keywords": [
+      "student satisfaction",
+      "survey",
+      "data",
+      "analysis",
+      "services"
+    ],
+    "tags": [
+      "student",
+      "data",
+      "survey",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2400000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/StudentDev/Shared Documents/Data/Student_Satisfaction_Survey_2025.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/StudentDev/Shared%20Documents/Data/Student_Satisfaction_Survey_2025.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "student-development-program",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-005"
+    ],
+    "related_documents": [
+      "SD-001",
+      "AQ-004"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "CE-001",
+    "title": "Community Outreach Program Framework",
+    "description": "Framework for university community outreach programs, engagement models, and impact measurement.",
+    "category": "strategic-plan",
+    "subcategory": "community",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-community",
+    "department": "Community Engagement",
+    "keywords": [
+      "community",
+      "outreach",
+      "engagement",
+      "framework",
+      "impact"
+    ],
+    "tags": [
+      "community",
+      "strategy",
+      "framework",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2900000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Community/Shared Documents/Plans/Outreach_Framework_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Community/Shared%20Documents/Plans/Outreach_Framework_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-001"
+    ],
+    "related_documents": [
+      "CE-002",
+      "CE-003"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "CE-002",
+    "title": "Knowledge Transfer to Community Report 2025",
+    "description": "Report on knowledge transfer activities, training delivered to communities, and technology adoption.",
+    "category": "report",
+    "subcategory": "knowledge-transfer",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-community",
+    "department": "Community Engagement",
+    "keywords": [
+      "knowledge transfer",
+      "community",
+      "training",
+      "technology",
+      "report"
+    ],
+    "tags": [
+      "community",
+      "report",
+      "knowledge-transfer",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3400000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Community/Shared Documents/Reports/Knowledge_Transfer_Report_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Community/Shared%20Documents/Reports/Knowledge_Transfer_Report_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "community-engagement",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-002"
+    ],
+    "related_documents": [
+      "CE-001",
+      "RP-003"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "CE-003",
+    "title": "Community Needs Assessment Survey",
+    "description": "Survey instrument design and results analysis from community needs assessment for program planning.",
+    "category": "assessment",
+    "subcategory": "needs",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-community",
+    "department": "Community Engagement",
+    "keywords": [
+      "needs assessment",
+      "community",
+      "survey",
+      "planning",
+      "data"
+    ],
+    "tags": [
+      "community",
+      "assessment",
+      "survey",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2100000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Community/Shared Documents/Assessments/Community_Needs_Assessment_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Community/Shared%20Documents/Assessments/Community_Needs_Assessment_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-003"
+    ],
+    "related_documents": [
+      "CE-001",
+      "CE-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "CE-004",
+    "title": "Community Engagement Newsletter Q1 2026",
+    "description": "Quarterly newsletter highlighting community engagement activities, success stories, and upcoming events.",
+    "category": "communication",
+    "subcategory": "newsletter",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-community",
+    "department": "Community Engagement",
+    "keywords": [
+      "newsletter",
+      "community",
+      "engagement",
+      "success stories",
+      "activities"
+    ],
+    "tags": [
+      "community",
+      "newsletter",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 950000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Community/Shared Documents/Communications/CE_Newsletter_Q1_2026.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Community/Shared%20Documents/Communications/CE_Newsletter_Q1_2026.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "community-engagement",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-004"
+    ],
+    "related_documents": [
+      "CE-001",
+      "SD-004"
+    ],
+    "visibility": "public",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "CE-005",
+    "title": "University Social Responsibility Report 2025",
+    "description": "University social responsibility report covering community impact, sustainability, and ethical initiatives.",
+    "category": "report",
+    "subcategory": "social-responsibility",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-community",
+    "department": "Community Engagement",
+    "keywords": [
+      "social responsibility",
+      "USR",
+      "community",
+      "sustainability",
+      "impact"
+    ],
+    "tags": [
+      "community",
+      "USR",
+      "report",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3900000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/Community/Shared Documents/Reports/USR_Report_2025.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/Community/Shared%20Documents/Reports/USR_Report_2025.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "community-engagement",
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-005"
+    ],
+    "related_documents": [
+      "CE-001",
+      "GO2026-009"
+    ],
+    "visibility": "public",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IT-001",
+    "title": "Network Infrastructure Upgrade Plan",
+    "description": "Technical plan for upgrading campus network infrastructure, bandwidth expansion, and wireless coverage.",
+    "category": "technical",
+    "subcategory": "network",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "network",
+      "infrastructure",
+      "upgrade",
+      "bandwidth",
+      "wireless"
+    ],
+    "tags": [
+      "technical",
+      "network",
+      "plan",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 4500000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/Infrastructure/Network_Upgrade_Plan_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/Infrastructure/Network_Upgrade_Plan_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "it-infrastructure-modernization",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-001"
+    ],
+    "related_documents": [
+      "IT-002",
+      "DT-002"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IT-002",
+    "title": "Data Center Consolidation Strategy",
+    "description": "Strategy for consolidating and modernizing university data center operations and server infrastructure.",
+    "category": "technical",
+    "subcategory": "datacenter",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "data center",
+      "consolidation",
+      "strategy",
+      "modernization",
+      "infrastructure"
+    ],
+    "tags": [
+      "technical",
+      "datacenter",
+      "strategy",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3800000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/Infrastructure/DataCenter_Consolidation_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/Infrastructure/DataCenter_Consolidation_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "it-infrastructure-modernization",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-002"
+    ],
+    "related_documents": [
+      "IT-001",
+      "SC-001"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IT-003",
+    "title": "IT Procurement Budget FY2569",
+    "description": "IT equipment, software, and services budget proposal and resource allocation for fiscal year 2569.",
+    "category": "budget",
+    "subcategory": "it",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "IT budget",
+      "procurement",
+      "equipment",
+      "services",
+      "FY2569"
+    ],
+    "tags": [
+      "budget",
+      "it",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 980000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/Budget/IT_Procurement_Budget_FY2569.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/Budget/IT_Procurement_Budget_FY2569.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "it-infrastructure-modernization"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-003"
+    ],
+    "related_documents": [
+      "IT-001",
+      "ESD-004"
+    ],
+    "visibility": "internal",
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
+  },
+  {
+    "id": "IT-004",
+    "title": "IT Service Continuity and Disaster Recovery Plan",
+    "description": "Disaster recovery and business continuity plan for critical IT services and infrastructure.",
+    "category": "policy",
+    "subcategory": "continuity",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-it",
+    "department": "IT Division",
+    "keywords": [
+      "IT service",
+      "continuity",
+      "disaster recovery",
+      "business continuity",
+      "policy"
+    ],
+    "tags": [
+      "policy",
+      "continuity",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2600000,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/IT/Shared Documents/Policies/IT_Continuity_Plan_v1.0.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/IT/Shared%20Documents/Policies/IT_Continuity_Plan_v1.0.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "it-infrastructure-modernization",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-004"
+    ],
+    "related_documents": [
+      "IT-001",
+      "ESD-008"
+    ],
+    "visibility": "internal",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-07-06T15:38:05.772Z"
   }
 ]

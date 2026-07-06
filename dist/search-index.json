@@ -21,7 +21,7 @@
       "green-office-2026"
     ],
     "evidence_refs": [
-      "ev-go-strategy"
+      "EVD-GROF-001"
     ]
   },
   {
@@ -45,7 +45,9 @@
     "project_refs": [
       "green-office-2026"
     ],
-    "evidence_refs": []
+    "evidence_refs": [
+      "EVD-GROF-003"
+    ]
   },
   {
     "id": "GO2026-003",
@@ -71,13 +73,191 @@
       "rae-landing"
     ],
     "evidence_refs": [
-      "ev-go-progress"
+      "EVD-GROF-002"
+    ]
+  },
+  {
+    "id": "GO2026-004",
+    "title": "Energy Conservation Action Plan",
+    "description": "Action plan for reducing energy consumption across MJU campus buildings and facilities.",
+    "keywords": [
+      "energy",
+      "conservation",
+      "action plan",
+      "electricity",
+      "sustainability"
+    ],
+    "tags": [
+      "energy",
+      "action-plan",
+      "approved"
+    ],
+    "category": "strategic-plan",
+    "year": 2025,
+    "project_refs": [
+      "green-office-2026",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-004"
+    ]
+  },
+  {
+    "id": "GO2026-005",
+    "title": "Water Resource Management Plan",
+    "description": "Comprehensive plan for water conservation, rainwater harvesting, and wastewater treatment at MJU.",
+    "keywords": [
+      "water",
+      "conservation",
+      "rainwater",
+      "wastewater",
+      "sustainability"
+    ],
+    "tags": [
+      "water",
+      "plan",
+      "approved"
+    ],
+    "category": "strategic-plan",
+    "year": 2025,
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-005"
+    ]
+  },
+  {
+    "id": "GO2026-006",
+    "title": "Green Procurement Guidelines",
+    "description": "Sustainable procurement criteria and vendor selection guidelines for environmentally responsible purchasing.",
+    "keywords": [
+      "green procurement",
+      "sustainable",
+      "purchasing",
+      "vendor",
+      "environment"
+    ],
+    "tags": [
+      "procurement",
+      "guideline",
+      "published"
+    ],
+    "category": "guideline",
+    "year": 2026,
+    "project_refs": [
+      "green-office-2026",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-008"
+    ]
+  },
+  {
+    "id": "GO2026-007",
+    "title": "Sustainability Awareness Training Module",
+    "description": "Training materials for staff and student sustainability awareness and green office practices.",
+    "keywords": [
+      "sustainability",
+      "training",
+      "awareness",
+      "green office",
+      "staff"
+    ],
+    "tags": [
+      "training",
+      "sustainability",
+      "published"
+    ],
+    "category": "training",
+    "year": 2026,
+    "project_refs": [
+      "green-office-2026",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-006"
+    ]
+  },
+  {
+    "id": "GO2026-008",
+    "title": "Green Office Q2 Progress Report 2026",
+    "description": "Second quarter progress update with sustainability metrics and departmental achievements.",
+    "keywords": [
+      "quarterly report",
+      "Q2",
+      "green office",
+      "metrics",
+      "sustainability"
+    ],
+    "tags": [
+      "report",
+      "quarterly",
+      "draft"
+    ],
+    "category": "report",
+    "year": 2026,
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": []
+  },
+  {
+    "id": "GO2026-009",
+    "title": "Carbon Footprint Assessment Report 2025",
+    "description": "University-wide carbon footprint assessment with baseline measurements and reduction targets.",
+    "keywords": [
+      "carbon footprint",
+      "emissions",
+      "assessment",
+      "sustainability",
+      "environment"
+    ],
+    "tags": [
+      "carbon",
+      "assessment",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "green-office-2026",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-007"
+    ]
+  },
+  {
+    "id": "GO2026-010",
+    "title": "Green Office Newsletter Vol.1 2026",
+    "description": "Quarterly newsletter highlighting sustainability achievements, green tips, and upcoming events.",
+    "keywords": [
+      "newsletter",
+      "green office",
+      "sustainability",
+      "communication",
+      "events"
+    ],
+    "tags": [
+      "communication",
+      "newsletter",
+      "published"
+    ],
+    "category": "communication",
+    "year": 2026,
+    "project_refs": [
+      "green-office-2026",
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-GROF-009"
     ]
   },
   {
     "id": "RAE-001",
     "title": "RAE Assessment Preparation Guide",
-    "description": "Comprehensive guide for faculty preparing documentation for the Research Assessment Exercise (RAE).",
+    "description": "Comprehensive guide for faculty preparing documentation for the Research Assessment Exercise.",
     "keywords": [
       "RAE",
       "assessment",
@@ -98,7 +278,7 @@
       "research-portal"
     ],
     "evidence_refs": [
-      "ev-rae-guidance"
+      "EVD-RALA-001"
     ]
   },
   {
@@ -125,7 +305,166 @@
       "research-portal"
     ],
     "evidence_refs": [
-      "ev-rae-submission"
+      "EVD-RALA-002"
+    ]
+  },
+  {
+    "id": "RAE-003",
+    "title": "RAE Annual Report 2025",
+    "description": "Annual summary of RAE activities, completed assessments, and faculty participation statistics.",
+    "keywords": [
+      "RAE",
+      "annual report",
+      "assessment",
+      "statistics",
+      "faculty"
+    ],
+    "tags": [
+      "rae",
+      "report",
+      "annual",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "rae-landing",
+      "research-portal",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-003"
+    ]
+  },
+  {
+    "id": "RAE-004",
+    "title": "Research Output Classification Guide",
+    "description": "Guidelines for classifying research outputs according to RAE criteria and international standards.",
+    "keywords": [
+      "RAE",
+      "classification",
+      "research output",
+      "criteria",
+      "guidelines"
+    ],
+    "tags": [
+      "rae",
+      "classification",
+      "approved"
+    ],
+    "category": "guideline",
+    "year": 2025,
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-004"
+    ]
+  },
+  {
+    "id": "RAE-005",
+    "title": "Faculty Research Profile Template",
+    "description": "Standardized template for faculty to compile their research profiles and publication records.",
+    "keywords": [
+      "RAE",
+      "template",
+      "faculty",
+      "research profile",
+      "publications"
+    ],
+    "tags": [
+      "rae",
+      "template",
+      "faculty"
+    ],
+    "category": "template",
+    "year": 2026,
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-005"
+    ]
+  },
+  {
+    "id": "RAE-006",
+    "title": "RAE Criteria and Standards Document v3.0",
+    "description": "Official RAE assessment criteria, scoring rubrics, and quality standards for research evaluation.",
+    "keywords": [
+      "RAE",
+      "criteria",
+      "standards",
+      "assessment",
+      "scoring"
+    ],
+    "tags": [
+      "rae",
+      "criteria",
+      "standards",
+      "approved"
+    ],
+    "category": "assessment",
+    "year": 2024,
+    "project_refs": [
+      "rae-landing",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-006"
+    ]
+  },
+  {
+    "id": "RAE-007",
+    "title": "RAE Evidence Review Checklist",
+    "description": "Standardized checklist for reviewers to evaluate completeness and quality of evidence submissions.",
+    "keywords": [
+      "RAE",
+      "review",
+      "checklist",
+      "evidence",
+      "quality"
+    ],
+    "tags": [
+      "rae",
+      "review",
+      "checklist",
+      "published"
+    ],
+    "category": "assessment",
+    "year": 2025,
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-007"
+    ]
+  },
+  {
+    "id": "RAE-008",
+    "title": "RAE Steering Committee Meeting Minutes Feb 2026",
+    "description": "Minutes from the RAE steering committee meeting covering timeline, milestones, and resource planning.",
+    "keywords": [
+      "RAE",
+      "meeting",
+      "minutes",
+      "committee",
+      "stakeholder"
+    ],
+    "tags": [
+      "rae",
+      "meeting",
+      "minutes",
+      "published"
+    ],
+    "category": "meeting",
+    "year": 2026,
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-RALA-008"
     ]
   },
   {
@@ -151,13 +490,13 @@
       "learning-center"
     ],
     "evidence_refs": [
-      "ev-lc-catalog"
+      "EVD-LECE-001"
     ]
   },
   {
     "id": "LC-002",
     "title": "Learning Center Annual Report 2025",
-    "description": "Annual performance report for the MJU Learning Center covering activities, enrollment, and outcomes for 2025.",
+    "description": "Annual performance report for the MJU Learning Center covering activities, enrollment, and outcomes.",
     "keywords": [
       "annual report",
       "learning center",
@@ -177,7 +516,1423 @@
       "learning-center"
     ],
     "evidence_refs": [
-      "ev-lc-performance"
+      "EVD-LECE-002"
+    ]
+  },
+  {
+    "id": "LC-003",
+    "title": "Digital Literacy Workshop Series",
+    "description": "Workshop materials and curriculum for the Digital Literacy program offered to students and staff.",
+    "keywords": [
+      "digital literacy",
+      "workshop",
+      "training",
+      "curriculum",
+      "skills"
+    ],
+    "tags": [
+      "training",
+      "digital",
+      "workshop",
+      "published"
+    ],
+    "category": "training",
+    "year": 2026,
+    "project_refs": [
+      "learning-center",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-003"
+    ]
+  },
+  {
+    "id": "LC-004",
+    "title": "Academic Writing Skills Handbook",
+    "description": "Comprehensive handbook for academic writing skills including research papers, theses, and reports.",
+    "keywords": [
+      "academic writing",
+      "handbook",
+      "skills",
+      "research",
+      "thesis"
+    ],
+    "tags": [
+      "training",
+      "writing",
+      "handbook",
+      "approved"
+    ],
+    "category": "training",
+    "year": 2025,
+    "project_refs": [
+      "learning-center",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-004"
+    ]
+  },
+  {
+    "id": "LC-005",
+    "title": "Learning Center Q1 Activity Report 2026",
+    "description": "Quarterly activity report with participation statistics, satisfaction scores, and program highlights.",
+    "keywords": [
+      "quarterly report",
+      "activity",
+      "participation",
+      "satisfaction",
+      "learning"
+    ],
+    "tags": [
+      "report",
+      "quarterly",
+      "published"
+    ],
+    "category": "report",
+    "year": 2026,
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-005"
+    ]
+  },
+  {
+    "id": "LC-006",
+    "title": "Online Learning Platform User Guide",
+    "description": "User guide for the MJU Learning Center's online learning platform and Moodle integration.",
+    "keywords": [
+      "online learning",
+      "Moodle",
+      "user guide",
+      "platform",
+      "e-learning"
+    ],
+    "tags": [
+      "guideline",
+      "online",
+      "published"
+    ],
+    "category": "guideline",
+    "year": 2026,
+    "project_refs": [
+      "learning-center",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-006"
+    ]
+  },
+  {
+    "id": "LC-007",
+    "title": "Learning Center Course Registration Template",
+    "description": "Standard registration form and enrollment template for Learning Center courses and workshops.",
+    "keywords": [
+      "registration",
+      "template",
+      "enrollment",
+      "course",
+      "form"
+    ],
+    "tags": [
+      "template",
+      "registration",
+      "published"
+    ],
+    "category": "template",
+    "year": 2025,
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": []
+  },
+  {
+    "id": "LC-008",
+    "title": "Learning Center Strategic Plan 2026-2028",
+    "description": "Three-year strategic plan for Learning Center expansion, program development, and digital transformation.",
+    "keywords": [
+      "strategic plan",
+      "learning center",
+      "expansion",
+      "three-year",
+      "development"
+    ],
+    "tags": [
+      "strategic",
+      "plan",
+      "approved"
+    ],
+    "category": "strategic-plan",
+    "year": 2026,
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-LECE-008"
+    ]
+  },
+  {
+    "id": "RP-001",
+    "title": "MJU Research Publication Database Schema",
+    "description": "Database schema documentation for the MJU Research Portal publication tracking and management system.",
+    "keywords": [
+      "research portal",
+      "database",
+      "schema",
+      "publication",
+      "technical"
+    ],
+    "tags": [
+      "research",
+      "technical",
+      "database",
+      "published"
+    ],
+    "category": "technical",
+    "year": 2026,
+    "project_refs": [
+      "research-portal",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-001"
+    ]
+  },
+  {
+    "id": "RP-002",
+    "title": "Research Methodology Guidelines",
+    "description": "Guidelines for research methodology selection, study design, and data collection methods.",
+    "keywords": [
+      "research methodology",
+      "guidelines",
+      "study design",
+      "data collection",
+      "methods"
+    ],
+    "tags": [
+      "research",
+      "guideline",
+      "methodology",
+      "approved"
+    ],
+    "category": "guideline",
+    "year": 2025,
+    "project_refs": [
+      "research-portal",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-002"
+    ]
+  },
+  {
+    "id": "RP-003",
+    "title": "MJU Research Publications 2025 Compilation",
+    "description": "Compiled volume of all MJU-affiliated research publications from the 2025 calendar year.",
+    "keywords": [
+      "research publications",
+      "compilation",
+      "MJU",
+      "2025",
+      "academic"
+    ],
+    "tags": [
+      "research",
+      "publication",
+      "compilation",
+      "published"
+    ],
+    "category": "research-output",
+    "year": 2025,
+    "project_refs": [
+      "research-portal",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-003"
+    ]
+  },
+  {
+    "id": "RP-004",
+    "title": "Research Ethics Approval Form",
+    "description": "Standard form for research ethics approval and institutional review board submissions.",
+    "keywords": [
+      "research ethics",
+      "approval",
+      "form",
+      "IRB",
+      "template"
+    ],
+    "tags": [
+      "research",
+      "template",
+      "ethics",
+      "published"
+    ],
+    "category": "template",
+    "year": 2025,
+    "project_refs": [
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-004"
+    ]
+  },
+  {
+    "id": "RP-005",
+    "title": "Research Collaboration MOU Template",
+    "description": "Standard memorandum of understanding template for research collaborations and academic partnerships.",
+    "keywords": [
+      "MOU",
+      "template",
+      "collaboration",
+      "research",
+      "partnership"
+    ],
+    "tags": [
+      "contract",
+      "mou",
+      "template",
+      "published"
+    ],
+    "category": "contract",
+    "year": 2024,
+    "project_refs": [
+      "research-portal",
+      "international-collaboration"
+    ],
+    "evidence_refs": []
+  },
+  {
+    "id": "RP-006",
+    "title": "Research Impact Assessment Report 2025",
+    "description": "Analysis of research impact metrics, citation counts, and knowledge transfer activities for 2025.",
+    "keywords": [
+      "research impact",
+      "assessment",
+      "metrics",
+      "citations",
+      "knowledge transfer"
+    ],
+    "tags": [
+      "research",
+      "report",
+      "impact",
+      "draft"
+    ],
+    "category": "report",
+    "year": 2026,
+    "project_refs": [
+      "research-portal",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-REPO-006"
+    ]
+  },
+  {
+    "id": "ESD-001",
+    "title": "University Administrative Policy Manual",
+    "description": "Comprehensive policy manual covering all university administrative procedures and regulations.",
+    "keywords": [
+      "policy",
+      "manual",
+      "administration",
+      "university",
+      "regulations"
+    ],
+    "tags": [
+      "policy",
+      "manual",
+      "approved"
+    ],
+    "category": "policy",
+    "year": 2024,
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-001"
+    ]
+  },
+  {
+    "id": "ESD-002",
+    "title": "Procurement and Purchasing Guidelines",
+    "description": "Standard operating procedures for university procurement, vendor selection, and purchasing processes.",
+    "keywords": [
+      "procurement",
+      "purchasing",
+      "guidelines",
+      "vendor",
+      "finance"
+    ],
+    "tags": [
+      "guideline",
+      "procurement",
+      "approved"
+    ],
+    "category": "guideline",
+    "year": 2025,
+    "project_refs": [
+      "enterprise-shared-docs",
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-002"
+    ]
+  },
+  {
+    "id": "ESD-003",
+    "title": "Staff Leave and Attendance Policy",
+    "description": "University policy on staff leave types, attendance tracking, and time-off procedures.",
+    "keywords": [
+      "leave",
+      "attendance",
+      "policy",
+      "staff",
+      "HR"
+    ],
+    "tags": [
+      "policy",
+      "hr",
+      "approved"
+    ],
+    "category": "policy",
+    "year": 2025,
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-003"
+    ]
+  },
+  {
+    "id": "ESD-004",
+    "title": "Annual Budget Allocation FY2569",
+    "description": "Detailed budget allocation document for the Thai fiscal year 2569 across all university units.",
+    "keywords": [
+      "budget",
+      "allocation",
+      "fiscal year",
+      "2569",
+      "finance"
+    ],
+    "tags": [
+      "budget",
+      "annual",
+      "approved"
+    ],
+    "category": "budget",
+    "year": 2026,
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-004"
+    ]
+  },
+  {
+    "id": "ESD-005",
+    "title": "Data Privacy and Protection Policy",
+    "description": "University policy on data privacy, personal data protection, and compliance with Thailand PDPA.",
+    "keywords": [
+      "data privacy",
+      "PDPA",
+      "policy",
+      "compliance",
+      "protection"
+    ],
+    "tags": [
+      "policy",
+      "privacy",
+      "approved",
+      "compliance"
+    ],
+    "category": "policy",
+    "year": 2025,
+    "project_refs": [
+      "enterprise-shared-docs",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-005"
+    ]
+  },
+  {
+    "id": "ESD-006",
+    "title": "University Organization Chart and Structure",
+    "description": "Official university organizational chart showing all faculties, departments, and administrative units.",
+    "keywords": [
+      "organization",
+      "chart",
+      "structure",
+      "university",
+      "departments"
+    ],
+    "tags": [
+      "archive",
+      "org-chart",
+      "published"
+    ],
+    "category": "archive",
+    "year": 2026,
+    "project_refs": [
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": []
+  },
+  {
+    "id": "ESD-007",
+    "title": "Internal Audit Report FY2568",
+    "description": "Annual internal audit findings, compliance assessment, and recommendations for fiscal year 2568.",
+    "keywords": [
+      "audit",
+      "internal",
+      "compliance",
+      "FY2568",
+      "findings"
+    ],
+    "tags": [
+      "compliance",
+      "audit",
+      "approved"
+    ],
+    "category": "compliance",
+    "year": 2025,
+    "project_refs": [
+      "enterprise-shared-docs",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-007"
+    ]
+  },
+  {
+    "id": "ESD-008",
+    "title": "University Emergency Response Plan",
+    "description": "Emergency preparedness and response plan covering natural disasters, fires, and security incidents.",
+    "keywords": [
+      "emergency",
+      "response",
+      "safety",
+      "disaster",
+      "security"
+    ],
+    "tags": [
+      "policy",
+      "safety",
+      "emergency",
+      "approved"
+    ],
+    "category": "policy",
+    "year": 2025,
+    "project_refs": [
+      "enterprise-shared-docs",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-ENSH-008"
+    ]
+  },
+  {
+    "id": "DT-001",
+    "title": "MJU Digital Transformation Roadmap 2026-2028",
+    "description": "Strategic roadmap for digital transformation across all university operations, services, and systems.",
+    "keywords": [
+      "digital transformation",
+      "roadmap",
+      "strategy",
+      "MJU",
+      "modernization"
+    ],
+    "tags": [
+      "digital",
+      "strategy",
+      "roadmap",
+      "approved"
+    ],
+    "category": "strategic-plan",
+    "year": 2026,
+    "project_refs": [
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-001"
+    ]
+  },
+  {
+    "id": "DT-002",
+    "title": "Cloud Migration Strategy",
+    "description": "Strategy and implementation plan for migrating university on-premises services to cloud infrastructure.",
+    "keywords": [
+      "cloud",
+      "migration",
+      "strategy",
+      "infrastructure",
+      "azure"
+    ],
+    "tags": [
+      "technical",
+      "cloud",
+      "strategy",
+      "approved"
+    ],
+    "category": "technical",
+    "year": 2026,
+    "project_refs": [
+      "mju-digital-transformation",
+      "it-infrastructure-modernization"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-002"
+    ]
+  },
+  {
+    "id": "DT-003",
+    "title": "Digital Services Staff Training Program",
+    "description": "Training program for university staff on new digital tools, platforms, and transformed workflows.",
+    "keywords": [
+      "digital services",
+      "training",
+      "staff",
+      "tools",
+      "workflows"
+    ],
+    "tags": [
+      "training",
+      "digital",
+      "published"
+    ],
+    "category": "training",
+    "year": 2026,
+    "project_refs": [
+      "mju-digital-transformation",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-003"
+    ]
+  },
+  {
+    "id": "DT-004",
+    "title": "IT Governance Framework",
+    "description": "Framework for IT governance, decision rights, accountability structure, and technology oversight.",
+    "keywords": [
+      "IT governance",
+      "framework",
+      "policy",
+      "decision rights",
+      "accountability"
+    ],
+    "tags": [
+      "policy",
+      "governance",
+      "approved"
+    ],
+    "category": "policy",
+    "year": 2025,
+    "project_refs": [
+      "mju-digital-transformation",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-004"
+    ]
+  },
+  {
+    "id": "DT-005",
+    "title": "Digital Transformation Progress Report Q1 2026",
+    "description": "Quarterly progress update on digital transformation initiatives, milestones, and key metrics.",
+    "keywords": [
+      "digital transformation",
+      "progress",
+      "Q1",
+      "milestones",
+      "report"
+    ],
+    "tags": [
+      "report",
+      "progress",
+      "published"
+    ],
+    "category": "report",
+    "year": 2026,
+    "project_refs": [
+      "mju-digital-transformation",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-MJDI-005"
+    ]
+  },
+  {
+    "id": "SC-001",
+    "title": "Smart Campus IoT Infrastructure Plan",
+    "description": "Technical plan for IoT sensor deployment, network architecture, and campus data collection infrastructure.",
+    "keywords": [
+      "smart campus",
+      "IoT",
+      "infrastructure",
+      "sensors",
+      "network"
+    ],
+    "tags": [
+      "technical",
+      "iot",
+      "plan",
+      "approved"
+    ],
+    "category": "technical",
+    "year": 2026,
+    "project_refs": [
+      "smart-campus-initiative",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-001"
+    ]
+  },
+  {
+    "id": "SC-002",
+    "title": "Smart Campus Security System Proposal",
+    "description": "Comprehensive proposal for integrated security systems including CCTV, access control, and emergency notification.",
+    "keywords": [
+      "smart campus",
+      "security",
+      "CCTV",
+      "access control",
+      "emergency"
+    ],
+    "tags": [
+      "technical",
+      "security",
+      "proposal",
+      "approved"
+    ],
+    "category": "technical",
+    "year": 2025,
+    "project_refs": [
+      "smart-campus-initiative",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-002"
+    ]
+  },
+  {
+    "id": "SC-003",
+    "title": "Smart Classroom Technology Standards",
+    "description": "Technical standards and specifications for smart classroom equipment, AV systems, and hybrid teaching.",
+    "keywords": [
+      "smart classroom",
+      "AV",
+      "technology",
+      "standards",
+      "equipment"
+    ],
+    "tags": [
+      "technical",
+      "classroom",
+      "standards",
+      "published"
+    ],
+    "category": "technical",
+    "year": 2025,
+    "project_refs": [
+      "smart-campus-initiative",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-003"
+    ]
+  },
+  {
+    "id": "SC-004",
+    "title": "Smart Campus Budget and Resource Plan",
+    "description": "Budget allocation and resource planning document for smart campus infrastructure projects.",
+    "keywords": [
+      "budget",
+      "smart campus",
+      "infrastructure",
+      "resources",
+      "allocation"
+    ],
+    "tags": [
+      "budget",
+      "smart-campus",
+      "approved"
+    ],
+    "category": "budget",
+    "year": 2026,
+    "project_refs": [
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-004"
+    ]
+  },
+  {
+    "id": "SC-005",
+    "title": "Smart Campus Energy Monitoring Report",
+    "description": "Energy consumption data analysis from smart meters and IoT sensors deployed across campus buildings.",
+    "keywords": [
+      "energy",
+      "monitoring",
+      "smart meters",
+      "IoT",
+      "data"
+    ],
+    "tags": [
+      "data",
+      "energy",
+      "monitoring",
+      "published"
+    ],
+    "category": "data",
+    "year": 2026,
+    "project_refs": [
+      "smart-campus-initiative",
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-SMCA-005"
+    ]
+  },
+  {
+    "id": "AQ-001",
+    "title": "Internal Quality Assurance Manual",
+    "description": "Comprehensive manual for internal quality assurance processes, self-assessment, and program evaluation.",
+    "keywords": [
+      "quality assurance",
+      "manual",
+      "self-assessment",
+      "evaluation",
+      "internal"
+    ],
+    "tags": [
+      "qa",
+      "manual",
+      "assessment",
+      "approved"
+    ],
+    "category": "assessment",
+    "year": 2025,
+    "project_refs": [
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-001"
+    ]
+  },
+  {
+    "id": "AQ-002",
+    "title": "Program Self-Assessment Report 2025",
+    "description": "Annual self-assessment reports for all academic programs with improvement action plans.",
+    "keywords": [
+      "self-assessment",
+      "program",
+      "academic",
+      "quality",
+      "2025"
+    ],
+    "tags": [
+      "qa",
+      "self-assessment",
+      "report",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "academic-quality-assurance",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-002"
+    ]
+  },
+  {
+    "id": "AQ-003",
+    "title": "External Audit Preparation Checklist",
+    "description": "Checklist and preparation guide for the upcoming external quality assurance audit.",
+    "keywords": [
+      "external audit",
+      "checklist",
+      "preparation",
+      "quality",
+      "compliance"
+    ],
+    "tags": [
+      "qa",
+      "audit",
+      "checklist",
+      "published"
+    ],
+    "category": "assessment",
+    "year": 2026,
+    "project_refs": [
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-003"
+    ]
+  },
+  {
+    "id": "AQ-004",
+    "title": "Graduate Outcome Assessment Report 2025",
+    "description": "Assessment of graduate employment outcomes, satisfaction levels, and program effectiveness.",
+    "keywords": [
+      "graduate",
+      "outcome",
+      "assessment",
+      "employment",
+      "satisfaction"
+    ],
+    "tags": [
+      "qa",
+      "graduate",
+      "assessment",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "academic-quality-assurance",
+      "research-portal",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-004"
+    ]
+  },
+  {
+    "id": "AQ-005",
+    "title": "Quality Assurance Training Materials v2.0",
+    "description": "Training materials for QA committee members and program coordinators on assessment procedures.",
+    "keywords": [
+      "QA training",
+      "assessment",
+      "committee",
+      "coordinators",
+      "procedures"
+    ],
+    "tags": [
+      "qa",
+      "training",
+      "published"
+    ],
+    "category": "training",
+    "year": 2025,
+    "project_refs": [
+      "academic-quality-assurance",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-ACQU-005"
+    ]
+  },
+  {
+    "id": "IC-001",
+    "title": "International Partnership Agreement MOU",
+    "description": "Master MOU template and agreement framework for international university partnerships and exchanges.",
+    "keywords": [
+      "MOU",
+      "international",
+      "partnership",
+      "agreement",
+      "template"
+    ],
+    "tags": [
+      "contract",
+      "international",
+      "mou",
+      "approved"
+    ],
+    "category": "contract",
+    "year": 2025,
+    "project_refs": [
+      "international-collaboration",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-001"
+    ]
+  },
+  {
+    "id": "IC-002",
+    "title": "International Exchange Program Report 2025",
+    "description": "Annual report on student and faculty exchange activities, partnerships, and outcomes.",
+    "keywords": [
+      "exchange",
+      "international",
+      "student",
+      "faculty",
+      "report"
+    ],
+    "tags": [
+      "international",
+      "report",
+      "exchange",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "international-collaboration",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-002"
+    ]
+  },
+  {
+    "id": "IC-003",
+    "title": "Collaborative Research Agreement Guidelines",
+    "description": "Guidelines for establishing and managing collaborative research projects with international partners.",
+    "keywords": [
+      "collaborative research",
+      "international",
+      "guidelines",
+      "partnership",
+      "agreement"
+    ],
+    "tags": [
+      "international",
+      "guideline",
+      "research",
+      "published"
+    ],
+    "category": "guideline",
+    "year": 2025,
+    "project_refs": [
+      "international-collaboration",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-003"
+    ]
+  },
+  {
+    "id": "IC-004",
+    "title": "International Conference Participation Policy",
+    "description": "Policy governing faculty and staff participation in international conferences and professional events.",
+    "keywords": [
+      "conference",
+      "international",
+      "policy",
+      "faculty",
+      "participation"
+    ],
+    "tags": [
+      "policy",
+      "international",
+      "approved"
+    ],
+    "category": "policy",
+    "year": 2024,
+    "project_refs": [
+      "international-collaboration"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-004"
+    ]
+  },
+  {
+    "id": "IC-005",
+    "title": "International Student Orientation Guide",
+    "description": "Comprehensive guide for incoming international students covering visa, accommodation, and campus life.",
+    "keywords": [
+      "international student",
+      "orientation",
+      "guide",
+      "visa",
+      "campus"
+    ],
+    "tags": [
+      "international",
+      "guide",
+      "orientation",
+      "published"
+    ],
+    "category": "guideline",
+    "year": 2026,
+    "project_refs": [
+      "international-collaboration",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-INCO-005"
+    ]
+  },
+  {
+    "id": "SD-001",
+    "title": "Student Leadership Development Program",
+    "description": "Comprehensive curriculum and materials for the student leadership development workshop series.",
+    "keywords": [
+      "leadership",
+      "student",
+      "development",
+      "workshop",
+      "curriculum"
+    ],
+    "tags": [
+      "student",
+      "leadership",
+      "training",
+      "published"
+    ],
+    "category": "training",
+    "year": 2026,
+    "project_refs": [
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-001"
+    ]
+  },
+  {
+    "id": "SD-002",
+    "title": "Career Preparation Workshop Materials",
+    "description": "Workshop materials for resume writing, interview skills, career planning, and job search strategies.",
+    "keywords": [
+      "career",
+      "preparation",
+      "workshop",
+      "resume",
+      "interview"
+    ],
+    "tags": [
+      "student",
+      "career",
+      "training",
+      "published"
+    ],
+    "category": "training",
+    "year": 2026,
+    "project_refs": [
+      "student-development-program",
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-002"
+    ]
+  },
+  {
+    "id": "SD-003",
+    "title": "Student Activities and Clubs Catalog 2026",
+    "description": "Comprehensive catalog of student clubs, organizations, and extracurricular activities for 2026.",
+    "keywords": [
+      "student activities",
+      "clubs",
+      "organizations",
+      "extracurricular",
+      "catalog"
+    ],
+    "tags": [
+      "student",
+      "catalog",
+      "activities",
+      "published"
+    ],
+    "category": "catalog",
+    "year": 2026,
+    "project_refs": [
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-003"
+    ]
+  },
+  {
+    "id": "SD-004",
+    "title": "Student Volunteer Program Report 2025",
+    "description": "Report on student volunteer activities, community service hours, and program impact assessment.",
+    "keywords": [
+      "volunteer",
+      "student",
+      "community service",
+      "report",
+      "impact"
+    ],
+    "tags": [
+      "student",
+      "volunteer",
+      "report",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "student-development-program",
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-004"
+    ]
+  },
+  {
+    "id": "SD-005",
+    "title": "Student Satisfaction Survey Results 2025",
+    "description": "Analysis of student satisfaction survey data covering university services, facilities, and learning experience.",
+    "keywords": [
+      "student satisfaction",
+      "survey",
+      "data",
+      "analysis",
+      "services"
+    ],
+    "tags": [
+      "student",
+      "data",
+      "survey",
+      "published"
+    ],
+    "category": "data",
+    "year": 2025,
+    "project_refs": [
+      "student-development-program",
+      "academic-quality-assurance"
+    ],
+    "evidence_refs": [
+      "EVD-STDE-005"
+    ]
+  },
+  {
+    "id": "CE-001",
+    "title": "Community Outreach Program Framework",
+    "description": "Framework for university community outreach programs, engagement models, and impact measurement.",
+    "keywords": [
+      "community",
+      "outreach",
+      "engagement",
+      "framework",
+      "impact"
+    ],
+    "tags": [
+      "community",
+      "strategy",
+      "framework",
+      "approved"
+    ],
+    "category": "strategic-plan",
+    "year": 2025,
+    "project_refs": [
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-001"
+    ]
+  },
+  {
+    "id": "CE-002",
+    "title": "Knowledge Transfer to Community Report 2025",
+    "description": "Report on knowledge transfer activities, training delivered to communities, and technology adoption.",
+    "keywords": [
+      "knowledge transfer",
+      "community",
+      "training",
+      "technology",
+      "report"
+    ],
+    "tags": [
+      "community",
+      "report",
+      "knowledge-transfer",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "community-engagement",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-002"
+    ]
+  },
+  {
+    "id": "CE-003",
+    "title": "Community Needs Assessment Survey",
+    "description": "Survey instrument design and results analysis from community needs assessment for program planning.",
+    "keywords": [
+      "needs assessment",
+      "community",
+      "survey",
+      "planning",
+      "data"
+    ],
+    "tags": [
+      "community",
+      "assessment",
+      "survey",
+      "published"
+    ],
+    "category": "assessment",
+    "year": 2025,
+    "project_refs": [
+      "community-engagement"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-003"
+    ]
+  },
+  {
+    "id": "CE-004",
+    "title": "Community Engagement Newsletter Q1 2026",
+    "description": "Quarterly newsletter highlighting community engagement activities, success stories, and upcoming events.",
+    "keywords": [
+      "newsletter",
+      "community",
+      "engagement",
+      "success stories",
+      "activities"
+    ],
+    "tags": [
+      "community",
+      "newsletter",
+      "published"
+    ],
+    "category": "communication",
+    "year": 2026,
+    "project_refs": [
+      "community-engagement",
+      "student-development-program"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-004"
+    ]
+  },
+  {
+    "id": "CE-005",
+    "title": "University Social Responsibility Report 2025",
+    "description": "University social responsibility report covering community impact, sustainability, and ethical initiatives.",
+    "keywords": [
+      "social responsibility",
+      "USR",
+      "community",
+      "sustainability",
+      "impact"
+    ],
+    "tags": [
+      "community",
+      "USR",
+      "report",
+      "published"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "community-engagement",
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "EVD-COEN-005"
+    ]
+  },
+  {
+    "id": "IT-001",
+    "title": "Network Infrastructure Upgrade Plan",
+    "description": "Technical plan for upgrading campus network infrastructure, bandwidth expansion, and wireless coverage.",
+    "keywords": [
+      "network",
+      "infrastructure",
+      "upgrade",
+      "bandwidth",
+      "wireless"
+    ],
+    "tags": [
+      "technical",
+      "network",
+      "plan",
+      "draft"
+    ],
+    "category": "technical",
+    "year": 2026,
+    "project_refs": [
+      "it-infrastructure-modernization",
+      "mju-digital-transformation"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-001"
+    ]
+  },
+  {
+    "id": "IT-002",
+    "title": "Data Center Consolidation Strategy",
+    "description": "Strategy for consolidating and modernizing university data center operations and server infrastructure.",
+    "keywords": [
+      "data center",
+      "consolidation",
+      "strategy",
+      "modernization",
+      "infrastructure"
+    ],
+    "tags": [
+      "technical",
+      "datacenter",
+      "strategy",
+      "draft"
+    ],
+    "category": "technical",
+    "year": 2026,
+    "project_refs": [
+      "it-infrastructure-modernization",
+      "smart-campus-initiative"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-002"
+    ]
+  },
+  {
+    "id": "IT-003",
+    "title": "IT Procurement Budget FY2569",
+    "description": "IT equipment, software, and services budget proposal and resource allocation for fiscal year 2569.",
+    "keywords": [
+      "IT budget",
+      "procurement",
+      "equipment",
+      "services",
+      "FY2569"
+    ],
+    "tags": [
+      "budget",
+      "it",
+      "draft"
+    ],
+    "category": "budget",
+    "year": 2026,
+    "project_refs": [
+      "it-infrastructure-modernization"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-003"
+    ]
+  },
+  {
+    "id": "IT-004",
+    "title": "IT Service Continuity and Disaster Recovery Plan",
+    "description": "Disaster recovery and business continuity plan for critical IT services and infrastructure.",
+    "keywords": [
+      "IT service",
+      "continuity",
+      "disaster recovery",
+      "business continuity",
+      "policy"
+    ],
+    "tags": [
+      "policy",
+      "continuity",
+      "approved"
+    ],
+    "category": "policy",
+    "year": 2025,
+    "project_refs": [
+      "it-infrastructure-modernization",
+      "enterprise-shared-docs"
+    ],
+    "evidence_refs": [
+      "EVD-ITIN-004"
     ]
   }
 ]

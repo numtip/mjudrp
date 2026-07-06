@@ -4,17 +4,29 @@
 
 | File | Format | Size | Consumer |
 |------|--------|------|----------|
-| `dist/search-index.json` | JSON array | ~4 KB | All consumer projects (search) |
-| `dist/document-registry.json` | JSON array (normalized) | ~9 KB | All consumer projects (full registry) |
-| `dist/category-registry.json` | JSON array | ~1 KB | All consumer projects (categories) |
-| `dist/project-registry.json` | JSON array | ~1 KB | All consumer projects (projects) |
-| `dist/owner-registry.json` | JSON array | ~1 KB | All consumer projects (owners) |
-| `dist/evidence-registry.json` | JSON array | ~1 KB | All consumer projects (evidence) |
-| `dist/relationship-registry.json` | JSON array | ~1 KB | Cross-document links |
-| `dist/minisearch-index.json` | MiniSearch serialized index | ~3 KB | Full-text search |
-| `dist/validation-report.json` | JSON (validation results) | ~1 KB | CI/development |
+| `dist/search-index.json` | JSON array | ~12 KB | All consumer projects (search) |
+| `dist/document-registry.json` | JSON array (normalized) | ~85 KB | All consumer projects (full registry) |
+| `dist/category-registry.json` | JSON array | ~4 KB | All consumer projects (categories) |
+| `dist/project-registry.json` | JSON array | ~4 KB | All consumer projects (projects) |
+| `dist/owner-registry.json` | JSON array | ~3 KB | All consumer projects (owners) |
+| `dist/evidence-registry.json` | JSON array | ~28 KB | All consumer projects (evidence) |
+| `dist/relationship-registry.json` | JSON array | ~38 KB | Cross-document links |
+| `dist/minisearch-index.json` | MiniSearch serialized index | ~10 KB | Full-text search |
+| `dist/validation-report.json` | JSON (validation results) | ~2 KB | CI/development |
 | `dist/manifest.json` | JSON (build metadata) | ~1 KB | CI/development |
 | `dist/performance-report.json` | JSON (timing metrics) | ~1 KB | CI/development |
+| `dist/statistics.json` | JSON (registry statistics) | ~3 KB | CI/development |
+
+## Registry Data Files
+
+| File | Entries | Format | Source of Truth |
+|------|---------|--------|-----------------|
+| `registry/documents.sample.json` | 74 | JSON array | Yes |
+| `registry/categories.sample.json` | 22 | JSON array | Yes |
+| `registry/projects.sample.json` | 12 | JSON array | Yes |
+| `registry/owners.sample.json` | 12 | JSON array | Yes |
+| `registry/evidence-map.sample.json` | 124 | JSON array | Yes |
+| `registry/relationship.sample.json` | 250 | JSON array | Yes |
 
 ## Implementation Outputs
 
@@ -71,7 +83,7 @@ Consumers must ONLY depend on `dist/` outputs. Internal implementation files (`r
 ## Output Lifecycle
 
 ```
-Registry data changed → validate (AJV) → generate (static + MiniSearch) → test (77 assertions) → commit → push → consumer fetches
+Registry data changed → validate (AJV) → generate (static + MiniSearch) → test (211 assertions) → commit → push → consumer fetches
                                                                                                                    ↓
                                                                                                          GitHub Pages (future)
 ```

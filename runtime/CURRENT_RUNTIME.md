@@ -8,7 +8,7 @@
 | Provider Active | None (architecture documented) |
 | Adapter Active | GitHub Actions (CI only) |
 | Plugin Active | None (architecture documented) |
-| Data Source | Git-committed JSON files |
+| Data Source | Git-committed JSON files (74 documents, 12 projects) |
 | Output Method | Node.js script generation (AJV validation + MiniSearch search) |
 | Hosting | GitHub repository |
 | ECD Status | Complete — tools certified for Sprint 2 |
@@ -19,15 +19,15 @@
 ## Execution Flow
 
 ```
-1. Registry Data (registry/*.json)
+1. Registry Data (registry/*.json) — 74 docs, 22 cats, 12 projects, 12 owners, 124 ev, 250 rel
        │
 2. Validate (scripts/validate-registry.mjs) — AJV + ajv-formats schema validation ✅
        │                                    — Cross-reference validation
 3. Generate (scripts/generate-search-index.mjs) — Static JSON + MiniSearch index ✅
        │
-4. Output (dist/*.json) — 11 files including manifest.json + performance-report.json
+4. Output (dist/*.json) — 12 files including manifest.json + performance-report.json + statistics.json
        │
-5. Test (npm test) — 77 assertions across 4 test suites ✅
+5. Test (npm test) — 211 assertions across 4 test suites ✅
        │
 6. Consume (consumer projects fetch from GitHub)
 ```
@@ -36,14 +36,15 @@
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Registry data | ✅ Active | 7 documents, 4 projects, 3 owners, 5 categories, 6 evidence maps |
+| Registry data | ✅ Active | 74 documents, 12 projects, 12 owners, 22 categories, 124 evidence maps, 250 relationships |
 | Validation script | ✅ Active | AJV + ajv-formats integrated. Passes with 0 errors. |
 | Search index generator | ✅ Active | MiniSearch integrated. 3 output formats. |
+| Population script | ✅ Active | Reproducible registry generation |
 | Memory updater | ✅ Active | Preserves manual edits |
 | CI/CD pipeline | ✅ Active | Full pipeline: install → validate → generate → test → upload |
 | Architecture Lock | ✅ ACTIVE | 8 locked rules, 9 quality gates |
 | Registry Specification | ✅ FROZEN v1.0 | 6 schemas, cross-reference rules, output contract |
-| Test suite | ✅ Active | 77 assertions across 4 test files |
+| Test suite | ✅ Active | 211 assertions across 4 test files |
 | Implementation docs | ✅ Active | 6 documents in docs/implementation/ |
 | Provider layer | 📐 Architecture only | No implementation |
 | Adapter layer | 📐 Architecture only | No implementation |
@@ -53,17 +54,17 @@
 
 | Tool | ERC Status | Integration Point | Sprint |
 |------|-----------|------------------|--------|
-| AJV + ajv-formats | CONDITIONAL ✅ | `validate-registry.mjs` | Sprint 2A ✅ |
-| MiniSearch | CERTIFIED ✅ | `generate-search-index.mjs` | Sprint 2A ✅ |
+| AJV + ajv-formats | ✅ CERTIFIED | `validate-registry.mjs` | Sprint 2A ✅ |
+| MiniSearch | ✅ CERTIFIED | `generate-search-index.mjs` | Sprint 2A ✅ |
 
 ## Certified (Pending Integration)
 
 | Tool | ERC Status | Integration Point | Sprint |
 |------|-----------|------------------|--------|
-| GitHub MCP | CONDITIONAL | Cursor MCP config | Sprint 2B |
-| Filesystem MCP | CONDITIONAL | Cursor MCP config | Sprint 2B |
-| SharePoint Metadata | CERTIFIED | SharePoint column template | Sprint 2B |
-| Dublin Core Mapping | CERTIFIED | Consumer contract docs | Sprint 2B |
+| GitHub MCP | CONDITIONAL | Cursor MCP config | Sprint 2C |
+| Filesystem MCP | CONDITIONAL | Cursor MCP config | Sprint 2C |
+| SharePoint Metadata | CERTIFIED | SharePoint column template | Sprint 2C |
+| Dublin Core Mapping | CERTIFIED | Consumer contract docs | Sprint 2C |
 
 ## Runtime Constraints
 
