@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ev-go-strategy",
+    "name": "Green Office Strategic Plan Evidence",
+    "description": "Evidence demonstrating the Green Office 2026 strategic planning and approval process.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-001"
+    ],
+    "criteria": "GO-CRITERIA-01: Approved strategic plan must be in place",
+    "status": "satisfied",
+    "notes": "Strategic plan approved March 2026.",
+    "created_at": "2026-01-10T08:00:00Z",
+    "updated_at": "2026-03-15T10:30:00Z"
+  },
+  {
+    "id": "ev-go-progress",
+    "name": "Green Office Quarterly Progress Evidence",
+    "description": "Quarterly progress reports demonstrating ongoing Green Office activities and KPI tracking.",
+    "project_ref": "green-office-2026",
+    "document_refs": [
+      "GO2026-003"
+    ],
+    "criteria": "GO-CRITERIA-02: Regular progress reporting is required",
+    "status": "partial",
+    "notes": "Q1 2026 submitted. Q2 2026 pending.",
+    "created_at": "2026-04-05T14:00:00Z",
+    "updated_at": "2026-04-05T14:00:00Z"
+  },
+  {
+    "id": "ev-rae-guidance",
+    "name": "RAE Assessment Guidance Evidence",
+    "description": "Evidence that RAE assessment preparation guidance is available to faculty.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-001"
+    ],
+    "criteria": "RAE-CRITERIA-01: Faculty must have access to assessment preparation materials",
+    "status": "satisfied",
+    "notes": "Guide published and available on RAE landing page.",
+    "created_at": "2025-03-01T08:00:00Z",
+    "updated_at": "2026-02-20T11:00:00Z"
+  },
+  {
+    "id": "ev-rae-submission",
+    "name": "RAE Evidence Submission Template Evidence",
+    "description": "Evidence that standardized submission templates are available for RAE evidence collection.",
+    "project_ref": "rae-landing",
+    "document_refs": [
+      "RAE-002"
+    ],
+    "criteria": "RAE-CRITERIA-02: Standardized evidence submission process must exist",
+    "status": "satisfied",
+    "notes": "Template v1.3 available for download.",
+    "created_at": "2025-04-15T10:00:00Z",
+    "updated_at": "2026-01-25T15:30:00Z"
+  },
+  {
+    "id": "ev-lc-catalog",
+    "name": "Learning Center Course Catalog Evidence",
+    "description": "Evidence that the Learning Center offers a published catalog of courses and workshops.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-001"
+    ],
+    "criteria": "LC-CRITERIA-01: Course catalog must be published and accessible",
+    "status": "satisfied",
+    "notes": "2026 catalog published May 2026.",
+    "created_at": "2026-05-01T08:00:00Z",
+    "updated_at": "2026-05-15T09:00:00Z"
+  },
+  {
+    "id": "ev-lc-performance",
+    "name": "Learning Center Annual Performance Evidence",
+    "description": "Annual performance data demonstrating Learning Center activities and outcomes.",
+    "project_ref": "learning-center",
+    "document_refs": [
+      "LC-002"
+    ],
+    "criteria": "LC-CRITERIA-02: Annual performance reporting is required",
+    "status": "satisfied",
+    "notes": "2025 annual report published January 2026.",
+    "created_at": "2026-01-20T10:00:00Z",
+    "updated_at": "2026-01-20T10:00:00Z"
+  }
+]

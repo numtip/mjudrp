@@ -37,13 +37,17 @@
       "description": "Preferred document categories for this project"
     },
     "repository_url": {
-      "type": "string",
-      "format": "uri",
+      "anyOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "string", "maxLength": 0 }
+      ],
       "description": "Link to the project's GitHub repository"
     },
     "website_url": {
-      "type": "string",
-      "format": "uri",
+      "anyOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "string", "maxLength": 0 }
+      ],
       "description": "Link to the project's website/landing page"
     },
     "contact": {

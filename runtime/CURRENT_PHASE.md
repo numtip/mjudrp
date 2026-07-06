@@ -1,42 +1,40 @@
 # Current Phase
 
-## Phase: Architecture Lock v1.0 + Registry Specification Freeze
+## Phase: Sprint 2A — Core Registry Implementation
 
-The current phase locks the MJU-DRP architecture and freezes the Registry Specification v1.0 before Sprint 2 implementation begins. This is the final preparation sprint.
+The current phase implements the certified P0 Core Registry components: AJV schema validation, MiniSearch full-text search, registry output generation, automated testing, and CI pipeline enhancement.
 
 ## Phase Characteristics
 
 | Characteristic | Value |
 |----------------|-------|
-| Phase Type | Architecture lock + specification freeze |
+| Phase Type | Core registry implementation |
 | Duration | Single sprint |
-| Active Layers | Architecture docs, Lock docs, Memory, Runtime |
-| Documents Created | 10 architecture documents in `docs/architecture/` |
-| Disabled Layers | All implementation code |
+| Active Layers | Validation engine, Search engine, Registry generator, Testing, CI/CD |
+| Documents Created | 6 implementation documents in `docs/implementation/` |
+| Disabled Layers | All provider/adapter/plugin code, Microsoft Graph, SharePoint API, auth, DB |
 
 ## Phase Deliverables
 
-- [x] Architecture Lock v1.0 (8 locked rules, violation criteria)
-- [x] Registry Specification v1.0 (6 schemas, cross-reference rules)
-- [x] Schema Version Policy (semver, compatibility matrix)
-- [x] Implementation Backlog (P0: 8 items, P1: 6, P2: 6, P3: 5)
-- [x] Implementation Guidelines (coding standards, constraints)
-- [x] Migration Strategy (schema, output, technology migration)
-- [x] Consumer Onboarding Guide (step-by-step integration)
-- [x] Release Policy (9 quality gates, release process)
-- [x] Deprecation Policy (field, output, technology deprecation)
-- [x] Architecture Change Policy (change process, categories)
-- [x] ADR-011: Lock architecture and freeze registry spec
+- [x] AJV + ajv-formats integration (6 schemas compiled, all entries validated)
+- [x] dist/validation-report.json with structured error/warning/reference data
+- [x] MiniSearch integration (search-index.json + minisearch-index.json)
+- [x] 11 registry output files in dist/ (including manifest.json, performance-report.json)
+- [x] Registry fixtures: small (10), medium (100), large (1000) documents
+- [x] 4 test files with 77 assertions (validation, generator, registry, search)
+- [x] CI pipeline: install → validate → generate → test → upload artifacts
+- [x] 6 implementation documents in docs/implementation/
+- [x] ADR-012: Schema corrections for null parent and empty URI fields
 
 ## Phase Certifications
 
 | Component | Status |
 |-----------|--------|
-| Architecture Lock | ✅ LOCKED v1.0 |
-| Registry Specification | ✅ FROZEN v1.0 |
-| Quality Gates | ✅ LOCKED |
-| Consumer Contract | ✅ FROZEN to dist/ outputs |
+| AJV + ajv-formats | ✅ INTEGRATED (was CONDITIONAL) |
+| MiniSearch | ✅ INTEGRATED (was CERTIFIED) |
+| Architecture Lock | ✅ UNCHANGED |
+| Registry Specification | ✅ UNCHANGED |
 
 ## Next Phase
 
-Sprint 2: Registry Population & Integration — Integrate AJV + ajv-formats into validate-registry.mjs, integrate MiniSearch into generate-search-index.mjs, configure MCPs in Cursor, populate real metadata, populate relationship registry, establish SharePoint taxonomy, create consumer integration examples.
+Sprint 2B: Registry Population & Consumer Integration — Configure MCPs in Cursor, populate real document metadata from registered projects, populate relationship registry, establish SharePoint taxonomy, create consumer integration examples, set up GitHub Pages for JSON output distribution.

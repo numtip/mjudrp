@@ -1,0 +1,18 @@
+{
+  "registry_version": "1.0",
+  "schema_version": "1.0",
+  "build_timestamp": "2026-07-06T15:24:38.150Z",
+  "document_count": 7,
+  "generator_version": "2.0",
+  "outputs": [
+    "document-registry.json",
+    "category-registry.json",
+    "project-registry.json",
+    "owner-registry.json",
+    "evidence-registry.json",
+    "relationship-registry.json",
+    "search-index.json",
+    "minisearch-index.json",
+    "validation-report.json"
+  ]
+}

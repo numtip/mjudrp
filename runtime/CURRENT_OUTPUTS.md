@@ -6,6 +6,26 @@
 |------|--------|------|----------|
 | `dist/search-index.json` | JSON array | ~4 KB | All consumer projects (search) |
 | `dist/document-registry.json` | JSON array (normalized) | ~9 KB | All consumer projects (full registry) |
+| `dist/category-registry.json` | JSON array | ~1 KB | All consumer projects (categories) |
+| `dist/project-registry.json` | JSON array | ~1 KB | All consumer projects (projects) |
+| `dist/owner-registry.json` | JSON array | ~1 KB | All consumer projects (owners) |
+| `dist/evidence-registry.json` | JSON array | ~1 KB | All consumer projects (evidence) |
+| `dist/relationship-registry.json` | JSON array | ~1 KB | Cross-document links |
+| `dist/minisearch-index.json` | MiniSearch serialized index | ~3 KB | Full-text search |
+| `dist/validation-report.json` | JSON (validation results) | ~1 KB | CI/development |
+| `dist/manifest.json` | JSON (build metadata) | ~1 KB | CI/development |
+| `dist/performance-report.json` | JSON (timing metrics) | ~1 KB | CI/development |
+
+## Implementation Outputs
+
+| File | Purpose |
+|------|---------|
+| `docs/implementation/00_CORE_REGISTRY.md` | Core registry overview |
+| `docs/implementation/01_VALIDATION_ENGINE.md` | AJV validation engine |
+| `docs/implementation/02_SEARCH_ENGINE.md` | MiniSearch search engine |
+| `docs/implementation/03_OUTPUT_FORMAT.md` | Output format specification |
+| `docs/implementation/04_TESTING.md` | Test suite documentation |
+| `docs/implementation/05_BUILD_PIPELINE.md` | CI/CD pipeline documentation |
 
 ## Architecture Outputs
 
@@ -36,22 +56,22 @@
 |------|---------|
 | `docs/discovery/00_ECD_OVERVIEW.md` through `10_RESOURCE_CERTIFICATION_PLAN.md` | 11 discovery documents |
 
+## Fixtures
+
+| Directory | Documents | Purpose |
+|-----------|-----------|---------|
+| `examples/registry-small/` | 10 | Minimal test dataset |
+| `examples/registry-medium/` | 100 | Moderate test dataset |
+| `examples/registry-large/` | 1000 | Performance test dataset |
+
 ## Consumer Contract
 
 Consumers must ONLY depend on `dist/` outputs. Internal implementation files (`registry/*.json`, `schemas/*.json`, `scripts/*.mjs`) are NOT part of the consumer contract.
 
-## Future Outputs (Sprint 2+)
-
-| File | Format | Sprint |
-|------|--------|--------|
-| `dist/search-index.minisearch.json` | MiniSearch index | Sprint 2 |
-| `dist/pagefind/` (directory) | Pagefind index | Sprint 3 |
-| GitHub Pages `https://numtip.github.io/mjudrp/` | Static site | Sprint 2 |
-
 ## Output Lifecycle
 
 ```
-Registry data changed → validate → generate (static + MiniSearch) → commit → push → consumer fetches
-                                                                              ↓
-                                                                    GitHub Pages (future)
+Registry data changed → validate (AJV) → generate (static + MiniSearch) → test (77 assertions) → commit → push → consumer fetches
+                                                                                                                   ↓
+                                                                                                         GitHub Pages (future)
 ```

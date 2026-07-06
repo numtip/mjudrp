@@ -2,12 +2,12 @@
 
 | Field | Value |
 |-------|-------|
-| Date | 2026-07-06T15:10:00.000Z |
-| Sprint | Architecture Lock v1.0 + Registry Spec Freeze |
-| Summary | Locked MJU-DRP architecture. Froze Registry Specification v1.0. Created 10 architecture documents in `docs/architecture/`: Architecture Lock, Registry Spec, Schema Version Policy, Implementation Backlog (P0-P3), Implementation Guidelines, Migration Strategy, Consumer Onboarding Guide, Release Policy (with 9 quality gates), Deprecation Policy, Architecture Change Policy. Added ADR-011. Quality gates are now mandatory for all sprints. Consumer contract frozen to `dist/` outputs only. |
-| Files Changed | 10 new architecture docs, 6 memory/runtime files updated, 3 core docs updated (README, PROJECT_MEMORY, NEXT_SPRINT_PLAN) |
-| Commands Run | `node scripts/validate-registry.mjs`, `node scripts/generate-search-index.mjs` |
+| Date | 2026-07-06T15:24:27.336Z |
+| Sprint | Sprint 2A — Core Registry Implementation |
+| Summary | Implemented P0 Core Registry engine. AJV + ajv-formats integrated into validate-registry.mjs (all 6 schemas compile, all entries validate, cross-references checked). MiniSearch integrated into generate-search-index.mjs (both search-index.json + minisearch-index.json produced). 11 output files generated in dist/ (document, category, project, owner, evidence, relationship, search, minisearch, validation-report, manifest, performance-report). Registry fixtures created: small (10 docs), medium (100 docs), large (1000 docs). 4 test files created with 77 total assertions. CI pipeline updated with full install/validate/generate/test/upload flow. 6 implementation docs created in docs/implementation/. ADR-012 added for schema corrections (null parent, empty URI fields). Schema defects fixed in category.schema.json and project.schema.json per ADR-012. All quality gates pass. |
+| Files Changed | 2 scripts upgraded, 2 schemas corrected, 4 test files created, 11 dist outputs generated, CI updated, 6 implementation docs, 3 fixture directories, ADR added, all memory/runtime files updated |
+| Commands Run | `node scripts/validate-registry.mjs` (PASS), `node scripts/generate-search-index.mjs`, `npm test` (77/77 PASS) |
 | Validation Result | PASS (0 errors, 0 warnings) |
-| Commit Hash | (pending — to be created this session) |
+| Commit Hash | dc45db0 |
 | Push Status | (pending this sprint) |
-| Next Action | Sprint 2: Registry Population & Integration — Integrate AJV + ajv-formats into validate-registry.mjs, integrate MiniSearch into generate-search-index.mjs, configure MCPs in Cursor, populate real metadata, populate relationship registry, establish SharePoint taxonomy, create consumer examples |
+| Next Action | Sprint 2B: Registry Population & Consumer Integration — Configure MCPs in Cursor, populate real metadata, populate relationship registry, establish SharePoint taxonomy, create consumer examples, set up GitHub Pages |

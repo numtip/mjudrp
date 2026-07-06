@@ -67,3 +67,24 @@
 | Decisions | ADR-011: Lock architecture. Freeze Registry Specification v1.0. Establish quality gates. Lock all 10 architecture documents. Consumer contract frozen to `dist/` outputs only. |
 | Validation Result | PASS (0 errors, 0 warnings) |
 
+## SESSION-1783355400000
+
+| Field | Value |
+|-------|-------|
+| Date | 2026-07-06T15:18:00.000Z |
+| Goal | Sprint 2A — Core Registry Implementation |
+| Completed Work | Integrated AJV + ajv-formats into validate-registry.mjs (6 schemas compiled, schema validation + cross-references). Integrated MiniSearch into generate-search-index.mjs (both search-index.json + minisearch-index.json). Generated 11 dist/ outputs (document, category, project, owner, evidence, relationship, search, minisearch, validation-report, manifest, performance-report). Created registry fixtures: small (10 docs), medium (100 docs), large (1000 docs). Created 4 test files with 77 total assertions passing. Updated CI pipeline with install/validate/generate/test/upload artifacts. Created 6 implementation docs in docs/implementation/. Applied schema corrections (ADR-012) for null parent and empty URI fields. |
+| Decisions | ADR-012: Schema corrections for null parent (category) and empty URI fields (project) to align with AJV validation. Both use same anyOf pattern as document schema. |
+| Validation Result | PASS (0 errors, 0 warnings) |
+
+
+## SESSION-1783351467337
+
+| Field | Value |
+|-------|-------|
+| Date | 2026-07-06T15:24:27.336Z |
+| Goal | Memory update — automated timestamp and git commit refresh |
+| Completed Work | Updated CURRENT_STATE.md (timestamp, branch, commit), LAST_HANDOFF.md (timestamp, commit), appended to SESSION_LOG.md |
+| Decisions | None — automated memory update only |
+| Validation Result | See CURRENT_STATE.md |
+

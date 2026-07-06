@@ -1,46 +1,46 @@
 # Next Sprint Plan
 
-## Sprint 2: Registry Population & Integration
+## Sprint 2A: Core Registry Implementation (Completed)
 
 ### Preceded by: Enterprise Capability Discovery v1.3 ✅ + Enterprise Resource Certification v1.4 ✅ + Architecture Lock v1.0 ✅
 
-Architecture is now **LOCKED**. Registry Specification v1.0 is **FROZEN**. See `docs/architecture/` for all architecture documents and quality gates.
+Architecture is **LOCKED**. Registry Specification v1.0 is **FROZEN**. See `docs/architecture/` for all architecture documents and quality gates.
 
-ERC v1.4 verified these tools through practical evaluation:
+### Objectives (Completed)
+1. ✅ Integrated AJV + ajv-formats into `validate-registry.mjs` — all 6 schemas compile, all entries validate
+2. ✅ Integrated MiniSearch into `generate-search-index.mjs` — both search-index.json + minisearch-index.json
+3. ✅ Generated 11 production-ready dist/ outputs (document, category, project, owner, evidence, relationship, search, minisearch, validation-report, manifest, performance-report)
+4. ✅ Created registry fixtures: small (10 docs), medium (100 docs), large (1000 docs)
+5. ✅ Created 4 test files with 77 total assertions
+6. ✅ Updated CI pipeline: install → validate → generate → test → upload artifacts
+7. ✅ Created 6 implementation documents in docs/implementation/
+8. ✅ Applied schema corrections (ADR-012) for AJV compatibility
+9. ✅ Updated all memory, runtime, PROJECT_MEMORY, NEXT_SPRINT_PLAN
 
-| Technology | ERC Status | Finding |
-|------------|-----------|---------|
-| **AJV + ajv-formats** | CONDITIONAL | Schema compiled; 7/7 docs valid; 5ms; requires ajv-formats |
-| **MiniSearch** | CERTIFIED | 5000 docs in 67ms; 1.19MB index; zero dependencies |
-| **GitHub MCP** | CONDITIONAL | Verified git ops; requires Cursor config + PAT |
-| **Filesystem MCP** | CONDITIONAL | Verified file ops; requires Cursor config |
-| **Dublin Core** | CERTIFIED | 22/26 fields mapped; no schema changes needed |
+## Sprint 2B: Registry Population & Consumer Integration
 
 ### Objectives (P0)
-1. Integrate AJV + ajv-formats into `validate-registry.mjs` for schema-driven validation
-2. Integrate MiniSearch into `generate-search-index.mjs` for client-side search
-3. Configure GitHub MCP and Filesystem MCP in Cursor for AI agent access
-4. Populate registry with real (or more realistic) document metadata
-5. Populate `registry/relationship.sample.json` with cross-document links
-6. Establish Microsoft 365 / SharePoint folder structure aligned with registry taxonomy
-7. Create consumer integration examples (static HTML + MiniSearch)
-8. Set up GitHub Pages or static hosting for JSON outputs
+1. Configure GitHub MCP and Filesystem MCP in Cursor for AI agent access
+2. Populate registry with real document metadata from registered projects (Green Office 2026, RAE, etc.)
+3. Populate `registry/relationship.sample.json` with cross-document links
+4. Establish Microsoft 365 / SharePoint folder structure aligned with registry taxonomy
+5. Create consumer integration examples (static HTML + MiniSearch)
+6. Set up GitHub Pages or static hosting for JSON outputs
 
 ### Tasks
 
-#### Tooling — ERC Certified
-- [ ] Install AJV + ajv-formats (`npm install ajv ajv-formats`) and integrate into `validate-registry.mjs`
-- [ ] Install MiniSearch (`npm install minisearch`) and integrate into `generate-search-index.mjs`
+#### Tooling — MCP Configuration
 - [ ] Configure GitHub MCP (`npx @github/github-mcp-server`) in Cursor with PAT
 - [ ] Configure Filesystem MCP (`npx @modelcontextprotocol/server-filesystem`) in Cursor
 
 #### Registry Population
-- [ ] Add more sample documents for Research Portal project
-- [ ] Add real document metadata from Green Office 2026
+- [ ] Add real document metadata from Green Office 2026 project
+- [ ] Add real document metadata from Research Portal project
+- [ ] Add more sample documents for Learning Center project
 - [ ] Add relationship entries between related documents
 - [ ] Populate `registry/relationship.sample.json` with cross-document links
 
-#### Microsoft 365 Integration
+#### Microsoft 365 Alignment
 - [ ] Implement SharePoint column template matching registry schema
 - [ ] Document folder hierarchy guidelines matching registry taxonomy
 - [ ] Create site provisioning checklist
@@ -57,12 +57,11 @@ ERC v1.4 verified these tools through practical evaluation:
 - [ ] Create quick-start guide for new consumer projects
 
 ### Allowed Actions
-- Add and update registry data files
-- Install and integrate AJV, ajv-formats, MiniSearch
 - Configure MCP servers in Cursor
+- Update registry data files with real project metadata
 - Create consumer integration examples
+- Configure static hosting (GitHub Pages)
 - Update memory files (quality gates)
-- Configure static hosting
 
 ### Forbidden Actions
 - Do not implement Microsoft Graph integration
@@ -74,15 +73,18 @@ ERC v1.4 verified these tools through practical evaluation:
 - Do not add a database
 
 ### Quality Gates
-Before closing this sprint:
+Before closing Sprint 2B:
 1. `node scripts/validate-registry.mjs` — PASS
-2. Memory files updated (CURRENT_STATE, NEXT_TASK, LAST_HANDOFF, SESSION_LOG)
-3. Runtime files updated (CURRENT_RUNTIME, CURRENT_PHASE, CURRENT_OUTPUTS)
-4. ADRs updated (if applicable)
-5. Registry version updated (if schema changed)
+2. `npm test` — All 77 assertions PASS
+3. Memory files updated (CURRENT_STATE, NEXT_TASK, LAST_HANDOFF, SESSION_LOG)
+4. Runtime files updated (CURRENT_RUNTIME, CURRENT_PHASE, CURRENT_OUTPUTS)
+5. ADRs updated (if applicable)
+6. Registry version updated (if schema changed)
+7. No broken documentation links
 
 ### Risks
-- AJV or MiniSearch may require schema adjustments
 - Real document metadata requires coordination with project owners
 - SharePoint access may need IT approval
 - Consumer projects may need updates to integrate registry outputs
+- GitHub Pages needs repository settings configuration
+- MCP servers need Cursor IDE version that supports MCP

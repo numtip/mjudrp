@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-07-06T15:24:32.957Z",
+  "documents_checked": 7,
+  "errors": [],
+  "warnings": [],
+  "duplicates": [],
+  "missing_owners": [],
+  "missing_categories": [],
+  "missing_evidence": [],
+  "invalid_references": [],
+  "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "passed": true
+  },
+  "status": "PASS"
+}

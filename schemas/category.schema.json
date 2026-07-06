@@ -27,8 +27,11 @@
       "description": "Description of what this category covers"
     },
     "parent": {
-      "type": "string",
-      "description": "Optional parent category ID for hierarchical taxonomies"
+      "anyOf": [
+        { "type": "string" },
+        { "type": "null" }
+      ],
+      "description": "Optional parent category ID for hierarchical taxonomies (null for root categories)"
     },
     "icon": {
       "type": "string",

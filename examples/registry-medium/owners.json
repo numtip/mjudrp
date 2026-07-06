@@ -1,0 +1,17 @@
+[
+  {
+    "id": "owner-sustainability",
+    "name": "Sustainability Office",
+    "email": "owner-sustainability@mju.ac.th"
+  },
+  {
+    "id": "owner-research",
+    "name": "Research Admin",
+    "email": "owner-research@mju.ac.th"
+  },
+  {
+    "id": "owner-learning",
+    "name": "Learning Center",
+    "email": "owner-learning@mju.ac.th"
+  }
+]

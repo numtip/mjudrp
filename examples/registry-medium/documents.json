@@ -1,0 +1,3902 @@
+[
+  {
+    "id": "MED-0001",
+    "title": "Template Document 1",
+    "description": "Auto-generated template document #1 for fixture testing.",
+    "category": "template",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "archived",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-1"
+    ],
+    "tags": [
+      "template",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 3867396,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/template/MED/template_doc_1.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_1.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-02-02T08:00:00Z",
+    "updated_at": "2021-02-02T10:30:00Z"
+  },
+  {
+    "id": "MED-0002",
+    "title": "Report Document 2",
+    "description": "Auto-generated report document #2 for fixture testing.",
+    "category": "report",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.2",
+    "status": "review",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-2"
+    ],
+    "tags": [
+      "report",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 3296895,
+    "storage_provider": "teams",
+    "storage_path": "/sites/report/MED/report_doc_2.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_2.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-03-03T08:00:00Z",
+    "updated_at": "2022-03-03T10:30:00Z"
+  },
+  {
+    "id": "MED-0003",
+    "title": "Evidence Document 3",
+    "description": "Auto-generated evidence document #3 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.3",
+    "status": "draft",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-3"
+    ],
+    "tags": [
+      "evidence",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pptx",
+    "file_size": 1358542,
+    "storage_provider": "teams",
+    "storage_path": "/sites/evidence/MED/evidence_doc_3.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_3.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2020-04-04T08:00:00Z",
+    "updated_at": "2020-04-04T10:30:00Z"
+  },
+  {
+    "id": "MED-0004",
+    "title": "Report Document 4",
+    "description": "Auto-generated report document #4 for fixture testing.",
+    "category": "report",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.4",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-4"
+    ],
+    "tags": [
+      "report",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 4938881,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/report/MED/report_doc_4.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_4.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-05-05T08:00:00Z",
+    "updated_at": "2021-05-05T10:30:00Z"
+  },
+  {
+    "id": "MED-0005",
+    "title": "Meeting Document 5",
+    "description": "Auto-generated meeting document #5 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-5"
+    ],
+    "tags": [
+      "meeting",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 1175893,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/meeting/MED/meeting_doc_5.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_5.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-06-06T08:00:00Z",
+    "updated_at": "2022-06-06T10:30:00Z"
+  },
+  {
+    "id": "MED-0006",
+    "title": "Guideline Document 6",
+    "description": "Auto-generated guideline document #6 for fixture testing.",
+    "category": "guideline",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.1",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "guideline",
+      "fixture",
+      "test",
+      "doc-6"
+    ],
+    "tags": [
+      "guideline",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 4428105,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/guideline/MED/guideline_doc_6.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/guideline/Shared%20Documents/MED/guideline_doc_6.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-07T08:00:00Z",
+    "updated_at": "2020-07-07T10:30:00Z"
+  },
+  {
+    "id": "MED-0007",
+    "title": "Catalog Document 7",
+    "description": "Auto-generated catalog document #7 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "review",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-7"
+    ],
+    "tags": [
+      "catalog",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 1716376,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/catalog/MED/catalog_doc_7.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_7.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-08-08T08:00:00Z",
+    "updated_at": "2021-08-08T10:30:00Z"
+  },
+  {
+    "id": "MED-0008",
+    "title": "Announcement Document 8",
+    "description": "Auto-generated announcement document #8 for fixture testing.",
+    "category": "announcement",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.3",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "announcement",
+      "fixture",
+      "test",
+      "doc-8"
+    ],
+    "tags": [
+      "announcement",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4372433,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/announcement/MED/announcement_doc_8.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/announcement/Shared%20Documents/MED/announcement_doc_8.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-09-09T08:00:00Z",
+    "updated_at": "2022-09-09T10:30:00Z"
+  },
+  {
+    "id": "MED-0009",
+    "title": "Report Document 9",
+    "description": "Auto-generated report document #9 for fixture testing.",
+    "category": "report",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.4",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-9"
+    ],
+    "tags": [
+      "report",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 140637,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/report/MED/report_doc_9.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_9.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-01-010T08:00:00Z",
+    "updated_at": "2020-01-010T10:30:00Z"
+  },
+  {
+    "id": "MED-0010",
+    "title": "Meeting Document 10",
+    "description": "Auto-generated meeting document #10 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-10"
+    ],
+    "tags": [
+      "meeting",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 2589649,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/meeting/MED/meeting_doc_10.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_10.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-02-011T08:00:00Z",
+    "updated_at": "2021-02-011T10:30:00Z"
+  },
+  {
+    "id": "MED-0011",
+    "title": "Evidence Document 11",
+    "description": "Auto-generated evidence document #11 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.1",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-11"
+    ],
+    "tags": [
+      "evidence",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 688931,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/evidence/MED/evidence_doc_11.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_11.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-03-012T08:00:00Z",
+    "updated_at": "2022-03-012T10:30:00Z"
+  },
+  {
+    "id": "MED-0012",
+    "title": "Template Document 12",
+    "description": "Auto-generated template document #12 for fixture testing.",
+    "category": "template",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.2",
+    "status": "draft",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-12"
+    ],
+    "tags": [
+      "template",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 4044122,
+    "storage_provider": "teams",
+    "storage_path": "/sites/template/MED/template_doc_12.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_12.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-04-013T08:00:00Z",
+    "updated_at": "2020-04-013T10:30:00Z"
+  },
+  {
+    "id": "MED-0013",
+    "title": "Research Document 13",
+    "description": "Auto-generated research document #13 for fixture testing.",
+    "category": "research",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.3",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-13"
+    ],
+    "tags": [
+      "research",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 3693723,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/research/MED/research_doc_13.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_13.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-05-014T08:00:00Z",
+    "updated_at": "2021-05-014T10:30:00Z"
+  },
+  {
+    "id": "MED-0014",
+    "title": "Policy Document 14",
+    "description": "Auto-generated policy document #14 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.4",
+    "status": "review",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-14"
+    ],
+    "tags": [
+      "policy",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 3610281,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/policy/MED/policy_doc_14.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_14.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-06-015T08:00:00Z",
+    "updated_at": "2022-06-015T10:30:00Z"
+  },
+  {
+    "id": "MED-0015",
+    "title": "Report Document 15",
+    "description": "Auto-generated report document #15 for fixture testing.",
+    "category": "report",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-15"
+    ],
+    "tags": [
+      "report",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 123355,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/report/MED/report_doc_15.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_15.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-07-016T08:00:00Z",
+    "updated_at": "2020-07-016T10:30:00Z"
+  },
+  {
+    "id": "MED-0016",
+    "title": "Policy Document 16",
+    "description": "Auto-generated policy document #16 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-16"
+    ],
+    "tags": [
+      "policy",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1981365,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/policy/MED/policy_doc_16.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_16.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-08-017T08:00:00Z",
+    "updated_at": "2021-08-017T10:30:00Z"
+  },
+  {
+    "id": "MED-0017",
+    "title": "Meeting Document 17",
+    "description": "Auto-generated meeting document #17 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.2",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-17"
+    ],
+    "tags": [
+      "meeting",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 1286778,
+    "storage_provider": "teams",
+    "storage_path": "/sites/meeting/MED/meeting_doc_17.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_17.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-09-018T08:00:00Z",
+    "updated_at": "2022-09-018T10:30:00Z"
+  },
+  {
+    "id": "MED-0018",
+    "title": "Evidence Document 18",
+    "description": "Auto-generated evidence document #18 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.3",
+    "status": "draft",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-18"
+    ],
+    "tags": [
+      "evidence",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2346987,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/evidence/MED/evidence_doc_18.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_18.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-01-019T08:00:00Z",
+    "updated_at": "2020-01-019T10:30:00Z"
+  },
+  {
+    "id": "MED-0019",
+    "title": "Meeting Document 19",
+    "description": "Auto-generated meeting document #19 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.4",
+    "status": "archived",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-19"
+    ],
+    "tags": [
+      "meeting",
+      "archived"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3107789,
+    "storage_provider": "teams",
+    "storage_path": "/sites/meeting/MED/meeting_doc_19.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_19.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-02-020T08:00:00Z",
+    "updated_at": "2021-02-020T10:30:00Z"
+  },
+  {
+    "id": "MED-0020",
+    "title": "Report Document 20",
+    "description": "Auto-generated report document #20 for fixture testing.",
+    "category": "report",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-20"
+    ],
+    "tags": [
+      "report",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2963234,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/report/MED/report_doc_20.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_20.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-03-021T08:00:00Z",
+    "updated_at": "2022-03-021T10:30:00Z"
+  },
+  {
+    "id": "MED-0021",
+    "title": "Research Document 21",
+    "description": "Auto-generated research document #21 for fixture testing.",
+    "category": "research",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.1",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-21"
+    ],
+    "tags": [
+      "research",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3399923,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/research/MED/research_doc_21.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_21.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-04-022T08:00:00Z",
+    "updated_at": "2020-04-022T10:30:00Z"
+  },
+  {
+    "id": "MED-0022",
+    "title": "Strategic-plan Document 22",
+    "description": "Auto-generated strategic-plan document #22 for fixture testing.",
+    "category": "strategic-plan",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "strategic-plan",
+      "fixture",
+      "test",
+      "doc-22"
+    ],
+    "tags": [
+      "strategic-plan",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2725364,
+    "storage_provider": "teams",
+    "storage_path": "/sites/strategic-plan/MED/strategic-plan_doc_22.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/strategic-plan/Shared%20Documents/MED/strategic-plan_doc_22.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-05-023T08:00:00Z",
+    "updated_at": "2021-05-023T10:30:00Z"
+  },
+  {
+    "id": "MED-0023",
+    "title": "Strategic-plan Document 23",
+    "description": "Auto-generated strategic-plan document #23 for fixture testing.",
+    "category": "strategic-plan",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.3",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "strategic-plan",
+      "fixture",
+      "test",
+      "doc-23"
+    ],
+    "tags": [
+      "strategic-plan",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 3185639,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/strategic-plan/MED/strategic-plan_doc_23.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/strategic-plan/Shared%20Documents/MED/strategic-plan_doc_23.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-06-024T08:00:00Z",
+    "updated_at": "2022-06-024T10:30:00Z"
+  },
+  {
+    "id": "MED-0024",
+    "title": "Research Document 24",
+    "description": "Auto-generated research document #24 for fixture testing.",
+    "category": "research",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.4",
+    "status": "review",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-24"
+    ],
+    "tags": [
+      "research",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 2278590,
+    "storage_provider": "teams",
+    "storage_path": "/sites/research/MED/research_doc_24.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_24.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-025T08:00:00Z",
+    "updated_at": "2020-07-025T10:30:00Z"
+  },
+  {
+    "id": "MED-0025",
+    "title": "Meeting Document 25",
+    "description": "Auto-generated meeting document #25 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-25"
+    ],
+    "tags": [
+      "meeting",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 1835382,
+    "storage_provider": "teams",
+    "storage_path": "/sites/meeting/MED/meeting_doc_25.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_25.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-08-026T08:00:00Z",
+    "updated_at": "2021-08-026T10:30:00Z"
+  },
+  {
+    "id": "MED-0026",
+    "title": "Meeting Document 26",
+    "description": "Auto-generated meeting document #26 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.1",
+    "status": "draft",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-26"
+    ],
+    "tags": [
+      "meeting",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pptx",
+    "file_size": 3557763,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/meeting/MED/meeting_doc_26.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_26.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-09-027T08:00:00Z",
+    "updated_at": "2022-09-027T10:30:00Z"
+  },
+  {
+    "id": "MED-0027",
+    "title": "Policy Document 27",
+    "description": "Auto-generated policy document #27 for fixture testing.",
+    "category": "policy",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.2",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-27"
+    ],
+    "tags": [
+      "policy",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 774207,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/policy/MED/policy_doc_27.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_27.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2020-01-028T08:00:00Z",
+    "updated_at": "2020-01-028T10:30:00Z"
+  },
+  {
+    "id": "MED-0028",
+    "title": "Policy Document 28",
+    "description": "Auto-generated policy document #28 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.3",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-28"
+    ],
+    "tags": [
+      "policy",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 4511332,
+    "storage_provider": "teams",
+    "storage_path": "/sites/policy/MED/policy_doc_28.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_28.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-02-01T08:00:00Z",
+    "updated_at": "2021-02-01T10:30:00Z"
+  },
+  {
+    "id": "MED-0029",
+    "title": "Policy Document 29",
+    "description": "Auto-generated policy document #29 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.4",
+    "status": "review",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-29"
+    ],
+    "tags": [
+      "policy",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 520458,
+    "storage_provider": "teams",
+    "storage_path": "/sites/policy/MED/policy_doc_29.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_29.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-03-02T08:00:00Z",
+    "updated_at": "2022-03-02T10:30:00Z"
+  },
+  {
+    "id": "MED-0030",
+    "title": "Template Document 30",
+    "description": "Auto-generated template document #30 for fixture testing.",
+    "category": "template",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-30"
+    ],
+    "tags": [
+      "template",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4621303,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/template/MED/template_doc_30.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_30.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-04-03T08:00:00Z",
+    "updated_at": "2020-04-03T10:30:00Z"
+  },
+  {
+    "id": "MED-0031",
+    "title": "Evidence Document 31",
+    "description": "Auto-generated evidence document #31 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-31"
+    ],
+    "tags": [
+      "evidence",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2477450,
+    "storage_provider": "teams",
+    "storage_path": "/sites/evidence/MED/evidence_doc_31.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_31.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-05-04T08:00:00Z",
+    "updated_at": "2021-05-04T10:30:00Z"
+  },
+  {
+    "id": "MED-0032",
+    "title": "Guideline Document 32",
+    "description": "Auto-generated guideline document #32 for fixture testing.",
+    "category": "guideline",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.2",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "guideline",
+      "fixture",
+      "test",
+      "doc-32"
+    ],
+    "tags": [
+      "guideline",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 2831079,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/guideline/MED/guideline_doc_32.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/guideline/Shared%20Documents/MED/guideline_doc_32.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-06-05T08:00:00Z",
+    "updated_at": "2022-06-05T10:30:00Z"
+  },
+  {
+    "id": "MED-0033",
+    "title": "Report Document 33",
+    "description": "Auto-generated report document #33 for fixture testing.",
+    "category": "report",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.3",
+    "status": "review",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-33"
+    ],
+    "tags": [
+      "report",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 2438323,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/report/MED/report_doc_33.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_33.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-07-06T08:00:00Z",
+    "updated_at": "2020-07-06T10:30:00Z"
+  },
+  {
+    "id": "MED-0034",
+    "title": "Catalog Document 34",
+    "description": "Auto-generated catalog document #34 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.4",
+    "status": "published",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-34"
+    ],
+    "tags": [
+      "catalog",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 3950019,
+    "storage_provider": "teams",
+    "storage_path": "/sites/catalog/MED/catalog_doc_34.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_34.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-08-07T08:00:00Z",
+    "updated_at": "2021-08-07T10:30:00Z"
+  },
+  {
+    "id": "MED-0035",
+    "title": "Announcement Document 35",
+    "description": "Auto-generated announcement document #35 for fixture testing.",
+    "category": "announcement",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "announcement",
+      "fixture",
+      "test",
+      "doc-35"
+    ],
+    "tags": [
+      "announcement",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 606640,
+    "storage_provider": "teams",
+    "storage_path": "/sites/announcement/MED/announcement_doc_35.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/announcement/Shared%20Documents/MED/announcement_doc_35.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-09-08T08:00:00Z",
+    "updated_at": "2022-09-08T10:30:00Z"
+  },
+  {
+    "id": "MED-0036",
+    "title": "Meeting Document 36",
+    "description": "Auto-generated meeting document #36 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.1",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-36"
+    ],
+    "tags": [
+      "meeting",
+      "archived"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 1053686,
+    "storage_provider": "teams",
+    "storage_path": "/sites/meeting/MED/meeting_doc_36.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_36.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-01-09T08:00:00Z",
+    "updated_at": "2020-01-09T10:30:00Z"
+  },
+  {
+    "id": "MED-0037",
+    "title": "Meeting Document 37",
+    "description": "Auto-generated meeting document #37 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-37"
+    ],
+    "tags": [
+      "meeting",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 3355157,
+    "storage_provider": "teams",
+    "storage_path": "/sites/meeting/MED/meeting_doc_37.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_37.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-02-010T08:00:00Z",
+    "updated_at": "2021-02-010T10:30:00Z"
+  },
+  {
+    "id": "MED-0038",
+    "title": "Evidence Document 38",
+    "description": "Auto-generated evidence document #38 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.3",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-38"
+    ],
+    "tags": [
+      "evidence",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 3546047,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/evidence/MED/evidence_doc_38.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_38.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-03-011T08:00:00Z",
+    "updated_at": "2022-03-011T10:30:00Z"
+  },
+  {
+    "id": "MED-0039",
+    "title": "Research Document 39",
+    "description": "Auto-generated research document #39 for fixture testing.",
+    "category": "research",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.4",
+    "status": "review",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-39"
+    ],
+    "tags": [
+      "research",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 2658365,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/research/MED/research_doc_39.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_39.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-04-012T08:00:00Z",
+    "updated_at": "2020-04-012T10:30:00Z"
+  },
+  {
+    "id": "MED-0040",
+    "title": "Guideline Document 40",
+    "description": "Auto-generated guideline document #40 for fixture testing.",
+    "category": "guideline",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "guideline",
+      "fixture",
+      "test",
+      "doc-40"
+    ],
+    "tags": [
+      "guideline",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3418199,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/guideline/MED/guideline_doc_40.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/guideline/Shared%20Documents/MED/guideline_doc_40.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-05-013T08:00:00Z",
+    "updated_at": "2021-05-013T10:30:00Z"
+  },
+  {
+    "id": "MED-0041",
+    "title": "Evidence Document 41",
+    "description": "Auto-generated evidence document #41 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.1",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-41"
+    ],
+    "tags": [
+      "evidence",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pptx",
+    "file_size": 4979271,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/evidence/MED/evidence_doc_41.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_41.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-06-014T08:00:00Z",
+    "updated_at": "2022-06-014T10:30:00Z"
+  },
+  {
+    "id": "MED-0042",
+    "title": "Catalog Document 42",
+    "description": "Auto-generated catalog document #42 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.2",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-42"
+    ],
+    "tags": [
+      "catalog",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3526379,
+    "storage_provider": "teams",
+    "storage_path": "/sites/catalog/MED/catalog_doc_42.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_42.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-07-015T08:00:00Z",
+    "updated_at": "2020-07-015T10:30:00Z"
+  },
+  {
+    "id": "MED-0043",
+    "title": "Catalog Document 43",
+    "description": "Auto-generated catalog document #43 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.3",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-43"
+    ],
+    "tags": [
+      "catalog",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2094317,
+    "storage_provider": "teams",
+    "storage_path": "/sites/catalog/MED/catalog_doc_43.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_43.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-08-016T08:00:00Z",
+    "updated_at": "2021-08-016T10:30:00Z"
+  },
+  {
+    "id": "MED-0044",
+    "title": "Guideline Document 44",
+    "description": "Auto-generated guideline document #44 for fixture testing.",
+    "category": "guideline",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.4",
+    "status": "draft",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "guideline",
+      "fixture",
+      "test",
+      "doc-44"
+    ],
+    "tags": [
+      "guideline",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 1962217,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/guideline/MED/guideline_doc_44.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/guideline/Shared%20Documents/MED/guideline_doc_44.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-09-017T08:00:00Z",
+    "updated_at": "2022-09-017T10:30:00Z"
+  },
+  {
+    "id": "MED-0045",
+    "title": "Policy Document 45",
+    "description": "Auto-generated policy document #45 for fixture testing.",
+    "category": "policy",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "review",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-45"
+    ],
+    "tags": [
+      "policy",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 242252,
+    "storage_provider": "teams",
+    "storage_path": "/sites/policy/MED/policy_doc_45.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_45.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-01-018T08:00:00Z",
+    "updated_at": "2020-01-018T10:30:00Z"
+  },
+  {
+    "id": "MED-0046",
+    "title": "Evidence Document 46",
+    "description": "Auto-generated evidence document #46 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-46"
+    ],
+    "tags": [
+      "evidence",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2800434,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/evidence/MED/evidence_doc_46.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_46.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-02-019T08:00:00Z",
+    "updated_at": "2021-02-019T10:30:00Z"
+  },
+  {
+    "id": "MED-0047",
+    "title": "Evidence Document 47",
+    "description": "Auto-generated evidence document #47 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.2",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-47"
+    ],
+    "tags": [
+      "evidence",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 932846,
+    "storage_provider": "teams",
+    "storage_path": "/sites/evidence/MED/evidence_doc_47.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_47.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-03-020T08:00:00Z",
+    "updated_at": "2022-03-020T10:30:00Z"
+  },
+  {
+    "id": "MED-0048",
+    "title": "Research Document 48",
+    "description": "Auto-generated research document #48 for fixture testing.",
+    "category": "research",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.3",
+    "status": "review",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-48"
+    ],
+    "tags": [
+      "research",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 503255,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/research/MED/research_doc_48.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_48.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-04-021T08:00:00Z",
+    "updated_at": "2020-04-021T10:30:00Z"
+  },
+  {
+    "id": "MED-0049",
+    "title": "Policy Document 49",
+    "description": "Auto-generated policy document #49 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.4",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-49"
+    ],
+    "tags": [
+      "policy",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 1886421,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/policy/MED/policy_doc_49.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_49.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-05-022T08:00:00Z",
+    "updated_at": "2021-05-022T10:30:00Z"
+  },
+  {
+    "id": "MED-0050",
+    "title": "Template Document 50",
+    "description": "Auto-generated template document #50 for fixture testing.",
+    "category": "template",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-50"
+    ],
+    "tags": [
+      "template",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 1851481,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/template/MED/template_doc_50.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_50.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-06-023T08:00:00Z",
+    "updated_at": "2022-06-023T10:30:00Z"
+  },
+  {
+    "id": "MED-0051",
+    "title": "Report Document 51",
+    "description": "Auto-generated report document #51 for fixture testing.",
+    "category": "report",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.1",
+    "status": "review",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-51"
+    ],
+    "tags": [
+      "report",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 4574833,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/report/MED/report_doc_51.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_51.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-024T08:00:00Z",
+    "updated_at": "2020-07-024T10:30:00Z"
+  },
+  {
+    "id": "MED-0052",
+    "title": "Report Document 52",
+    "description": "Auto-generated report document #52 for fixture testing.",
+    "category": "report",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "archived",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-52"
+    ],
+    "tags": [
+      "report",
+      "archived"
+    ],
+    "language": "en",
+    "file_type": "pptx",
+    "file_size": 3723235,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/report/MED/report_doc_52.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_52.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-08-025T08:00:00Z",
+    "updated_at": "2021-08-025T10:30:00Z"
+  },
+  {
+    "id": "MED-0053",
+    "title": "Evidence Document 53",
+    "description": "Auto-generated evidence document #53 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.3",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-53"
+    ],
+    "tags": [
+      "evidence",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 3123340,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/evidence/MED/evidence_doc_53.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_53.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-09-026T08:00:00Z",
+    "updated_at": "2022-09-026T10:30:00Z"
+  },
+  {
+    "id": "MED-0054",
+    "title": "Template Document 54",
+    "description": "Auto-generated template document #54 for fixture testing.",
+    "category": "template",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.4",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-54"
+    ],
+    "tags": [
+      "template",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3365407,
+    "storage_provider": "teams",
+    "storage_path": "/sites/template/MED/template_doc_54.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_54.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-01-027T08:00:00Z",
+    "updated_at": "2020-01-027T10:30:00Z"
+  },
+  {
+    "id": "MED-0055",
+    "title": "Announcement Document 55",
+    "description": "Auto-generated announcement document #55 for fixture testing.",
+    "category": "announcement",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "announcement",
+      "fixture",
+      "test",
+      "doc-55"
+    ],
+    "tags": [
+      "announcement",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 3413567,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/announcement/MED/announcement_doc_55.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/announcement/Shared%20Documents/MED/announcement_doc_55.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-02-028T08:00:00Z",
+    "updated_at": "2021-02-028T10:30:00Z"
+  },
+  {
+    "id": "MED-0056",
+    "title": "Template Document 56",
+    "description": "Auto-generated template document #56 for fixture testing.",
+    "category": "template",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.1",
+    "status": "archived",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-56"
+    ],
+    "tags": [
+      "template",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2169987,
+    "storage_provider": "teams",
+    "storage_path": "/sites/template/MED/template_doc_56.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_56.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-03-01T08:00:00Z",
+    "updated_at": "2022-03-01T10:30:00Z"
+  },
+  {
+    "id": "MED-0057",
+    "title": "Report Document 57",
+    "description": "Auto-generated report document #57 for fixture testing.",
+    "category": "report",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.2",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-57"
+    ],
+    "tags": [
+      "report",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 2009666,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/report/MED/report_doc_57.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_57.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-04-02T08:00:00Z",
+    "updated_at": "2020-04-02T10:30:00Z"
+  },
+  {
+    "id": "MED-0058",
+    "title": "Policy Document 58",
+    "description": "Auto-generated policy document #58 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.3",
+    "status": "archived",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-58"
+    ],
+    "tags": [
+      "policy",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 1334247,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/policy/MED/policy_doc_58.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_58.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-05-03T08:00:00Z",
+    "updated_at": "2021-05-03T10:30:00Z"
+  },
+  {
+    "id": "MED-0059",
+    "title": "Announcement Document 59",
+    "description": "Auto-generated announcement document #59 for fixture testing.",
+    "category": "announcement",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.4",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "announcement",
+      "fixture",
+      "test",
+      "doc-59"
+    ],
+    "tags": [
+      "announcement",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4197706,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/announcement/MED/announcement_doc_59.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/announcement/Shared%20Documents/MED/announcement_doc_59.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-06-04T08:00:00Z",
+    "updated_at": "2022-06-04T10:30:00Z"
+  },
+  {
+    "id": "MED-0060",
+    "title": "Policy Document 60",
+    "description": "Auto-generated policy document #60 for fixture testing.",
+    "category": "policy",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-60"
+    ],
+    "tags": [
+      "policy",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2064219,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/policy/MED/policy_doc_60.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_60.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-05T08:00:00Z",
+    "updated_at": "2020-07-05T10:30:00Z"
+  },
+  {
+    "id": "MED-0061",
+    "title": "Catalog Document 61",
+    "description": "Auto-generated catalog document #61 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "draft",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-61"
+    ],
+    "tags": [
+      "catalog",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 1828584,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/catalog/MED/catalog_doc_61.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_61.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-08-06T08:00:00Z",
+    "updated_at": "2021-08-06T10:30:00Z"
+  },
+  {
+    "id": "MED-0062",
+    "title": "Strategic-plan Document 62",
+    "description": "Auto-generated strategic-plan document #62 for fixture testing.",
+    "category": "strategic-plan",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.2",
+    "status": "published",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "strategic-plan",
+      "fixture",
+      "test",
+      "doc-62"
+    ],
+    "tags": [
+      "strategic-plan",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 4661211,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/strategic-plan/MED/strategic-plan_doc_62.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/strategic-plan/Shared%20Documents/MED/strategic-plan_doc_62.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-09-07T08:00:00Z",
+    "updated_at": "2022-09-07T10:30:00Z"
+  },
+  {
+    "id": "MED-0063",
+    "title": "Research Document 63",
+    "description": "Auto-generated research document #63 for fixture testing.",
+    "category": "research",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.3",
+    "status": "archived",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-63"
+    ],
+    "tags": [
+      "research",
+      "archived"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 991245,
+    "storage_provider": "teams",
+    "storage_path": "/sites/research/MED/research_doc_63.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_63.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-01-08T08:00:00Z",
+    "updated_at": "2020-01-08T10:30:00Z"
+  },
+  {
+    "id": "MED-0064",
+    "title": "Research Document 64",
+    "description": "Auto-generated research document #64 for fixture testing.",
+    "category": "research",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.4",
+    "status": "draft",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-64"
+    ],
+    "tags": [
+      "research",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 3657304,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/research/MED/research_doc_64.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_64.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-02-09T08:00:00Z",
+    "updated_at": "2021-02-09T10:30:00Z"
+  },
+  {
+    "id": "MED-0065",
+    "title": "Meeting Document 65",
+    "description": "Auto-generated meeting document #65 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-65"
+    ],
+    "tags": [
+      "meeting",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 1332936,
+    "storage_provider": "teams",
+    "storage_path": "/sites/meeting/MED/meeting_doc_65.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_65.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-03-010T08:00:00Z",
+    "updated_at": "2022-03-010T10:30:00Z"
+  },
+  {
+    "id": "MED-0066",
+    "title": "Catalog Document 66",
+    "description": "Auto-generated catalog document #66 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.1",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-66"
+    ],
+    "tags": [
+      "catalog",
+      "archived"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 2386589,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/catalog/MED/catalog_doc_66.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_66.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-04-011T08:00:00Z",
+    "updated_at": "2020-04-011T10:30:00Z"
+  },
+  {
+    "id": "MED-0067",
+    "title": "Meeting Document 67",
+    "description": "Auto-generated meeting document #67 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "archived",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-67"
+    ],
+    "tags": [
+      "meeting",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1365741,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/meeting/MED/meeting_doc_67.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_67.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-05-012T08:00:00Z",
+    "updated_at": "2021-05-012T10:30:00Z"
+  },
+  {
+    "id": "MED-0068",
+    "title": "Evidence Document 68",
+    "description": "Auto-generated evidence document #68 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.3",
+    "status": "review",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-68"
+    ],
+    "tags": [
+      "evidence",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 417997,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/evidence/MED/evidence_doc_68.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_68.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-06-013T08:00:00Z",
+    "updated_at": "2022-06-013T10:30:00Z"
+  },
+  {
+    "id": "MED-0069",
+    "title": "Guideline Document 69",
+    "description": "Auto-generated guideline document #69 for fixture testing.",
+    "category": "guideline",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.4",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "guideline",
+      "fixture",
+      "test",
+      "doc-69"
+    ],
+    "tags": [
+      "guideline",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 1553572,
+    "storage_provider": "teams",
+    "storage_path": "/sites/guideline/MED/guideline_doc_69.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/guideline/Shared%20Documents/MED/guideline_doc_69.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-014T08:00:00Z",
+    "updated_at": "2020-07-014T10:30:00Z"
+  },
+  {
+    "id": "MED-0070",
+    "title": "Catalog Document 70",
+    "description": "Auto-generated catalog document #70 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-70"
+    ],
+    "tags": [
+      "catalog",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 1662337,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/catalog/MED/catalog_doc_70.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_70.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-08-015T08:00:00Z",
+    "updated_at": "2021-08-015T10:30:00Z"
+  },
+  {
+    "id": "MED-0071",
+    "title": "Meeting Document 71",
+    "description": "Auto-generated meeting document #71 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.1",
+    "status": "published",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-71"
+    ],
+    "tags": [
+      "meeting",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 109641,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/meeting/MED/meeting_doc_71.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_71.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-09-016T08:00:00Z",
+    "updated_at": "2022-09-016T10:30:00Z"
+  },
+  {
+    "id": "MED-0072",
+    "title": "Policy Document 72",
+    "description": "Auto-generated policy document #72 for fixture testing.",
+    "category": "policy",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.2",
+    "status": "review",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-72"
+    ],
+    "tags": [
+      "policy",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 140297,
+    "storage_provider": "teams",
+    "storage_path": "/sites/policy/MED/policy_doc_72.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_72.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-01-017T08:00:00Z",
+    "updated_at": "2020-01-017T10:30:00Z"
+  },
+  {
+    "id": "MED-0073",
+    "title": "Meeting Document 73",
+    "description": "Auto-generated meeting document #73 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.3",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-73"
+    ],
+    "tags": [
+      "meeting",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 4180139,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/meeting/MED/meeting_doc_73.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_73.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-02-018T08:00:00Z",
+    "updated_at": "2021-02-018T10:30:00Z"
+  },
+  {
+    "id": "MED-0074",
+    "title": "Catalog Document 74",
+    "description": "Auto-generated catalog document #74 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.4",
+    "status": "draft",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-74"
+    ],
+    "tags": [
+      "catalog",
+      "draft"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 2570995,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/catalog/MED/catalog_doc_74.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_74.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-03-019T08:00:00Z",
+    "updated_at": "2022-03-019T10:30:00Z"
+  },
+  {
+    "id": "MED-0075",
+    "title": "Catalog Document 75",
+    "description": "Auto-generated catalog document #75 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-75"
+    ],
+    "tags": [
+      "catalog",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 2096222,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/catalog/MED/catalog_doc_75.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_75.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-04-020T08:00:00Z",
+    "updated_at": "2020-04-020T10:30:00Z"
+  },
+  {
+    "id": "MED-0076",
+    "title": "Meeting Document 76",
+    "description": "Auto-generated meeting document #76 for fixture testing.",
+    "category": "meeting",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "meeting",
+      "fixture",
+      "test",
+      "doc-76"
+    ],
+    "tags": [
+      "meeting",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 3468446,
+    "storage_provider": "teams",
+    "storage_path": "/sites/meeting/MED/meeting_doc_76.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/meeting/Shared%20Documents/MED/meeting_doc_76.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-05-021T08:00:00Z",
+    "updated_at": "2021-05-021T10:30:00Z"
+  },
+  {
+    "id": "MED-0077",
+    "title": "Report Document 77",
+    "description": "Auto-generated report document #77 for fixture testing.",
+    "category": "report",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.2",
+    "status": "published",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-77"
+    ],
+    "tags": [
+      "report",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 4267370,
+    "storage_provider": "teams",
+    "storage_path": "/sites/report/MED/report_doc_77.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_77.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-06-022T08:00:00Z",
+    "updated_at": "2022-06-022T10:30:00Z"
+  },
+  {
+    "id": "MED-0078",
+    "title": "Report Document 78",
+    "description": "Auto-generated report document #78 for fixture testing.",
+    "category": "report",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.3",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-78"
+    ],
+    "tags": [
+      "report",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 4547143,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/report/MED/report_doc_78.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_78.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-023T08:00:00Z",
+    "updated_at": "2020-07-023T10:30:00Z"
+  },
+  {
+    "id": "MED-0079",
+    "title": "Template Document 79",
+    "description": "Auto-generated template document #79 for fixture testing.",
+    "category": "template",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.4",
+    "status": "approved",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-79"
+    ],
+    "tags": [
+      "template",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 639553,
+    "storage_provider": "teams",
+    "storage_path": "/sites/template/MED/template_doc_79.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_79.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2021-08-024T08:00:00Z",
+    "updated_at": "2021-08-024T10:30:00Z"
+  },
+  {
+    "id": "MED-0080",
+    "title": "Catalog Document 80",
+    "description": "Auto-generated catalog document #80 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-80"
+    ],
+    "tags": [
+      "catalog",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 3335011,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/catalog/MED/catalog_doc_80.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_80.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2022-09-025T08:00:00Z",
+    "updated_at": "2022-09-025T10:30:00Z"
+  },
+  {
+    "id": "MED-0081",
+    "title": "Evidence Document 81",
+    "description": "Auto-generated evidence document #81 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.1",
+    "status": "review",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-81"
+    ],
+    "tags": [
+      "evidence",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 3019386,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/evidence/MED/evidence_doc_81.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_81.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-01-026T08:00:00Z",
+    "updated_at": "2020-01-026T10:30:00Z"
+  },
+  {
+    "id": "MED-0082",
+    "title": "Evidence Document 82",
+    "description": "Auto-generated evidence document #82 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-82"
+    ],
+    "tags": [
+      "evidence",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 613772,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/evidence/MED/evidence_doc_82.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_82.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-02-027T08:00:00Z",
+    "updated_at": "2021-02-027T10:30:00Z"
+  },
+  {
+    "id": "MED-0083",
+    "title": "Evidence Document 83",
+    "description": "Auto-generated evidence document #83 for fixture testing.",
+    "category": "evidence",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.3",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "evidence",
+      "fixture",
+      "test",
+      "doc-83"
+    ],
+    "tags": [
+      "evidence",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 2557515,
+    "storage_provider": "teams",
+    "storage_path": "/sites/evidence/MED/evidence_doc_83.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/evidence/Shared%20Documents/MED/evidence_doc_83.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-03-028T08:00:00Z",
+    "updated_at": "2022-03-028T10:30:00Z"
+  },
+  {
+    "id": "MED-0084",
+    "title": "Policy Document 84",
+    "description": "Auto-generated policy document #84 for fixture testing.",
+    "category": "policy",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.4",
+    "status": "review",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-84"
+    ],
+    "tags": [
+      "policy",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 3203900,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/policy/MED/policy_doc_84.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_84.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-04-01T08:00:00Z",
+    "updated_at": "2020-04-01T10:30:00Z"
+  },
+  {
+    "id": "MED-0085",
+    "title": "Policy Document 85",
+    "description": "Auto-generated policy document #85 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "archived",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-85"
+    ],
+    "tags": [
+      "policy",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 841435,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/policy/MED/policy_doc_85.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_85.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-05-02T08:00:00Z",
+    "updated_at": "2021-05-02T10:30:00Z"
+  },
+  {
+    "id": "MED-0086",
+    "title": "Strategic-plan Document 86",
+    "description": "Auto-generated strategic-plan document #86 for fixture testing.",
+    "category": "strategic-plan",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.1",
+    "status": "approved",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "strategic-plan",
+      "fixture",
+      "test",
+      "doc-86"
+    ],
+    "tags": [
+      "strategic-plan",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 4874870,
+    "storage_provider": "teams",
+    "storage_path": "/sites/strategic-plan/MED/strategic-plan_doc_86.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/strategic-plan/Shared%20Documents/MED/strategic-plan_doc_86.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-06-03T08:00:00Z",
+    "updated_at": "2022-06-03T10:30:00Z"
+  },
+  {
+    "id": "MED-0087",
+    "title": "Strategic-plan Document 87",
+    "description": "Auto-generated strategic-plan document #87 for fixture testing.",
+    "category": "strategic-plan",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.2",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "strategic-plan",
+      "fixture",
+      "test",
+      "doc-87"
+    ],
+    "tags": [
+      "strategic-plan",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "pdf",
+    "file_size": 3796065,
+    "storage_provider": "teams",
+    "storage_path": "/sites/strategic-plan/MED/strategic-plan_doc_87.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/strategic-plan/Shared%20Documents/MED/strategic-plan_doc_87.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-04T08:00:00Z",
+    "updated_at": "2020-07-04T10:30:00Z"
+  },
+  {
+    "id": "MED-0088",
+    "title": "Catalog Document 88",
+    "description": "Auto-generated catalog document #88 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.3",
+    "status": "draft",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-88"
+    ],
+    "tags": [
+      "catalog",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 2269484,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/catalog/MED/catalog_doc_88.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_88.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-08-05T08:00:00Z",
+    "updated_at": "2021-08-05T10:30:00Z"
+  },
+  {
+    "id": "MED-0089",
+    "title": "Policy Document 89",
+    "description": "Auto-generated policy document #89 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.4",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-89"
+    ],
+    "tags": [
+      "policy",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 4968478,
+    "storage_provider": "teams",
+    "storage_path": "/sites/policy/MED/policy_doc_89.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_89.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-09-06T08:00:00Z",
+    "updated_at": "2022-09-06T10:30:00Z"
+  },
+  {
+    "id": "MED-0090",
+    "title": "Research Document 90",
+    "description": "Auto-generated research document #90 for fixture testing.",
+    "category": "research",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.0",
+    "status": "approved",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-90"
+    ],
+    "tags": [
+      "research",
+      "approved"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 1793425,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/research/MED/research_doc_90.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_90.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-01-07T08:00:00Z",
+    "updated_at": "2020-01-07T10:30:00Z"
+  },
+  {
+    "id": "MED-0091",
+    "title": "Policy Document 91",
+    "description": "Auto-generated policy document #91 for fixture testing.",
+    "category": "policy",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.1",
+    "status": "draft",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-91"
+    ],
+    "tags": [
+      "policy",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 1001395,
+    "storage_provider": "teams",
+    "storage_path": "/sites/policy/MED/policy_doc_91.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_91.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-02-08T08:00:00Z",
+    "updated_at": "2021-02-08T10:30:00Z"
+  },
+  {
+    "id": "MED-0092",
+    "title": "Catalog Document 92",
+    "description": "Auto-generated catalog document #92 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.2",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-92"
+    ],
+    "tags": [
+      "catalog",
+      "review"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 1547797,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/catalog/MED/catalog_doc_92.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_92.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-03-09T08:00:00Z",
+    "updated_at": "2022-03-09T10:30:00Z"
+  },
+  {
+    "id": "MED-0093",
+    "title": "Policy Document 93",
+    "description": "Auto-generated policy document #93 for fixture testing.",
+    "category": "policy",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.3",
+    "status": "archived",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "policy",
+      "fixture",
+      "test",
+      "doc-93"
+    ],
+    "tags": [
+      "policy",
+      "archived"
+    ],
+    "language": "en",
+    "file_type": "pdf",
+    "file_size": 3625975,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/policy/MED/policy_doc_93.pdf",
+    "share_url": "https://mju365.sharepoint.com/sites/policy/Shared%20Documents/MED/policy_doc_93.pdf",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2020-04-010T08:00:00Z",
+    "updated_at": "2020-04-010T10:30:00Z"
+  },
+  {
+    "id": "MED-0094",
+    "title": "Catalog Document 94",
+    "description": "Auto-generated catalog document #94 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.4",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-94"
+    ],
+    "tags": [
+      "catalog",
+      "published"
+    ],
+    "language": "th",
+    "file_type": "pptx",
+    "file_size": 3689010,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/catalog/MED/catalog_doc_94.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_94.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2021-05-011T08:00:00Z",
+    "updated_at": "2021-05-011T10:30:00Z"
+  },
+  {
+    "id": "MED-0095",
+    "title": "Template Document 95",
+    "description": "Auto-generated template document #95 for fixture testing.",
+    "category": "template",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.0",
+    "status": "published",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-95"
+    ],
+    "tags": [
+      "template",
+      "published"
+    ],
+    "language": "en",
+    "file_type": "pptx",
+    "file_size": 387549,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/template/MED/template_doc_95.pptx",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_95.pptx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2022-06-012T08:00:00Z",
+    "updated_at": "2022-06-012T10:30:00Z"
+  },
+  {
+    "id": "MED-0096",
+    "title": "Research Document 96",
+    "description": "Auto-generated research document #96 for fixture testing.",
+    "category": "research",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.1",
+    "status": "archived",
+    "owner": "owner-sustainability",
+    "department": "Sustainability Office",
+    "keywords": [
+      "research",
+      "fixture",
+      "test",
+      "doc-96"
+    ],
+    "tags": [
+      "research",
+      "archived"
+    ],
+    "language": "th",
+    "file_type": "docx",
+    "file_size": 1990768,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/research/MED/research_doc_96.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/research/Shared%20Documents/MED/research_doc_96.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "confidential",
+    "created_at": "2020-07-013T08:00:00Z",
+    "updated_at": "2020-07-013T10:30:00Z"
+  },
+  {
+    "id": "MED-0097",
+    "title": "Report Document 97",
+    "description": "Auto-generated report document #97 for fixture testing.",
+    "category": "report",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.2",
+    "status": "approved",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "report",
+      "fixture",
+      "test",
+      "doc-97"
+    ],
+    "tags": [
+      "report",
+      "approved"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 148059,
+    "storage_provider": "teams",
+    "storage_path": "/sites/report/MED/report_doc_97.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/report/Shared%20Documents/MED/report_doc_97.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-08-014T08:00:00Z",
+    "updated_at": "2021-08-014T10:30:00Z"
+  },
+  {
+    "id": "MED-0098",
+    "title": "Strategic-plan Document 98",
+    "description": "Auto-generated strategic-plan document #98 for fixture testing.",
+    "category": "strategic-plan",
+    "subcategory": "specific",
+    "year": 2026,
+    "fiscal_year": "2569",
+    "version": "1.3",
+    "status": "review",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "strategic-plan",
+      "fixture",
+      "test",
+      "doc-98"
+    ],
+    "tags": [
+      "strategic-plan",
+      "review"
+    ],
+    "language": "en",
+    "file_type": "xlsx",
+    "file_size": 1344708,
+    "storage_provider": "onedrive",
+    "storage_path": "/sites/strategic-plan/MED/strategic-plan_doc_98.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/strategic-plan/Shared%20Documents/MED/strategic-plan_doc_98.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2022-09-015T08:00:00Z",
+    "updated_at": "2022-09-015T10:30:00Z"
+  },
+  {
+    "id": "MED-0099",
+    "title": "Catalog Document 99",
+    "description": "Auto-generated catalog document #99 for fixture testing.",
+    "category": "catalog",
+    "subcategory": "general",
+    "year": 2024,
+    "fiscal_year": "2567",
+    "version": "1.4",
+    "status": "draft",
+    "owner": "owner-learning",
+    "department": "Learning Center",
+    "keywords": [
+      "catalog",
+      "fixture",
+      "test",
+      "doc-99"
+    ],
+    "tags": [
+      "catalog",
+      "draft"
+    ],
+    "language": "th",
+    "file_type": "xlsx",
+    "file_size": 1394981,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/catalog/MED/catalog_doc_99.xlsx",
+    "share_url": "https://mju365.sharepoint.com/sites/catalog/Shared%20Documents/MED/catalog_doc_99.xlsx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "internal",
+    "created_at": "2020-01-016T08:00:00Z",
+    "updated_at": "2020-01-016T10:30:00Z"
+  },
+  {
+    "id": "MED-0100",
+    "title": "Template Document 100",
+    "description": "Auto-generated template document #100 for fixture testing.",
+    "category": "template",
+    "subcategory": "specific",
+    "year": 2025,
+    "fiscal_year": "2568",
+    "version": "1.0",
+    "status": "archived",
+    "owner": "owner-research",
+    "department": "Research Admin",
+    "keywords": [
+      "template",
+      "fixture",
+      "test",
+      "doc-100"
+    ],
+    "tags": [
+      "template",
+      "archived"
+    ],
+    "language": "en",
+    "file_type": "docx",
+    "file_size": 3868445,
+    "storage_provider": "sharepoint",
+    "storage_path": "/sites/template/MED/template_doc_100.docx",
+    "share_url": "https://mju365.sharepoint.com/sites/template/Shared%20Documents/MED/template_doc_100.docx",
+    "preview_url": "",
+    "thumbnail_url": "",
+    "project_refs": [
+      "rae-landing"
+    ],
+    "evidence_refs": [],
+    "related_documents": [],
+    "visibility": "public",
+    "created_at": "2021-02-017T08:00:00Z",
+    "updated_at": "2021-02-017T10:30:00Z"
+  }
+]

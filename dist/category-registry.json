@@ -1,0 +1,52 @@
+[
+  {
+    "id": "strategic-plan",
+    "name": "Strategic Plan",
+    "name_en": "Strategic Plan",
+    "name_th": "แผนยุทธศาสตร์",
+    "description": "Strategic planning documents including initiative plans, roadmaps, and vision documents.",
+    "parent": null,
+    "icon": "plan",
+    "sort_order": 1
+  },
+  {
+    "id": "guideline",
+    "name": "Guideline",
+    "name_en": "Guideline",
+    "name_th": "แนวปฏิบัติ",
+    "description": "Procedural guidelines, standard operating procedures, and how-to documents.",
+    "parent": null,
+    "icon": "guide",
+    "sort_order": 2
+  },
+  {
+    "id": "report",
+    "name": "Report",
+    "name_en": "Report",
+    "name_th": "รายงาน",
+    "description": "Progress reports, annual reports, quarterly reports, and other periodic reporting documents.",
+    "parent": null,
+    "icon": "report",
+    "sort_order": 3
+  },
+  {
+    "id": "template",
+    "name": "Template",
+    "name_en": "Template",
+    "name_th": "แบบฟอร์ม",
+    "description": "Standardized forms, templates, and submission sheets.",
+    "parent": null,
+    "icon": "template",
+    "sort_order": 4
+  },
+  {
+    "id": "catalog",
+    "name": "Catalog",
+    "name_en": "Catalog",
+    "name_th": "รายการ",
+    "description": "Catalogs, inventories, and listings of offerings or resources.",
+    "parent": null,
+    "icon": "catalog",
+    "sort_order": 5
+  }
+]

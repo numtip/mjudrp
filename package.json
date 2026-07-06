@@ -9,7 +9,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/validation.test.mjs && node tests/generator.test.mjs && node tests/registry.test.mjs && node tests/search.test.mjs",
+    "validate": "node scripts/validate-registry.mjs",
+    "generate": "node scripts/generate-search-index.mjs"
   },
   "repository": {
     "type": "git",

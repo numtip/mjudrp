@@ -1,0 +1,62 @@
+[
+  {
+    "id": "strategic-plan",
+    "name": "strategic-plan",
+    "description": "strategic-plan category",
+    "sort_order": 0
+  },
+  {
+    "id": "guideline",
+    "name": "guideline",
+    "description": "guideline category",
+    "sort_order": 1
+  },
+  {
+    "id": "report",
+    "name": "report",
+    "description": "report category",
+    "sort_order": 2
+  },
+  {
+    "id": "template",
+    "name": "template",
+    "description": "template category",
+    "sort_order": 3
+  },
+  {
+    "id": "catalog",
+    "name": "catalog",
+    "description": "catalog category",
+    "sort_order": 4
+  },
+  {
+    "id": "policy",
+    "name": "policy",
+    "description": "policy category",
+    "sort_order": 5
+  },
+  {
+    "id": "meeting",
+    "name": "meeting",
+    "description": "meeting category",
+    "sort_order": 6
+  },
+  {
+    "id": "evidence",
+    "name": "evidence",
+    "description": "evidence category",
+    "sort_order": 7
+  },
+  {
+    "id": "announcement",
+    "name": "announcement",
+    "description": "announcement category",
+    "sort_order": 8
+  },
+  {
+    "id": "research",
+    "name": "research",
+    "description": "research category",
+    "sort_order": 9
+  }
+]

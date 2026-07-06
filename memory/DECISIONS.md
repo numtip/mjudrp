@@ -135,3 +135,15 @@
 | Decision | Lock the MJU-DRP architecture. Freeze Registry Specification v1.0. Establish 9 quality gates. Create architecture change policy. Consumer contract frozen to `dist/` outputs only — consumers must never depend on internal registry files. |
 | Reason | Implementation (Sprint 2) requires a stable target. Consumer projects need guaranteed output formats. The architecture change policy ensures future changes are intentional and documented. |
 | Impact | 10 architecture documents created in `docs/architecture/`. All 8 locked rules reinforced with violation criteria. Quality gates mandatory for all sprints. ADR-011 itself documents the lock. ARCHITECTURE_LOCK.md updated. Registry Specification v1.0 frozen in `docs/architecture/01_REGISTRY_SPECIFICATION_v1.md`. |
+
+## ADR-012: AJV Schema Corrections for Null Parent and Empty URI Fields
+
+| Field | Value |
+|-------|-------|
+| Decision ID | ADR-012 |
+| Date | 2026-07-06 |
+| Status | Accepted |
+| Context | During Sprint 2A AJV integration, AJV validation revealed two schema defects: (1) `category.schema.json` defined `parent` as `"type": "string"` but sample data contained `null` for root categories; (2) `project.schema.json` used `"format": "uri"` on `repository_url` and `website_url` but sample data contained empty strings. |
+| Decision | Correct both schemas to use `anyOf` patterns: (1) category `parent` accepts `["string", "null"]`; (2) project URL fields accept `["uri", ""]` (consistent with the existing fix in `document.schema.json`). |
+| Reason | These are AJV-exposed schema defects, not specification changes. The Registry Spec v1.0 already documents these fields as optional. The `anyOf` pattern was already established in `document.schema.json` during ERC (ADR-008). This brings category and project schemas into alignment with the existing document schema pattern. |
+| Impact | Four fields updated across two schemas. No change to Registry Specification v1.0 or output contract. ADR created per Architecture Change Policy (docs/architecture/09_ARCHITECTURE_CHANGE_POLICY.md). |

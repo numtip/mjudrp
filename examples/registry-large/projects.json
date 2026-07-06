@@ -1,0 +1,30 @@
+[
+  {
+    "id": "green-office-2026",
+    "name": "Green Office 2026",
+    "dept": "Sustainability",
+    "status": "active",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "rae-landing",
+    "name": "RAE Landing",
+    "dept": "Research",
+    "status": "active",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "learning-center",
+    "name": "Learning Center",
+    "dept": "Education",
+    "status": "active",
+    "created_at": "2026-01-01T00:00:00Z"
+  },
+  {
+    "id": "research-portal",
+    "name": "Research Portal",
+    "dept": "Research",
+    "status": "active",
+    "created_at": "2026-01-01T00:00:00Z"
+  }
+]

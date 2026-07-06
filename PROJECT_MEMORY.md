@@ -6,16 +6,19 @@
 |------|-------|
 | Project | MJU Document Registry Platform |
 | Repository | https://github.com/numtip/mjudrp |
-| Current Phase | Architecture Lock v1.0 + Registry Spec Freeze |
+| Current Phase | Sprint 2A — Core Registry Implementation |
 | Architecture Status | **LOCKED** — 8 locked rules, 9 quality gates, change policy established |
 | Branch | main |
 | Schema Version | v1.0 (FROZEN) |
 | Document Count (sample) | 7 |
 | Consumer Projects (registered) | 4 |
-| Documentation Files | 41 (16 docs + 11 discovery + 14 certification + 10 architecture) |
+| Documentation Files | 47 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation) |
 | Knowledge Base Files | 8 |
 | Memory Files | 9 |
 | Architecture Documents | 10 |
+| Implementation Documents | 6 |
+| Tests | 77 assertions (4 test files) |
+| Build Outputs | 11 JSON files in dist/ |
 
 ## Key Architecture Decisions
 
@@ -26,9 +29,10 @@
 5. **Consumer projects consume JSON outputs** — Not duplicate metadata.
 6. **Provider/Adapter/Plugin/Contract layers are architecture-only** — No implementation during hardening.
 7. **Dublin Core adopted as metadata baseline** — No schema changes needed.
-8. **AJV certified for validation** — Add in Sprint 2.
-9. **MiniSearch + Pagefind certified for search** — Add in Sprint 2-3.
+8. **AJV certified for validation** — Integrated in Sprint 2A.
+9. **MiniSearch + Pagefind certified for search** — MiniSearch integrated in Sprint 2A; Pagefind deferred.
 10. **Architecture locked v1.0** — 10 architecture documents frozen. Changes require ADR.
+11. **Schema corrections ADR-012** — Null parent and empty URI field fixes for AJV compatibility.
 
 ## ERC Certifications (v1.4)
 

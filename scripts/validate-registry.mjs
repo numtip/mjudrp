@@ -1,38 +1,47 @@
-import { readFileSync, existsSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
+const DIST = resolve(ROOT, "dist");
 
-const REGISTRY_FILES = [
-  { path: "registry/documents.sample.json", label: "Documents" },
-  { path: "registry/categories.sample.json", label: "Categories" },
-  { path: "registry/projects.sample.json", label: "Projects" },
-  { path: "registry/owners.sample.json", label: "Owners" },
-  { path: "registry/evidence-map.sample.json", label: "Evidence Map" },
-];
+// ── Ensure dist exists ──
+if (!existsSync(DIST)) mkdirSync(DIST, { recursive: true });
 
-const REQUIRED_DOC_FIELDS = [
-  "id", "title", "category", "owner", "storage_provider",
-  "storage_path", "share_url", "project_refs",
-];
-
+// ── Color helpers ──
 const PASS = "\x1b[32mPASS\x1b[0m";
 const FAIL = "\x1b[31mFAIL\x1b[0m";
 const WARN = "\x1b[33mWARN\x1b[0m";
 
+const validationReport = {
+  timestamp: new Date().toISOString(),
+  documents_checked: 0,
+  errors: [],
+  warnings: [],
+  duplicates: [],
+  missing_owners: [],
+  missing_categories: [],
+  missing_evidence: [],
+  invalid_references: [],
+  summary: { errors: 0, warnings: 0, passed: true },
+};
+
 let totalErrors = 0;
 let totalWarnings = 0;
 
-function error(msg) {
+function error(msg, detail) {
   console.error(`  ${FAIL}  ${msg}`);
   totalErrors++;
+  validationReport.errors.push(detail || msg);
 }
 
-function warn(msg) {
+function warn(msg, detail) {
   console.error(`  ${WARN}  ${msg}`);
   totalWarnings++;
+  validationReport.warnings.push(detail || msg);
 }
 
 function readJSON(filePath) {
@@ -50,10 +59,53 @@ function readJSON(filePath) {
   }
 }
 
+// ── Schema paths ──
+const SCHEMAS = {
+  document: "schemas/document.schema.json",
+  category: "schemas/category.schema.json",
+  project: "schemas/project.schema.json",
+  owner: "schemas/owner.schema.json",
+  evidence: "schemas/evidence.schema.json",
+  relationship: "schemas/relationship.schema.json",
+};
+
+const REGISTRY_FILES = [
+  { path: "registry/documents.sample.json", label: "Documents", schema: "document" },
+  { path: "registry/categories.sample.json", label: "Categories", schema: "category" },
+  { path: "registry/projects.sample.json", label: "Projects", schema: "project" },
+  { path: "registry/owners.sample.json", label: "Owners", schema: "owner" },
+  { path: "registry/evidence-map.sample.json", label: "Evidence Map", schema: "evidence" },
+];
+
 console.log("=".repeat(60));
 console.log("  MJU-DRP Registry Validation");
 console.log("=".repeat(60));
 console.log();
+
+// ── Setup AJV ──
+const ajv = new Ajv({ allErrors: true, verbose: true });
+addFormats(ajv);
+
+// Compile all schemas
+const validators = {};
+const schemaErrors = [];
+
+for (const [key, schemaPath] of Object.entries(SCHEMAS)) {
+  try {
+    const schema = JSON.parse(readFileSync(resolve(ROOT, schemaPath), "utf-8"));
+    validators[key] = ajv.compile(schema);
+  } catch (e) {
+    schemaErrors.push(`${schemaPath}: ${e.message}`);
+    console.error(`  ${FAIL}  Schema compilation failed: ${schemaPath} — ${e.message}`);
+  }
+}
+
+if (schemaErrors.length > 0) {
+  console.log();
+  console.log(`  ${FAIL}  Schema compilation had errors — aborting`);
+  process.exit(1);
+}
+console.log(`  ${PASS}  All ${Object.keys(validators).length} schemas compiled with AJV + ajv-formats`);
 
 // Load all registry files
 const registry = {};
@@ -65,113 +117,160 @@ for (const { path, label } of REGISTRY_FILES) {
   }
 }
 
+// Validate with AJV schema
 console.log();
-
-// Validate documents
-console.log("--- Document Validation ---");
-const docs = registry["Documents"];
-if (docs && Array.isArray(docs)) {
-  const docIds = new Set();
-  const evidenceIds = registry["Evidence Map"]
-    ? new Set(registry["Evidence Map"].map((e) => e.id))
-    : new Set();
-  const projectIds = registry["Projects"]
-    ? new Set(registry["Projects"].map((p) => p.id))
-    : new Set();
-  const categoryIds = registry["Categories"]
-    ? new Set(registry["Categories"].map((c) => c.id))
-    : new Set();
-  const ownerIds = registry["Owners"]
-    ? new Set(registry["Owners"].map((o) => o.id))
-    : new Set();
-
-  for (const doc of docs) {
-    // Required fields
-    for (const field of REQUIRED_DOC_FIELDS) {
-      if (!doc[field] || (Array.isArray(doc[field]) && doc[field].length === 0)) {
-        error(`Document "${doc.id || "?"}": Missing required field "${field}"`);
-      }
-    }
-
-    // Duplicate ID check
-    if (docIds.has(doc.id)) {
-      error(`Document "${doc.id}": Duplicate document ID`);
-    }
-    docIds.add(doc.id);
-
-    // Missing share_url
-    if (!doc.share_url) {
-      error(`Document "${doc.id}": Missing share_url`);
-    }
-
-    // Missing owner
-    if (!doc.owner) {
-      error(`Document "${doc.id}": Missing owner`);
-    } else if (!ownerIds.has(doc.owner)) {
-      warn(`Document "${doc.id}": Owner "${doc.owner}" not found in owners registry`);
-    }
-
-    // Missing project_refs
-    if (!doc.project_refs || doc.project_refs.length === 0) {
-      error(`Document "${doc.id}": Missing project_refs`);
+console.log("--- Schema Validation (AJV + ajv-formats) ---");
+for (const { path, label, schema } of REGISTRY_FILES) {
+  const data = registry[label];
+  if (!data || !Array.isArray(data)) continue;
+  const validate = validators[schema];
+  if (!validate) {
+    error(`No compiled schema for ${schema}`);
+    continue;
+  }
+  let schemaPass = 0, schemaFail = 0;
+  for (const entry of data) {
+    const valid = validate(entry);
+    if (valid) {
+      schemaPass++;
     } else {
-      for (const pr of doc.project_refs) {
-        if (!projectIds.has(pr)) {
-          warn(`Document "${doc.id}": Project ref "${pr}" not found in projects registry`);
-        }
-      }
-    }
-
-    // Missing category
-    if (!doc.category) {
-      error(`Document "${doc.id}": Missing category`);
-    } else if (!categoryIds.has(doc.category)) {
-      warn(`Document "${doc.id}": Category "${doc.category}" not found in categories registry`);
-    }
-
-    // Evidence refs validation
-    if (doc.evidence_refs && doc.evidence_refs.length > 0) {
-      for (const er of doc.evidence_refs) {
-        if (!evidenceIds.has(er)) {
-          warn(`Document "${doc.id}": Evidence ref "${er}" not found in evidence-map registry`);
-        }
+      schemaFail++;
+      for (const err of validate.errors) {
+        const msg = `[${label}] "${entry.id || "?"}": ${err.instancePath} ${err.message}`;
+        error(msg, { file: label, id: entry.id, path: err.instancePath, message: err.message });
       }
     }
   }
-  console.log(`  Checked ${docs.length} documents`);
-} else {
-  error("Documents data is missing or not an array");
+  console.log(`  ${label}: ${schemaPass}/${data.length} passed AJV validation`);
 }
 
-// Validate evidence map cross-references
+// ── Document cross-reference validation ──
 console.log();
-console.log("--- Evidence Map Validation ---");
-const evMap = registry["Evidence Map"];
-if (evMap && Array.isArray(evMap)) {
-  for (const ev of evMap) {
-    if (!ev.project_ref) {
-      error(`Evidence "${ev.id}": Missing project_ref`);
+console.log("--- Cross-Reference Validation ---");
+
+const docs = registry["Documents"] || [];
+const categories = registry["Categories"] || [];
+const projects = registry["Projects"] || [];
+const owners = registry["Owners"] || [];
+const evMap = registry["Evidence Map"] || [];
+
+const docIds = new Set(docs.map((d) => d.id));
+const catIds = new Set(categories.map((c) => c.id));
+const projIds = new Set(projects.map((p) => p.id));
+const ownerIds = new Set(owners.map((o) => o.id));
+const evIds = new Set(evMap.map((e) => e.id));
+
+// Duplicate ID checks
+function checkDuplicates(arr, label) {
+  const seen = new Set();
+  for (const item of arr) {
+    if (seen.has(item.id)) {
+      error(`Duplicate ${label} ID: "${item.id}"`, { type: "duplicate", label, id: item.id });
+      validationReport.duplicates.push(`${label}: ${item.id}`);
     }
-    if (!ev.document_refs || ev.document_refs.length === 0) {
-      error(`Evidence "${ev.id}": Missing document_refs`);
-    }
+    seen.add(item.id);
   }
-  console.log(`  Checked ${evMap.length} evidence mappings`);
 }
 
-// Summary
+checkDuplicates(docs, "Document");
+checkDuplicates(categories, "Category");
+checkDuplicates(projects, "Project");
+checkDuplicates(owners, "Owner");
+checkDuplicates(evMap, "Evidence");
+
+// Document cross-references
+for (const doc of docs) {
+  // Owner reference
+  if (doc.owner && !ownerIds.has(doc.owner)) {
+    warn(`Document "${doc.id}": Owner "${doc.owner}" not found`, { type: "missing-owner", id: doc.id, ref: doc.owner });
+    validationReport.missing_owners.push({ doc: doc.id, owner: doc.owner });
+  }
+
+  // Category reference
+  if (doc.category && !catIds.has(doc.category)) {
+    warn(`Document "${doc.id}": Category "${doc.category}" not found`, { type: "missing-category", id: doc.id, ref: doc.category });
+    validationReport.missing_categories.push({ doc: doc.id, category: doc.category });
+  }
+
+  // Project references
+  if (doc.project_refs) {
+    for (const pr of doc.project_refs) {
+      if (!projIds.has(pr)) {
+        warn(`Document "${doc.id}": Project ref "${pr}" not found`, { type: "invalid-project-ref", id: doc.id, ref: pr });
+        validationReport.invalid_references.push({ doc: doc.id, type: "project", ref: pr });
+      }
+    }
+  }
+
+  // Evidence references
+  if (doc.evidence_refs) {
+    for (const er of doc.evidence_refs) {
+      if (!evIds.has(er)) {
+        warn(`Document "${doc.id}": Evidence ref "${er}" not found`, { type: "missing-evidence", id: doc.id, ref: er });
+        validationReport.missing_evidence.push({ doc: doc.id, evidence: er });
+      }
+    }
+  }
+
+  // Related documents
+  if (doc.related_documents) {
+    for (const rd of doc.related_documents) {
+      if (!docIds.has(rd)) {
+        warn(`Document "${doc.id}": Related doc "${rd}" not found`, { type: "invalid-related-ref", id: doc.id, ref: rd });
+        validationReport.invalid_references.push({ doc: doc.id, type: "related", ref: rd });
+      }
+    }
+  }
+}
+
+// Evidence map cross-references
+for (const ev of evMap) {
+  if (ev.project_ref && !projIds.has(ev.project_ref)) {
+    warn(`Evidence "${ev.id}": Project ref "${ev.project_ref}" not found`, { type: "invalid-evidence-project", id: ev.id, ref: ev.project_ref });
+    validationReport.invalid_references.push({ doc: ev.id, type: "evidence-project", ref: ev.project_ref });
+  }
+  if (ev.document_refs) {
+    for (const dr of ev.document_refs) {
+      if (!docIds.has(dr)) {
+        warn(`Evidence "${ev.id}": Document ref "${dr}" not found`, { type: "invalid-evidence-doc", id: ev.id, ref: dr });
+        validationReport.invalid_references.push({ doc: ev.id, type: "evidence-document", ref: dr });
+      }
+    }
+  }
+}
+
+validationReport.documents_checked = docs.length;
+
+// ── Summary ──
 console.log();
 console.log("=".repeat(60));
 console.log("  Validation Summary");
 console.log("=".repeat(60));
-console.log(`  Errors:   ${totalErrors}`);
-console.log(`  Warnings: ${totalWarnings}`);
-console.log();
+console.log(`  Documents checked: ${docs.length}`);
+console.log(`  Errors:            ${totalErrors}`);
+console.log(`  Warnings:          ${totalWarnings}`);
 
-if (totalErrors > 0) {
-  console.log(`  Result: ${FAIL}`);
-  process.exit(1);
-} else {
+const passed = totalErrors === 0;
+validationReport.summary = {
+  errors: totalErrors,
+  warnings: totalWarnings,
+  passed,
+};
+validationReport.status = passed ? "PASS" : "FAIL";
+
+console.log();
+if (passed) {
   console.log(`  Result: ${PASS}`);
-  process.exit(0);
+} else {
+  console.log(`  Result: ${FAIL}`);
 }
+
+// ── Write validation report ──
+writeFileSync(
+  resolve(DIST, "validation-report.json"),
+  JSON.stringify(validationReport, null, 2),
+  "utf-8"
+);
+console.log(`\n  Written: dist/validation-report.json`);
+
+process.exit(passed ? 0 : 1);
