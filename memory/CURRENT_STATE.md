@@ -1,30 +1,34 @@
 # MJU-DRP Current State
 
-**Last Updated:** 2026-07-06T15:28:00.000Z
+**Last Updated:** 2026-07-06T15:43:00.000Z
 
 | Field | Value |
 |-------|-------|
 | Project | MJU Document Registry Platform (MJU-DRP) |
-| Phase | Sprint 2B — Registry Population |
+| Phase | Sprint 2C — Registry Distribution & Packaging |
 | Branch | main |
 | Latest Commit | (pending this session) |
 | Architecture Status | **LOCKED** — Architecture locked, Registry Specification v1.0 frozen |
 | Validation Status | PASS (0 errors, 0 warnings) |
+| Package Validation | 55/55 PASS |
 | Push Status | Pending this sprint |
 
 ## Completed This Sprint
 
 | Area | Deliverable | Location |
 |------|-------------|----------|
-| Registry Population | 74 documents across 12 projects | `registry/documents.sample.json` |
-| Category Taxonomy | 22 hierarchical categories | `registry/categories.sample.json` |
-| Project Expansion | 12 registered consumer projects | `registry/projects.sample.json` |
-| Owner Registry | 12 department owners | `registry/owners.sample.json` |
-| Evidence Mapping | 124 evidence criteria links | `registry/evidence-map.sample.json` |
-| Relationship Registry | 250 cross-document relationships | `registry/relationship.sample.json` |
-| Registry Statistics | Comprehensive statistics output | `dist/statistics.json` |
-| Population Script | Automated registry generator | `scripts/populate-registry.mjs` |
-| SharePoint Taxonomy | Document structure, folder strategy, metadata columns, naming, versioning, retention | Documentation in NEXT_SPRINT_PLAN |
+| Distribution Structure | release/latest/, release/v1/, release/archive/ | `release/` |
+| Registry Package | 15 artifacts in registry-package/ | `release/latest/registry-package/` |
+| Checksum Generation | SHA-256 for all package artifacts | `scripts/generate-checksum.mjs` |
+| Release Notes Generator | Auto-generated release notes | `scripts/generate-release-notes.mjs` |
+| Package Validator | 55 validation checks | `scripts/validate-package.mjs` |
+| Release Pipeline | Full end-to-end automation | `scripts/release.mjs` |
+| Enhanced Manifest | Version, counts, compatibility, build hash | `dist/manifest.json` |
+| Enhanced Statistics | Growth, density, distribution metrics | `dist/statistics.json` |
+| Distribution Docs | 8 documents covering all aspects | `docs/distribution/` |
+| Distribution Contract | Packaging rules and consumer requirements | `contracts/distribution-contract.md` |
+| CI Enhancement | Release pipeline in GitHub Actions | `.github/workflows/validate.yml` |
+| Package Scripts | 4 new npm scripts added | `package.json` |
 
 ## Architecture Lock Status
 
@@ -42,18 +46,29 @@
 
 ## Registry Statistics
 
-| Entity | Count | Target | Status |
-|--------|-------|--------|--------|
-| Documents | 74 | 50+ | ✅ |
-| Categories | 22 | 20+ | ✅ |
-| Projects | 12 | 10+ | ✅ |
-| Owners | 12 | 10+ | ✅ |
-| Evidence | 124 | 100+ | ✅ |
-| Relationships | 250 | 200+ | ✅ |
+| Entity | Count | Status |
+|--------|-------|--------|
+| Documents | 74 | ✅ |
+| Categories | 22 | ✅ |
+| Projects | 12 | ✅ |
+| Owners | 12 | ✅ |
+| Evidence | 124 | ✅ |
+| Relationships | 250 | ✅ |
+
+## Package Statistics
+
+| Metric | Value |
+|--------|-------|
+| Package Version | 1.0.0 |
+| Package Artifacts | 15 |
+| Checksum Algorithm | SHA-256 |
+| Validation Checks | 55/55 PASS |
+| Distribution Documents | 8 |
+| GitHub Pages | Documented only — NOT deployed |
 
 ## Open Risks
 
 1. No Microsoft 365 / SharePoint connectivity — integration strategy documented only.
 2. Consumer projects not yet integrated — onboarding guide available.
 3. MCP servers (GitHub, Filesystem) not yet configured in Cursor.
-4. Performance: validation ~2s, generation ~12ms, 74-doc MiniSearch index fast.
+4. GitHub Pages not yet deployed — strategy documented but inactive.

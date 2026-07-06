@@ -1,0 +1,73 @@
+{
+  "package_version": "1.0.0",
+  "registry_version": "1.0",
+  "generated_at": "2026-07-06T15:46:29.299Z",
+  "total_artifacts": 13,
+  "artifacts": [
+    {
+      "filename": "document-registry.json",
+      "size": 98198,
+      "sha256": "43ecf59eb6a99f582fb7a6553c7e7f3895b92183d0a14655ba8680a6fe735f28"
+    },
+    {
+      "filename": "category-registry.json",
+      "size": 6474,
+      "sha256": "3e8812c4c07886e84a4ea87c999f390d1fc8a0b356d3d30628c26f843f6d0107"
+    },
+    {
+      "filename": "project-registry.json",
+      "size": 8571,
+      "sha256": "e343b669c6452765ed71b133c6c55c69df004ef445c60095f5da654f5e76ee09"
+    },
+    {
+      "filename": "owner-registry.json",
+      "size": 2594,
+      "sha256": "207fb45ffadcdcc208051393c922e216ce6bad27acf6d3cbd2d0171c2facc0bd"
+    },
+    {
+      "filename": "evidence-registry.json",
+      "size": 62659,
+      "sha256": "ce2784e7181090f4536369b07e01b67ee28bbc82d98aa5f3c0dd602d897ada1f"
+    },
+    {
+      "filename": "relationship-registry.json",
+      "size": 60556,
+      "sha256": "6fbe48d5c3826fd84494405c6f8c3b71b35bc5e23b5db28a7464373a355ab1c2"
+    },
+    {
+      "filename": "search-index.json",
+      "size": 43070,
+      "sha256": "7af6164554bb5b99621d616fbef40c2947504a125aa6341ac06b4aae7c60281f"
+    },
+    {
+      "filename": "minisearch-index.json",
+      "size": 92002,
+      "sha256": "38a047f55cc54dfab58bad8d12045bcf4c97d9e426c6aa6f8a2be9613fc7695f"
+    },
+    {
+      "filename": "statistics.json",
+      "size": 5561,
+      "sha256": "e379d41ebd7e95dfac5511c33f4bda4a136739f3e69c43d0c97e69400ccbaf44"
+    },
+    {
+      "filename": "validation-report.json",
+      "size": 327,
+      "sha256": "f60e0cd1ab054d3e1963a895cc231584432f68c29b44c9f14831fa35f20b6ae8"
+    },
+    {
+      "filename": "performance-report.json",
+      "size": 450,
+      "sha256": "e58a639b82c8e36fbb532f98ce0f05e32da1cbfb4e7ad71280775f321018d37a"
+    },
+    {
+      "filename": "manifest.json",
+      "size": 736,
+      "sha256": "4d4bfeed715e4709ea4f544cc5ede7e607abf29ab86485e61081cf7a35b24037"
+    },
+    {
+      "filename": "README.md",
+      "size": 2302,
+      "sha256": "6b8099543dd1ff45ee2a0e696f449ff7e2390fafb9056a2a3ed750fd1fa3a604"
+    }
+  ]
+}

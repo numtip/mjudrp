@@ -2,6 +2,8 @@
 
 ## Generated Outputs
 
+### dist/ (Build Outputs)
+
 | File | Format | Size | Consumer |
 |------|--------|------|----------|
 | `dist/search-index.json` | JSON array | ~12 KB | All consumer projects (search) |
@@ -13,9 +15,31 @@
 | `dist/relationship-registry.json` | JSON array | ~38 KB | Cross-document links |
 | `dist/minisearch-index.json` | MiniSearch serialized index | ~10 KB | Full-text search |
 | `dist/validation-report.json` | JSON (validation results) | ~2 KB | CI/development |
-| `dist/manifest.json` | JSON (build metadata) | ~1 KB | CI/development |
+| `dist/manifest.json` | JSON (build metadata, enhanced) | ~1 KB | CI/development |
 | `dist/performance-report.json` | JSON (timing metrics) | ~1 KB | CI/development |
-| `dist/statistics.json` | JSON (registry statistics) | ~3 KB | CI/development |
+| `dist/statistics.json` | JSON (registry statistics, enhanced) | ~5 KB | CI/development |
+
+### release/latest/registry-package/ (Distribution Package)
+
+| File | Format | Consumer |
+|------|--------|----------|
+| `document-registry.json` | JSON array | All consumer projects |
+| `category-registry.json` | JSON array | All consumer projects |
+| `project-registry.json` | JSON array | All consumer projects |
+| `owner-registry.json` | JSON array | All consumer projects |
+| `evidence-registry.json` | JSON array | All consumer projects |
+| `relationship-registry.json` | JSON array | Cross-document links |
+| `search-index.json` | JSON array | Lightweight search |
+| `minisearch-index.json` | MiniSearch serialized index | Full-text search |
+| `statistics.json` | JSON | Registry metrics |
+| `validation-report.json` | JSON | Validation results |
+| `performance-report.json` | JSON | Timing metrics |
+| `manifest.json` | JSON (enhanced) | Package manifest |
+| `release-notes.md` | Markdown | Release documentation |
+| `checksum.json` | JSON (SHA-256) | Integrity verification |
+| `README.md` | Markdown | Package overview |
+
+**Total artifacts: 15**
 
 ## Registry Data Files
 
@@ -38,6 +62,20 @@
 | `docs/implementation/03_OUTPUT_FORMAT.md` | Output format specification |
 | `docs/implementation/04_TESTING.md` | Test suite documentation |
 | `docs/implementation/05_BUILD_PIPELINE.md` | CI/CD pipeline documentation |
+
+## Distribution Outputs
+
+| File | Purpose |
+|------|---------|
+| `docs/distribution/00_DISTRIBUTION_ARCHITECTURE.md` | Distribution architecture overview |
+| `docs/distribution/01_PACKAGE_STRUCTURE.md` | Package layout and contents |
+| `docs/distribution/02_RELEASE_PROCESS.md` | Release pipeline documentation |
+| `docs/distribution/03_MANIFEST_SPECIFICATION.md` | Manifest schema and fields |
+| `docs/distribution/04_CHECKSUM_POLICY.md` | Checksum generation and verification |
+| `docs/distribution/05_CONSUMER_DISTRIBUTION_GUIDE.md` | Consumer integration guide |
+| `docs/distribution/06_VERSION_LIFECYCLE.md` | Version management policy |
+| `docs/distribution/07_GITHUB_PAGES_STRATEGY.md` | GitHub Pages CDN strategy |
+| `docs/distribution/08_PACKAGE_VALIDATION.md` | Package validation documentation |
 
 ## Architecture Outputs
 
@@ -68,6 +106,12 @@
 |------|---------|
 | `docs/discovery/00_ECD_OVERVIEW.md` through `10_RESOURCE_CERTIFICATION_PLAN.md` | 11 discovery documents |
 
+## Contracts
+
+| File | Purpose |
+|------|---------|
+| `contracts/distribution-contract.md` | Distribution API contract (packaging rules, version rules, compatibility, consumer requirements) |
+
 ## Fixtures
 
 | Directory | Documents | Purpose |
@@ -78,12 +122,14 @@
 
 ## Consumer Contract
 
-Consumers must ONLY depend on `dist/` outputs. Internal implementation files (`registry/*.json`, `schemas/*.json`, `scripts/*.mjs`) are NOT part of the consumer contract.
+Consumers must ONLY depend on `release/*/registry-package/` outputs. Internal files (`registry/*.json`, `schemas/*.json`, `scripts/*.mjs`, `dist/`) are NOT part of the consumer contract. See `contracts/distribution-contract.md` for full details.
 
 ## Output Lifecycle
 
 ```
-Registry data changed → validate (AJV) → generate (static + MiniSearch) → test (211 assertions) → commit → push → consumer fetches
-                                                                                                                   ↓
-                                                                                                         GitHub Pages (future)
+Registry data changed → validate (AJV) → generate (static + MiniSearch) → package (checksums + release notes + validation) → test (211 assertions)
+       ↓
+commit → push → CI (validate → generate → test → checksums → release notes → validate package → upload artifacts)
+       ↓
+consumer fetches from release/latest/registry-package/ or pinned version
 ```

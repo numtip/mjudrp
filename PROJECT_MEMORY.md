@@ -6,19 +6,22 @@
 |------|-------|
 | Project | MJU Document Registry Platform |
 | Repository | https://github.com/numtip/mjudrp |
-| Current Phase | Sprint 2B — Registry Population |
+| Current Phase | Sprint 2C — Registry Distribution & Packaging |
 | Architecture Status | **LOCKED** — 8 locked rules, 9 quality gates, change policy established |
 | Branch | main |
 | Schema Version | v1.0 (FROZEN) |
 | Document Count | 74 (populated) |
 | Consumer Projects (registered) | 12 |
-| Documentation Files | 47 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation) |
+| Documentation Files | 56 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation + 8 distribution) |
 | Knowledge Base Files | 8 |
 | Memory Files | 9 |
 | Architecture Documents | 10 |
 | Implementation Documents | 6 |
+| Distribution Documents | 8 |
 | Tests | 211 assertions (4 test files) |
 | Build Outputs | 12 JSON files in dist/ (including statistics.json) |
+| Package Version | 1.0.0 |
+| Registry Package | release/latest/registry-package/ (15 artifacts) |
 
 ## Key Architecture Decisions
 
@@ -33,6 +36,7 @@
 9. **MiniSearch + Pagefind certified for search** — MiniSearch integrated in Sprint 2A; Pagefind deferred.
 10. **Architecture locked v1.0** — 10 architecture documents frozen. Changes require ADR.
 11. **Schema corrections ADR-012** — Null parent and empty URI field fixes for AJV compatibility.
+12. **Distribution Layer implemented v1.0** — release/ structure, checksums, release notes, package validation.
 
 ## ERC Certifications (v1.4)
 
@@ -48,22 +52,40 @@
 | Microsoft Graph API | M365 | 📐 FUTURE | Requires Entra ID app registration |
 | SharePoint Term Store | M365 | 📐 FUTURE | Defer until >20 categories |
 
-## Registry Statistics (Sprint 2B)
+## Registry Statistics (Sprint 2C)
 
-| Entity | Count | Target | Status |
-|--------|-------|--------|--------|
-| Documents | 74 | 50+ | ✅ |
-| Categories | 22 | 20+ | ✅ |
-| Projects | 12 | 10+ | ✅ |
-| Owners | 12 | 10+ | ✅ |
-| Evidence | 124 | 100+ | ✅ |
-| Relationships | 250 | 200+ | ✅ |
+| Entity | Count | Status |
+|--------|-------|--------|
+| Documents | 74 | ✅ |
+| Categories | 22 | ✅ |
+| Projects | 12 | ✅ |
+| Owners | 12 | ✅ |
+| Evidence | 124 | ✅ |
+| Relationships | 250 | ✅ |
+| Package Artifacts | 15 | ✅ (release/latest/registry-package/) |
+| Distribution Documents | 8 | ✅ (docs/distribution/) |
+
+## Distribution Layer
+
+| Component | Status | Location |
+|-----------|--------|----------|
+| Distribution Structure | ✅ Complete | release/latest/, release/v1/, release/archive/ |
+| Registry Package | ✅ Complete | release/latest/registry-package/ |
+| Checksum Generation | ✅ Complete | scripts/generate-checksum.mjs |
+| Release Notes | ✅ Complete | scripts/generate-release-notes.mjs |
+| Package Validation | ✅ Complete | scripts/validate-package.mjs |
+| Release Pipeline | ✅ Complete | scripts/release.mjs |
+| Distribution Docs | ✅ Complete | docs/distribution/ (8 documents) |
+| Distribution Contract | ✅ Complete | contracts/distribution-contract.md |
+| CI Workflow | ✅ Enhanced | .github/workflows/validate.yml |
+| Package Version | 1.0.0 | release/latest/registry-package/ |
 
 ## Active Risks
 
 1. No Microsoft 365 API integration — URLs stored as-is, not verified.
 2. Consumer projects not yet consuming — onboarding guide available.
 3. MCP servers (GitHub, Filesystem) not yet configured in Cursor (CONDITIONAL certification).
+4. GitHub Pages not yet deployed — strategy documented but not active.
 
 ## Architecture Layers
 
@@ -71,6 +93,7 @@
 |-------|--------|
 | Foundation | ✅ Complete |
 | Registry | ✅ Complete |
+| Distribution | ✅ Complete |
 | ECD | ✅ Complete (11 discovery docs) |
 | ERC | ✅ Complete (14 certification docs, 8 knowledge base files) |
 | Architecture Lock | ✅ LOCKED (10 architecture docs, v1.0) |

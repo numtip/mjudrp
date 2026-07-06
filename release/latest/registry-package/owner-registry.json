@@ -1,0 +1,98 @@
+[
+  {
+    "id": "owner-sustainability",
+    "name": "Office of Sustainability",
+    "email": "sustainability@mju.ac.th",
+    "department": "Office of Sustainability",
+    "role": "Green Office Coordinator",
+    "phone": "+66 53 873 000"
+  },
+  {
+    "id": "owner-research",
+    "name": "Research Administration",
+    "email": "research@mju.ac.th",
+    "department": "Research Administration",
+    "role": "RAE Coordinator",
+    "phone": "+66 53 873 100"
+  },
+  {
+    "id": "owner-learning",
+    "name": "Learning Center Administration",
+    "email": "learning@mju.ac.th",
+    "department": "Learning Center",
+    "role": "Center Administrator",
+    "phone": "+66 53 873 200"
+  },
+  {
+    "id": "owner-it",
+    "name": "Information Technology Division",
+    "email": "it@mju.ac.th",
+    "department": "IT Division",
+    "role": "IT Director",
+    "phone": "+66 53 873 300"
+  },
+  {
+    "id": "owner-academic",
+    "name": "Academic Affairs Office",
+    "email": "academic@mju.ac.th",
+    "department": "Academic Affairs",
+    "role": "Academic Dean",
+    "phone": "+66 53 873 400"
+  },
+  {
+    "id": "owner-finance",
+    "name": "Finance and Budget Division",
+    "email": "finance@mju.ac.th",
+    "department": "Finance Division",
+    "role": "Finance Director",
+    "phone": "+66 53 873 500"
+  },
+  {
+    "id": "owner-qa",
+    "name": "Quality Assurance Office",
+    "email": "qa@mju.ac.th",
+    "department": "Quality Assurance",
+    "role": "QA Director",
+    "phone": "+66 53 873 600"
+  },
+  {
+    "id": "owner-international",
+    "name": "International Affairs Office",
+    "email": "international@mju.ac.th",
+    "department": "International Affairs",
+    "role": "International Coordinator",
+    "phone": "+66 53 873 700"
+  },
+  {
+    "id": "owner-student",
+    "name": "Student Development Division",
+    "email": "student@mju.ac.th",
+    "department": "Student Development",
+    "role": "Student Affairs Director",
+    "phone": "+66 53 873 800"
+  },
+  {
+    "id": "owner-community",
+    "name": "Community Engagement Center",
+    "email": "community@mju.ac.th",
+    "department": "Community Engagement",
+    "role": "Center Director",
+    "phone": "+66 53 873 900"
+  },
+  {
+    "id": "owner-legal",
+    "name": "Legal and Compliance Office",
+    "email": "legal@mju.ac.th",
+    "department": "Legal Affairs",
+    "role": "Legal Counsel",
+    "phone": "+66 53 874 000"
+  },
+  {
+    "id": "owner-admin",
+    "name": "Central Administration",
+    "email": "admin@mju.ac.th",
+    "department": "President Office",
+    "role": "Administrative Secretary",
+    "phone": "+66 53 874 100"
+  }
+]
