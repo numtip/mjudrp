@@ -57,3 +57,13 @@
 | Decisions | ADR-010: Consolidate ERC findings. AJV = CONDITIONAL (needs ajv-formats), MiniSearch = CERTIFIED, Filesystem/GitHub MCP = CONDITIONAL (needs config), Pagefind = FUTURE, SharePoint Metadata = CERTIFIED, Dublin Core = CERTIFIED. Schema adjusted for optional URL fields (anyOf for empty string or URI). |
 | Validation Result | PASS (0 errors, 0 warnings) |
 
+## SESSION-1783354200000
+
+| Field | Value |
+|-------|-------|
+| Date | 2026-07-06T15:10:00.000Z |
+| Goal | Architecture Lock v1.0 + Registry Spec Freeze |
+| Completed Work | Created 10 architecture documents in `docs/architecture/`: Architecture Lock, Registry Specification v1.0, Schema Version Policy, Implementation Backlog, Implementation Guidelines, Migration Strategy, Consumer Onboarding Guide, Release Policy, Deprecation Policy, Architecture Change Policy. Added ADR-011. Updated ARCHITECTURE_LOCK.md, all memory files, runtime files, README, PROJECT_MEMORY, NEXT_SPRINT_PLAN. |
+| Decisions | ADR-011: Lock architecture. Freeze Registry Specification v1.0. Establish quality gates. Lock all 10 architecture documents. Consumer contract frozen to `dist/` outputs only. |
+| Validation Result | PASS (0 errors, 0 warnings) |
+

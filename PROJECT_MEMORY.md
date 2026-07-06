@@ -6,15 +6,16 @@
 |------|-------|
 | Project | MJU Document Registry Platform |
 | Repository | https://github.com/numtip/mjudrp |
-| Current Phase | Enterprise Resource Certification v1.4 |
-| Architecture Status | ERC completed — 7 technologies certified through practical evaluation |
+| Current Phase | Architecture Lock v1.0 + Registry Spec Freeze |
+| Architecture Status | **LOCKED** — 8 locked rules, 9 quality gates, change policy established |
 | Branch | main |
-| Schema Version | 1.0 (draft, adjusted for AJV compatibility) |
+| Schema Version | v1.0 (FROZEN) |
 | Document Count (sample) | 7 |
 | Consumer Projects (registered) | 4 |
-| Documentation Files | 31 (16 docs + 11 discovery + 14 certification) |
+| Documentation Files | 41 (16 docs + 11 discovery + 14 certification + 10 architecture) |
 | Knowledge Base Files | 8 |
 | Memory Files | 9 |
+| Architecture Documents | 10 |
 
 ## Key Architecture Decisions
 
@@ -27,6 +28,7 @@
 7. **Dublin Core adopted as metadata baseline** — No schema changes needed.
 8. **AJV certified for validation** — Add in Sprint 2.
 9. **MiniSearch + Pagefind certified for search** — Add in Sprint 2-3.
+10. **Architecture locked v1.0** — 10 architecture documents frozen. Changes require ADR.
 
 ## ERC Certifications (v1.4)
 
@@ -45,11 +47,10 @@
 ## Active Risks
 
 1. No Microsoft 365 API integration — URLs stored as-is, not verified.
-2. Sample data only — real metadata population needed.
-3. Consumer projects not yet consuming — integration patterns documented.
-4. No static hosting beyond GitHub raw URLs.
-5. AJV requires ajv-formats dependency for format validation (CONDITIONAL certification).
-6. MCP servers (GitHub, Filesystem) not yet configured in Cursor (CONDITIONAL certification).
+2. Sample data only — real metadata population needed (P0 for Sprint 2).
+3. Consumer projects not yet consuming — onboarding guide now available.
+4. AJV requires ajv-formats dependency for format validation (CONDITIONAL certification).
+5. MCP servers (GitHub, Filesystem) not yet configured in Cursor (CONDITIONAL certification).
 
 ## Architecture Layers
 
@@ -59,6 +60,7 @@
 | Registry | ✅ Complete |
 | ECD | ✅ Complete (11 discovery docs) |
 | ERC | ✅ Complete (14 certification docs, 8 knowledge base files) |
+| Architecture Lock | ✅ LOCKED (10 architecture docs, v1.0) |
 | Provider | 📐 Architecture only |
 | Adapter | 📐 Architecture only |
 | Plugin | 📐 Architecture only |

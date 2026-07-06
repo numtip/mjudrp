@@ -1,6 +1,8 @@
 # Architecture Lock
 
-The following architectural decisions are **locked** and must not be violated without explicit approval from the project owner.
+**Status:** LOCKED — 2026-07-06
+
+The following architectural decisions are **locked** and must not be violated without explicit approval from the project owner following the process defined in `docs/architecture/09_ARCHITECTURE_CHANGE_POLICY.md`.
 
 ## Locked Rules
 
@@ -28,11 +30,42 @@ No authentication system, user accounts, roles, permissions, or access control l
 ### 8. No Admin Panel Without Approval
 No admin panel, management UI, or dashboard for registry data management may be built without explicit approval. Use git, GitHub UI, and existing Microsoft 365 tools instead.
 
+## Architecture Documents
+
+| Document | Lock Version | Description |
+|----------|-------------|-------------|
+| `docs/architecture/00_ARCHITECTURE_LOCK_v1.md` | v1.0 | Official architecture lock document |
+| `docs/architecture/01_REGISTRY_SPECIFICATION_v1.md` | v1.0 | Frozen registry specification |
+| `docs/architecture/02_SCHEMA_VERSION_POLICY.md` | v1.0 | Schema versioning policy |
+| `docs/architecture/03_IMPLEMENTATION_BACKLOG.md` | v1.0 | Prioritized implementation backlog |
+| `docs/architecture/04_IMPLEMENTATION_GUIDELINES.md` | v1.0 | Implementation coding standards |
+| `docs/architecture/05_MIGRATION_STRATEGY.md` | v1.0 | Schema and output migration strategy |
+| `docs/architecture/06_CONSUMER_ONBOARDING_GUIDE.md` | v1.0 | Consumer integration guide |
+| `docs/architecture/07_RELEASE_POLICY.md` | v1.0 | Release and quality gate policy |
+| `docs/architecture/08_DEPRECATION_POLICY.md` | v1.0 | Deprecation timeline policy |
+| `docs/architecture/09_ARCHITECTURE_CHANGE_POLICY.md` | v1.0 | How to change locked architecture |
+
+## Quality Gates
+
+No sprint may continue unless:
+
+1. `node scripts/validate-registry.mjs` — PASS
+2. `memory/CURRENT_STATE.md` — Updated
+3. `memory/NEXT_TASK.md` — Updated
+4. `memory/LAST_HANDOFF.md` — Updated
+5. `memory/SESSION_LOG.md` — Appended
+6. `memory/DECISIONS.md` — Updated if applicable
+7. `runtime/CURRENT_RUNTIME.md` — Updated
+8. `runtime/CURRENT_PHASE.md` — Updated
+9. `runtime/CURRENT_OUTPUTS.md` — Updated
+10. Registry version updated (if schema changed)
+
 ## Violation Process
 
 If any of the above locked rules need to be changed:
 
-1. Create a new ADR in `memory/DECISIONS.md`
-2. Update this file to reflect the new locked state
-3. Get approval from the project owner
-4. Update all affected documentation
+1. Follow `docs/architecture/09_ARCHITECTURE_CHANGE_POLICY.md`
+2. Create a new ADR in `memory/DECISIONS.md`
+3. Update this file to reflect the new locked state
+4. Get approval from the project owner
+5. Update all affected documentation

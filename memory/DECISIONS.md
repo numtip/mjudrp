@@ -123,3 +123,15 @@
 | | **REJECTED:** SharePoint Embedded, Lunr, custom auth, OCR, chatbot, workflow engine, admin panel, database (MVP), Browser MCP, Search MCP |
 | Reason | Certification must be based on practical verification with real project data, not documentation review alone. Practical testing revealed: AJV's format dependency (ajv-formats), schema design issue (empty string URI fields), MiniSearch's linear scaling (250 bytes/doc), and Pagefind's HTML dependency. |
 | Impact | Sprint 2 will integrate AJV + MiniSearch. MCP servers will be configured in Cursor. Schema updated for optional URL fields. Knowledge base created for reuse across projects. |
+
+## ADR-011: Lock Architecture and Freeze Registry Specification v1.0
+
+| Field | Value |
+|-------|-------|
+| Decision ID | ADR-011 |
+| Date | 2026-07-06 |
+| Status | Accepted |
+| Context | Four sprints completed (Foundation, Hardening, ECD, ERC). Architecture is stable. Before Sprint 2 implementation begins, the architecture must be formally locked to prevent scope creep and ensure consumer project stability. |
+| Decision | Lock the MJU-DRP architecture. Freeze Registry Specification v1.0. Establish 9 quality gates. Create architecture change policy. Consumer contract frozen to `dist/` outputs only — consumers must never depend on internal registry files. |
+| Reason | Implementation (Sprint 2) requires a stable target. Consumer projects need guaranteed output formats. The architecture change policy ensures future changes are intentional and documented. |
+| Impact | 10 architecture documents created in `docs/architecture/`. All 8 locked rules reinforced with violation criteria. Quality gates mandatory for all sprints. ADR-011 itself documents the lock. ARCHITECTURE_LOCK.md updated. Registry Specification v1.0 frozen in `docs/architecture/01_REGISTRY_SPECIFICATION_v1.md`. |

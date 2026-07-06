@@ -13,6 +13,8 @@
 | Hosting | GitHub repository |
 | ECD Status | Complete — tools certified for Sprint 2 |
 | ERC Status | Complete — 7 technologies verified through practical evaluation |
+| Architecture Lock | **LOCKED** — v1.0 |
+| Registry Spec | **FROZEN** — v1.0 |
 
 ## Execution Flow
 
@@ -37,6 +39,8 @@
 | Search index generator | ✅ Active | Produces 2 output files. MiniSearch integration pending. |
 | Memory updater | ✅ Active | Now preserves manual edits |
 | CI/CD pipeline | ✅ Active | GitHub Actions on push/PR |
+| Architecture Lock | ✅ ACTIVE | 8 locked rules, 9 quality gates |
+| Registry Specification | ✅ FROZEN v1.0 | 6 schemas, cross-reference rules, output contract |
 | Provider layer | 📐 Architecture only | No implementation |
 | Adapter layer | 📐 Architecture only | No implementation |
 | Plugin layer | 📐 Architecture only | No implementation |
@@ -59,3 +63,5 @@
 - No external API calls
 - No persistence beyond git commits
 - Runs on Node.js 20+ standard library
+- Architecture is LOCKED — changes require ADR
+- Registry Specification is FROZEN at v1.0

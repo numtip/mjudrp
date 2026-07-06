@@ -75,12 +75,18 @@ mjudrp/
 ├── PROJECT_CONSTITUTION.md
 ├── PROJECT_MEMORY.md
 ├── NEXT_SPRINT_PLAN.md
-├── docs/               # Architecture and governance docs
+├── docs/               # Architecture, governance, discovery, certification docs
 ├── memory/             # Project memory system
-├── schemas/            # JSON schemas
+├── knowledge/          # Reusable enterprise knowledge (ERC)
+├── schemas/            # JSON schemas (Registry Spec v1.0)
 ├── registry/           # Sample registry data
 ├── scripts/            # Validation and generation scripts
 ├── dist/               # Generated JSON outputs
+├── contracts/          # Consumer and registry contracts
+├── providers/          # Provider layer architecture docs
+├── adapters/           # Adapter layer architecture docs
+├── plugins/            # Plugin layer architecture docs
+├── runtime/            # Runtime state files
 ├── .github/workflows/  # CI/CD
 └── .cursor/rules/      # Cursor IDE rules
 ```
@@ -125,8 +131,8 @@ Projects must not duplicate or independently maintain document metadata. All met
 
 ## Current Status
 
-**Enterprise Resource Certification v1.4** — Technologies verified through practical evaluation. 7 technologies certified/conditional/future. See `docs/certification/` for full findings and `knowledge/` for reusable enterprise knowledge.
+**Architecture Lock v1.0 + Registry Specification v1.0 Frozen** — Architecture is locked. Registry Specification v1.0 is frozen. See `docs/architecture/` for full documentation. 9 quality gates enforce sprint discipline.
 
 ---
 
-*Built with Microsoft 365, GitHub, and Node.js.*
+*Built with Microsoft 365, GitHub, Node.js, AJV, and MiniSearch.*
