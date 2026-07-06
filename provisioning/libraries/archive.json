@@ -1,0 +1,23 @@
+{
+  "library_name": "DRP Archive",
+  "description": "Long-term preservation of superseded and archived documents",
+  "versioning": {
+    "enabled": false
+  },
+  "approval": {
+    "content_approval_required": false
+  },
+  "default_metadata": {
+    "Visibility": "internal",
+    "Status": "archived"
+  },
+  "retention": {
+    "recommendation": "Keep archived documents for 10 years minimum per university record policy."
+  },
+  "validation": {
+    "required_columns": ["DRP Document ID", "Title", "Archived Date", "Superseded By"]
+  },
+  "content_types": ["DRP Archive"],
+  "default_view": "All Archived",
+  "graph_drive_type": "documentLibrary"
+}

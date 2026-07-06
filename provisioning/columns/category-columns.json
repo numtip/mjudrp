@@ -1,0 +1,11 @@
+{
+  "column_group": "MJU Document Registry Columns",
+  "columns": [
+    { "display_name": "Category ID", "internal_name": "DRP_x0020_Category_x0020_ID", "type": "Text", "required": true, "schema_property": "id" },
+    { "display_name": "Category Name (EN)", "internal_name": "DRP_x0020_Category_x0020_Name_x0020_EN", "type": "Text", "required": true, "schema_property": "name_en" },
+    { "display_name": "Category Name (TH)", "internal_name": "DRP_x0020_Category_x0020_Name_x0020_TH", "type": "Text", "required": true, "schema_property": "name_th" },
+    { "display_name": "Parent Category", "internal_name": "DRP_x0020_Parent_x0020_Category", "type": "Lookup", "required": false, "schema_property": "parent" },
+    { "display_name": "Icon", "internal_name": "DRP_x0020_Icon", "type": "Text", "required": false, "schema_property": "icon" },
+    { "display_name": "Sort Order", "internal_name": "DRP_x0020_Sort_x0020_Order", "type": "Number", "required": false, "schema_property": "sort_order" }
+  ]
+}

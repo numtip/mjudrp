@@ -1,0 +1,26 @@
+{
+  "library_name": "DRP Evidence",
+  "description": "Evidence documents mapped to quality assurance criteria (RAE, IQA, etc.)",
+  "versioning": {
+    "enabled": true,
+    "major_versions": true,
+    "minor_versions": false,
+    "max_major_versions": 500
+  },
+  "approval": {
+    "content_approval_required": true
+  },
+  "default_metadata": {
+    "Visibility": "internal",
+    "Status": "draft"
+  },
+  "retention": {
+    "recommendation": "Keep evidence for current + 2 assessment cycles. Archive after 6 years."
+  },
+  "validation": {
+    "required_columns": ["DRP Document ID", "Title", "Status", "Project Refs"]
+  },
+  "content_types": ["DRP Evidence"],
+  "default_view": "All Evidence",
+  "graph_drive_type": "documentLibrary"
+}

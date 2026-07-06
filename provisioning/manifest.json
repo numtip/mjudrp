@@ -1,0 +1,73 @@
+{
+  "template_version": "1.0.0",
+  "registry_version": "1.0",
+  "schema_version": "1.0",
+  "generated_at": "2026-07-06T23:09:00.000Z",
+
+  "compatibility": {
+    "sharepoint_version": "SharePoint Online (Microsoft 365)",
+    "graph_api_version": "Microsoft Graph v1.0",
+    "pnp_powershell": "PnP.PowerShell 2.x+",
+    "minimum_registry_version": "1.0"
+  },
+
+  "requirements": {
+    "required_libraries": [
+      "DRP Documents",
+      "DRP Evidence",
+      "DRP Source Data",
+      "DRP Templates",
+      "DRP Archive",
+      "DRP Working Area"
+    ],
+    "required_columns": [
+      "DRP Document ID", "Title", "Description", "Category", "Subcategory",
+      "Fiscal Year", "Year", "Version", "Status", "Owner", "Department",
+      "Keywords", "Tags", "Language", "File Type", "Project Refs",
+      "Evidence Refs", "Related Documents", "Visibility",
+      "Storage Path", "Share URL", "Created At", "Updated At"
+    ],
+    "required_lists": [
+      "DRP Categories",
+      "DRP Projects",
+      "DRP Owners",
+      "Metadata QA Queue",
+      "Registry Review Queue"
+    ],
+    "required_content_types": [
+      "DRP Document", "DRP Evidence", "DRP Template", "DRP Archive"
+    ],
+    "required_permission_groups": [
+      "DRP Owners", "DRP Editors", "DRP Reviewers",
+      "DRP Readers", "DRP Auditors", "DRP AI Service Account",
+      "Project Owners"
+    ],
+    "required_views": 13
+  },
+
+  "templates": {
+    "site": "provisioning/site/site-template.json",
+    "libraries": "provisioning/libraries/",
+    "columns": "provisioning/columns/document-columns.json",
+    "lists": "provisioning/lists/",
+    "views": "provisioning/views/documents.json",
+    "permissions": "provisioning/permissions/permission-matrix.json",
+    "content_types": "provisioning/content-types/",
+    "validation": "provisioning/validation/",
+    "prompts": "provisioning/prompts/",
+    "exports": "provisioning/exports/"
+  },
+
+  "mappings": {
+    "schema_to_sharepoint": "docs/sharepoint/02_METADATA_COLUMN_BLUEPRINT.md",
+    "template_to_graph": "docs/provisioning/10_GRAPH_MAPPING.md",
+    "csv_to_registry": "provisioning/exports/registry-import-format.md"
+  },
+
+  "quality_gates": {
+    "validate_registry": "node scripts/validate-registry.mjs",
+    "validate_package": "node scripts/validate-package.mjs",
+    "validate_provisioning": "node scripts/validate-provisioning.mjs",
+    "run_tests": "npm test"
+  }
+}

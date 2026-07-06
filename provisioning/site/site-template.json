@@ -1,0 +1,45 @@
+{
+  "template_type": "site",
+  "version": "1.0.0",
+  "site": {
+    "name": "MJU Document Registry",
+    "description": "Central document registry for MJU-DRP consumer projects. Stores and manages document metadata for Green Office, RAE Landing, Learning Center, Research Portal, and Enterprise Shared Documents.",
+    "url": "https://mju365.sharepoint.com/sites/MJUDocumentRegistry",
+    "type": "CommunicationSite",
+    "owner": "MJU IT Department",
+    "classification": "Internal"
+  },
+  "settings": {
+    "timezone": 7,
+    "timezone_name": "(UTC+07:00) Bangkok, Hanoi, Jakarta",
+    "locale_id": 1054,
+    "language": "th",
+    "alternate_languages": ["en"],
+    "external_sharing": "ExistingExternalUserSharingOnly",
+    "default_link_permission": "Organization",
+    "default_link_type": "Direct"
+  },
+  "features": {
+    "document_sets": false,
+    "metadata_navigation": false,
+    "content_organizer": false,
+    "search_center_url": null,
+    "microsoft_365_copilot": "enabled (platform-level)",
+    "sharepoint_agents": "enabled (platform-level)"
+  },
+  "site_columns_group": "MJU Document Registry Columns",
+  "provisioning_order": [
+    "Create site",
+    "Configure settings",
+    "Create site columns",
+    "Create content types",
+    "Create document libraries",
+    "Add content types to libraries",
+    "Create SharePoint lists",
+    "Create views",
+    "Configure permissions",
+    "Configure navigation",
+    "Upload test documents",
+    "Validate provisioning"
+  ]
+}

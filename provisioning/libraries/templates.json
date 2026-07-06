@@ -1,0 +1,24 @@
+{
+  "library_name": "DRP Templates",
+  "description": "Standardized templates for metadata import, column templates, reports",
+  "versioning": {
+    "enabled": true,
+    "major_versions": true,
+    "minor_versions": false
+  },
+  "approval": {
+    "content_approval_required": false
+  },
+  "default_metadata": {
+    "Visibility": "public"
+  },
+  "retention": {
+    "recommendation": "Keep current version. Archive superseded versions."
+  },
+  "validation": {
+    "required_columns": ["Title", "Description", "Version"]
+  },
+  "content_types": ["DRP Template"],
+  "default_view": "All Templates",
+  "graph_drive_type": "documentLibrary"
+}

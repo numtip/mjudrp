@@ -1,0 +1,1 @@
+{"name":"DRP Report","description":"Report document subtype — annual reports, quarterly reports, audit reports.","parent":"DRP Document","additional_columns":["Report Period","Reporting Year","Report Type (annual/quarterly/special)"],"template_file":null,"libraries":["DRP Documents"]}

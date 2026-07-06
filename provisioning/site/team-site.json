@@ -1,0 +1,19 @@
+{
+  "site_type": "TeamSite",
+  "use_case": "Alternative for internal-only staff access",
+  "reason": "Team sites offer tighter Microsoft 365 Group integration and are simpler for internal document management when no public-facing content is needed.",
+  "config": {
+    "template": "TEAM",
+    "create_group": true,
+    "group_name": "MJU Document Registry Team",
+    "group_privacy": "Private",
+    "features": {
+      "news": false,
+      "pages": false,
+      "highlighted_content": false,
+      "quick_links": false
+    },
+    "public_content": "None (all content internal)",
+    "internal_content": "All documents"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "navigation": {
+    "global_navigation": "Structural",
+    "current_navigation": "Structural",
+    "managed_navigation": false,
+    "links": [
+      {
+        "title": "DRP Documents",
+        "url": "/sites/MJUDocumentRegistry/DRP Documents",
+        "target": "_self",
+        "position": 1
+      },
+      {
+        "title": "DRP Evidence",
+        "url": "/sites/MJUDocumentRegistry/DRP Evidence",
+        "target": "_self",
+        "position": 2
+      },
+      {
+        "title": "DRP Templates",
+        "url": "/sites/MJUDocumentRegistry/DRP Templates",
+        "target": "_self",
+        "position": 3
+      },
+      {
+        "title": "DRP Archive",
+        "url": "/sites/MJUDocumentRegistry/DRP Archive",
+        "target": "_self",
+        "position": 4
+      },
+      {
+        "title": "Registry Lists",
+        "url": "/sites/MJUDocumentRegistry/Lists",
+        "target": "_self",
+        "position": 5
+      },
+      {
+        "title": "Metadata QA",
+        "url": "/sites/MJUDocumentRegistry/Lists/Metadata QA Queue",
+        "target": "_self",
+        "position": 6
+      }
+    ],
+    "footer_links": [
+      {
+        "title": "MJU-DRP GitHub",
+        "url": "https://github.com/numtip/mjudrp",
+        "target": "_blank",
+        "position": 1
+      },
+      {
+        "title": "Registry Package (latest)",
+        "url": "https://github.com/numtip/mjudrp/tree/main/release/latest/registry-package",
+        "target": "_blank",
+        "position": 2
+      },
+      {
+        "title": "SharePoint Blueprint",
+        "url": "https://github.com/numtip/mjudrp/tree/main/docs/sharepoint",
+        "target": "_blank",
+        "position": 3
+      }
+    ]
+  }
+}

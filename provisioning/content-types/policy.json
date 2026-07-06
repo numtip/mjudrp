@@ -1,0 +1,1 @@
+{"name":"DRP Policy","description":"Policy document subtype — institutional policies, guidelines, regulatory documents.","parent":"DRP Document","additional_columns":["Policy Number","Effective Date","Review Date","Approved By"],"template_file":null,"libraries":["DRP Documents"]}

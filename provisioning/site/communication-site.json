@@ -1,0 +1,16 @@
+{
+  "site_type": "CommunicationSite",
+  "use_case": "Recommended for MJU Document Registry",
+  "reason": "Communication sites provide a clean, content-focused experience ideal for document registry visibility across the organization. They support Microsoft 365 Copilot and SharePoint agents.",
+  "config": {
+    "template": "COMMUNICATION",
+    "features": {
+      "news": true,
+      "pages": true,
+      "highlighted_content": true,
+      "quick_links": true
+    },
+    "public_content": "Select documents marked as 'public' visibility",
+    "internal_content": "All documents (restricted by library permissions)"
+  }
+}

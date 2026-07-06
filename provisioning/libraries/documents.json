@@ -1,0 +1,33 @@
+{
+  "library_name": "DRP Documents",
+  "description": "Primary document storage for all registered consumer project documents",
+  "template_type": "DocumentLibrary",
+  "versioning": {
+    "enabled": true,
+    "major_versions": true,
+    "minor_versions": false,
+    "max_major_versions": 500,
+    "draft_item_security": "OnlyUsersWhoCanEdit"
+  },
+  "approval": {
+    "content_approval_required": true,
+    "draft_visibility": "OnlyApproversAndAuthor"
+  },
+  "default_metadata": {
+    "Visibility": "internal",
+    "Status": "draft",
+    "Language": "th",
+    "Version": "1.0"
+  },
+  "retention": {
+    "retention_label": null,
+    "recommendation": "Keep active documents for duration of project lifecycle. Review and archive superseded documents annually."
+  },
+  "validation": {
+    "required_columns": ["DRP Document ID", "Title", "Category", "Owner", "Project Refs"],
+    "column_validation_formula": null
+  },
+  "content_types": ["DRP Document"],
+  "default_view": "All Active Documents",
+  "graph_drive_type": "documentLibrary"
+}

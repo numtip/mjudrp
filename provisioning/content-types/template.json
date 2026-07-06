@@ -1,0 +1,1 @@
+{"name":"DRP Template","description":"Standard template document content type for DRP Templates library.","parent":"Document","required_columns":["Title","Description","Version"],"all_columns":["Title","Description","Version","Language","Category","Owner","Visibility","Created At","Updated At"],"template_file":null,"libraries":["DRP Templates"]}

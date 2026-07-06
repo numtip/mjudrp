@@ -1,0 +1,25 @@
+{
+  "library_name": "DRP Working Area",
+  "description": "In-progress documents, drafts, collaborative workspace before formal upload",
+  "versioning": {
+    "enabled": true,
+    "major_versions": true,
+    "minor_versions": true,
+    "max_major_versions": 50
+  },
+  "approval": {
+    "content_approval_required": false
+  },
+  "default_metadata": {
+    "Visibility": "internal"
+  },
+  "retention": {
+    "recommendation": "Clean up working drafts quarterly. Move completed work to DRP Documents."
+  },
+  "validation": {
+    "required_columns": ["Title", "Owner"]
+  },
+  "content_types": [],
+  "default_view": "All Drafts",
+  "graph_drive_type": "documentLibrary"
+}

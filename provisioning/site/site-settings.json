@@ -1,0 +1,26 @@
+{
+  "regional_settings": {
+    "timezone_id": 7,
+    "timezone": "(UTC+07:00) Bangkok, Hanoi, Jakarta",
+    "locale_id": 1054,
+    "language": "th",
+    "first_day_of_week": 0,
+    "first_week_of_year": 1,
+    "work_days": "0601234",
+    "work_hours_start": "08:30",
+    "work_hours_end": "16:30"
+  },
+  "language_settings": {
+    "default": "th",
+    "alternate": ["en"],
+    "enable_multilingual_pages": false
+  },
+  "content_type_hub": {
+    "push_content_types": false,
+    "pull_content_types": false
+  },
+  "search_settings": {
+    "search_center_url": null,
+    "result_source_id": null
+  }
+}

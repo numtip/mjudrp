@@ -1,0 +1,22 @@
+{
+  "library_name": "DRP Source Data",
+  "description": "Raw data exports, CSV/Excel metadata templates, and batch import files",
+  "versioning": {
+    "enabled": false
+  },
+  "approval": {
+    "content_approval_required": false
+  },
+  "default_metadata": {
+    "Visibility": "internal"
+  },
+  "retention": {
+    "recommendation": "Clean up after each import cycle. Keep last 3 import batches."
+  },
+  "validation": {
+    "required_columns": ["Title", "Description", "Source", "Date", "Type"]
+  },
+  "content_types": [],
+  "default_view": "All Source Data",
+  "graph_drive_type": "documentLibrary"
+}

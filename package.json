@@ -15,6 +15,7 @@
     "checksum": "node scripts/generate-checksum.mjs",
     "release-notes": "node scripts/generate-release-notes.mjs",
     "validate-package": "node scripts/validate-package.mjs",
+    "validate-provisioning": "node scripts/validate-provisioning.mjs",
     "release": "node scripts/release.mjs"
   },
   "repository": {
