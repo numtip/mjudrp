@@ -1,0 +1,85 @@
+{
+  "inventory_type": "libraries",
+  "template_version": "1.0.0",
+  "description": "Template for recording MJU-DRP SharePoint document library information",
+  "status": "TEMPLATE",
+
+  "site_url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+
+  "libraries": [
+    {
+      "name": "DRP Documents",
+      "internal_name": "DRP_x0020_Documents",
+      "description": "Primary document storage for all registered consumer project documents",
+      "drive_id": "__DRIVE_ID_DOCUMENTS__",
+      "list_id": "__LIST_ID_DOCUMENTS__",
+      "versioning_enabled": true,
+      "approval_required": true,
+      "item_count": "__ITEM_COUNT__",
+      "content_types": ["DRP Document"]
+    },
+    {
+      "name": "DRP Evidence",
+      "internal_name": "DRP_x0020_Evidence",
+      "description": "Evidence documents mapped to quality assurance criteria",
+      "drive_id": "__DRIVE_ID_EVIDENCE__",
+      "list_id": "__LIST_ID_EVIDENCE__",
+      "versioning_enabled": true,
+      "approval_required": true,
+      "item_count": "__ITEM_COUNT__",
+      "content_types": ["DRP Evidence"]
+    },
+    {
+      "name": "DRP Templates",
+      "internal_name": "DRP_x0020_Templates",
+      "description": "Standardized templates for metadata import, reports",
+      "drive_id": "__DRIVE_ID_TEMPLATES__",
+      "list_id": "__LIST_ID_TEMPLATES__",
+      "versioning_enabled": true,
+      "approval_required": false,
+      "item_count": "__ITEM_COUNT__",
+      "content_types": ["DRP Template"]
+    },
+    {
+      "name": "DRP Archive",
+      "internal_name": "DRP_x0020_Archive",
+      "description": "Long-term preservation of superseded documents",
+      "drive_id": "__DRIVE_ID_ARCHIVE__",
+      "list_id": "__LIST_ID_ARCHIVE__",
+      "versioning_enabled": false,
+      "approval_required": false,
+      "item_count": "__ITEM_COUNT__",
+      "content_types": ["DRP Archive"]
+    },
+    {
+      "name": "DRP Working Area",
+      "internal_name": "DRP_x0020_Working_x0020_Area",
+      "description": "In-progress documents and collaborative drafts",
+      "drive_id": "__DRIVE_ID_WORKING__",
+      "list_id": "__LIST_ID_WORKING__",
+      "versioning_enabled": true,
+      "minor_versions": true,
+      "approval_required": false,
+      "item_count": "__ITEM_COUNT__",
+      "content_types": []
+    },
+    {
+      "name": "DRP Source Data",
+      "internal_name": "DRP_x0020_Source_x0020_Data",
+      "description": "Raw data exports, CSV/Excel metadata templates",
+      "drive_id": "__DRIVE_ID_SOURCE__",
+      "list_id": "__LIST_ID_SOURCE__",
+      "versioning_enabled": false,
+      "approval_required": false,
+      "item_count": "__ITEM_COUNT__",
+      "content_types": []
+    }
+  ],
+
+  "notes": [
+    "Drive IDs are required for Microsoft Graph file access",
+    "List IDs are required for Microsoft Graph list item queries",
+    "Use deployment/discovery/discover-libraries.ps1 to obtain these values",
+    "Replace __PLACEHOLDER__ values after site is provisioned"
+  ]
+}

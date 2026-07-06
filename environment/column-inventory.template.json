@@ -1,0 +1,36 @@
+{
+  "inventory_type": "columns",
+  "template_version": "1.0.0",
+  "description": "Template for recording MJU-DRP SharePoint column internal names and properties",
+  "status": "TEMPLATE",
+
+  "site_url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+
+  "columns": [
+    { "display_name": "DRP Document ID", "internal_name": "DRP_x0020_Document_x0020_ID", "type": "Text", "required": true, "schema_property": "id" },
+    { "display_name": "Title", "internal_name": "Title", "type": "Text", "required": true, "schema_property": "title" },
+    { "display_name": "Description", "internal_name": "DRP_x0020_Description", "type": "Note", "required": false, "schema_property": "description" },
+    { "display_name": "Category", "internal_name": "DRP_x0020_Category", "type": "Choice", "required": true, "schema_property": "category" },
+    { "display_name": "Subcategory", "internal_name": "DRP_x0020_Subcategory", "type": "Choice", "required": false, "schema_property": "subcategory" },
+    { "display_name": "Fiscal Year", "internal_name": "DRP_x0020_Fiscal_x0020_Year", "type": "Text", "required": false, "schema_property": "fiscal_year" },
+    { "display_name": "Year", "internal_name": "DRP_x0020_Year", "type": "Number", "required": false, "schema_property": "year" },
+    { "display_name": "Version", "internal_name": "DRP_x0020_Version", "type": "Text", "required": false, "schema_property": "version" },
+    { "display_name": "Status", "internal_name": "DRP_x0020_Status", "type": "Choice", "required": false, "schema_property": "status" },
+    { "display_name": "Owner", "internal_name": "DRP_x0020_Owner", "type": "Choice", "required": true, "schema_property": "owner" },
+    { "display_name": "Department", "internal_name": "DRP_x0020_Department", "type": "Text", "required": false, "schema_property": "department" },
+    { "display_name": "Keywords", "internal_name": "DRP_x0020_Keywords", "type": "Note", "required": false, "schema_property": "keywords" },
+    { "display_name": "Tags", "internal_name": "DRP_x0020_Tags", "type": "Note", "required": false, "schema_property": "tags" },
+    { "display_name": "Language", "internal_name": "DRP_x0020_Language", "type": "Choice", "required": false, "schema_property": "language" },
+    { "display_name": "File Type", "internal_name": "FileType", "type": "Computed", "required": false, "schema_property": "file_type" },
+    { "display_name": "Project Refs", "internal_name": "DRP_x0020_Project_x0020_Refs", "type": "Note", "required": true, "schema_property": "project_refs" },
+    { "display_name": "Evidence Refs", "internal_name": "DRP_x0020_Evidence_x0020_Refs", "type": "Note", "required": false, "schema_property": "evidence_refs" },
+    { "display_name": "Related Documents", "internal_name": "DRP_x0020_Related_x0020_Documents", "type": "Note", "required": false, "schema_property": "related_documents" },
+    { "display_name": "Visibility", "internal_name": "DRP_x0020_Visibility", "type": "Choice", "required": false, "schema_property": "visibility" },
+    { "display_name": "Share URL", "internal_name": "DRP_x0020_Share_x0020_URL", "type": "Hyperlink", "required": false, "schema_property": "share_url" },
+    { "display_name": "Storage Path", "internal_name": "FileLeafRef", "type": "Computed", "required": false, "schema_property": "storage_path" },
+    { "display_name": "Created At", "internal_name": "Created", "type": "DateTime", "required": false, "schema_property": "created_at" },
+    { "display_name": "Updated At", "internal_name": "Modified", "type": "DateTime", "required": false, "schema_property": "updated_at" }
+  ],
+
+  "note": "Internal names may differ based on how columns were created (UI vs REST API). Verify after provisioning using deployment/discovery/discover-columns.ps1."
+}

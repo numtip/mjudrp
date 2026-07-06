@@ -33,24 +33,35 @@
 ## Deployment Docs (docs/deployment/)
 10 documents
 
-## Pilot Kit (new)
+## Pilot Kit
 | Category | Files |
 |----------|-------|
-| Pilot Docs | 3 (runbook, graph readiness, health check) |
-| Pilot Config | 6 (configs, samples, checklist, readiness) |
-| **Total** | **9 files** |
+| Pilot Docs (docs/pilot/) | 3 |
+| Pilot Config (pilot/) | 6 |
+| PowerShell Wrappers | 3 |
+| Node.js Scripts | 2 |
+| **Total** | **14** |
 
-## Pilot Scripts (new)
-| Script | Location | Purpose |
-|--------|----------|---------|
-| run-pilot-deployment.ps1 | deployment/powershell/ | Safe dry-run deployment wrapper |
-| run-pilot-verification.ps1 | deployment/powershell/ | Verification with MD + JSON reports |
-| export-pilot-metadata.ps1 | deployment/powershell/ | Metadata export to CSV/JSON |
-| import-pilot-metadata.mjs | scripts/ | Convert export to registry format |
-| validate-pilot.mjs | scripts/ | 7 validation checks |
+## Operations Kit (NEW)
+| Category | Files |
+|----------|-------|
+| Operations Guides (docs/operations/) | 7 |
+| Environment Inventories (environment/) | 9 |
+| Root Reports (DEPLOYMENT_READINESS_REPORT.md, PLATFORM_v1.0_BASELINE.md, CHANGELOG_v1.0.md) | 3 |
+| **Total** | **19** |
+
+## Platform Baseline
+| Item | Location |
+|------|----------|
+| Platform Baseline | PLATFORM_v1.0_BASELINE.md |
+| Changelog | CHANGELOG_v1.0.md |
+| Deployment Readiness | DEPLOYMENT_READINESS_REPORT.md |
+| Git Tag | platform-v1.0 |
+| Freeze Status | ✅ FROZEN — Operations Mode |
 
 ## Consumer Contract
 Consumers must ONLY depend on `release/*/registry-package/`.
 For provisioning, use `provisioning/` templates.
 For deployment, use `deployment/` scripts.
 For pilot, use `docs/pilot/` and `pilot/`.
+For operations, use `docs/operations/` and `environment/`.

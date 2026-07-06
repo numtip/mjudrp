@@ -1,0 +1,69 @@
+{
+  "inventory_type": "permissions",
+  "template_version": "1.0.0",
+  "description": "Template for recording MJU-DRP SharePoint permission group information",
+  "status": "TEMPLATE",
+
+  "site_url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+
+  "groups": [
+    {
+      "name": "DRP Owners",
+      "permission_level": "Full Control",
+      "members": ["__SITE_OWNER_EMAIL__"],
+      "description": "Site owners with full administrative access"
+    },
+    {
+      "name": "DRP Editors",
+      "permission_level": "Contribute",
+      "members": [],
+      "description": "Editors who can upload and modify documents"
+    },
+    {
+      "name": "DRP Reviewers",
+      "permission_level": "Contribute",
+      "members": [],
+      "description": "Reviewers who can edit metadata and approve content"
+    },
+    {
+      "name": "DRP Readers",
+      "permission_level": "Read",
+      "members": [],
+      "description": "Internal users with read-only access"
+    },
+    {
+      "name": "DRP External Readers",
+      "permission_level": "Read",
+      "members": [],
+      "description": "External stakeholders with limited read access"
+    },
+    {
+      "name": "DRP API Access",
+      "permission_level": "Read",
+      "members": [],
+      "description": "Service accounts and API clients with read-only access"
+    },
+    {
+      "name": "DRP Compliance",
+      "permission_level": "Read",
+      "members": [],
+      "description": "Compliance and auditing team members"
+    }
+  ],
+
+  "library_permissions": [
+    { "library": "DRP Documents", "inherits_permissions": false, "unique_permissions": true },
+    { "library": "DRP Evidence", "inherits_permissions": false, "unique_permissions": true },
+    { "library": "DRP Templates", "inherits_permissions": true },
+    { "library": "DRP Archive", "inherits_permissions": true },
+    { "library": "DRP Working Area", "inherits_permissions": true },
+    { "library": "DRP Source Data", "inherits_permissions": true }
+  ],
+
+  "notes": [
+    "Permission groups require member assignment after site creation",
+    "Library-level permissions should be configured after groups are created",
+    "Use deployment/discovery/discover-permissions.ps1 to verify",
+    "Replace __PLACEHOLDER__ values after site is provisioned"
+  ]
+}

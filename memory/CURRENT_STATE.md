@@ -1,29 +1,27 @@
 # MJU-DRP Current State
-**Last Updated:** 2026-07-06T23:30:00.000Z
+**Last Updated:** 2026-07-06T23:39:00.000Z
 
 | Field | Value |
 |-------|-------|
 | Project | MJU Document Registry Platform (MJU-DRP) |
-| Phase | Sprint 3D — SharePoint Pilot Deployment |
+| Phase | Operations Mode v1.0 — Platform Freeze |
 | Branch | main |
-| Architecture Status | **LOCKED** |
+| Latest Tag | platform-v1.0 |
+| Architecture Status | **LOCKED** — 16 ADRs, Platform v1.0 FROZEN |
 | Validation Status | PASS (0 errors, 0 warnings) |
 | Provisioning Validation | 112/112 PASS |
-| Deployment Validation | PASS |
+| Deployment Validation | 139/139 PASS |
 
-## Completed This Sprint
+## Completed — Operations Mode v1.0
 
 | Area | Deliverable | Location |
 |------|-------------|----------|
-| Pilot Runbook | Deployment sequence, admin checklist, success criteria, rollback | `docs/pilot/00_PILOT_DEPLOYMENT_RUNBOOK.md` |
-| Pilot Config | 6 config/sample/checklist files | `pilot/` |
-| Deployment Wrapper | Safe dry-run PowerShell wrapper | `deployment/powershell/run-pilot-deployment.ps1` |
-| Verification Wrapper | MD + JSON report generation | `deployment/powershell/run-pilot-verification.ps1` |
-| Export Workflow | Metadata export to CSV/JSON | `deployment/powershell/export-pilot-metadata.ps1` |
-| Import Script | Convert export to registry-compatible format | `scripts/import-pilot-metadata.mjs` |
-| Validation Script | 7 checks: required meta, categories, refs, URLs, duplicates | `scripts/validate-pilot.mjs` |
-| Graph Readiness | Entra ID checklist, Sites.Selected plan | `docs/pilot/01_GRAPH_READINESS_AFTER_PILOT.md` |
-| Pilot Health Check | Comprehensive checklist with 80+ items | `docs/pilot/02_PILOT_HEALTH_CHECK.md` |
+| Git Tag | platform-v1.0 pushed to origin | `git tag platform-v1.0` |
+| Changelog | CHANGELOG_v1.0.md created | `CHANGELOG_v1.0.md` |
+| Platform Baseline | PLATFORM_v1.0_BASELINE.md created | `PLATFORM_v1.0_BASELINE.md` |
+| Environment Inventory | 9 template files | `environment/` |
+| Deployment Readiness | DEPLOYMENT_READINESS_REPORT.md | Root |
+| Operations Guides | 7 documents | `docs/operations/` |
 
 ## Registry Statistics
 | Entity | Count |
@@ -36,8 +34,8 @@
 | Relationships | 250 |
 
 ## Open Risks
-1. SharePoint pilot site not yet created — workflow ready, requires SharePoint Admin
-2. Graph integration not yet implemented
-3. MCP servers not configured
-4. GitHub Pages not deployed
-5. Pilot requires manual execution by SharePoint Administrator
+1. SharePoint site not yet provisioned — templates ready, requires admin execution
+2. Graph integration not yet implemented — needs Entra ID app + admin consent
+3. MCP servers not configured in Cursor
+4. GitHub Pages not deployed for CDN distribution
+5. No consumer projects consuming registry outputs yet

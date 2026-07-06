@@ -1,0 +1,79 @@
+{
+  "inventory_type": "graph",
+  "template_version": "1.0.0",
+  "description": "Template for recording Microsoft Graph API configuration for MJU-DRP",
+  "status": "TEMPLATE",
+
+  "entra_id_app": {
+    "name": "MJU-DRP Graph Adapter",
+    "app_id": "__CLIENT_ID__",
+    "tenant_id": "__TENANT_ID__",
+    "auth_type": "client_secret",
+    "client_secret_ref": "GitHub Secrets: GRAPH_CLIENT_SECRET",
+    "permissions": ["Sites.Selected (application)"],
+    "admin_consent_status": "PENDING",
+    "consent_url": "https://login.microsoftonline.com/__TENANT_ID__/adminconsent?client_id=__CLIENT_ID__"
+  },
+
+  "graph_endpoints": {
+    "base_url": "https://graph.microsoft.com/v1.0",
+    "site_endpoint": "/sites/__SITE_ID__",
+    "drives_endpoint": "/sites/__SITE_ID__/drives",
+    "lists_endpoint": "/sites/__SITE_ID__/lists",
+    "sites_search": "/sites?search=MJUDocumentRegistry"
+  },
+
+  "required_scopes": {
+    "Sites.Selected": {
+      "type": "application",
+      "justification": "Read metadata from MJU Document Registry site only",
+      "alternatives_considered": ["Sites.Read.All (rejected — too broad)"] 
+    }
+  },
+
+  "authentication": {
+    "grant_type": "client_credentials",
+    "token_url": "https://login.microsoftonline.com/__TENANT_ID__/oauth2/v2.0/token",
+    "scope": "https://graph.microsoft.com/.default"
+  },
+
+  "test_queries": [
+    {
+      "name": "Get Site",
+      "method": "GET",
+      "endpoint": "/sites/__SITE_ID__",
+      "purpose": "Verify Graph connectivity to the permitted site"
+    },
+    {
+      "name": "Get Libraries",
+      "method": "GET",
+      "endpoint": "/sites/__SITE_ID__/drives",
+      "purpose": "List all document libraries and their Drive IDs"
+    },
+    {
+      "name": "Get Lists",
+      "method": "GET",
+      "endpoint": "/sites/__SITE_ID__/lists",
+      "purpose": "List all SharePoint lists and their List IDs"
+    },
+    {
+      "name": "Get Columns",
+      "method": "GET",
+      "endpoint": "/sites/__SITE_ID__/lists/__LIST_ID__/columns",
+      "purpose": "List column definitions and internal names"
+    },
+    {
+      "name": "Get Drive Items",
+      "method": "GET",
+      "endpoint": "/drives/__DRIVE_ID__/root/children",
+      "purpose": "List items in a document library"
+    }
+  ],
+
+  "notes": [
+    "All Graph calls are READ-ONLY",
+    "Sites.Selected restricts access to a single site only",
+    "Replace __PLACEHOLDER__ values after site is provisioned and app is registered",
+    "Do NOT commit real client secrets to the repository"
+  ]
+}

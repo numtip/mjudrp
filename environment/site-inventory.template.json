@@ -1,0 +1,45 @@
+{
+  "inventory_type": "site",
+  "template_version": "1.0.0",
+  "description": "Template for recording MJU Document Registry SharePoint site information",
+  "status": "TEMPLATE",
+  "site_name": "MJU Document Registry",
+
+  "site_url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+
+  "site_id": {
+    "value": "__SITE_ID__",
+    "format": "{tenant}.sharepoint.com,{site-collection-id},{site-id}",
+    "discovery_command": "Connect-PnPOnline -Url $SiteUrl -Interactive; (Get-PnPSite).Id"
+  },
+
+  "web": {
+    "title": "MJU Document Registry",
+    "template": "CommunicationSite",
+    "timezone": "Bangkok (UTC+7)",
+    "language": "th",
+    "alternate_language": "en",
+    "web_id": "__WEB_ID__"
+  },
+
+  "hub_site": {
+    "associated": false,
+    "hub_site_id": null
+  },
+
+  "storage": {
+    "storage_used_mb": "__STORAGE_USED__",
+    "storage_limit_mb": "__STORAGE_LIMIT__"
+  },
+
+  "created": {
+    "date": "__CREATED_DATE__",
+    "by": "__CREATED_BY__"
+  },
+
+  "notes": [
+    "Site ID is required for Microsoft Graph Sites.Selected permission",
+    "Use deployment/discovery/discover-site.ps1 to obtain these values",
+    "Replace __PLACEHOLDER__ values after site is provisioned"
+  ]
+}

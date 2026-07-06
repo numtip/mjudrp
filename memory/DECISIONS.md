@@ -1,14 +1,14 @@
 # Architecture Decisions
 
-## ADR-001 through ADR-015 (unchanged)
+## ADR-001 through ADR-016 (unchanged)
 
-## ADR-016: SharePoint Pilot Deployment v1.0
+## ADR-017: Operations Mode v1.0
 
 | Field | Value |
 |-------|-------|
-| Decision ID | ADR-016 |
+| Decision ID | ADR-017 |
 | Date | 2026-07-06 |
 | Status | Accepted |
-| Context | The Deployment Kit (Sprint 3C) provided 68 reusable deployment assets. A controlled pilot deployment is needed before any Graph integration. The pilot must verify that templates produce a working SharePoint site aligned with Registry Spec v1.0. |
-| Decision | Create a comprehensive Pilot Deployment workflow with 14 artifacts: runbook, config files, safe deployment wrapper (dry-run by default, requires -Execute flag), verification wrapper (MD + JSON reports), metadata export workflow, import script (CSV/JSON to registry format), validation script (7 checks: required metadata, category mapping, project refs, owner refs, evidence refs, SharePoint URLs, duplicate IDs), Graph readiness report, and pilot health check. All scripts are safe, parameterized, and reviewed before execution. |
-| Consequences | Pilot deployment is fully documented and prepared. Administrator can execute the pilot safely with dry-run protection. Validation checks ensure metadata quality. Graph integration readiness is documented. No SharePoint resources provisioned — pilot deployment is prepared but not executed. |
+| Context | All 4 major platform components are complete: SharePoint Blueprint (Sprint 3A), AI Provisioning Kit (Sprint 3B), SharePoint Deployment Kit (Sprint 3C), and SharePoint Pilot Deployment (Sprint 3D). Architecture is LOCKED. Registry Spec is FROZEN. Continuing to develop new features would violate the Architecture Lock policy. The project must now transition from Blueprint to Production. |
+| Decision | Freeze Platform v1.0 and enter Operations Mode. No new platform features. Only operational improvements (documentation, guides, templates) and defect fixes via ADR. Create: CHANGELOG_v1.0.md, PLATFORM_v1.0_BASELINE.md, DEPLOYMENT_READINESS_REPORT.md, 9 environment inventory templates, 7 operations guides, and M365 readiness checklist. Tag repository as platform-v1.0. Update all memory and runtime files. |
+| Consequences | Platform is frozen. Operations Mode enables deployment support without architectural changes. Next action is to wait for the user to create a real SharePoint site before beginning Sprint 3E (Graph Adapter). No code changes to architecture, schemas, registry, or distribution without ADR. |

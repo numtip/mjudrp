@@ -6,13 +6,13 @@
 |------|-------|
 | Project | MJU Document Registry Platform |
 | Repository | https://github.com/numtip/mjudrp |
-| Current Phase | Sprint 3D — SharePoint Pilot Deployment |
+| Current Phase | Operations Mode v1.0 — Platform Freeze |
 | Architecture Status | **LOCKED** — 8 locked rules, 9 quality gates, change policy established |
 | Branch | main |
 | Schema Version | v1.0 (FROZEN) |
 | Document Count | 74 (populated) |
 | Consumer Projects (registered) | 12 |
-| Documentation Files | 101 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation + 8 distribution + 10 sharepoint + 11 provisioning + 10 deployment + 3 pilot) |
+| Documentation Files | 108 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation + 8 distribution + 10 sharepoint + 11 provisioning + 10 deployment + 3 pilot + 7 operations) |
 | Knowledge Base Files | 8 |
 | Memory Files | 9 |
 | Provisioning Templates | 58 files in provisioning/ |
@@ -20,6 +20,9 @@
 | Tests | 211 assertions (4 test files) |
 | Build Outputs | 12 JSON files in dist/ |
 | Package Version | 1.0.0 |
+| Platform Version | v1.0 (FROZEN) |
+| Git Tag | platform-v1.0 |
+| Operations Mode | ✅ ACTIVE — no new platform features |
 | Registry Package | release/latest/registry-package/ (15 artifacts) |
 
 ## Key Architecture Decisions
@@ -90,9 +93,25 @@
 2. Consumer projects not yet consuming — onboarding guide available.
 3. MCP servers not yet configured in Cursor.
 4. GitHub Pages not yet deployed.
-5. SharePoint pilot site not yet created — pilot deployment workflow ready.
-6. Graph integration not yet certified.
-7. Pilot deployment requires SharePoint Admin with PnP.PowerShell to execute.
+5. SharePoint site not yet provisioned — templates ready, requires admin execution.
+6. Graph integration not yet implemented — needs Entra ID app + admin consent.
+7. No consumer projects consuming registry outputs.
+
+## Operations Mode v1.0 (Current)
+
+| Component | Status | Location |
+|-----------|--------|----------|
+| Platform Baseline | ✅ FROZEN | PLATFORM_v1.0_BASELINE.md |
+| Changelog | ✅ COMPLETE | CHANGELOG_v1.0.md |
+| Deployment Readiness | ✅ COMPLETE | DEPLOYMENT_READINESS_REPORT.md |
+| Environment Inventory | ✅ COMPLETE | environment/ (9 templates) |
+| Operator Guide | ✅ COMPLETE | docs/operations/01_OPERATOR_GUIDE.md |
+| Administrator Guide | ✅ COMPLETE | docs/operations/02_ADMINISTRATOR_GUIDE.md |
+| AI Operator Guide | ✅ COMPLETE | docs/operations/03_AI_OPERATOR_GUIDE.md |
+| Troubleshooting Guide | ✅ COMPLETE | docs/operations/04_TROUBLESHOOTING_GUIDE.md |
+| Common Errors | ✅ COMPLETE | docs/operations/05_COMMON_ERRORS.md |
+| Rollback Quick Guide | ✅ COMPLETE | docs/operations/06_ROLLBACK_QUICK_GUIDE.md |
+| M365 Readiness Checklist | ✅ COMPLETE | docs/operations/07_M365_READINESS_CHECKLIST.md |
 
 ## Pilot Deployment Kit (Sprint 3D)
 

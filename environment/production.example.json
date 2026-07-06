@@ -1,0 +1,37 @@
+{
+  "environment": "production",
+  "description": "Production MJU-DRP SharePoint environment",
+  "status": "NOT_PROVISIONED",
+
+  "tenant": {
+    "hostname": "__TENANT_HOSTNAME__",
+    "tenant_id": "__TENANT_ID__",
+    "admin_site_url": "https://__TENANT_HOSTNAME__-admin.sharepoint.com",
+    "m365_region": "__M365_REGION__"
+  },
+
+  "site": {
+    "name": "MJU Document Registry",
+    "type": "CommunicationSite",
+    "url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+    "site_id": "__SITE_ID__",
+    "timezone": "Bangkok (UTC+7)",
+    "language": "th",
+    "alternate_language": "en"
+  },
+
+  "entra_id": {
+    "app_registration_name": "MJU-DRP Graph Adapter",
+    "app_client_id": "__CLIENT_ID__",
+    "app_client_secret_ref": "GitHub Secrets: GRAPH_CLIENT_SECRET",
+    "app_tenant_id": "__TENANT_ID__",
+    "permissions": ["Sites.Selected (application)"],
+    "admin_consent_status": "PENDING"
+  },
+
+  "notes": [
+    "Replace all __PLACEHOLDER__ values before deployment",
+    "Run deployment via run-pilot-deployment.ps1 -Execute",
+    "Verify with run-pilot-verification.ps1 after deployment"
+  ]
+}

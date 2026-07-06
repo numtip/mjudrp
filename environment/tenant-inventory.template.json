@@ -1,0 +1,44 @@
+{
+  "inventory_type": "tenant",
+  "template_version": "1.0.0",
+  "description": "Template for recording Microsoft 365 tenant information for MJU-DRP",
+  "status": "TEMPLATE",
+
+  "tenant": {
+    "name": "__TENANT_NAME__",
+    "hostname": "__TENANT_HOSTNAME__",
+    "tenant_id": "__TENANT_ID__",
+    "microsoft_365_plan": "__M365_PLAN__",
+    "region": "__M365_REGION__",
+    "primary_domain": "__PRIMARY_DOMAIN__"
+  },
+
+  "admin_contacts": {
+    "sharepoint_admin": "__SHAREPOINT_ADMIN_EMAIL__",
+    "entra_id_admin": "__ENTRA_ID_ADMIN_EMAIL__",
+    "mju_it_contact": "__MJU_IT_CONTACT__"
+  },
+
+  "entra_id": {
+    "apps": [
+      {
+        "name": "MJU-DRP Graph Adapter",
+        "app_id": "__CLIENT_ID__",
+        "permissions": ["Sites.Selected"],
+        "consent_status": "__CONSENT_STATUS__"
+      }
+    ]
+  },
+
+  "sharepoint": {
+    "admin_center_url": "https://__TENANT_HOSTNAME__-admin.sharepoint.com",
+    "root_site_url": "https://__TENANT_HOSTNAME__.sharepoint.com",
+    "tenant_storage_quota_gb": "__STORAGE_QUOTA__"
+  },
+
+  "notes": [
+    "Replace all __PLACEHOLDER__ values with actual tenant information",
+    "Keep this file out of version control if it contains real values",
+    "Use environment/*.example.json as commit-safe templates"
+  ]
+}

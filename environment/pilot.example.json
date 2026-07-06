@@ -1,0 +1,63 @@
+{
+  "environment": "pilot",
+  "description": "Pilot MJU-DRP SharePoint environment for testing and validation",
+  "status": "PLANNED",
+
+  "tenant": {
+    "hostname": "__TENANT_HOSTNAME__",
+    "tenant_id": "__TENANT_ID__",
+    "admin_site_url": "https://__TENANT_HOSTNAME__-admin.sharepoint.com"
+  },
+
+  "site": {
+    "name": "MJU Document Registry",
+    "type": "CommunicationSite",
+    "url": "https://__TENANT_HOSTNAME__/sites/MJUDocumentRegistry",
+    "site_id": "__SITE_ID__",
+    "owner_email": "__SITE_OWNER_EMAIL__",
+    "timezone_id": 7,
+    "locale_id": 1054
+  },
+
+  "pilot_config_ref": "pilot/pilot-site-config.json",
+  "pilot_runbook_ref": "docs/pilot/00_PILOT_DEPLOYMENT_RUNBOOK.md",
+
+  "libraries": [
+    { "name": "DRP Documents", "drive_id": "__DRIVE_ID_DOCUMENTS__" },
+    { "name": "DRP Evidence", "drive_id": "__DRIVE_ID_EVIDENCE__" },
+    { "name": "DRP Templates", "drive_id": "__DRIVE_ID_TEMPLATES__" },
+    { "name": "DRP Archive", "drive_id": "__DRIVE_ID_ARCHIVE__" },
+    { "name": "DRP Working Area", "drive_id": "__DRIVE_ID_WORKING__" },
+    { "name": "DRP Source Data", "drive_id": "__DRIVE_ID_SOURCE__" }
+  ],
+
+  "test_documents": [
+    { "id": "PILOT-001", "title": "MJU-DRP Pilot Strategic Plan", "library": "DRP Documents" },
+    { "id": "PILOT-002", "title": "MJU-DRP Pilot Assessment Report", "library": "DRP Documents" },
+    { "id": "PILOT-003", "title": "MJU-DRP Pilot Learning Guidelines", "library": "DRP Documents" },
+    { "id": "PILOT-004", "title": "MJU-DRP Pilot Research Policy", "library": "DRP Documents" },
+    { "id": "PILOT-005", "title": "MJU-DRP Pilot Green Office Report", "library": "DRP Documents" },
+    { "id": "EVD-PILOT-001", "title": "Pilot Evidence — Strategic Plan", "library": "DRP Evidence" },
+    { "id": "EVD-PILOT-002", "title": "Pilot Evidence — Assessment", "library": "DRP Evidence" },
+    { "id": "EVD-PILOT-003", "title": "Pilot Evidence — Learning", "library": "DRP Evidence" },
+    { "id": "EVD-PILOT-004", "title": "Pilot Evidence — Research Policy", "library": "DRP Evidence" },
+    { "id": "EVD-PILOT-005", "title": "Pilot Evidence — Green Office", "library": "DRP Evidence" }
+  ],
+
+  "expected_counts": {
+    "libraries": 6,
+    "columns": 22,
+    "lists": 5,
+    "views": 13,
+    "permission_groups": 7,
+    "pilot_documents": 5,
+    "pilot_evidence": 5
+  },
+
+  "notes": [
+    "Pilot environment is for validation only",
+    "All pilot documents are sample/placeholder files",
+    "Delete pilot site after validation completes",
+    "See rollback guide: deployment/rollback/rollback-guide.md"
+  ]
+}
