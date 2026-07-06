@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/site-script.json",
+  "operations": [
+    { "verb": "addSiteColumn", "displayName": "DRP Document ID", "internalName": "DRP_Document_ID", "fieldTypeKind": 2, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Title", "internalName": "Title", "fieldTypeKind": 2, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Description", "internalName": "DRP_Description", "fieldTypeKind": 3, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Category", "internalName": "DRP_Category", "fieldTypeKind": 6, "group": "MJU Document Registry Columns", "choices": ["policy","guideline","report","template","training","strategic-plan","assessment","audit","publication","presentation","data","legal","financial","communication","technical","archive","procedure","manual","form","news","event","benchmark"] },
+    { "verb": "addSiteColumn", "displayName": "Status", "internalName": "DRP_Status", "fieldTypeKind": 6, "group": "MJU Document Registry Columns", "choices": ["draft","review","approved","published","archived","superseded"] },
+    { "verb": "addSiteColumn", "displayName": "Owner", "internalName": "DRP_Owner", "fieldTypeKind": 20, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Department", "internalName": "DRP_Department", "fieldTypeKind": 6, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Fiscal Year", "internalName": "DRP_Fiscal_Year", "fieldTypeKind": 2, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Version", "internalName": "DRP_Version", "fieldTypeKind": 2, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Language", "internalName": "DRP_Language", "fieldTypeKind": 6, "group": "MJU Document Registry Columns", "choices": ["th","en"] },
+    { "verb": "addSiteColumn", "displayName": "Keywords", "internalName": "DRP_Keywords", "fieldTypeKind": 3, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Project Refs", "internalName": "DRP_Project_Refs", "fieldTypeKind": 3, "group": "MJU Document Registry Columns" },
+    { "verb": "addSiteColumn", "displayName": "Visibility", "internalName": "DRP_Visibility", "fieldTypeKind": 6, "group": "MJU Document Registry Columns", "choices": ["public","internal","confidential","restricted"] },
+    { "verb": "addSiteColumn", "displayName": "Share URL", "internalName": "DRP_Share_URL", "fieldTypeKind": 11, "group": "MJU Document Registry Columns" }
+  ]
+}

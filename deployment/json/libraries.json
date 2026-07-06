@@ -1,0 +1,10 @@
+{
+  "libraries": [
+    { "name": "DRP Documents", "type": "DocumentLibrary", "versioning": { "major": true, "minor": false }, "approval": true },
+    { "name": "DRP Evidence", "type": "DocumentLibrary", "versioning": { "major": true, "minor": false }, "approval": true },
+    { "name": "DRP Templates", "type": "DocumentLibrary", "versioning": { "major": true, "minor": false }, "approval": false },
+    { "name": "DRP Archive", "type": "DocumentLibrary", "versioning": { "major": false, "minor": false }, "approval": false },
+    { "name": "DRP Working Area", "type": "DocumentLibrary", "versioning": { "major": true, "minor": true }, "approval": false },
+    { "name": "DRP Source Data", "type": "DocumentLibrary", "versioning": { "major": false, "minor": false }, "approval": false }
+  ]
+}

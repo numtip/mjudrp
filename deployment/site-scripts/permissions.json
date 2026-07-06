@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/site-script.json",
+  "operations": [
+    {
+      "verb": "addPrincipalToGroup",
+      "principal": "__OWNER_EMAIL__",
+      "group": "DRP Owners"
+    },
+    {
+      "verb": "setSitePolicy",
+      "policyName": "mju-university-retention"
+    }
+  ]
+}

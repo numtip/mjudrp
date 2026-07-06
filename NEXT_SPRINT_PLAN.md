@@ -1,69 +1,65 @@
 # Next Sprint Plan
 
-## Sprint 3B: SharePoint AI Provisioning Kit (Completed)
+## Sprint 3C: SharePoint Deployment Kit (Completed)
 
-### Preceded by: Sprint 3A SharePoint Blueprint ✅ + Architecture Lock v1.0 ✅
+### Preceded by: Sprint 3B AI Provisioning Kit ✅ + Architecture Lock v1.0 ✅
 
 Architecture is **LOCKED**. Registry Specification v1.0 is **FROZEN**.
 
 ### Objectives (Completed)
-1. ✅ Created AI Provisioning Kit with 58 reusable templates
-2. ✅ Created site templates (5 files)
-3. ✅ Created library templates (6 files)
-4. ✅ Created column templates mapped to Registry Spec v1.0 (6 files)
-5. ✅ Created list templates (5 files)
-6. ✅ Created view templates (9 files)
-7. ✅ Created permission templates (3 files)
-8. ✅ Created content type templates (6 files)
-9. ✅ Created validation checklists (4 files)
-10. ✅ Created AI prompt library (8 reusable prompts for ChatGPT, Claude, Gemini, Copilot, Cursor)
-11. ✅ Created export/import templates (5 files: CSV, Excel, bulk import, SharePoint export, registry import)
-12. ✅ Created provisioning manifest.json with versioning and compatibility
-13. ✅ Created provisioning validator (scripts/validate-provisioning.mjs)
-14. ✅ Created 11 provisioning documentation files
-15. ✅ All validation passes (AJV: 0 errors, Provisioning: PASS, Tests: 211/211)
-16. ✅ Updated all memory and runtime files
+1. ✅ Created 68 deployment assets including PowerShell, Site Scripts, Site Designs
+2. ✅ Created 10 PowerShell template scripts with placeholders (no tenant-specific values)
+3. ✅ Created 8 Site Script JSON templates for SharePoint automation
+4. ✅ Created 5 Site Design templates (enterprise + 4 project-specific)
+5. ✅ Created 7 CSV templates for metadata import/export
+6. ✅ Created 7 JSON configuration templates
+7. ✅ Created verification kit (6 PowerShell scripts + checklist)
+8. ✅ Created rollback kit (guide, remove, archive, restore checklist)
+9. ✅ Created discovery kit (6 scripts + environment report template)
+10. ✅ Created health check kit (script, rules, report template)
+11. ✅ Created 10 deployment documentation files
+12. ✅ Enhanced GitHub Actions with provisioning + deployment validation
+13. ✅ All quality gates pass (Registry: PASS, Provisioning: 112/112, Deployment: PASS, Tests: 211/211)
 
 ### Kit Summary
 
 | Category | Files |
 |----------|-------|
-| Site Templates | 5 |
-| Library Templates | 6 |
-| Column Templates | 6 |
-| List Templates | 5 |
-| View Templates | 9 |
-| Permission Templates | 3 |
-| Content Type Templates | 6 |
-| Validation Templates | 4 |
-| AI Prompts | 8 |
-| Export Templates | 5 |
-| Manifest + README | 2 |
-| **Total** | **58** |
-| Provisioning Docs | 11 |
+| PowerShell Scripts | 10 |
+| Site Scripts | 8 |
+| Site Designs | 5 |
+| CSV Templates | 7 |
+| JSON Templates | 7 |
+| Verification Kit | 7 |
+| Rollback Kit | 4 |
+| Discovery Kit | 7 |
+| Health Check Kit | 3 |
+| Deployment Docs | 10 |
+| **Total** | **68** |
 
-## Sprint 3C: SharePoint Graph Adapter (Future)
+## Sprint 3D: SharePoint Graph Adapter & Consumer Integration (Future)
 
-### Objectives (P0)
+### Objectives
 1. Configure Entra ID app registration for Microsoft Graph
-2. Obtain admin consent for Sites.Selected permission
-3. Build read-only Graph adapter script
-4. Validate metadata round-trip (SharePoint → Graph → Registry → AJV)
-5. CI integration for automated metadata sync
-6. Graph mapping documentation
+2. Build read-only Graph adapter script (SharePoint → Graph → Registry)
+3. Validate metadata round-trip
+4. CI integration for automated metadata sync
+5. Consumer project onboarding (publish package to CDN)
 
 ### Prerequisites
-- SharePoint site must be provisioned (Sprint 3B templates available)
+- SharePoint site must be provisioned (templates ready in deployment/ and provisioning/)
 - Entra ID app registration approved by MJU IT
-- Admin consent for Sites.Selected permission
-- Document libraries populated with test content
+- Admin consent for Sites.Selected
+- Consumer team ready to integrate
 
 ### Allowed Actions
 - Build Graph read-only adapter
 - Document Graph integration
-- Test with provided site/data
+- Publish registry package to GitHub Pages
+- Create consumer onboarding guide
 
 ### Forbidden Actions
 - Do NOT write to SharePoint via Graph
 - Do NOT provision SharePoint automatically
 - Do NOT request tenant-wide permissions
+- Do not modify Architecture Lock or Registry Spec

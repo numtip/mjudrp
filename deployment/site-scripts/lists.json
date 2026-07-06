@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/site-script.json",
+  "operations": [
+    {
+      "verb": "createSPList",
+      "listName": "DRP Categories",
+      "templateType": 100,
+      "subactions": [
+        { "verb": "setDescription", "description": "Master list of 22 document categories used across MJU-DRP" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "DRP Projects",
+      "templateType": 100,
+      "subactions": [
+        { "verb": "setDescription", "description": "Master list of 12 registered consumer projects" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "DRP Owners",
+      "templateType": 100,
+      "subactions": [
+        { "verb": "setDescription", "description": "Master list of document owners representing MJU departments" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "Metadata QA Queue",
+      "templateType": 100,
+      "subactions": [
+        { "verb": "setDescription", "description": "Workflow tracking list for documents pending metadata review" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "Registry Review Queue",
+      "templateType": 100,
+      "subactions": [
+        { "verb": "setDescription", "description": "Workflow tracking for documents pending registry integration" }
+      ]
+    }
+  ]
+}

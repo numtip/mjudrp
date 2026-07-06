@@ -1,0 +1,8 @@
+{
+  "content_types": [
+    { "name": "DRP Document", "parent": "Document", "description": "Standard document content type for DRP Documents library", "group": "MJU Document Registry Content Types" },
+    { "name": "DRP Evidence", "parent": "Document", "description": "Evidence document mapping to QA criteria", "group": "MJU Document Registry Content Types" },
+    { "name": "DRP Template", "parent": "Document", "description": "Standard template document", "group": "MJU Document Registry Content Types" },
+    { "name": "DRP Archive", "parent": "Document", "description": "Long-term preservation content type", "group": "MJU Document Registry Content Types" }
+  ]
+}

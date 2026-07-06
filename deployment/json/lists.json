@@ -1,0 +1,9 @@
+{
+  "lists": [
+    { "name": "DRP Categories", "template": 100, "description": "Master list of 22 document categories" },
+    { "name": "DRP Projects", "template": 100, "description": "Master list of 12 registered consumer projects" },
+    { "name": "DRP Owners", "template": 100, "description": "Master list of document owners" },
+    { "name": "Metadata QA Queue", "template": 100, "description": "Workflow tracking for metadata review" },
+    { "name": "Registry Review Queue", "template": 100, "description": "Workflow tracking for registry integration" }
+  ]
+}

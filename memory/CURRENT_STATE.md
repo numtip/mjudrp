@@ -1,23 +1,24 @@
 # MJU-DRP Current State
-**Last Updated:** 2026-07-06T23:12:00.000Z
+**Last Updated:** 2026-07-06T23:22:00.000Z
 
 | Field | Value |
 |-------|-------|
 | Project | MJU Document Registry Platform (MJU-DRP) |
-| Phase | Sprint 3B — SharePoint AI Provisioning Kit |
+| Phase | Sprint 3C — SharePoint Deployment Kit |
 | Branch | main |
 | Architecture Status | **LOCKED** |
 | Validation Status | PASS (0 errors, 0 warnings) |
-| Package Validation | 55/55 PASS |
-| Provisioning Validation | PASS |
+| Provisioning Validation | 112/112 PASS |
+| Deployment Validation | PASS |
 
 ## Completed This Sprint
 
 | Area | Deliverable | Location |
 |------|-------------|----------|
-| AI Provisioning Kit | 58 templates, 8 prompts, 5 exports, manifest | `provisioning/` |
-| Provisioning Validator | validate-provisioning.mjs | `scripts/` |
-| Provisioning Docs | 11 documents | `docs/provisioning/` |
+| Deployment Kit | 68 assets (PowerShell, Site Scripts, Site Designs, CSV, JSON, verification, rollback, discovery, health) | `deployment/` |
+| Deployment Validator | validate-deployment.mjs | `scripts/` |
+| Deployment Docs | 10 documents | `docs/deployment/` |
+| CI Enhancement | Added provisioning + deployment validation | `.github/workflows/validate.yml` |
 
 ## Registry Statistics
 | Entity | Count |

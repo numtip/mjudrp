@@ -1,0 +1,11 @@
+{
+  "groups": [
+    { "name": "DRP Owners", "permission_level": "Full Control", "description": "Site owners with full administrative access" },
+    { "name": "DRP Editors", "permission_level": "Contribute", "description": "Can upload documents and edit own files" },
+    { "name": "DRP Reviewers", "permission_level": "Contribute", "description": "Can read all content and edit metadata" },
+    { "name": "DRP Readers", "permission_level": "Read", "description": "Read access to publicly visible documents" },
+    { "name": "DRP Auditors", "permission_level": "Read", "description": "Read access to all content" },
+    { "name": "DRP AI Service Account", "permission_level": "Read", "description": "Read-only for Graph API automation" },
+    { "name": "Project Owners", "permission_level": "Read", "description": "Read access to project-filtered views" }
+  ]
+}

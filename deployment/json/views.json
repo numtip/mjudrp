@@ -1,0 +1,14 @@
+{
+  "views": [
+    { "library": "DRP Documents", "name": "All Active Documents", "query": "<Where><Neq><FieldRef Name='Status'/><Value Type='Text'>archived</Value></Neq></Where>", "row_limit": 30 },
+    { "library": "DRP Documents", "name": "Pending Review", "query": "<Where><Eq><FieldRef Name='Status'/><Value Type='Text'>review</Value></Eq></Where>", "row_limit": 30 },
+    { "library": "DRP Documents", "name": "Missing Metadata", "query": "<Where><Or><Eq><FieldRef Name='Keywords'/><Value Type='Text'></Value></Eq><Eq><FieldRef Name='DRP_Category'/><Value Type='Text'></Value></Eq></Or></Where>", "row_limit": 50 },
+    { "library": "DRP Documents", "name": "Recently Updated", "query": "<Where><Gt><FieldRef Name='Modified'/><Value Type='DateTime'><Today/></Value></Gt></Where>", "row_limit": 20 },
+    { "library": "DRP Documents", "name": "Public Documents", "query": "<Where><Eq><FieldRef Name='DRP_Visibility'/><Value Type='Text'>public</Value></Eq></Where>", "row_limit": 30 },
+    { "library": "DRP Evidence", "name": "All Evidence", "query": "", "row_limit": 30 },
+    { "library": "DRP Evidence", "name": "Satisfied Evidence", "query": "<Where><Eq><FieldRef Name='DRP_Evidence_Status'/><Value Type='Text'>satisfied</Value></Eq></Where>", "row_limit": 30 },
+    { "library": "DRP Evidence", "name": "Missing Evidence", "query": "<Where><Eq><FieldRef Name='DRP_Evidence_Status'/><Value Type='Text'>missing</Value></Eq></Where>", "row_limit": 30 },
+    { "library": "DRP Templates", "name": "All Templates", "query": "", "row_limit": 30 },
+    { "library": "DRP Archive", "name": "All Archived", "query": "", "row_limit": 50 }
+  ]
+}

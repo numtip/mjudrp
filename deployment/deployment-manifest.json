@@ -1,0 +1,64 @@
+{
+  "deployment_version": "1.0.0",
+  "created_at": "2026-07-06T23:21:00.000Z",
+
+  "compatibility": {
+    "registry_version": "1.0",
+    "sharepoint_version": "SharePoint Online (Microsoft 365)",
+    "provisioning_template_version": "1.0.0",
+    "pnp_powershell": "PnP.PowerShell 2.x+"
+  },
+
+  "requirements": {
+    "libraries": [
+      "DRP Documents",
+      "DRP Evidence",
+      "DRP Templates",
+      "DRP Archive",
+      "DRP Working Area",
+      "DRP Source Data"
+    ],
+    "lists": [
+      "DRP Categories",
+      "DRP Projects",
+      "DRP Owners",
+      "Metadata QA Queue",
+      "Registry Review Queue"
+    ],
+    "columns": 22,
+    "permission_groups": 7,
+    "content_types": 4,
+    "views": 13
+  },
+
+  "deployment_assets": {
+    "powershell_scripts": 10,
+    "site_scripts": 8,
+    "site_designs": 5,
+    "csv_templates": 7,
+    "json_templates": 7,
+    "verification_scripts": 7,
+    "rollback_documents": 3,
+    "discovery_scripts": 7,
+    "health_check_assets": 3,
+    "deployment_docs": 10
+  },
+
+  "quality_gates": {
+    "validate_registry": "node scripts/validate-registry.mjs",
+    "validate_provisioning": "node scripts/validate-provisioning.mjs",
+    "validate_deployment": "node scripts/validate-deployment.mjs",
+    "validate_package": "node scripts/validate-package.mjs",
+    "run_tests": "npm test"
+  },
+
+  "provisioning_template_mappings": {
+    "site": "provisioning/site/site-template.json",
+    "libraries": "provisioning/libraries/",
+    "columns": "provisioning/columns/document-columns.json",
+    "lists": "provisioning/lists/",
+    "views": "provisioning/views/documents.json",
+    "permissions": "provisioning/permissions/permission-matrix.json",
+    "content_types": "provisioning/content-types/"
+  }
+}

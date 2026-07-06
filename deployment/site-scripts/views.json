@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/site-script.json",
+  "operations": [
+    {
+      "verb": "addView",
+      "listTitle": "DRP Documents",
+      "viewName": "All Active Documents",
+      "viewQuery": "<Where><Neq><FieldRef Name='Status'/><Value Type='Text'>archived</Value></Neq></Where>",
+      "rowLimit": 30,
+      "paged": true
+    },
+    {
+      "verb": "addView",
+      "listTitle": "DRP Documents",
+      "viewName": "Pending Review",
+      "viewQuery": "<Where><Eq><FieldRef Name='Status'/><Value Type='Text'>review</Value></Eq></Where>",
+      "rowLimit": 30,
+      "paged": true
+    },
+    {
+      "verb": "addView",
+      "listTitle": "DRP Documents",
+      "viewName": "Missing Metadata",
+      "viewQuery": "<Where><Or><Eq><FieldRef Name='Keywords'/><Value Type='Text'></Value></Eq><Eq><FieldRef Name='DRP_Category'/><Value Type='Text'></Value></Eq></Or></Where>",
+      "rowLimit": 50,
+      "paged": true
+    },
+    {
+      "verb": "addView",
+      "listTitle": "DRP Documents",
+      "viewName": "Public Documents",
+      "viewQuery": "<Where><Eq><FieldRef Name='DRP_Visibility'/><Value Type='Text'>public</Value></Eq></Where>",
+      "rowLimit": 30,
+      "paged": true
+    },
+    {
+      "verb": "addView",
+      "listTitle": "DRP Evidence",
+      "viewName": "All Evidence",
+      "viewQuery": "",
+      "rowLimit": 30,
+      "paged": true
+    },
+    {
+      "verb": "addView",
+      "listTitle": "DRP Evidence",
+      "viewName": "Satisfied Evidence",
+      "viewQuery": "<Where><Eq><FieldRef Name='DRP_Evidence_Status'/><Value Type='Text'>satisfied</Value></Eq></Where>",
+      "rowLimit": 30,
+      "paged": true
+    }
+  ]
+}

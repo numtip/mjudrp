@@ -1,0 +1,12 @@
+{
+  "site_name": "MJU Document Registry",
+  "site_url": "__SITE_URL__",
+  "site_type": "CommunicationSite",
+  "timezone_id": 7,
+  "timezone_name": "(UTC+07:00) Bangkok, Hanoi, Jakarta",
+  "locale_id": 1054,
+  "language": "th",
+  "alternate_language": "en",
+  "external_sharing": "ExistingExternalUserSharingOnly",
+  "classification": "Internal"
+}

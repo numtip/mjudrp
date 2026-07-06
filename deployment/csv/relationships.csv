@@ -1,0 +1,6 @@
+Source_ID,Target_ID,Relationship_Type,Description
+GO2026-001,RAE-001,references,Green Office policy references RAE assessment methodology
+GO2026-002,GO2026-001,derived-from,Implementation plan derived from Green Office initiative
+LC-003,LC-002,superseded-by,2025 strategy supersedes 2024 version
+RP-001,RP-002,related-to,Research data policy and data management plan
+RAE-003,RAE-001,has-appendix,Assessment guide includes methodology appendix

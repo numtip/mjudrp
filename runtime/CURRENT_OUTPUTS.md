@@ -10,24 +10,30 @@
 10 documents (unchanged)
 
 ## Provisioning Kit (provisioning/)
-| Category | Files |
-|----------|-------|
-| Site Templates | 5 |
-| Library Templates | 6 |
-| Column Templates | 6 |
-| List Templates | 5 |
-| View Templates | 9 |
-| Permission Templates | 3 |
-| Content Type Templates | 6 |
-| Validation Templates | 4 |
-| AI Prompts | 8 |
-| Export Templates | 5 |
-| Manifest + README | 2 |
-| **Total** | **58** |
+58 files (unchanged)
 
 ## Provisioning Docs (docs/provisioning/)
-11 documents
+11 documents (unchanged)
+
+## Deployment Kit (deployment/)
+| Category | Files |
+|----------|-------|
+| PowerShell Scripts | 10 |
+| Site Scripts | 8 |
+| Site Designs | 5 |
+| CSV Templates | 7 |
+| JSON Templates | 7 |
+| Verification Kit | 7 |
+| Rollback Kit | 4 |
+| Discovery Kit | 7 |
+| Health Check Kit | 3 |
+| Manifest + README | 2 |
+| **Total** | **68** |
+
+## Deployment Docs (docs/deployment/)
+10 documents
 
 ## Consumer Contract
 Consumers must ONLY depend on `release/*/registry-package/`.
 For provisioning, use `provisioning/` templates.
+For deployment, use `deployment/` scripts.

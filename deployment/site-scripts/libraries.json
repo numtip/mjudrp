@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/site-script.json",
+  "operations": [
+    {
+      "verb": "createSPList",
+      "listName": "DRP Documents",
+      "templateType": 101,
+      "subactions": [
+        { "verb": "setDescription", "description": "Primary document storage for all registered consumer project documents" },
+        { "verb": "addContentType", "contentTypeId": "0x0101" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "DRP Evidence",
+      "templateType": 101,
+      "subactions": [
+        { "verb": "setDescription", "description": "Evidence documents mapped to quality assurance criteria" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "DRP Templates",
+      "templateType": 101,
+      "subactions": [
+        { "verb": "setDescription", "description": "Standardized templates for metadata import and reports" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "DRP Archive",
+      "templateType": 101,
+      "subactions": [
+        { "verb": "setDescription", "description": "Long-term preservation of superseded and archived documents" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "DRP Working Area",
+      "templateType": 101,
+      "subactions": [
+        { "verb": "setDescription", "description": "In-progress documents, drafts, collaborative workspace" }
+      ]
+    },
+    {
+      "verb": "createSPList",
+      "listName": "DRP Source Data",
+      "templateType": 101,
+      "subactions": [
+        { "verb": "setDescription", "description": "Raw data exports, CSV/Excel metadata templates" }
+      ]
+    }
+  ]
+}

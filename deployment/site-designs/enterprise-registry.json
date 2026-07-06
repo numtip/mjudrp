@@ -1,0 +1,18 @@
+{
+  "site_design_id": "__SITE_DESIGN_ID__",
+  "site_design_title": "MJU Enterprise Document Registry",
+  "site_design_description": "Complete MJU-DRP enterprise document registry site with all libraries, columns, lists, and views.",
+  "web_template": "68",
+  "site_scripts": [
+    "__SITE_SCRIPT_COMMUNICATION_SITE__",
+    "__SITE_SCRIPT_LIBRARIES__",
+    "__SITE_SCRIPT_COLUMNS__",
+    "__SITE_SCRIPT_LISTS__",
+    "__SITE_SCRIPT_VIEWS__",
+    "__SITE_SCRIPT_PERMISSIONS__",
+    "__SITE_SCRIPT_NAVIGATION__",
+    "__SITE_SCRIPT_THEME__"
+  ],
+  "preview_image_url": null,
+  "version": 1
+}

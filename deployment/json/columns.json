@@ -1,0 +1,23 @@
+{
+  "column_group": "MJU Document Registry Columns",
+  "columns": [
+    { "display_name": "DRP Document Id", "type": "Text", "required": true, "max_length": 50 },
+    { "display_name": "Title", "type": "Text", "required": true, "max_length": 255 },
+    { "display_name": "Description", "type": "Note", "required": false },
+    { "display_name": "Category", "type": "Choice", "required": true, "choices": ["policy","guideline","report","template","training","strategic-plan","assessment","audit","publication","documentation","communication","technical","data","financial","legal","archive","procedure","manual","form","news","event","benchmark"] },
+    { "display_name": "Subcategory", "type": "Choice", "required": false },
+    { "display_name": "Fiscal Year", "type": "Text", "required": false },
+    { "display_name": "Version", "type": "Text", "required": false },
+    { "display_name": "Status", "type": "Choice", "required": false, "choices": ["draft","review","approved","published","archived","superseded"] },
+    { "display_name": "Owner", "type": "User", "required": true },
+    { "display_name": "Department", "type": "Choice", "required": false },
+    { "display_name": "Keywords", "type": "Note", "required": false },
+    { "display_name": "Tags", "type": "Note", "required": false },
+    { "display_name": "Language", "type": "Choice", "required": false, "choices": ["th","en"] },
+    { "display_name": "Project Refs", "type": "Note", "required": true },
+    { "display_name": "Evidence Refs", "type": "Note", "required": false },
+    { "display_name": "Related Documents", "type": "Note", "required": false },
+    { "display_name": "Visibility", "type": "Choice", "required": false, "choices": ["public","internal","confidential","restricted"] },
+    { "display_name": "Share URL", "type": "URL", "required": true }
+  ]
+}

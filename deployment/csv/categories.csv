@@ -1,0 +1,23 @@
+ID,Name_EN,Name_TH,Sort_Order
+policy,Policy,นโยบาย,1
+guideline,Guideline,แนวปฏิบัติ,2
+report,Report,รายงาน,3
+template,Template,แม่แบบ,4
+training,Training,อบรม,5
+strategic-plan,Strategic Plan,แผนกลยุทธ์,6
+assessment,Assessment,ประเมิน,7
+audit,Audit,ตรวจสอบ,8
+publication,Publication,สิ่งพิมพ์,9
+documentation,Documentation,เอกสาร,10
+communication,Communication,สื่อสาร,11
+technical,Technical,เทคนิค,12
+data,Data,ข้อมูล,13
+financial,Financial,การเงิน,14
+legal,Legal,กฎหมาย,15
+archive,Archive,เก็บถาวร,16
+procedure,Procedure,ขั้นตอน,17
+manual,Manual,คู่มือ,18
+form,Form,แบบฟอร์ม,19
+news,News,ข่าว,20
+event,Event,เหตุการณ์,21
+benchmark,Benchmark,เกณฑ์มาตรฐาน,22

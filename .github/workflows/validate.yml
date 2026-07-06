@@ -23,19 +23,27 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Phase 1: Validation
+      # Phase 1: Registry Validation
       - name: Validate registry data
         run: node scripts/validate-registry.mjs
 
-      # Phase 2: Generation
+      # Phase 2: Provisioning Validation
+      - name: Validate provisioning templates
+        run: node scripts/validate-provisioning.mjs
+
+      # Phase 3: Deployment Validation
+      - name: Validate deployment assets
+        run: node scripts/validate-deployment.mjs
+
+      # Phase 4: Generation
       - name: Generate search index and outputs
         run: node scripts/generate-search-index.mjs
 
-      # Phase 3: Testing
+      # Phase 5: Testing
       - name: Run tests
         run: npm test
 
-      # Phase 4: Package (only on main, not PRs)
+      # Phase 6: Package (only on main, not PRs)
       - name: Generate release notes
         if: github.ref == 'refs/heads/main'
         run: node scripts/generate-release-notes.mjs
@@ -48,7 +56,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: node scripts/validate-package.mjs
 
-      # Phase 5: Artifacts
+      # Phase 7: Artifacts
       - name: Upload dist outputs
         uses: actions/upload-artifact@v4
         with:
@@ -62,7 +70,7 @@ jobs:
           name: registry-package
           path: release/latest/registry-package/
 
-      # Phase 6: Fail on errors
+      # Phase 8: Fail on errors
       - name: Fail on validation errors
         if: failure()
         run: echo "CI pipeline failed — check validation and test output above."

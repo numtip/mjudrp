@@ -1,0 +1,6 @@
+Evidence_ID,Name,Project,Status,Criteria,Documents,Year
+EVD-GREE-001,Green Office Policy Document,green-office-2026,satisfied,GO-CR-01;GO-CR-02,GO2026-001,2026
+EVD-GREE-002,Environmental Report 2025,green-office-2026,partial,GO-CR-03,GO2026-003;GO2026-004,2025
+EVD-RAE-001,RAE Assessment Submission,rae-landing,satisfied,RAE-CR-01;RAE-CR-02,RAE-001;RAE-002,2026
+EVD-LC-001,Training Completion Reports,learning-center,satisfied,LC-CR-01,LC-005;LC-006,2026
+EVD-RP-001,Research Data Inventory,research-portal,missing,RP-CR-01,,2027

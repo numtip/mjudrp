@@ -1,0 +1,14 @@
+{
+  "site_design_id": "__SITE_DESIGN_LEARNING_CENTER__",
+  "site_design_title": "Learning Center Document Registry",
+  "site_design_description": "Learning Center project document registry with training material and manual views.",
+  "web_template": "68",
+  "site_scripts": [
+    "__SITE_SCRIPT_COMMUNICATION_SITE__",
+    "__SITE_SCRIPT_LIBRARIES__",
+    "__SITE_SCRIPT_COLUMNS__",
+    "__SITE_SCRIPT_VIEWS__"
+  ],
+  "preview_image_url": null,
+  "version": 1
+}

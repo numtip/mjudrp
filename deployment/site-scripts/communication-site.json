@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/site-script.json",
+  "operations": [
+    {
+      "verb": "createSPList",
+      "listName": "__SITE_NAME__",
+      "templateType": 68,
+      "subactions": [
+        {
+          "verb": "setDescription",
+          "description": "MJU Document Registry — Communication site for document metadata management"
+        }
+      ]
+    }
+  ]
+}

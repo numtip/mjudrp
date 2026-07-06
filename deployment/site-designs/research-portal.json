@@ -1,0 +1,14 @@
+{
+  "site_design_id": "__SITE_DESIGN_RESEARCH_PORTAL__",
+  "site_design_title": "Research Portal Document Registry",
+  "site_design_description": "Research Portal project document registry with publication and report-focused views.",
+  "web_template": "68",
+  "site_scripts": [
+    "__SITE_SCRIPT_COMMUNICATION_SITE__",
+    "__SITE_SCRIPT_LIBRARIES__",
+    "__SITE_SCRIPT_COLUMNS__",
+    "__SITE_SCRIPT_VIEWS__"
+  ],
+  "preview_image_url": null,
+  "version": 1
+}

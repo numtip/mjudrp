@@ -1,0 +1,5 @@
+DRP Document ID,Title,Category,Subcategory,Status,Owner,Visibility,Language,Version,Project Refs
+GO2026-001,Green Office Initiative 2026,policy,environmental,approved,owner-green-office,public,th,1.0,green-office-2026
+RAE-001,RAE Assessment Guide,guideline,assessment,approved,owner-research,public,en,1.0,rae-landing;research-portal
+LC-001,Learning Center Strategy Plan 2025,strategic-plan,institutional,approved,owner-learning-center,public,th,1.0,learning-center
+RP-001,Research Data Management Policy,policy,data,approved,owner-research,public,th,1.5,research-portal

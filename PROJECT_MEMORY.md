@@ -6,16 +6,17 @@
 |------|-------|
 | Project | MJU Document Registry Platform |
 | Repository | https://github.com/numtip/mjudrp |
-| Current Phase | Sprint 3B — SharePoint AI Provisioning Kit |
+| Current Phase | Sprint 3C — SharePoint Deployment Kit |
 | Architecture Status | **LOCKED** — 8 locked rules, 9 quality gates, change policy established |
 | Branch | main |
 | Schema Version | v1.0 (FROZEN) |
 | Document Count | 74 (populated) |
 | Consumer Projects (registered) | 12 |
-| Documentation Files | 77 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation + 8 distribution + 10 sharepoint + 11 provisioning) |
+| Documentation Files | 98 (16 docs + 11 discovery + 14 certification + 10 architecture + 6 implementation + 8 distribution + 10 sharepoint + 11 provisioning + 10 deployment) |
 | Knowledge Base Files | 8 |
 | Memory Files | 9 |
 | Provisioning Templates | 58 files in provisioning/ |
+| Deployment Assets | 68 files in deployment/ |
 | Tests | 211 assertions (4 test files) |
 | Build Outputs | 12 JSON files in dist/ |
 | Package Version | 1.0.0 |
@@ -25,12 +26,13 @@
 
 1-13. (unchanged — see previous entries)
 14. **AI Provisioning Kit v1.0** — 58 reusable templates, 8 AI prompts, 5 export formats, 10 provisioning docs, full provisioning validator.
+15. **SharePoint Deployment Kit v1.0** — 68 production deployment assets including PowerShell scripts, Site Scripts, Site Designs, verification, rollback, discovery, and health check kits, plus deployment validator.
 
 ## ERC Certifications (v1.4)
 
 (unchanged)
 
-## Registry Statistics (Sprint 3B)
+## Registry Statistics (Sprint 3C)
 
 | Entity | Count | Status |
 |--------|-------|--------|
@@ -47,7 +49,7 @@
 |-----------|--------|----------|
 | Enterprise Blueprint | ✅ Complete | docs/sharepoint/ (10 documents) |
 
-## Provisioning Kit
+## Provisioning Kit (Sprint 3B)
 
 | Component | Status | Location |
 |-----------|--------|----------|
@@ -64,6 +66,23 @@
 | Provisioning Manifest | ✅ Complete | provisioning/manifest.json |
 | Provisioning Validator | ✅ Complete | scripts/validate-provisioning.mjs |
 | Provisioning Docs | ✅ Complete | docs/provisioning/ (11 documents) |
+
+## Deployment Kit (Sprint 3C)
+
+| Component | Status | Location |
+|-----------|--------|----------|
+| Deployment Manifest | ✅ Complete | deployment/deployment-manifest.json |
+| PowerShell Scripts | ✅ Complete | deployment/powershell/ (10 scripts) |
+| Site Scripts | ✅ Complete | deployment/site-scripts/ (8 templates) |
+| Site Designs | ✅ Complete | deployment/site-designs/ (5 designs) |
+| CSV Templates | ✅ Complete | deployment/csv/ (7 files) |
+| JSON Templates | ✅ Complete | deployment/json/ (7 files) |
+| Verification Kit | ✅ Complete | deployment/verification/ (7 files) |
+| Rollback Kit | ✅ Complete | deployment/rollback/ (4 files) |
+| Discovery Kit | ✅ Complete | deployment/discovery/ (7 files) |
+| Health Check Kit | ✅ Complete | deployment/health/ (3 files) |
+| Deployment Validator | ✅ Complete | scripts/validate-deployment.mjs |
+| Deployment Docs | ✅ Complete | docs/deployment/ (10 documents) |
 
 ## Active Risks
 
@@ -83,6 +102,7 @@
 | Distribution | ✅ Complete |
 | SharePoint Blueprint | ✅ Complete (10 docs) |
 | Provisioning Kit | ✅ Complete (58 templates + 11 docs) |
+| Deployment Kit | ✅ Complete (68 assets + 10 docs) |
 | ECD | ✅ Complete |
 | ERC | ✅ Complete |
 | Architecture Lock | ✅ LOCKED |

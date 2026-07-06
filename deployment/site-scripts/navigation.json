@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/site-script.json",
+  "operations": [
+    {
+      "verb": "setSiteLogo",
+      "url": "__SITE_LOGO_URL__"
+    },
+    {
+      "verb": "setSiteFooter",
+      "footerEnabled": true,
+      "footerLayout": "Simple"
+    },
+    {
+      "verb": "addNavLink",
+      "url": "/sites/MJUDocumentRegistry/DRP Documents",
+      "displayName": "DRP Documents",
+      "isWebRelative": true
+    },
+    {
+      "verb": "addNavLink",
+      "url": "/sites/MJUDocumentRegistry/DRP Evidence",
+      "displayName": "DRP Evidence",
+      "isWebRelative": true
+    },
+    {
+      "verb": "addNavLink",
+      "url": "/sites/MJUDocumentRegistry/DRP Templates",
+      "displayName": "DRP Templates",
+      "isWebRelative": true
+    },
+    {
+      "verb": "addNavLink",
+      "url": "/sites/MJUDocumentRegistry/DRP Archive",
+      "displayName": "DRP Archive",
+      "isWebRelative": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "rules_version": "1.0.0",
+  "generated_at": "2026-07-06T23:21:00.000Z",
+  "health_rules": {
+    "libraries": {
+      "total_expected": 6,
+      "expected_names": ["DRP Documents","DRP Evidence","DRP Templates","DRP Archive","DRP Working Area","DRP Source Data"],
+      "versioning_checks": {
+        "DRP Documents": { "major": true, "minor": false },
+        "DRP Evidence": { "major": true, "minor": false },
+        "DRP Templates": { "major": true, "minor": false },
+        "DRP Archive": { "major": false, "minor": false },
+        "DRP Working Area": { "major": true, "minor": true },
+        "DRP Source Data": { "major": false, "minor": false }
+      },
+      "approval_checks": {
+        "DRP Documents": true,
+        "DRP Evidence": true,
+        "DRP Templates": false,
+        "DRP Archive": false,
+        "DRP Working Area": false,
+        "DRP Source Data": false
+      }
+    },
+    "lists": {
+      "total_expected": 5,
+      "expected_names": ["DRP Categories","DRP Projects","DRP Owners","Metadata QA Queue","Registry Review Queue"]
+    },
+    "columns": {
+      "total_expected": 22,
+      "required_columns": ["DRP Document ID","Title","Category","Status","Owner","Project Refs","Share URL","Visibility"]
+    },
+    "permission_groups": {
+      "total_expected": 7,
+      "expected_names": ["DRP Owners","DRP Editors","DRP Reviewers","DRP Readers","DRP Auditors","DRP AI Service Account","Project Owners"]
+    },
+    "content_types": {
+      "total_expected": 4,
+      "expected_names": ["DRP Document","DRP Evidence","DRP Template","DRP Archive"]
+    },
+    "views": {
+      "total_expected": 10,
+      "libraries_checked": ["DRP Documents","DRP Evidence","DRP Templates","DRP Archive"]
+    },
+    "metadata_completeness": {
+      "min_required_fields": 8,
+      "required_fields": ["DRP Document ID","Title","Category","Status","Owner","Project Refs","Share URL","Visibility"]
+    }
+  },
+  "thresholds": {
+    "critical_score": 0.9,
+    "warning_score": 0.75,
+    "min_libraries": 4,
+    "min_lists": 3,
+    "min_columns": 15,
+    "min_groups": 5,
+    "min_views": 5
+  }
+}

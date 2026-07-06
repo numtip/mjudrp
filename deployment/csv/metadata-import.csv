@@ -1,0 +1,5 @@
+Action,DRP Document ID,Title,Category,Subcategory,Fiscal Year,Version,Status,Owner,Department,Language,Project Refs,Visibility,Keywords
+CREATE,GO2026-006,Annual Green Report 2569,report,annual,2569,1.0,draft,owner-green-office,Green Office Committee,th,green-office-2026,internal,"annual report,sustainability,green office,2569"
+CREATE,RAE-009,RAE Faculty Guidelines 2026,guideline,academic,2569,1.0,draft,owner-research,Research Administration,th,rae-landing,internal,"rae,faculty,guidelines,2026"
+UPDATE,GO2026-001,Green Office Initiative 2026 (Revised),policy,environmental,2569,1.1,review,owner-green-office,Green Office Committee,en,green-office-2026,public,"green office,initiative,2026,revised"
+DELETE,GO2026-005,Draft Environmental Assessment,assessment,environmental,2568,0.5,archived,owner-green-office,Green Office Committee,th,green-office-2026,internal,draft
