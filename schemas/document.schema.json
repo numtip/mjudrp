@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/numtip/mjudrp/schemas/document.schema.json",
+  "title": "Document Registry Entry",
+  "description": "Schema for a document entry in the MJU-DRP registry. Documents live in Microsoft 365 / SharePoint / OneDrive; MJU-DRP stores only metadata.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "category",
+    "owner",
+    "storage_provider",
+    "storage_path",
+    "share_url",
+    "project_refs"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique document identifier (e.g., GO2026-001, RAE-001, LC-001)",
+      "pattern": "^[A-Z0-9]+-[0-9]{3,}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable document title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief summary of the document contents"
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary category ID referencing categories registry"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Optional subcategory within the primary category"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Calendar year of document creation or publication"
+    },
+    "fiscal_year": {
+      "type": "string",
+      "description": "Thai fiscal year (e.g., '2568')"
+    },
+    "version": {
+      "type": "string",
+      "description": "Document version string (e.g., '1.0', '2.1')",
+      "default": "1.0"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "review", "approved", "published", "archived", "superseded"],
+      "description": "Lifecycle status of the document"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Owner ID referencing the owners registry"
+    },
+    "department": {
+      "type": "string",
+      "description": "Department or faculty responsible for the document"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Search keywords for indexing"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Categorization tags"
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO language code (e.g., 'th', 'en')",
+      "default": "th"
+    },
+    "file_type": {
+      "type": "string",
+      "description": "File extension or MIME type (e.g., 'pdf', 'docx', 'xlsx')"
+    },
+    "file_size": {
+      "type": "integer",
+      "description": "File size in bytes"
+    },
+    "storage_provider": {
+      "type": "string",
+      "enum": ["sharepoint", "onedrive", "teams"],
+      "description": "Microsoft 365 storage platform"
+    },
+    "storage_path": {
+      "type": "string",
+      "description": "Relative path within the storage provider"
+    },
+    "share_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Shareable link to the document in Microsoft 365"
+    },
+    "preview_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional link to a preview/thumbnail service"
+    },
+    "thumbnail_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional thumbnail image URL"
+    },
+    "project_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Array of project IDs that reference this document",
+      "minItems": 1
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Array of evidence mapping IDs linked to this document"
+    },
+    "related_documents": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Array of related document IDs"
+    },
+    "visibility": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted"],
+      "description": "Access visibility level",
+      "default": "internal"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of registry entry creation"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of last registry update"
+    }
+  }
+}

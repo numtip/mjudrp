@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/numtip/mjudrp/schemas/evidence.schema.json",
+  "title": "Evidence Mapping",
+  "description": "Schema for an evidence mapping that links documents to assessment criteria or requirements.",
+  "type": "object",
+  "required": ["id", "name", "project_ref", "document_refs"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique evidence mapping identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Evidence requirement name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of what evidence is required"
+    },
+    "project_ref": {
+      "type": "string",
+      "description": "Project ID this evidence requirement belongs to"
+    },
+    "document_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Array of document IDs that serve as evidence",
+      "minItems": 1
+    },
+    "criteria": {
+      "type": "string",
+      "description": "Assessment criteria or standard being evidenced"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["satisfied", "partial", "missing", "not-applicable"],
+      "description": "Evidence satisfaction status"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about this evidence mapping"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

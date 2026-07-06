@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/numtip/mjudrp/schemas/relationship.schema.json",
+  "title": "Document Relationship",
+  "description": "Schema for defining relationships between documents in the MJU-DRP registry.",
+  "type": "object",
+  "required": ["id", "source_id", "target_id", "relationship_type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique relationship identifier"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "Source document ID"
+    },
+    "target_id": {
+      "type": "string",
+      "description": "Target document ID"
+    },
+    "relationship_type": {
+      "type": "string",
+      "enum": ["supersedes", "superseded-by", "related-to", "derived-from", "appendix-of", "has-appendix", "references", "referenced-by"],
+      "description": "Type of relationship between source and target"
+    },
+    "description": {
+      "type": "string",
+      "description": "Optional description of the relationship"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

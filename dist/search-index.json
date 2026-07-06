@@ -1,0 +1,183 @@
+[
+  {
+    "id": "GO2026-001",
+    "title": "Green Office 2026 Initiative Plan",
+    "description": "Strategic plan for the Green Office 2026 initiative at Maejo University, outlining sustainability goals and action items.",
+    "keywords": [
+      "green office",
+      "sustainability",
+      "strategic plan",
+      "MJU",
+      "environment"
+    ],
+    "tags": [
+      "green-office",
+      "strategic",
+      "approved"
+    ],
+    "category": "strategic-plan",
+    "year": 2025,
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": [
+      "ev-go-strategy"
+    ]
+  },
+  {
+    "id": "GO2026-002",
+    "title": "Waste Management Guidelines 2026",
+    "description": "Standard operating procedures for waste segregation, collection, and disposal across MJU campuses.",
+    "keywords": [
+      "waste management",
+      "recycling",
+      "guidelines",
+      "MJU",
+      "segregation"
+    ],
+    "tags": [
+      "waste",
+      "guideline",
+      "published"
+    ],
+    "category": "guideline",
+    "year": 2026,
+    "project_refs": [
+      "green-office-2026"
+    ],
+    "evidence_refs": []
+  },
+  {
+    "id": "GO2026-003",
+    "title": "Green Office Quarterly Report Q1 2026",
+    "description": "First quarter progress report for the Green Office 2026 initiative, including KPIs and milestones achieved.",
+    "keywords": [
+      "quarterly report",
+      "green office",
+      "progress",
+      "KPI",
+      "Q1"
+    ],
+    "tags": [
+      "report",
+      "quarterly",
+      "published",
+      "kpi"
+    ],
+    "category": "report",
+    "year": 2026,
+    "project_refs": [
+      "green-office-2026",
+      "rae-landing"
+    ],
+    "evidence_refs": [
+      "ev-go-progress"
+    ]
+  },
+  {
+    "id": "RAE-001",
+    "title": "RAE Assessment Preparation Guide",
+    "description": "Comprehensive guide for faculty preparing documentation for the Research Assessment Exercise (RAE).",
+    "keywords": [
+      "RAE",
+      "assessment",
+      "research",
+      "preparation",
+      "faculty guide"
+    ],
+    "tags": [
+      "rae",
+      "guideline",
+      "assessment",
+      "research"
+    ],
+    "category": "guideline",
+    "year": 2025,
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "ev-rae-guidance"
+    ]
+  },
+  {
+    "id": "RAE-002",
+    "title": "RAE Evidence Submission Template",
+    "description": "Standardized template for submitting evidence documents for the Research Assessment Exercise.",
+    "keywords": [
+      "RAE",
+      "template",
+      "evidence",
+      "submission",
+      "form"
+    ],
+    "tags": [
+      "rae",
+      "template",
+      "evidence",
+      "submission"
+    ],
+    "category": "template",
+    "year": 2025,
+    "project_refs": [
+      "rae-landing",
+      "research-portal"
+    ],
+    "evidence_refs": [
+      "ev-rae-submission"
+    ]
+  },
+  {
+    "id": "LC-001",
+    "title": "Learning Center Course Catalog 2026",
+    "description": "Complete catalog of courses and workshops offered by the MJU Learning Center for the 2026 academic year.",
+    "keywords": [
+      "learning center",
+      "course catalog",
+      "workshops",
+      "training",
+      "MJU"
+    ],
+    "tags": [
+      "learning",
+      "catalog",
+      "courses",
+      "2026"
+    ],
+    "category": "catalog",
+    "year": 2026,
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "ev-lc-catalog"
+    ]
+  },
+  {
+    "id": "LC-002",
+    "title": "Learning Center Annual Report 2025",
+    "description": "Annual performance report for the MJU Learning Center covering activities, enrollment, and outcomes for 2025.",
+    "keywords": [
+      "annual report",
+      "learning center",
+      "performance",
+      "enrollment",
+      "2025"
+    ],
+    "tags": [
+      "report",
+      "annual",
+      "learning",
+      "performance"
+    ],
+    "category": "report",
+    "year": 2025,
+    "project_refs": [
+      "learning-center"
+    ],
+    "evidence_refs": [
+      "ev-lc-performance"
+    ]
+  }
+]

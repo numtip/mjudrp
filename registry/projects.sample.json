@@ -1,0 +1,62 @@
+[
+  {
+    "id": "green-office-2026",
+    "name": "Green Office 2026",
+    "name_en": "Green Office 2026",
+    "name_th": "สำนักงานสีเขียว 2026",
+    "description": "Maejo University initiative to achieve Green Office certification and promote campus sustainability practices.",
+    "status": "active",
+    "category_filters": ["strategic-plan", "guideline", "report"],
+    "repository_url": "https://github.com/numtip/green-office-2026",
+    "website_url": "",
+    "contact": "Sustainability Office",
+    "department": "Office of Sustainability",
+    "created_at": "2025-01-15T08:00:00Z",
+    "updated_at": "2026-06-01T10:00:00Z"
+  },
+  {
+    "id": "rae-landing",
+    "name": "RAE Landing",
+    "name_en": "RAE Landing",
+    "name_th": "RAE Landing",
+    "description": "Public-facing landing page for the Research Assessment Exercise (RAE), providing access to assessment guides, templates, and evidence submission resources.",
+    "status": "active",
+    "category_filters": ["guideline", "template", "report"],
+    "repository_url": "https://github.com/numtip/rae-landing",
+    "website_url": "https://rae.mju.ac.th",
+    "contact": "Research Administration",
+    "department": "Research Administration",
+    "created_at": "2025-02-01T08:00:00Z",
+    "updated_at": "2026-06-10T14:00:00Z"
+  },
+  {
+    "id": "learning-center",
+    "name": "Learning Center",
+    "name_en": "MJU Learning Center",
+    "name_th": "ศูนย์การเรียนรู้ มจ.",
+    "description": "MJU Learning Center providing courses, workshops, and training resources for students and faculty.",
+    "status": "active",
+    "category_filters": ["catalog", "report"],
+    "repository_url": "https://github.com/numtip/learning-center",
+    "website_url": "https://learning.mju.ac.th",
+    "contact": "Learning Center Administration",
+    "department": "Learning Center",
+    "created_at": "2025-05-01T08:00:00Z",
+    "updated_at": "2026-06-05T09:00:00Z"
+  },
+  {
+    "id": "research-portal",
+    "name": "Research Portal",
+    "name_en": "MJU Research Portal",
+    "name_th": "พอร์ทัลงานวิจัย มจ.",
+    "description": "Central research information portal for Maejo University, providing access to research outputs, publications, and RAE-related resources.",
+    "status": "planned",
+    "category_filters": ["report", "guideline", "template"],
+    "repository_url": "",
+    "website_url": "",
+    "contact": "Research Administration",
+    "department": "Research Administration",
+    "created_at": "2026-01-01T08:00:00Z",
+    "updated_at": "2026-06-01T10:00:00Z"
+  }
+]

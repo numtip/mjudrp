@@ -1,0 +1,26 @@
+[
+  {
+    "id": "owner-sustainability",
+    "name": "Office of Sustainability",
+    "email": "sustainability@mju.ac.th",
+    "department": "Office of Sustainability",
+    "role": "Green Office Coordinator",
+    "phone": "+66 53 873 000"
+  },
+  {
+    "id": "owner-research",
+    "name": "Research Administration",
+    "email": "research@mju.ac.th",
+    "department": "Research Administration",
+    "role": "RAE Coordinator",
+    "phone": "+66 53 873 100"
+  },
+  {
+    "id": "owner-learning",
+    "name": "Learning Center Administration",
+    "email": "learning@mju.ac.th",
+    "department": "Learning Center",
+    "role": "Center Administrator",
+    "phone": "+66 53 873 200"
+  }
+]

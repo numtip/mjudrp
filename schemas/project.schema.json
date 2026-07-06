@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/numtip/mjudrp/schemas/project.schema.json",
+  "title": "Consumer Project",
+  "description": "Schema for a consumer project that references documents from the MJU-DRP registry.",
+  "type": "object",
+  "required": ["id", "name", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique project identifier (e.g., 'rae-landing', 'green-office-2026', 'learning-center')"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable project name"
+    },
+    "name_en": {
+      "type": "string",
+      "description": "English project name"
+    },
+    "name_th": {
+      "type": "string",
+      "description": "Thai project name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Project description"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "planned", "completed", "on-hold"],
+      "description": "Project lifecycle status"
+    },
+    "category_filters": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Preferred document categories for this project"
+    },
+    "repository_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to the project's GitHub repository"
+    },
+    "website_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to the project's website/landing page"
+    },
+    "contact": {
+      "type": "string",
+      "description": "Project owner or contact person"
+    },
+    "department": {
+      "type": "string",
+      "description": "Responsible department"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

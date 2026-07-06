@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/numtip/mjudrp/schemas/category.schema.json",
+  "title": "Document Category",
+  "description": "Schema for a document category/taxonomy entry in the MJU-DRP registry.",
+  "type": "object",
+  "required": ["id", "name", "description"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique category identifier (e.g., 'policy', 'report', 'meeting')"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable category name in Thai or English"
+    },
+    "name_en": {
+      "type": "string",
+      "description": "English category name"
+    },
+    "name_th": {
+      "type": "string",
+      "description": "Thai category name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of what this category covers"
+    },
+    "parent": {
+      "type": "string",
+      "description": "Optional parent category ID for hierarchical taxonomies"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Optional icon identifier for UI rendering"
+    },
+    "sort_order": {
+      "type": "integer",
+      "description": "Display sort order",
+      "default": 0
+    }
+  }
+}

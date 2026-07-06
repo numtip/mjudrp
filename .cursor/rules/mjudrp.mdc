@@ -1,0 +1,31 @@
+---
+description: MJU-DRP project rules
+globs: 
+---
+# MJU-DRP Project Rules
+
+## Core Principles
+
+- **GitHub is source of truth.** All metadata, schemas, scripts, and docs live in this repository.
+- **No production modification.** Do not directly modify Microsoft 365 / SharePoint / OneDrive production data from this repository.
+- **Do not build a CMS.** MJU-DRP is a registry core, not a content management system.
+- **No database without explicit approval.** Static JSON files only during MVP.
+- **No authentication/RBAC without explicit approval.** No user accounts, roles, or permissions.
+- **No admin panel during MVP.** Use git, GitHub UI, and Microsoft 365 tools instead.
+- **Use Microsoft 365 / SharePoint / OneDrive first.** Prefer existing platforms before building custom tools.
+- **Metadata-first.** Store metadata and share URLs, not binary files.
+- **Static-first.** Generate JSON outputs for consumer projects.
+- **Consumer projects must consume registry outputs.** They must not duplicate or independently maintain document metadata.
+
+## Workflow Rules
+
+- **Keep outputs token-efficient and maintainable.** Do not paste long files into chat unless explicitly requested.
+- **Every session must read memory files first.** New agents read `memory/CURRENT_STATE.md`, `memory/NEXT_TASK.md`, `memory/LAST_HANDOFF.md`, `memory/DECISIONS.md`, and `memory/ARCHITECTURE_LOCK.md`.
+- **Every sprint must update memory files.** At minimum: `PROJECT_MEMORY.md`, `NEXT_SPRINT_PLAN.md`, `memory/CURRENT_STATE.md`, `memory/NEXT_TASK.md`, `memory/LAST_HANDOFF.md`, `memory/SESSION_LOG.md`, `memory/DECISIONS.md`.
+- **Reports must be concise.** Include only: status, changed files, validation, risks, and next action.
+
+## Validation
+
+- Run `node scripts/validate-registry.mjs` before committing changes to registry data.
+- Run `node scripts/generate-search-index.mjs` after updating registry data.
+- Run `node scripts/update-memory.mjs` at the end of each session.

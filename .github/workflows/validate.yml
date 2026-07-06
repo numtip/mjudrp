@@ -1,0 +1,32 @@
+name: Validate MJU-DRP Registry
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate registry data
+        run: node scripts/validate-registry.mjs
+
+      - name: Generate search index
+        run: node scripts/generate-search-index.mjs
+
+      - name: Upload generated outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: registry-outputs
+          path: dist/

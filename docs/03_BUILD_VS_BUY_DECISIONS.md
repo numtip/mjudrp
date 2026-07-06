@@ -1,0 +1,31 @@
+# Build vs. Buy Decisions
+
+## Decision Framework
+
+MJU-DRP follows the **use-before-build** principle: use existing platforms before creating custom tools.
+
+## Decisions
+
+| Requirement | Decision | Rationale |
+|-------------|----------|-----------|
+| Document storage | **Buy** — Microsoft 365 / SharePoint / OneDrive | Already licensed. Provides versioning, sharing, access control, and audit. |
+| Document metadata registry | **Build** — Lightweight JSON registry | No off-the-shelf solution for cross-project metadata registry that is free and git-based. |
+| Search index | **Build** — Static JSON generation | Simple script generates searchable index. No Elasticsearch/Solr needed for MVP. |
+| Validation | **Build** — Node.js script | Simple script checks required fields, duplicates, and cross-references. |
+| Taxonomy management | **Build** — JSON category registry | Simple structured data. No taxonomy tool needed. |
+| Project memory for AI agents | **Build** — Markdown memory files | Purpose-built for AI continuity. No existing tool solves this for agent workflows. |
+| CI/CD | **Buy** — GitHub Actions | Free for public repos. Integrates with GitHub natively. |
+| Version control | **Buy** — Git / GitHub | Industry standard. Free for public repos. |
+| Authentication | **Decline** — Not building | Not needed during MVP. Access control handled by Microsoft 365. |
+| CMS / Admin panel | **Decline** — Not building | Would duplicate git and GitHub UI functionality. |
+| Database | **Decline** — Not building during MVP | JSON files are sufficient for registry scale. |
+| AI chatbot | **Decline** — Not building | Out of scope for registry platform. |
+| OCR service | **Decline** — Not building | Out of scope for registry platform. |
+
+## Build Criteria
+
+Only build when:
+1. No existing platform can fulfill the requirement
+2. The build effort is proportional to the value
+3. The solution is simpler than integrating an external tool
+4. Maintenance burden is acceptable
