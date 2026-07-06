@@ -58,4 +58,4 @@ Consumer Projects (RAE Landing, Green Office 2026, Learning Center, etc.)
 
 ## Current Phase
 
-**Foundation Sprint v1.1** — Initialization of project structure, schemas, sample data, validation scripts, documentation, and memory system.
+**Enterprise Capability Discovery v1.3** — Research and discovery across Microsoft 365, MCP, search, validation, metadata, AI, and consumer integration patterns.

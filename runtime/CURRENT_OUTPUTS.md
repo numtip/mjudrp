@@ -7,47 +7,34 @@
 | `dist/search-index.json` | JSON array | ~4 KB | All consumer projects (search) |
 | `dist/document-registry.json` | JSON array (normalized) | ~9 KB | All consumer projects (full registry) |
 
-## Output Schema
+## Discovery Outputs
 
-### search-index.json
+| File | Purpose |
+|------|---------|
+| `docs/discovery/00_ECD_OVERVIEW.md` | ECD mission and scope |
+| `docs/discovery/01_MICROSOFT_365_CAPABILITY_DISCOVERY.md` | 14 M365 capabilities evaluated |
+| `docs/discovery/02_MCP_ECOSYSTEM_DISCOVERY.md` | 9 MCP servers evaluated |
+| `docs/discovery/03_SEARCH_CAPABILITY_DISCOVERY.md` | 7 search tools compared |
+| `docs/discovery/04_VALIDATION_CAPABILITY_DISCOVERY.md` | 5 validation tools compared |
+| `docs/discovery/05_METADATA_STANDARDS_DISCOVERY.md` | 5 metadata standards reviewed |
+| `docs/discovery/06_AI_METADATA_DISCOVERY.md` | 7 AI tools assessed |
+| `docs/discovery/07_CONSUMER_INTEGRATION_PATTERNS.md` | 5 integration patterns |
+| `docs/discovery/08_CAPABILITY_MATRIX_V1.md` | 30+ capability fit assessment |
+| `docs/discovery/09_DECISION_MATRIX_V1.md` | 15 build/buy/reuse decisions |
+| `docs/discovery/10_RESOURCE_CERTIFICATION_PLAN.md` | 10 test plans |
 
-```json
-[
-  {
-    "id": "GO2026-001",
-    "title": "Green Office 2026 Initiative Plan",
-    "description": "Strategic plan...",
-    "keywords": ["green office", "sustainability"],
-    "tags": ["green-office", "strategic"],
-    "category": "strategic-plan",
-    "year": 2025,
-    "project_refs": ["green-office-2026"],
-    "evidence_refs": ["ev-go-strategy"]
-  }
-]
-```
+## Future Outputs (Sprint 2+)
 
-### document-registry.json
-
-Normalized copy of all document entries with consistent field ordering, null defaults for missing fields, and no schema violations.
+| File | Format | Sprint |
+|------|--------|--------|
+| `dist/search-index.minisearch.json` | MiniSearch index | Sprint 2 |
+| `dist/pagefind/` (directory) | Pagefind index | Sprint 3 |
+| GitHub Pages `https://numtip.github.io/mjudrp/` | Static site | Sprint 2 |
 
 ## Output Lifecycle
 
 ```
-Registry data changed → validate → generate → commit → push → consumer fetches
+Registry data changed → validate → generate (static + MiniSearch) → commit → push → consumer fetches
+                                                                              ↓
+                                                                    GitHub Pages (future)
 ```
-
-## Output Distribution
-
-| Channel | Status | URL |
-|---------|--------|-----|
-| GitHub raw | ✅ Active | `https://raw.githubusercontent.com/numtip/mjudrp/main/dist/{filename}` |
-| GitHub Pages | ❌ Planned | `https://numtip.github.io/mjudrp/{filename}` |
-| CDN | ❌ Future | TBD |
-
-## Output Quality
-
-- All outputs pass validation (0 errors, 0 warnings)
-- Outputs are generated from canonical registry data
-- No manual output editing — always regenerated from source
-- Outputs are committed to git for version traceability

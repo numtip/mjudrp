@@ -125,7 +125,7 @@ Projects must not duplicate or independently maintain document metadata. All met
 
 ## Current Status
 
-**Foundation Sprint v1.1** — Project structure, schemas, sample data, scripts, and documentation initialized. Ready for remote push and CI validation.
+**Enterprise Capability Discovery v1.3** — Research complete across 7 discovery areas. 30+ capabilities evaluated, 15 build/buy/reuse decisions documented, 5 tools certified for Sprint 2 integration. See `docs/discovery/` for full findings.
 
 ---
 

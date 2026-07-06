@@ -71,3 +71,39 @@
 | Decision | No authentication, user accounts, or role-based access control during MVP. Registry data is public within the organization. |
 | Reason | Auth systems add development, maintenance, and security overhead. During MVP, the registry is consumed by other projects, not by end users directly. |
 | Impact | Sensitive documents should be restricted at the Microsoft 365 level, not in the registry. Visibility field is metadata-only guidance. |
+
+## ADR-007: Adopt Dublin Core as Metadata Baseline
+
+| Field | Value |
+|-------|-------|
+| Decision ID | ADR-007 |
+| Date | 2026-07-06 |
+| Status | Accepted |
+| Context | MJU-DRP needs a metadata standard for interoperability. Schema currently has custom fields without external standard alignment. |
+| Decision | Map document schema fields to Dublin Core terms where applicable. Schema remains custom but aligns with dc:title, dc:description, dc:creator, dc:date, dc:type, dc:language, dc:subject, dc:format, dc:identifier. |
+| Reason | Dublin Core is lightweight, widely adopted, and covers 90% of MJU-DRP's existing fields without requiring schema changes. |
+| Impact | No schema changes needed. Documentation updated with Dublin Core mapping. Consumer projects can use Dublin Core for SEO and interoperability. |
+
+## ADR-008: Certify AJV for Schema Validation
+
+| Field | Value |
+|-------|-------|
+| Decision ID | ADR-008 |
+| Date | 2026-07-06 |
+| Status | Accepted |
+| Context | Current validation is manual field checks. JSON Schema validation would be more maintainable. |
+| Decision | Certify AJV as the JSON Schema validator for MJU-DRP. Add to validation script in Sprint 2. |
+| Reason | AJV is the fastest JSON Schema validator for Node.js, pure JS (no native modules), supports draft-07, and is CI-compatible. |
+| Impact | Validation script will be extended to use AJV for schema-driven validation alongside existing custom checks. |
+
+## ADR-009: Certify MiniSearch + Pagefind for Search
+
+| Field | Value |
+|-------|-------|
+| Decision ID | ADR-009 |
+| Date | 2026-07-06 |
+| Status | Accepted |
+| Context | MJU-DRP needs search for consumer projects. Current static JSON filter() works for MVP but won't scale. |
+| Decision | Certify MiniSearch for client-side search (MVP onward) and Pagefind for production static search (post-consumer integration). |
+| Reason | Both are static-first compatible. MiniSearch is 6KB gzipped with good Thai support. Pagefind indexes after build with excellent Thai support. Lunr rejected due to poor Thai search. |
+| Impact | Search index generation script will be extended to produce MiniSearch-compatible index. Pagefind will be added as post-build step in CI. |

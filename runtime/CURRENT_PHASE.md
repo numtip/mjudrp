@@ -1,47 +1,42 @@
 # Current Phase
 
-## Phase: Foundation Hardening (v1.2)
+## Phase: Enterprise Capability Discovery (v1.3)
 
-The current phase focuses on hardening the enterprise architecture foundation. No new functional capabilities are being implemented — only architecture documentation, layer definitions, and structural reinforcement.
+The current phase researches and documents existing tools, services, and standards before Sprint 2 implementation. No integration code is being built.
 
 ## Phase Characteristics
 
 | Characteristic | Value |
 |----------------|-------|
-| Phase Type | Architecture hardening |
+| Phase Type | Capability discovery |
 | Duration | Single sprint |
-| Active Layers | Registry, Memory, Docs |
-| Design Layers | Providers, Adapters, Plugins, Contracts |
+| Active Layers | Discovery docs, Memory, Docs |
+| Research Areas | 7 (M365, MCP, Search, Validation, Metadata, AI, Consumer Patterns) |
 | Disabled Layers | All implementation code |
 
-## Phase Boundaries
+## Phase Deliverables
 
-| Scope | Included | Excluded |
-|-------|----------|----------|
-| Architecture | ✅ Layer definitions | ❌ Implementation |
-| Documentation | ✅ All layers specified | ❌ Code generation |
-| Memory | ✅ Enhanced memory system | ❌ Database |
-| Governance | ✅ Locked architecture | ❌ Workflow engine |
-| Registry | ✅ Schema and sample data | ❌ Real data population |
-| Integration | ✅ Contract definitions | ❌ Microsoft Graph API calls |
+- [x] Microsoft 365 capability discovery (14 capabilities)
+- [x] MCP ecosystem evaluation (9 servers)
+- [x] Search tool comparison (7 tools)
+- [x] Validation tool comparison (5 tools)
+- [x] Metadata standards evaluation (5 standards)
+- [x] AI-assisted metadata assessment (7 tools)
+- [x] Consumer integration patterns (5 frameworks)
+- [x] Capability matrix v1 (30+ capabilities)
+- [x] Decision matrix v1 (15 decisions)
+- [x] Resource certification plan (10 test plans)
 
-## Completion Criteria
+## Phase Certifications
 
-- [x] All layer folders created
-- [x] Provider layer documented
-- [x] Adapter layer documented
-- [x] Plugin layer documented
-- [x] Runtime layer documented
-- [x] Contract layer documented
-- [x] Enterprise folder standard defined
-- [x] Architecture evolution documented
-- [x] Knowledge layer blueprint documented
-- [x] Reference platform standard documented
-- [x] Memory system enhanced
-- [x] Token-savior workflow updated
-- [x] All validation passing
-- [x] Committed and pushed to main
+| Tool | Status | Integration Sprint |
+|------|--------|-------------------|
+| AJV | ✅ Certify | Sprint 2 |
+| MiniSearch | ✅ Certify | Sprint 2 |
+| Pagefind | ✅ Certify | Sprint 3 |
+| GitHub MCP | ✅ Certify | Sprint 2 |
+| Filesystem MCP | ✅ Certify | Sprint 2 |
 
 ## Next Phase
 
-Sprint 2: Registry Population & Integration — Populate real metadata, establish SharePoint taxonomy alignment, and create consumer integration examples.
+Sprint 2: Registry Population & Integration — Integrate AJV, MiniSearch, configure MCPs, populate real metadata, establish SharePoint taxonomy, create consumer integration examples.

@@ -11,16 +11,17 @@
 | Data Source | Git-committed JSON files |
 | Output Method | Node.js script generation |
 | Hosting | GitHub repository |
+| ECD Status | Complete — tools certified for Sprint 2 |
 
 ## Execution Flow
 
 ```
 1. Registry Data (registry/*.json)
        │
-2. Validate (scripts/validate-registry.mjs)
-       │
-3. Generate (scripts/generate-search-index.mjs)
-       │
+2. Validate (scripts/validate-registry.mjs) — MVP: custom checks
+       │                                    — Sprint 2: +AJV schema validation
+3. Generate (scripts/generate-search-index.mjs) — MVP: static JSON
+       │                                         — Sprint 2: +MiniSearch index
 4. Output (dist/*.json)
        │
 5. Consume (consumer projects fetch from GitHub)
@@ -31,13 +32,22 @@
 | Component | Status | Notes |
 |-----------|--------|-------|
 | Registry data | ✅ Active | 7 documents, 4 projects, 3 owners, 5 categories, 6 evidence maps |
-| Validation script | ✅ Active | Passes with 0 errors, 0 warnings |
-| Search index generator | ✅ Active | Produces 2 output files |
-| Memory updater | ✅ Active | Updates 3 memory files |
+| Validation script | ✅ Active | Passes with 0 errors, 0 warnings. AJV integration pending. |
+| Search index generator | ✅ Active | Produces 2 output files. MiniSearch integration pending. |
+| Memory updater | ✅ Active | Now preserves manual edits |
 | CI/CD pipeline | ✅ Active | GitHub Actions on push/PR |
 | Provider layer | 📐 Architecture only | No implementation |
 | Adapter layer | 📐 Architecture only | No implementation |
 | Plugin layer | 📐 Architecture only | No implementation |
+
+## Certified (Pending Integration)
+
+| Tool | Integration Point | Sprint |
+|------|------------------|--------|
+| AJV | `validate-registry.mjs` | Sprint 2 |
+| MiniSearch | `generate-search-index.mjs` | Sprint 2 |
+| GitHub MCP | Cursor MCP config | Sprint 2 |
+| Filesystem MCP | Cursor MCP config | Sprint 2 |
 
 ## Runtime Constraints
 
@@ -46,7 +56,3 @@
 - No external API calls
 - No persistence beyond git commits
 - Runs on Node.js 20+ standard library
-
-## Next Runtime State
-
-When Microsoft Graph integration is approved, the runtime will gain adapter and provider activations. Until then, all operations are local and git-based.

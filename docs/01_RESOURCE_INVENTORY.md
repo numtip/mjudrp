@@ -25,6 +25,20 @@
 | VS Code / Cursor | Available | Primary development environment |
 | Git | Available | Version control |
 
+## ECD Discovery Results
+
+See `docs/discovery/` for full capability discovery. Key additions:
+
+| Resource | Status | Source |
+|----------|--------|--------|
+| AJV (JSON Schema validator) | Candidate | `npm: ajv` |
+| MiniSearch | Candidate | `npm: minisearch` |
+| Pagefind | Candidate | `npm: pagefind` |
+| GitHub MCP Server | Candidate | `github: github/github-mcp-server` |
+| Filesystem MCP Server | Candidate | `github: modelcontextprotocol/servers` |
+| Dublin Core metadata standard | Adopted | ISO standard |
+| AI tools (ChatGPT, Claude, Gemini) | Available | Existing subscriptions |
+
 ## Resource Gaps
 
 | Missing Resource | Impact | Priority |

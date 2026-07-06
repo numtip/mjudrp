@@ -64,6 +64,20 @@ MJU SharePoint Tenant
 4. Do not modify Microsoft 365 permissions from MJU-DRP
 5. Folder structure in SharePoint should mirror registry taxonomy where practical
 
+## ECD Discovery Results
+
+ECD v1.3 evaluated 14 Microsoft 365 capabilities. See `docs/discovery/01_MICROSOFT_365_CAPABILITY_DISCOVERY.md` for full analysis.
+
+Key recommendations:
+- **SharePoint Document Library**: ✅ Reuse as primary document storage
+- **SharePoint Lists**: ✅ Reuse as alternative metadata view (git remains source of truth)
+- **SharePoint Columns**: ✅ Adopt — define columns matching registry schema
+- **SharePoint Term Store**: 📐 Defer until taxonomy exceeds ~20 categories
+- **Microsoft Graph API**: 📐 Future — requires Entra ID app registration
+- **Microsoft Syntex**: 📐 Future — license-dependent; Thai support unclear
+- **SharePoint Embedded**: ❌ Rejected — violates no-CMS rule
+- **Microsoft Search**: ❌ Not suitable for consumer project search
+
 ## Future Enhancements
 
 - Microsoft Graph API integration for automated metadata sync

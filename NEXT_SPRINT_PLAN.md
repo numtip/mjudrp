@@ -2,15 +2,30 @@
 
 ## Sprint 2: Registry Population & Integration
 
+### Preceded by: Enterprise Capability Discovery v1.3 ✅
+
+ECD certified these tools for Sprint 2 integration:
+- **AJV** — Schema validation (add to validation script)
+- **MiniSearch** — Client-side search (add to search index generator)
+- **GitHub MCP** — Agent repository operations (configure in Cursor)
+- **Filesystem MCP** — Agent file operations (configure in Cursor)
+- **Dublin Core** — Metadata baseline (documentation already updated)
+
 ### Objectives
-1. Populate registry with real (or more realistic) document metadata
-2. Establish Microsoft 365 / SharePoint folder structure aligned with registry taxonomy
-3. Create initial consumer project integration examples
-4. Add relationship entries between documents
-5. Enhance validation scripts with additional checks
-6. Set up GitHub Pages or static hosting for JSON outputs
+1. Integrate AJV into validation script for schema-driven validation
+2. Integrate MiniSearch into search index generation
+3. Populate registry with real (or more realistic) document metadata
+4. Establish Microsoft 365 / SharePoint folder structure aligned with registry taxonomy
+5. Create initial consumer project integration examples
+6. Add relationship entries between documents
+7. Set up GitHub Pages or static hosting for JSON outputs
 
 ### Tasks
+
+#### Tooling — ECD Certified Tools
+- [ ] Install AJV (`npm install ajv`) and integrate into `validate-registry.mjs`
+- [ ] Install MiniSearch (`npm install minisearch`) and integrate into `generate-search-index.mjs`
+- [ ] Configure GitHub MCP and Filesystem MCP in Cursor
 
 #### Registry Population
 - [ ] Add more sample documents for Research Portal project
@@ -19,42 +34,39 @@
 - [ ] Populate `registry/relationship.sample.json` with cross-document links
 
 #### Microsoft 365 Integration
-- [ ] Document SharePoint site structure for each project
+- [ ] Certify SharePoint Document Library access (per certification plan)
+- [ ] Certify Excel Online metadata sheet workflow
 - [ ] Create folder hierarchy guidelines matching registry taxonomy
-- [ ] Test share URL generation and access patterns
 
 #### Consumer Integration
+- [ ] Certify consumer JSON loading (per certification plan)
 - [ ] Create example HTML page that fetches and displays registry data
 - [ ] Document integration pattern in consumer project READMEs
-- [ ] Test JSON output consumption from GitHub raw URLs
-
-#### Tooling
-- [ ] Add schema validation against registry data in CI
-- [ ] Add markdown link checker for documentation
-- [ ] Create convenience script for full pipeline: validate → generate → update-memory
 
 #### Documentation
-- [ ] Review all 17 docs/ files for completeness
-- [ ] Add diagrams to architecture docs
+- [ ] Update README.md with ECD findings and current phase
+- [ ] Review all 27 docs/ files for consistency
 - [ ] Create quick-start guide for new consumer projects
 
 ### Allowed Actions
 - Add and update registry data files
-- Enhance validation and generation scripts
+- Install and integrate AJV, MiniSearch
+- Configure MCP servers in Cursor
 - Create consumer integration examples
 - Update memory files
 - Configure static hosting
 
 ### Forbidden Actions
-- Do not add a database
 - Do not implement Microsoft Graph integration
 - Do not implement SharePoint synchronization
 - Do not create authentication or RBAC
 - Do not build an admin panel
 - Do not modify Microsoft 365 via automation
 - Do not add AI chatbot or OCR
+- Do not add a database
 
 ### Risks
-- Real document metadata may require coordination with project owners
+- AJV or MiniSearch may require schema adjustments
+- Real document metadata requires coordination with project owners
 - SharePoint access may need IT approval
 - Consumer projects may need updates to integrate registry outputs

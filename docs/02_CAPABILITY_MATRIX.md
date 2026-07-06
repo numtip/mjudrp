@@ -17,6 +17,16 @@
 | CI/CD validation | ✅ MVP | GitHub Actions workflow |
 | Cursor IDE rules | ✅ MVP | .cursor/rules/mjudrp.mdc |
 
+## ECD Capability Matrix v1
+
+See `docs/discovery/08_CAPABILITY_MATRIX_V1.md` for full capability assessment across 30+ capabilities including M365, MCP, search, validation, AI, and consumer integration patterns.
+
+Key certification results:
+- **Certified**: GitHub MCP, Filesystem MCP, MiniSearch, Pagefind, AJV
+- **Reuse confirmed**: SharePoint, OneDrive, Excel Online, ChatGPT, Claude, Gemini
+- **Deferred**: Microsoft Graph API, SharePoint Term Store, Syntex, OpenRouter
+- **Rejected**: SharePoint Embedded, Lunr, custom auth, OCR, chatbot
+
 ## Planned Capabilities
 
 | Capability | Priority | Notes |

@@ -26,6 +26,26 @@
 | VS Code / Cursor | Development environment | Use Cursor rules from `.cursor/rules/mjudrp.mdc`. |
 | Git | Version control | Commit frequently. Write meaningful commit messages. |
 
+### MCP Servers (Newly Approved)
+| Tool | Purpose | Usage Rules |
+|------|---------|-------------|
+| GitHub MCP | Repository operations, file management | Configure in Cursor; use for repo ops |
+| Filesystem MCP | Local file access for registry editing | Sandbox to project directory |
+
+### Libraries (Newly Approved)
+| Tool | Purpose | Usage Rules |
+|------|---------|-------------|
+| AJV | JSON Schema validation | Add to validation script in Sprint 2 |
+| MiniSearch | Client-side search index | Add to search index generation in Sprint 2 |
+| Pagefind | Production static search | Use when consumer projects need production search |
+
+### AI Providers (Approved for Ad-Hoc Use)
+| Tool | Purpose | Usage Rules |
+|------|---------|-------------|
+| ChatGPT | Metadata suggestion, keyword generation | Manual use by owner |
+| Claude | Quality review, evidence mapping | Manual use by owner |
+| Gemini | Metadata suggestion, document analysis | Manual use by owner |
+
 ## Forbidden Tool Usage
 
 - **Do not use** external databases (PostgreSQL, MongoDB, etc.)
